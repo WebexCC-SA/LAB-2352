@@ -974,8 +974,8 @@
 
 | Topic                                                                                                                                             | Type        | Dificulty    | Time   |
 | ------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ------------ | ------ |
-| [2: Set up Intelligent IVR](./ReportingExperience.md/#21-high-level-contact-center-performance-and-usage-insights)                     | Activity    | EASY         |        |
-| [2.2: Customer Experience and Queue Performance](./ReportingExperience.md/#22-customer-experience-and-queue-performance)                                                   | Activity    | INTERMEDIATE |        |
+| [2: Set up Intelligent IVR](./lab2_ivr.md/#21-high-level-contact-center-performance-and-usage-insights)                     | Activity    | EASY         |        |
+
 
 ### [Part 3: Analyzer custom reports](./ReportingExperience.md/#part-3-bonus-contact-center-insights-with-analyzer-custom-reports-and-dashboards)
 
