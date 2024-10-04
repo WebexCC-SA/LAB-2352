@@ -677,7 +677,7 @@
 
 <details>
   <summary style="display: flex; justify-content: space-between; align-items: center;">
-    <span style="font-size: 20px;">LAB 8: Customer Journey</span>
+    <span style="font-size: 20px;">LAB 8: Auto Responses Lab</span>
     <span style="display: flex; align-items: center;">
       <span style="background-color: #44cc44; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">Easy</span>&nbsp;&nbsp;
       <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">10 min</span>
@@ -694,12 +694,85 @@
     </thead>
     <tbody>
       <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">3.1: Create Custom Realtime Agent Report</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">8.1: Place holder</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
         <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab5" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>
       <!-- <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">2.2: Customer Experience and Queue Performance</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">8.2 Place holder</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../ReportingExperience/#22-customer-experience-and-queue-performance" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
+      </tr> -->
+    </tbody>
+  </table>
+</details>
+
+<style>
+  
+  /* Default (Light Mode) Styles */
+  :root {
+    --bg-color: #f5f7fa;         /* Light background for the page */
+    --table-border-color: #ccc;  /* Light border */
+    --header-bg-color: #007AAE;  /* Header background */
+    --header-border-color: #005073; /* Darker header border */
+    --header-text-color: white;   /* White text for header */
+    --row-bg-color: #f9f9f9;      /* Light gray for row */
+    --text-color: #333;           /* Dark text for light mode */
+    --link-color: #007AAE;        /* Link color */
+  }
+
+  /* Dark Mode Styles */
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg-color: #2c2c2c;        /* Dark background for the page */
+      --table-border-color: #555;  /* Darker border */
+      --header-bg-color: #005073;  /* Darker header */
+      --header-border-color: #333;  /* Darker header border */
+      --header-text-color: white;   /* White text for header */
+      --row-bg-color: #3b3b3b;     /* Darker row background */
+      --text-color: #f5f5f5;       /* Light text for dark mode */
+      --link-color: #66ccff;       /* Brighter link color */
+    }
+  }
+
+  /* General styles for the details summary */
+  details summary {
+    cursor: pointer; /* Add a pointer cursor for better UX */
+  }
+
+  /* Link hover effect */
+  a:hover {
+    color: #33aaff; /* Hover effect for links */
+  }
+</style>
+
+<!-- PART 9 -->
+
+<details>
+  <summary style="display: flex; justify-content: space-between; align-items: center;">
+    <span style="font-size: 20px;">BONUS LAB 1:  Future agent login</span>
+    <span style="display: flex; align-items: center;">
+      <span style="background-color: #44cc44; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">Easy</span>&nbsp;&nbsp;
+      <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">10 min</span>
+    </span>
+  </summary>
+  
+  <table style="width: 100%; margin-top: 10px; border: 1px solid #ccc; border-collapse: collapse;">
+    <thead>
+      <tr style="background-color: #007AAE; color: white;">
+        <th style="padding: 10px; text-align: left; border-bottom: 2px solid #005073;">Topic</th>
+        <th style="padding: 10px; text-align: left; border-bottom: 2px solid #005073;">Type</th>
+        <th style="padding: 10px; text-align: left; border-bottom: 2px solid #005073;">Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background-color: #f9f9f9; color: #333;">
+        <td style="padding: 10px; border: 1px solid #ddd;">8.1: Place holder</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab5" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+      </tr>
+      <!-- <tr style="background-color: #f9f9f9; color: #333;">
+        <td style="padding: 10px; border: 1px solid #ddd;">8.2 Place holder</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
         <td style="padding: 10px; border: 1px solid #ddd;"><a href="../ReportingExperience/#22-customer-experience-and-queue-performance" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
       </tr> -->
@@ -747,7 +820,152 @@
 </style>
 
 
+<!-- PART 10 -->
 
+<details>
+  <summary style="display: flex; justify-content: space-between; align-items: center;">
+    <span style="font-size: 20px;">BONUS LAB 2: Intelligent Routing — Slill based routing</span>
+    <span style="display: flex; align-items: center;">
+      <span style="background-color: #44cc44; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">Easy</span>&nbsp;&nbsp;
+      <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">10 min</span>
+    </span>
+  </summary>
+  
+  <table style="width: 100%; margin-top: 10px; border: 1px solid #ccc; border-collapse: collapse;">
+    <thead>
+      <tr style="background-color: #007AAE; color: white;">
+        <th style="padding: 10px; text-align: left; border-bottom: 2px solid #005073;">Topic</th>
+        <th style="padding: 10px; text-align: left; border-bottom: 2px solid #005073;">Type</th>
+        <th style="padding: 10px; text-align: left; border-bottom: 2px solid #005073;">Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background-color: #f9f9f9; color: #333;">
+        <td style="padding: 10px; border: 1px solid #ddd;">8.1: Place holder</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab5" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+      </tr>
+      <!-- <tr style="background-color: #f9f9f9; color: #333;">
+        <td style="padding: 10px; border: 1px solid #ddd;">8.2 Place holder</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../ReportingExperience/#22-customer-experience-and-queue-performance" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
+      </tr> -->
+    </tbody>
+  </table>
+</details>
+
+<style>
+  
+  /* Default (Light Mode) Styles */
+  :root {
+    --bg-color: #f5f7fa;         /* Light background for the page */
+    --table-border-color: #ccc;  /* Light border */
+    --header-bg-color: #007AAE;  /* Header background */
+    --header-border-color: #005073; /* Darker header border */
+    --header-text-color: white;   /* White text for header */
+    --row-bg-color: #f9f9f9;      /* Light gray for row */
+    --text-color: #333;           /* Dark text for light mode */
+    --link-color: #007AAE;        /* Link color */
+  }
+
+  /* Dark Mode Styles */
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg-color: #2c2c2c;        /* Dark background for the page */
+      --table-border-color: #555;  /* Darker border */
+      --header-bg-color: #005073;  /* Darker header */
+      --header-border-color: #333;  /* Darker header border */
+      --header-text-color: white;   /* White text for header */
+      --row-bg-color: #3b3b3b;     /* Darker row background */
+      --text-color: #f5f5f5;       /* Light text for dark mode */
+      --link-color: #66ccff;       /* Brighter link color */
+    }
+  }
+
+  /* General styles for the details summary */
+  details summary {
+    cursor: pointer; /* Add a pointer cursor for better UX */
+  }
+
+  /* Link hover effect */
+  a:hover {
+    color: #33aaff; /* Hover effect for links */
+  }
+</style>
+
+
+<!-- PART 11 -->
+
+<details>
+  <summary style="display: flex; justify-content: space-between; align-items: center;">
+    <span style="font-size: 20px;">BONUS LAB 3: Topic Analytics</span>
+    <span style="display: flex; align-items: center;">
+      <span style="background-color: #44cc44; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">Easy</span>&nbsp;&nbsp;
+      <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">10 min</span>
+    </span>
+  </summary>
+  
+  <table style="width: 100%; margin-top: 10px; border: 1px solid #ccc; border-collapse: collapse;">
+    <thead>
+      <tr style="background-color: #007AAE; color: white;">
+        <th style="padding: 10px; text-align: left; border-bottom: 2px solid #005073;">Topic</th>
+        <th style="padding: 10px; text-align: left; border-bottom: 2px solid #005073;">Type</th>
+        <th style="padding: 10px; text-align: left; border-bottom: 2px solid #005073;">Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background-color: #f9f9f9; color: #333;">
+        <td style="padding: 10px; border: 1px solid #ddd;">8.1: Place holder</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab5" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+      </tr>
+      <!-- <tr style="background-color: #f9f9f9; color: #333;">
+        <td style="padding: 10px; border: 1px solid #ddd;">8.2 Place holder</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../ReportingExperience/#22-customer-experience-and-queue-performance" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
+      </tr> -->
+    </tbody>
+  </table>
+</details>
+
+<style>
+  
+  /* Default (Light Mode) Styles */
+  :root {
+    --bg-color: #f5f7fa;         /* Light background for the page */
+    --table-border-color: #ccc;  /* Light border */
+    --header-bg-color: #007AAE;  /* Header background */
+    --header-border-color: #005073; /* Darker header border */
+    --header-text-color: white;   /* White text for header */
+    --row-bg-color: #f9f9f9;      /* Light gray for row */
+    --text-color: #333;           /* Dark text for light mode */
+    --link-color: #007AAE;        /* Link color */
+  }
+
+  /* Dark Mode Styles */
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg-color: #2c2c2c;        /* Dark background for the page */
+      --table-border-color: #555;  /* Darker border */
+      --header-bg-color: #005073;  /* Darker header */
+      --header-border-color: #333;  /* Darker header border */
+      --header-text-color: white;   /* White text for header */
+      --row-bg-color: #3b3b3b;     /* Darker row background */
+      --text-color: #f5f5f5;       /* Light text for dark mode */
+      --link-color: #66ccff;       /* Brighter link color */
+    }
+  }
+
+  /* General styles for the details summary */
+  details summary {
+    cursor: pointer; /* Add a pointer cursor for better UX */
+  }
+
+  /* Link hover effect */
+  a:hover {
+    color: #33aaff; /* Hover effect for links */
+  }
+</style>
 --------------------------------------------------
 <!-- Backup
 
