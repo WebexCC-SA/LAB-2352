@@ -750,7 +750,7 @@
 
 <details>
   <summary style="display: flex; justify-content: space-between; align-items: center;">
-    <span style="font-size: 20px;">BONUS LAB 1:  Future agent login</span>
+    <span style="font-size: 20px;">LAB 9 (BONUS):  Future agent login</span>
     <span style="display: flex; align-items: center;">
       <span style="background-color: #44cc44; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">Easy</span>&nbsp;&nbsp;
       <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">10 min</span>
@@ -824,7 +824,7 @@
 
 <details>
   <summary style="display: flex; justify-content: space-between; align-items: center;">
-    <span style="font-size: 20px;">BONUS LAB 2: Intelligent Routing — Slill based routing</span>
+    <span style="font-size: 20px;">LAB 10 (BONUS): Intelligent Routing — Slill based routing</span>
     <span style="display: flex; align-items: center;">
       <span style="background-color: #44cc44; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">Easy</span>&nbsp;&nbsp;
       <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">10 min</span>
@@ -898,7 +898,7 @@
 
 <details>
   <summary style="display: flex; justify-content: space-between; align-items: center;">
-    <span style="font-size: 20px;">BONUS LAB 3: Topic Analytics</span>
+    <span style="font-size: 20px;">LAB 11 (BONUS): Topic Analytics</span>
     <span style="display: flex; align-items: center;">
       <span style="background-color: #44cc44; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">Easy</span>&nbsp;&nbsp;
       <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">10 min</span>
