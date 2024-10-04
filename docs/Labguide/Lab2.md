@@ -54,44 +54,44 @@ By the end of this lab, attendees will:
 
 - Log into Control Hub with your Administrator User - wxcclabs+admin_ID<w class = "attendee_out">attendeeID</w>@gmail.com
 
-<img align="middle" src="../assets/lab2/1.gif" width="1000" />  
+<img align="middle" src="../images/lab2/1.gif" width="1000" />  
 <br/>
 <br/>
 
 - Verify that an entry point named `CL_EP_`<w class = "attendee_out">attendeeID</w> exists in the system,  where <w class = "attendee_out">attendeeID</w> is your attendeeID. Make sure to take a note of the support Number assigned to your entry point. This will the number you dial in to make test call.
 
-<img align="middle" src="../assets/lab2/2.gif" width="1000" />  
+<img align="middle" src="../images/lab2/2.gif" width="1000" />  
 <br/>
 <br/>
 
 - Ensure that a team has been created for you in the format `CL_Team_`<w class = "attendee_out">attendeeID</w>.
 
-<img align="middle" src="../assets/lab2/999.gif" width="1000" />  
+<img align="middle" src="../images/lab2/999.gif" width="1000" />  
 <br/>
 <br/>
 
 - Check that a queue named `CL_Q_`<w class = "attendee_out">attendeeID</w> exists, where <w class = "attendee_out">attendeeID</w> is your attendeeID
 - Verify that your team `CL_Team_`<w class = "attendee_out">attendeeID</w> is part of the Queue. This ensures that your agent can receive calls via this queue using the Longest Available Agent (LAA) routing.
 
-<img align="middle" src="../assets/lab2/4.gif" width="1000" />  
+<img align="middle" src="../images/lab2/4.gif" width="1000" />  
 <br/>
 <br/>
 
 - Copy the existing flow template `CL_LTRCCT_2006_SimpleFlow`.
 
-<img align="middle" src="../assets/lab2/5.gif" width="1000" />  
+<img align="middle" src="../images/lab2/5.gif" width="1000" />  
 <br/>
 <br/>
 
 - Rename the flow with your pod number as `CL_SimpleFlow_`<w class = "attendee_out">attendeeID</w>  where <w class = "attendee_out">attendeeID</w> is your attendeeID.
 
-<img align="middle" src="../assets/lab2/6.gif" width="1000" />  
+<img align="middle" src="../images/lab2/6.gif" width="1000" />  
 <br/>
 <br/>
 
 - Explore the flow and understand the node configurations. The flow includes a simple welcome message among others.
 
-<img align="middle" src="../assets/lab2/7.gif" width="1000" />  
+<img align="middle" src="../images/lab2/7.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -99,14 +99,14 @@ By the end of this lab, attendees will:
 
 - Validate the flow by clicking "Validate" and then "Publish" the Flow.
 
-<img align="middle" src="../assets/lab2/8.gif" width="1000" />  
+<img align="middle" src="../images/lab2/8.gif" width="1000" />  
 <br/>
 <br/>
 
 - Assign the Flow to your Channel (Entry Point) - Do this by first going to Channel > Search for your channel `CL_Q_`<w class = "attendee_out">attendeeID</w>  where <w class = "attendee_out">attendeeID</w> is your attendeeID
 - Select the Latest version of the flow > Click Save.
 
-<img align="middle" src="../assets/lab2/9.gif" width="1000" />  
+<img align="middle" src="../images/lab2/9.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -118,7 +118,7 @@ By the end of this lab, attendees will:
 
 - Open the debug view and explore the call path and the steps taken in the flow.
 
-<img align="middle" src="../assets/lab2/10.gif" width="1000" />  
+<img align="middle" src="../images/lab2/10.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -128,7 +128,7 @@ By the end of this lab, attendees will:
 
 - Confirm that your agent user is configured with a Site as `CL_Site`, Team  as `CL_Team_`<w class = "attendee_out">attendeeID</w>, and Multimedia profile as `Default_Multimedia_Profile`.
 
-<img align="middle" src="../assets/lab2/11.gif" width="1000" />  
+<img align="middle" src="../images/lab2/11.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -136,19 +136,19 @@ By the end of this lab, attendees will:
 
 - Choose the Correct Team `CL_Team_`<w class = "attendee_out">attendeeID</w> corresponding to your POD number and sign in With the Desktop Option.
 
-<img align="middle" src="../assets/lab2/12.gif" width="1000" />  
+<img align="middle" src="../images/lab2/12.gif" width="1000" />  
 <br/>
 <br/>
 
 - Go to an available state to receive the call once you have called into the Queue.
 
-<img align="middle" src="../assets/lab2/13.gif" width="1000" />  
+<img align="middle" src="../images/lab2/13.gif" width="1000" />  
 <br/>
 <br/>
 
 - Notice all the variables on the Agent Desktop when you get the call.
 
-<img align="middle" src="../assets/lab2/14.gif" width="1000" />  
+<img align="middle" src="../images/lab2/14.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -160,7 +160,7 @@ By the end of this lab, attendees will:
 
 Welcome Prompt: `Welcome to Cisco Live!`
 
-<img align="middle" src="../assets/lab2/15.gif" width="1000" />  
+<img align="middle" src="../images/lab2/15.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -168,7 +168,7 @@ Welcome Prompt: `Welcome to Cisco Live!`
 
 Collect Digit Prompt: `Press Enter your 3 digit attendee ID followed by pound.`
 
-<img align="middle" src="../assets/lab2/16.gif" width="1000" />  
+<img align="middle" src="../images/lab2/16.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -176,7 +176,7 @@ Collect Digit Prompt: `Press Enter your 3 digit attendee ID followed by pound.`
 
 Prompt: `Thanks. Please hold while we find you an expert.`
 
-<img align="middle" src="../assets/lab2/17_1.gif" width="1000" />  
+<img align="middle" src="../images/lab2/17_1.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -184,13 +184,13 @@ Prompt: `Thanks. Please hold while we find you an expert.`
 
 Prompt: `Thank you for waiting. Please Hold while we get you an expert.`
 
-<img align="middle" src="../assets/lab2/17_2.gif" width="1000" />  
+<img align="middle" src="../images/lab2/17_2.gif" width="1000" />  
 <br/>
 <br/>
 
 - Validate and publish the flow.
 
-<img align="middle" src="../assets/lab2/8.gif" width="1000" />  
+<img align="middle" src="../images/lab2/8.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -207,7 +207,7 @@ Prompt: `Thank you for waiting. Please Hold while we get you an expert.`
   - Secure: `No`
   - Make Agent viewable
 
-<img align="middle" src="../assets/lab2/19.gif" width="1000" />  
+<img align="middle" src="../images/lab2/19.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -218,7 +218,7 @@ Prompt: `Thank you for waiting. Please Hold while we get you an expert.`
 - Secure: `No`
 - Make Agent viewable
 
-<img align="middle" src="../assets/lab2/20.gif" width="1000" />  
+<img align="middle" src="../images/lab2/20.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -251,7 +251,7 @@ Similarly, create three other variables as mentioned below: `pin` , `invoice`, `
 - Secure: `Yes`
 - Make Agent viewable
 
-<img align="middle" src="../assets/lab2/21.gif" width="1000" />  
+<img align="middle" src="../images/lab2/21.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -261,13 +261,13 @@ Welcome Prompt: `Hello {{ customerName }}, Welcome to Cisco Live!`
 
 Collect Digit Prompt: `We noticed you have an account with us with account ID {{accountId}} and outstanding invoice amount of {{ invoice }}. Press Enter your 3 digit Pin followed by pound to confirm the payment.`
 
-<img align="middle" src="../assets/lab2/22.gif" width="1000" />  
+<img align="middle" src="../images/lab2/22.gif" width="1000" />  
 <br/>
 <br/>
 
 - Validate and publish the flow.
 
-<img align="middle" src="../assets/lab2/8.gif" width="1000" />  
+<img align="middle" src="../images/lab2/8.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -287,43 +287,43 @@ Collect Digit Prompt: `We noticed you have an account with us with account ID {{
 
   `Welcome {{customerName}} to Cisco Live! Please enter your 8-digit account number followed by pound.`
 
-<img align="middle" src="../assets/lab2/23.gif" width="1000" />  
+<img align="middle" src="../images/lab2/23.gif" width="1000" />  
 <br/>
 <br/>
 
 - Configure the minimum and maximum digits to 8 - instead of the previously 3.
 
-<img align="middle" src="../assets/lab2/24.gif" width="1000" />  
+<img align="middle" src="../images/lab2/24.gif" width="1000" />  
 <br/>
 <br/>
 
 - Note the output variable of the "Collect Digits" node and copy it to clipboard.
 
-<img align="middle" src="../assets/lab2/24_1.gif" width="1000" />  
+<img align="middle" src="../images/lab2/24_1.gif" width="1000" />  
 <br/>
 <br/>
 
 - Drag the "Set Variable" activity and set the flow variable `accountId` to the "Collect Digits" output variable using the example provided.
 
-<img align="middle" src="../assets/lab2/25.gif" width="1000" />  
+<img align="middle" src="../images/lab2/25.gif" width="1000" />  
 <br/>
 <br/>
 
 - Connect it after the Collect Digits Activity.
 
-<img align="middle" src="../assets/lab2/25_1.gif" width="1000" />  
+<img align="middle" src="../images/lab2/25_1.gif" width="1000" />  
 <br/>
 <br/>
 
 - Drag the "HTTP Request" activity from the palette to the beginning of the canvas and rename it to "DataDip".
 
-<img align="middle" src="../assets/lab2/26.gif" width="1000" />  
+<img align="middle" src="../images/lab2/26.gif" width="1000" />  
 <br/>
 <br/>
 
 - Connect it in the middle of the `Set Variable` and `Play Prompt` activities.
 
-<img align="middle" src="../assets/lab2/27.gif" width="1000" />  
+<img align="middle" src="../images/lab2/27.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -355,7 +355,7 @@ invoice = `$.[0].invoice`
 
 email = `$.[0].reportee`
 
-<img align="middle" src="../assets/lab2/28.gif" width="1000" />  
+<img align="middle" src="../images/lab2/28.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -367,7 +367,7 @@ email = `$.[0].reportee`
 Thanks! It seems like you have an issue with your billing. We just found a pending Invoice of {{invoice}}. We will send you a confirmation email to {{email}} after connecting you to the best representative for your problem.
 ```
 
-<img align="middle" src="../assets/lab2/29.gif" width="1000" />  
+<img align="middle" src="../images/lab2/29.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -393,7 +393,7 @@ Thanks! It seems like you have an issue with your billing. We just found a pendi
 </speak>
 ```
 
-<img align="middle" src="../assets/lab2/30.gif" width="1000" />  
+<img align="middle" src="../images/lab2/30.gif" width="1000" />  
 <br/>
 <br/>
 
