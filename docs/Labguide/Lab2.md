@@ -1,71 +1,32 @@
+---
+#icon: material/numeric-2-box-multiple
+icon: material/folder-open-outline
+
+title: Reporting Experience
+author: Bhushan Suresh, Chandramouli Valithiyanathan, Sara Santos
+date: 2024-10-02
+layout: post
+---
+
 <script>
- function update () {
-    const form = document.forms['attendee-form'];
-    if (form) {
-      form.addEventListener('submit', function (event) {
-        event.preventDefault();
-        const inputs = Array.from(form.querySelectorAll('input'));
-        const values = inputs.reduce((acc, input) => {
-          acc[input.id + '_out'] = input.value;
-          return acc;
-        }, {});
+    function update(){them = Array.from(document.querySelectorAll("input")).reduce((acc, input) => ({...acc, [input.id + "_out"] : input.value}),{});
+   Object.entries(them).forEach((entry) => {
+    Array.from(document.getElementsByClassName(entry[0])).forEach((element,index) => 
+    {
+      console.log(document.getElementsByClassName(entry[0])[index].innerHTML); 
+      document.getElementsByClassName(entry[0])[index].innerHTML = entry[1];
+    })})
 
-        Object.entries(values).forEach(([id, value]) => {
-          const elements = document.getElementsByClassName(id);
-          Array.from(elements).forEach(element => {
-
-            console.log(element.innerHTML);
-            if(Number(element.innerHTML) > 99 ){
-               console.log(`Got a 99+ attendee: ${element.innerHTML}`);
-               element.innerHTML = value;
-             }
-            else{
-               console.log(`Got a sub 99 attendee: ${element.innerHTML}`);
-                element.innerHTML = `0${value}`;
-                }
-          });
-        });
-        const attendeeIDInput = form.elements['attendeeID'];
-       if (attendeeIDInput && attendeeIDInput.value !== 'Your_Attendee_ID') {
-          localStorage.setItem('attendeeID', attendeeIDInput.value);
-        }
-      });
-    }
-  };
-</script>
-<style>
-  /* Style for the button */
-  button {
-    background-color: black; /* Set the background color to black */
-    color: white; /* Set the text color to white */
-    border: none; /* Remove the border */
-    padding: 10px 20px; /* Add some padding for better appearance */
-    cursor: pointer; /* Show a pointer cursor on hover */
+  event.preventDefault()
+   if(document.forms["attendee-form"][1].value != "Your_Attendee_ID"){
+    localStorage.setItem("attendeeID",document.forms["attendee-form"][1].value)
+  }  
   }
-
-   /* Style for the input element */
-  input[type="text"] {
-    border: 2px solid black; /* Set the border thickness to 2px */
-    padding: 5px; /* Add some padding for better appearance */
-
-</style>
-
-Please **`submit the form below with your Attendee or pod ID`**. All configuration entries in the lab guide will be renamed to include your pod ID.
-{: .block-warning }
-
-<script>
-document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") || "Your Attendee ID" 
 </script>
-<form id="attendee-form">
-  <label for="attendee">Attendee ID:</label>
-  <input type="text" id="attendee" name="attendee" onChange="update()"><br>
-<br>
-  <button onclick="update()">Save</button>
-</form>
 
-<br/>
 
-# Lab 2: Intelligent IVR
+# Lab 2
+<!-- # Part 2: Intelligent IVR -->
 
 In this lab, we will learn how traditional Dual-tone multi-frequency (DTMF) flows can be transformed into intelligent and personalized interactions using text-to-speech and dynamic data.
 
