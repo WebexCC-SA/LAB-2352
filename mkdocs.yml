@@ -67,6 +67,9 @@ plugins:
       auto_caption: true
       caption_position: top
 markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - md_in_html
   - abbr
   - admonition
