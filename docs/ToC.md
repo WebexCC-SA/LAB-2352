@@ -191,7 +191,7 @@
       <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">Setup guide for Intelligent IVR</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/lab2/#2-intelligent-ivr" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab2/#2-intelligent-ivr" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>      
     </tbody>
   </table>
