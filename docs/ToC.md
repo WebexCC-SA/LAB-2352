@@ -189,25 +189,10 @@
     </thead>
     <tbody>
       <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">2.1: Understand and Verify the Existing Flow</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Setup guide for Intelligent IVR</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab2/#21-high-level-contact-center-performance-and-usage-insights" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
-      </tr>
-      <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">2.2: Transform the Flow with Text-to-Speech</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../Labguide/Lab2/#22-customer-experience-and-queue-performance" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
-      </tr>
-      <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">2.3: Add Intelligent Data for Personalization</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab2/#21-high-level-contact-center-performance-and-usage-insights" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
-      </tr>
-      <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">2.4: Use a Data Dip with HTTP</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../Labguide/Lab2/#22-customer-experience-and-queue-performance" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
-      </tr>       
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab2_ivr/#21-high-level-contact-center-performance-and-usage-insights" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+      </tr>      
     </tbody>
   </table>
 </details>
@@ -989,7 +974,7 @@
 
 | Topic                                                                                                                                             | Type        | Dificulty    | Time   |
 | ------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ------------ | ------ |
-| [2.1: High-level Contact Center Performance and Usage insights](./ReportingExperience.md/#21-high-level-contact-center-performance-and-usage-insights)                     | Activity    | EASY         |        |
+| [2: Set up Intelligent IVR](./ReportingExperience.md/#21-high-level-contact-center-performance-and-usage-insights)                     | Activity    | EASY         |        |
 | [2.2: Customer Experience and Queue Performance](./ReportingExperience.md/#22-customer-experience-and-queue-performance)                                                   | Activity    | INTERMEDIATE |        |
 
 ### [Part 3: Analyzer custom reports](./ReportingExperience.md/#part-3-bonus-contact-center-insights-with-analyzer-custom-reports-and-dashboards)
