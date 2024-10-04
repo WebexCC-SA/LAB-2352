@@ -99,7 +99,7 @@
 
 <details>
   <summary style="display: flex; justify-content: space-between; align-items: center;">
-    <span style="font-size: 20px;">LAB 1: Configure Text-To-Speech (TTS)(</span>
+    <span style="font-size: 20px;">LAB 1: Configure Text-To-Speech (TTS)</span>
     <span style="display: flex; align-items: center;">
       <span style="background-color: #44cc44; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">Easy</span>&nbsp;&nbsp;
       <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">10 min</span>
@@ -172,7 +172,7 @@
 
 <details>
   <summary style="display: flex; justify-content: space-between; align-items: center;">
-    <span style="font-size: 20px;">LAB 2: Analyzer Stock reports</span>
+    <span style="font-size: 20px;">LAB 2: Intelligent IVR</span>
     <span style="display: flex; align-items: center;">
       <span style="background-color: #FF7F50; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">Intermediate</span>&nbsp;&nbsp;
       <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">15 min</span>
@@ -189,15 +189,25 @@
     </thead>
     <tbody>
       <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">2.1: High-level Contact Center Performance and Usage insights</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">2.1: Understand and Verify the Existing Flow</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
         <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab2/#21-high-level-contact-center-performance-and-usage-insights" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>
       <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">2.2: Customer Experience and Queue Performance</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">2.2: Transform the Flow with Text-to-Speech</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
         <td style="padding: 10px; border: 1px solid #ddd;"><a href="../Labguide/Lab2/#22-customer-experience-and-queue-performance" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
       </tr>
+      <tr style="background-color: #f9f9f9; color: #333;">
+        <td style="padding: 10px; border: 1px solid #ddd;">2.3: Add Intelligent Data for Personalization</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab2/#21-high-level-contact-center-performance-and-usage-insights" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+      </tr>
+      <tr style="background-color: #f9f9f9; color: #333;">
+        <td style="padding: 10px; border: 1px solid #ddd;">2.4: Use a Data Dip with HTTP</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../Labguide/Lab2/#22-customer-experience-and-queue-performance" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
+      </tr>       
     </tbody>
   </table>
 </details>
@@ -244,7 +254,7 @@
 
 <details>
   <summary style="display: flex; justify-content: space-between; align-items: center;">
-    <span style="font-size: 20px;">LAB 3: Analyzer Custom reports</span>
+    <span style="font-size: 20px;">LAB 3:  Cisco Virtual Agents (VA)</span>
     <span style="display: flex; align-items: center;">
       <span style="background-color: #FF7F50; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">Intermediate</span>&nbsp;&nbsp;
       <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">15 min</span>
@@ -261,15 +271,40 @@
     </thead>
     <tbody>
       <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">3.1: Create Custom Realtime Agent Report</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">3.1: Creating a Virtual Agent using a Template</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
         <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab3/#31-create-custom-realtime-agent-report" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>
       <!-- <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">2.2: Customer Experience and Queue Performance</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">3.2: Integrating the Bot with Flow for Voice Calls</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
         <td style="padding: 10px; border: 1px solid #ddd;"><a href="../ReportingExperience/#22-customer-experience-and-queue-performance" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
       </tr> -->
+      <!-- <tr style="background-color: #f9f9f9; color: #333;">
+        <td style="padding: 10px; border: 1px solid #ddd;">3.3: Updating Bot Responses</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../ReportingExperience/#22-customer-experience-and-queue-performance" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
+      </tr> -->
+      <!-- <tr style="background-color: #f9f9f9; color: #333;">
+        <td style="padding: 10px; border: 1px solid #ddd;">3.4: Adding New Intents & Entities</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../ReportingExperience/#22-customer-experience-and-queue-performance" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
+      </tr> -->       
+      <!-- <tr style="background-color: #f9f9f9; color: #333;">
+        <td style="padding: 10px; border: 1px solid #ddd;">3.5: Adding Training Data using Generative AI</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../ReportingExperience/#22-customer-experience-and-queue-performance" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
+      </tr> -->       
+      <!-- <tr style="background-color: #f9f9f9; color: #333;">
+        <td style="padding: 10px; border: 1px solid #ddd;">3.6: Bot Transcripts & Analytics</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../ReportingExperience/#22-customer-experience-and-queue-performance" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
+      </tr> -->  
+      <!-- <tr style="background-color: #f9f9f9; color: #333;">
+        <td style="padding: 10px; border: 1px solid #ddd;">3.7: Generative Fallback with ChatGPT</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../ReportingExperience/#22-customer-experience-and-queue-performance" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
+      </tr> -->         
     </tbody>
   </table>
 </details>
@@ -316,10 +351,10 @@
 
 <details>
   <summary style="display: flex; justify-content: space-between; align-items: center;">
-    <span style="font-size: 20px;">LAB 4: (BONUS) Data extraction and scheduling Capabilities</span>
+    <span style="font-size: 20px;">LAB 4: Seamless VA Handoff</span>
     <span style="display: flex; align-items: center;">
       <span style="background-color: #FF7F50; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">Intermediate</span>&nbsp;&nbsp;
-      <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">20 min</span>
+      <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">15 min</span>
     </span>
   </summary>
   
@@ -333,20 +368,25 @@
     </thead>
     <tbody>
       <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">4.1: Export Data as Excel or CSV</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">4.1: Transfer to Human Agent</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
         <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab4/#41-export-data-as-excel-or-csv" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>
       <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">4.2: Visualization Scheduler</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">4.2: Routing Based on Last Intent</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
         <td style="padding: 10px; border: 1px solid #ddd;"><a href="../Labguide/Lab4/#42-visualization-scheduler" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
       </tr>
       <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">4.3: Search APIs</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">4.3:  Virtual Agent Transcript</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
         <td style="padding: 10px; border: 1px solid #ddd;"><a href="../Labguide/Lab4/#43-search-apis" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
       </tr>
+      <tr style="background-color: #f9f9f9; color: #333;">
+        <td style="padding: 10px; border: 1px solid #ddd;">4.4:  Virtual Agent Summary</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../Labguide/Lab4/#43-search-apis" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
+      </tr>       
     </tbody>
   </table>
 </details>
