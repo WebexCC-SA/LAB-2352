@@ -43,6 +43,16 @@
         <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
         <td style="padding: 10px; border: 1px solid #ddd;"><a href="../Labguide/PreRequisites/#analyzer-login-process" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
       </tr>
+      <tr style="background-color: #f9f9f9; color: #333;">
+        <td style="padding: 10px; border: 1px solid #ddd;">Supervsior Login Walk Through</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../Labguide/PreRequisites/#analyzer-login-process" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
+      </tr>
+      <tr style="background-color: #f9f9f9; color: #333;">
+        <td style="padding: 10px; border: 1px solid #ddd;"Flow Control Walk Through</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../Labguide/PreRequisites/#analyzer-login-process" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
+      </tr>       
     </tbody>
   </table>
 </details>
@@ -692,6 +702,8 @@
 | ------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ------------ | ------ |
 | [Multiple Logins with Browser Profiles](./ReportingExperience.md/#pre-requisites)                                                                                                                 | Activity    | EASY         | 5 min  |
 | [Agent Login Walk Through](./ReportingExperience.md/#analyzer-login-process)                                                                                     | Activity    | EASY         | 5 min  |
+| [Supervsior Login Walk Through](./ReportingExperience.md/#analyzer-login-process)                                                                                     | Activity    | EASY         | 5 min  |
+| [Flow Conrtol Walk Through](./ReportingExperience.md/#analyzer-login-process)                                                                                     | Activity    | EASY         | 5 min  |
 
 ### [Part 1: Analyzer User Interface](./ReportingExperience.md/#part-1-webex-contact-center-analyzer-user-interface)
 
