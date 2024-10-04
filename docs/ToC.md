@@ -99,10 +99,10 @@
 
 <details>
   <summary style="display: flex; justify-content: space-between; align-items: center;">
-    <span style="font-size: 20px;">LAB 1: Analyzer User Interface</span>
+    <span style="font-size: 20px;">LAB 1: Configure Text-To-Speech (TTS)(</span>
     <span style="display: flex; align-items: center;">
       <span style="background-color: #44cc44; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">Easy</span>&nbsp;&nbsp;
-      <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">15 min</span>
+      <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">10 min</span>
     </span>
   </summary>
   
@@ -116,12 +116,12 @@
     </thead>
     <tbody>
       <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">1.1: Analyzer User Interface</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">1.1: Enable Text-To-Speech </td>
         <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
         <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab1/#11-analyzer-user-interface" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>
       <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">1.2: NEW Analyzer User Interface</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">1.2: Setup Flow wiht Text-To-Speech</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
         <td style="padding: 10px; border: 1px solid #ddd;"><a href="../Labguide/Lab1/#12-new-analyzer-user-interface" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
       </tr>
