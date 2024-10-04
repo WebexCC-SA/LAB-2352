@@ -433,7 +433,7 @@
 
 <details>
   <summary style="display: flex; justify-content: space-between; align-items: center;">
-    <span style="font-size: 20px;">LAB 5: Auto CSAT score</span>
+    <span style="font-size: 20px;">LAB 5: Call Drop Summary</span>
     <span style="display: flex; align-items: center;">
       <span style="background-color: #44cc44; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">Easy</span>&nbsp;&nbsp;
       <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">5 min</span>
@@ -450,20 +450,30 @@
     </thead>
     <tbody>
       <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">5.1: What is Auto CSAT score?</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">5.1: Making a Test call as Customer?</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
         <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab5/#51-what-is-auto-csat-score" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>
       <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">5.2: How to setup Auto CSAT feature?</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">5.2: Simulate Customer Script</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
         <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab5/#52-how-to-setup-auto-csat-feature" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>
       <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">5.3: Where can the Auto CSAT score be viewed?</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">5.3: Simulate an Unexpected Call Drop</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
         <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab5/#53-where-can-the-auto-csat-score-be-viewed" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>
+      <tr style="background-color: #f9f9f9; color: #333;">
+        <td style="padding: 10px; border: 1px solid #ddd;">5.4: Call as a Repeat Customer</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab5/#53-where-can-the-auto-csat-score-be-viewed" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+      </tr> 
+      <tr style="background-color: #f9f9f9; color: #333;">
+        <td style="padding: 10px; border: 1px solid #ddd;">5.5: View the Call Drop Summary</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab5/#53-where-can-the-auto-csat-score-be-viewed" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+      </tr>       
     </tbody>
   </table>
 </details>
@@ -589,7 +599,7 @@
 
 <details>
   <summary style="display: flex; justify-content: space-between; align-items: center;">
-    <span style="font-size: 20px;">LAB 7: Survey Insights</span>
+    <span style="font-size: 20px;">LAB 7: Agent Wellness</span>
     <span style="display: flex; align-items: center;">
       <span style="background-color: #44cc44; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">Easy</span>&nbsp;&nbsp;
       <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">5 min</span>
@@ -606,15 +616,20 @@
     </thead>
     <tbody>
       <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">3.1: Create Custom Realtime Agent Report</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">7.1: Log into Agent Desktop</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
         <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab5" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>
       <!-- <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">2.2: Customer Experience and Queue Performance</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">7.2: Simulation of Burnout Event</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
         <td style="padding: 10px; border: 1px solid #ddd;"><a href="../ReportingExperience/#22-customer-experience-and-queue-performance" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
       </tr> -->
+      <!-- <tr style="background-color: #f9f9f9; color: #333;">
+        <td style="padding: 10px; border: 1px solid #ddd;">7.3: Observe the Reset</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../ReportingExperience/#22-customer-experience-and-queue-performance" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
+      </tr> -->       
     </tbody>
   </table>
 </details>
