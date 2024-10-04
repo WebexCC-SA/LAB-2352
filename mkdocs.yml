@@ -79,7 +79,7 @@ nav:
   - Home: index.md
   - Table of Contents: ToC.md
   - Start Lab:
-      - Overview: overview.md
+      - Lab Overview: overview.md
       - Lab Guide:
             - Pre-Requisites: ./Labguide/PreRequisites.md
       - Lab 1 - Getting Started: lab1_getting_started.md
