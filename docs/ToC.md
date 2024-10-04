@@ -690,8 +690,8 @@
 
 | Topic                                                                                                                                             | Type        | Dificulty    | Time   |
 | ------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ------------ | ------ |
-| [Pre-Requisites](./ReportingExperience.md/#pre-requisites)                                                                                                                 | Activity    | EASY         | 5 min  |
-| [Analyzer and Desktop Login Process](./ReportingExperience.md/#analyzer-login-process)                                                                                     | Activity    | EASY         | 5 min  |
+| [Multiple Logins with Browser Profiles](./ReportingExperience.md/#pre-requisites)                                                                                                                 | Activity    | EASY         | 5 min  |
+| [Agent Login Walk Throuhg](./ReportingExperience.md/#analyzer-login-process)                                                                                     | Activity    | EASY         | 5 min  |
 
 ### [Part 1: Analyzer User Interface](./ReportingExperience.md/#part-1-webex-contact-center-analyzer-user-interface)
 
