@@ -2,7 +2,7 @@
 #icon: material/numeric-2-box-multiple
 icon: material/folder-open-outline
 
-title: Reporting Experience
+title: IVR Experience
 author: Bhushan Suresh, Chandramouli Valithiyanathan, Sara Santos
 date: 2024-10-02
 layout: post
