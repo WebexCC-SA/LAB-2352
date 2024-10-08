@@ -147,7 +147,7 @@ update()
   - Click `done`
   - Create 2 more profiles for `Supervisor` and `Agent`
 
-![CH-Desktop-Call-In-Accepted](/images/agent/Chrome-Create-Profile.gif)
+![CH-Desktop-Call-In-Accepted](/assets/agent/Chrome-Create-Profile.gif)
 
 (1) **One additional device** (like your personal phone) to test inbound calls to the Webex Contact Center. You can use your cell phone for this purpose.
 
