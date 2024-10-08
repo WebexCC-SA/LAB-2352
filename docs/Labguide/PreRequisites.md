@@ -22,7 +22,7 @@ layout: post
 </script>
 
 
-
+# Pre-Requisites
 
 Welcome to the **Webex Contact Center Agent and Supervisor Experience!**
 
@@ -75,9 +75,7 @@ In **Part 2**, we will examine the **Webex Contact Center Supervisor Experience*
 
 > We'll delve into each Administrative element in the following **Verify Desktop Administration** section that covers `Configuration and Administrative tasks`.
 
-**You Will Need**
-
-(0) **Lab Credentials and Attendee ID** - Provided to you over email.
+### Attendee ID
 
 > Please submit the form below with your Attendee ID in 3 digits long format (e.g. if your attendee ID is 51, please enter 051). All configuration items in the lab guide will be renamed with that prefix.
 
@@ -95,6 +93,7 @@ update()
 document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") || "Your Attendee ID"
 update()
 </script>
+
 
 ### Create Chrome Profiles
 
