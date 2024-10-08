@@ -1,9 +1,13 @@
 ---
-title: Agent & Supervisor Experience
+#icon: material/numeric-2-box-multiple
+icon: material/folder-open-outline
+
+title: IVR Experience
 author: Bhushan Suresh, Chandramouli Valithiyanathan, Sara Santos
-date: 2024-10-04
+date: 2024-10-02
 layout: post
 ---
+
 <script>
  function update () {
     const form = document.forms['attendee-form'];
@@ -70,7 +74,7 @@ document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") ||
 </form>
 
 
-# Pre-Requisites
+# Lab Pre-Requisites
 
 Welcome to the **Webex Contact Center Agent and Supervisor Experience!**
 
