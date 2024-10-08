@@ -1,3 +1,13 @@
+---
+#icon: material/numeric-2-box-multiple
+icon: material/folder-open-outline
+
+title: Intelligent Virtual Agent Handoffs
+author: Bhushan Suresh, Chandramouli Valithiyanathan, Sara Santos
+date: 2024-10-02
+layout: post
+---
+
 <script>
  function update () {
     const form = document.forms['attendee-form'];
