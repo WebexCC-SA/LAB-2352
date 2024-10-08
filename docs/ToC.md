@@ -431,7 +431,7 @@
 
 <details>
   <summary style="display: flex; justify-content: space-between; align-items: center;">
-    <span style="font-size: 20px;">LAB 6: Topic Analytics</span>
+    <span style="font-size: 20px;">LAB 6: Agent Wellness</span>
     <span style="display: flex; align-items: center;">
       <span style="background-color: #44cc44; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">Easy</span>&nbsp;&nbsp;
       <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">5 min</span>
@@ -448,19 +448,9 @@
     </thead>
     <tbody>
       <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">6.1: Access the Topic Analytics Portal</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab6/#61-access-the-topic-analytics-portal" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
-      </tr>
-      <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">6.2: Review the Topic Collection</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../Labguide/Lab6/#62-review-the-topic-collection" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
-      </tr>
-      <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">6.3: Analyzing Conversations for a Given Topic</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../Labguide/Lab6/#63-analyzing-conversations-for-a-given-topic" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
+        <td style="padding: 10px; border: 1px solid #ddd;">6: Configure Agent Wellness</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Configure</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab6/#6-Agent-Wellness" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>
     </tbody>
   </table>
