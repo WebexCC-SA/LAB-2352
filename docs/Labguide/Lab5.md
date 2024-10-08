@@ -95,13 +95,13 @@ A customer is calling to make changes to their flight reservation. The call gets
 
 - Choose the Correct Team corresponding to your POD number and sign in With the Desktop Option.
 
-<img align="middle" src="../assets/lab2/12.gif" width="1000" />  
+<img align="middle" src="../images/lab2/12.gif" width="1000" />  
 <br/>
 <br/>
 
 - Go to an available state to receive the call once you have called into the Queue.
 
-<img align="middle" src="../assets/lab2/13.gif" width="1000" />  
+<img align="middle" src="../images/lab2/13.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -109,7 +109,7 @@ A customer is calling to make changes to their flight reservation. The call gets
 
 - Accept the call on the Agent Desktop.
 
-<img align="middle" src="../assets/lab2/14.gif" width="1000" />  
+<img align="middle" src="../images/lab2/14.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -155,7 +155,7 @@ No problem, could you share your date of birth and name as per your ticketing in
 
 > So, wait in the queue for about 10 seconds for the system to drop the call "automatically"
 
-<img align="middle" src="../assets/lab5/1.png" width="1000" />  
+<img align="middle" src="../images/lab5/1.png" width="1000" />  
 <br/>
 <br/>
 
@@ -169,19 +169,19 @@ No problem, could you share your date of birth and name as per your ticketing in
 
 - Accept the call on the Agent Desktop.
 
-<img align="middle" src="../assets/lab2/14.gif" width="1000" />  
+<img align="middle" src="../images/lab2/14.gif" width="1000" />  
 <br/>
 <br/>
 
 - The AI Assistant notifies the agent of the available call drop summary.
 
-<img align="middle" src="../assets/lab5/2.png" width="500" />  
+<img align="middle" src="../images/lab5/2.png" width="500" />  
 <br/>
 <br/>
 
 - Open the AI Assistant to review the summary.
 
-<img align="middle" src="../assets/lab5/3.png" width="500" />  
+<img align="middle" src="../images/lab5/3.png" width="500" />  
 <br/>
 <br/>
 
