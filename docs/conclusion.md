@@ -1,6 +1,6 @@
 ---
 #icon: material/folder-open-outline
-icon: material/stars 
+icon: material/bullseye-arrow
 ---
 
 # Conclusion
