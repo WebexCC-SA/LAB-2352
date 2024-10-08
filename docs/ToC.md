@@ -739,7 +739,7 @@
       <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">10: Auto CSAT</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab10" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab10/#10-Auto-CSAT" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>
     </tbody>
   </table>
