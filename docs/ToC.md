@@ -380,30 +380,10 @@
     </thead>
     <tbody>
       <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">5.1: Making a Test call as Customer?</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab5/#51-what-is-auto-csat-score" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+        <td style="padding: 10px; border: 1px solid #ddd;">5: Configure Call Drop Summary?</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Configure</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab5/#51-Call-Drop-Summary" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>
-      <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">5.2: Simulate Customer Script</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab5/#52-how-to-setup-auto-csat-feature" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
-      </tr>
-      <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">5.3: Simulate an Unexpected Call Drop</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab5/#53-where-can-the-auto-csat-score-be-viewed" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
-      </tr>
-      <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">5.4: Call as a Repeat Customer</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab5/#53-where-can-the-auto-csat-score-be-viewed" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
-      </tr> 
-      <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">5.5: View the Call Drop Summary</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab5/#53-where-can-the-auto-csat-score-be-viewed" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
-      </tr>       
     </tbody>
   </table>
 </details>
