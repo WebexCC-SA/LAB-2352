@@ -90,34 +90,34 @@ The objective of this lab is to gain a comprehensive understanding of **Topic An
 
 - Login to the Webex Control Hub using the admin credentials provided. ( Launch **[https://admin.webex.com/](https://admin.webex.com/){:target="\_blank"}** )
 
-<img align="middle" src="../assets/lab1/0-0.png" width="1000" />  
+<img align="middle" src="../images/lab9/0-0.png" width="1000" />  
 <br/>
 <br/>
 
 - Login using the same admin credentials if you are redirected to Okta login
-  <img align="middle" src="../assets/lab1/0-1.png" width="1000" />  
+  <img align="middle" src="../images/lab9/0-1.png" width="1000" />  
   <br/>
   <br/>
 
 - Scoll down the the left navigation panel and click on Contact Center under Services
-  <img align="middle" src="../assets/lab1/1-0.png" width="1000" />  
+  <img align="middle" src="../images/lab9/1-0.png" width="1000" />  
   <br/>
   <br/>
 
 - Launch Topic Analytics Portal by clicking on Topic Analytics (Beta) under the Quick Links. Enter the admin email address to sign-in. Once you are signed-in accept the Oauth2 Notification.
-  <img align="middle" src="../assets/lab1/1.png" width="1000" />  
+  <img align="middle" src="../images/lab9/1.png" width="1000" />  
   <br/>
   <br/>
 
 - Once logged in, click on the Topic Analytics from the left side navigation panel.
 
-<img align="middle" src="../assets/lab1/3.png" width="1000" />  
+<img align="middle" src="../images/lab9/3.png" width="1000" />  
 <br/>
 <br/>
 
 - Note creation of Topic collection can take up to 24 hours hence a Topic collection `Cisco_Live_May_Collection` is already pre-created for you.
 
-<img align="middle" src="../assets/lab1/4.png" width="1000" />  
+<img align="middle" src="../images/lab9/4.png" width="1000" />  
 <br/>
 <br/>
 
@@ -125,31 +125,31 @@ The objective of this lab is to gain a comprehensive understanding of **Topic An
 
 - Click on the `Cisco_Live_May_Collection` to review the Topic collection.
 
-<img align="middle" src="../assets/lab1/4.png" width="1000" />  
+<img align="middle" src="../images/lab9/4.png" width="1000" />  
 <br/>
 <br/>
 
 - Under the Overview Tab, Notice the filter criteria used to create this collection.
 
-<img align="middle" src="../assets/lab1/5.png" width="1000" />  
+<img align="middle" src="../images/lab9/5.png" width="1000" />  
 <br/>
 <br/>
 
 - Click on the Topics Tab to view all the topics identified by AI for this filter criteria.
 
-<img align="middle" src="../assets/lab1/6.png" width="1000" />  
+<img align="middle" src="../images/lab9/6.png" width="1000" />  
 <br/>
 <br/>
 
 - Additionally, you can click on the Expand button (>) to view all the call drivers associated with the Topic.
 
-<img align="middle" src="../assets/lab1/7.png" width="1000" />  
+<img align="middle" src="../images/lab9/7.png" width="1000" />  
 <br/>
 <br/>
 
 - Click on the Export button on the top right to download the result in the excel sheet.
 
-<img align="middle" src="../assets/lab1/7_1.png" width="1000" />  
+<img align="middle" src="../images/lab9/7_1.png" width="1000" />  
 <br/>
 <br/>
 
@@ -157,17 +157,17 @@ The objective of this lab is to gain a comprehensive understanding of **Topic An
 
 - Click on a Topic to view all the calls related to that Topic.
 
-<img align="middle" src="../assets/lab1/8.png" width="1000" />  
+<img align="middle" src="../images/lab9/8.png" width="1000" />  
 <br/>
 <br/>
 
 - Click on individual call record to view more details such as the call recording, transcript and the Contact Details.
 
-<img align="middle" src="../assets/lab1/9.png" width="1000" />  
+<img align="middle" src="../images/lab9/9.png" width="1000" />  
 <br/>
 <br/>
 
-<img align="middle" src="../assets/lab1/10.png" width="1000" />  
+<img align="middle" src="../images/lab9/10.png" width="1000" />  
 <br/>
 <br/>
 
@@ -175,7 +175,7 @@ The objective of this lab is to gain a comprehensive understanding of **Topic An
 
 - Review the rank and the transcript to identify the top use case for automation.
 
-<img align="middle" src="../assets/lab1/11.png" width="1000" />  
+<img align="middle" src="../images/lab9/11.png" width="1000" />  
 <br/>
 <br/>
 
@@ -187,7 +187,7 @@ The objective of this lab is to gain a comprehensive understanding of **Topic An
 - Action to be Performed
 - Parting Phrase
 
-<img align="middle" src="../assets/lab1/12.png" width="1000" />  
+<img align="middle" src="../images/lab9/12.png" width="1000" />  
 <br/>
 <br/>
 
