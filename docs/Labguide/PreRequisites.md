@@ -72,6 +72,7 @@ document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") ||
 <br>
   <button onclick="update()">Save</button>
 </form>
+</br>
 
 
 # Lab Pre-Requisites
