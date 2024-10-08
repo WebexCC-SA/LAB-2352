@@ -24,3 +24,11 @@
     --md-typeset-a-color: #3a7fff;
     --md-accent-fg-color: #00bdeb;
 }
+
+.md-sidebar .md-nav__link {
+    max-width: 350px; /* Adjust based on the sidebar width */
+    overflow-x: auto; /* Hide overflow if any */
+    text-overflow: ellipsis; /* Add ellipsis for overflowed text */
+    white-space: nowrap; /* Prevent text wrapping */
+
+}
