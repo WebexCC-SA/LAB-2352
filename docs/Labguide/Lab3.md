@@ -65,8 +65,8 @@ document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") ||
 
 <br/>
 
-# Lab 3
-<!-- # Part 3: Virtual Agents -->
+# Lab 4
+<!-- # Part 4: Seamless VA Handoff -->
 
 ## Objectives
 
