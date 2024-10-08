@@ -22,57 +22,17 @@ layout: post
 </script>
 
 
+
+
 Welcome to the **Webex Contact Center Agent and Supervisor Experience!**
 
 In **Part 1**, we will explore the **Webex Contact Center Agent Experience** and the associated administrative toggles for configuring agents in the Webex Contact Center.
 
 In **Part 2**, we will examine the **Webex Contact Center Supervisor Experience** and the associated administrative toggles for configuring supervisors in the Webex Contact Center.
 
-> Feel free to review the table of contents below.
->
-> Jump to any section using the live navigation on the right!
 
-<script>
- function update () {
-    const form = document.forms['attendee-form'];
-    if (form) {
-      form.addEventListener('submit', function (event) {
-        event.preventDefault();
-        const inputs = Array.from(form.querySelectorAll('input'));
-        const values = inputs.reduce((acc, input) => {
-          acc[input.id + '_out'] = input.value;
-          return acc;
-        }, {});
 
-        Object.entries(values).forEach(([id, value]) => {
-          const elements = document.getElementsByClassName(id);
-          Array.from(elements).forEach(element => {
 
-            console.log(element.innerHTML);
-            if(Number(element.innerHTML) > 99 ){
-               console.log(`Got a 99+ attendee: ${element.innerHTML}`);
-               element.innerHTML = value;
-             }
-            else{
-               console.log(`Got a sub 99 attendee: ${element.innerHTML}`);
-               if(element.innerHTML.includes('gmail.com'))
-               {
-                element.innerHTML = `0${value}`;
-                }
-               else{
-                element.innerHTML = value;
-               }
-                }
-          });
-        });
-        const attendeeIDInput = form.elements['attendeeID'];
-       if (attendeeIDInput && attendeeIDInput.value !== 'Your_Attendee_ID') {
-          localStorage.setItem('attendeeID', attendeeIDInput.value);
-        }
-      });
-    }
-  };
-</script>
 
 # Table of Contents
 
