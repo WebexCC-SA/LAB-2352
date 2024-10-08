@@ -2,7 +2,7 @@
 #icon: material/numeric-2-box-multiple
 icon: material/folder-open-outline
 
-title: Seamless VA Handoff
+title: Cisco Virtual Agents (VA)
 author: Bhushan Suresh, Chandramouli Valithiyanathan, Sara Santos
 date: 2024-10-02
 layout: post
@@ -75,8 +75,8 @@ document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") ||
 
 <br/>
 
-# Lab 4
-<!-- # Part 4: Seamless VA Handoff -->
+# Lab 3
+<!-- # Part 3: Cisco Virtual Agents (VA) -->
 
 ## Objectives
 
