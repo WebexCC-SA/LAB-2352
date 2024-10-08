@@ -81,7 +81,7 @@ By the end of this lab, you will:
 
 - Launch the Analyzer application that is used for Reporting on Webex Contact Center
 
-<img align="middle" src="../assets/lab8/1.gif" width="1000" />  
+<img align="middle" src="../images/lab10/1.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -89,7 +89,7 @@ By the end of this lab, you will:
 
 - Open the Analyzer Report titled "Auto CSAT Report"
 
-<img align="middle" src="../assets/lab8/2.gif" width="1000" />  
+<img align="middle" src="../images/lab10/2.gif" width="1000" />  
 <br/>
 
 #### Step 3: Explore creating filters
@@ -97,7 +97,7 @@ By the end of this lab, you will:
 - Observe the actions taken by the contact center system once a burnout event is detected.
 - Note how contact center administrators have tools today to address and support the wellness of their agents.
 
-<img align="middle" src="../assets/lab8/2.gif" width="1000" />  
+<img align="middle" src="../images/lab10/2.gif" width="1000" />  
 <br/>
 
 (Note: The details for the reset process are not provided in the document and should be completed by the instructor or the person responsible for the lab content.)
