@@ -103,5 +103,5 @@ nav:
             - Lab 6 Call Drop Summary: ./Labguide/Lab6.md
             - Lab 8 (BONUS): Future agent login: ./Labguide/Lab8.md
             - Lab 9 (BONUS): Topic Analytics: ./Labguide/Lab9.md
-            - Lab 9 (BONUS): Auto CSAT: ./Labguide/Lab10.md     
+            - Lab 10 (BONUS): Auto CSAT: ./Labguide/Lab10.md     
       - Conclusion: conclusion.md
