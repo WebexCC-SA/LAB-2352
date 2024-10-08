@@ -36,7 +36,7 @@
       <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">Agent and Supervisor Experience Walk Through</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../Labguide/AgentSupervisorExperience/#agent-sup-login-process" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../Labguide/PreRequisites/#agent-sup-login-process" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
       </tr>
       <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">Flow Control Walk Through</td>
