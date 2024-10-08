@@ -13,7 +13,7 @@
 
 <!-- # Table of Contents
 
-# Reporting Lab Table of Contents -->
+# Virtual Agent Experience Lab Table of Contents -->
 
 <details>
   <summary style="display: flex; justify-content: space-between; align-items: center;">
@@ -256,40 +256,10 @@
     </thead>
     <tbody>
       <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">3.1: Creating a Virtual Agent using a Template</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">3. Configure Virtual Agents</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab3/#31-create-custom-realtime-agent-report" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab3/#3-configure-virtual-agents" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>
-      <!-- <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">3.2: Integrating the Bot with Flow for Voice Calls</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../ReportingExperience/#22-customer-experience-and-queue-performance" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
-      </tr> -->
-      <!-- <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">3.3: Updating Bot Responses</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../ReportingExperience/#22-customer-experience-and-queue-performance" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
-      </tr> -->
-      <!-- <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">3.4: Adding New Intents & Entities</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../ReportingExperience/#22-customer-experience-and-queue-performance" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
-      </tr> -->       
-      <!-- <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">3.5: Adding Training Data using Generative AI</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../ReportingExperience/#22-customer-experience-and-queue-performance" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
-      </tr> -->       
-      <!-- <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">3.6: Bot Transcripts & Analytics</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../ReportingExperience/#22-customer-experience-and-queue-performance" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
-      </tr> -->  
-      <!-- <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">3.7: Generative Fallback with ChatGPT</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../ReportingExperience/#22-customer-experience-and-queue-performance" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
-      </tr> -->         
     </tbody>
   </table>
 </details>
