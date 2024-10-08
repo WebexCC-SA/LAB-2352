@@ -90,13 +90,13 @@ In this scenario, we will explore how a contact center can utilize AI to monitor
 
 - Select the team associated with your attendee ID.
 
-<img align="middle" src="../assets/lab2/12.gif" width="1000" />  
+<img align="middle" src="../images/lab2/12.gif" width="1000" />  
 <br/>
 <br/>
 
 - Change your status to 'Available'.
 
-<img align="middle" src="../assets/lab2/13.gif" width="1000" />  
+<img align="middle" src="../images/lab2/13.gif" width="1000" />  
 <br/>
 
 #### Step 2: Simulation of Burnout Event
@@ -109,7 +109,7 @@ In this scenario, we will explore how a contact center can utilize AI to monitor
 - Observe the actions taken by the contact center system once a burnout event is detected.
 - Note how contact center administrators have tools today to address and support the wellness of their agents.
 
-<img align="middle" src="../assets/lab6/1.gif" width="1000" />  
+<img align="middle" src="../images/lab6/1.gif" width="1000" />  
 <br/>
 
 (Note: The details for the reset process are not provided in the document and should be completed by the instructor or the person responsible for the lab content.)
