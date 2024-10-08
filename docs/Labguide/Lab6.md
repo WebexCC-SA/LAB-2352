@@ -1,3 +1,15 @@
+---
+#icon: material/numeric-2-box-multiple
+icon: material/folder-open-outline
+
+title: Agent Wellness
+author: Bhushan Suresh, Chandramouli Valithiyanathan, Sara Santos
+date: 2024-10-02
+layout: post
+---
+
+
+
 <script>
  function update () {
     const form = document.forms['attendee-form'];
@@ -65,7 +77,7 @@ document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") ||
 
 <br/>
 
-# Lab 7: Agent Wellness
+# Lab 6: Agent Wellness
 
 ## Objectives
 
