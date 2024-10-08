@@ -65,7 +65,7 @@ document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") ||
 
 <br/>
 
-# Lab 8: Auto CSAT Reporting
+# Lab 10: Auto CSAT Reporting
 
 ## Objectives
 
