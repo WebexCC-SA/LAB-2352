@@ -147,7 +147,7 @@ update()
   - Click `done`
   - Create 2 more profiles for `Supervisor` and `Agent`
 
-![CH-Desktop-Call-In-Accepted](../images/agent/Chrome-Create-Profile.gif)
+![CH-Desktop-Call-In-Accepted](..../images/agent/Chrome-Create-Profile.gif)
 
 (1) **One additional device** (like your personal phone) to test inbound calls to the Webex Contact Center. You can use your cell phone for this purpose.
 
@@ -214,7 +214,7 @@ Please note, that to proceed to the next section, you will need to use the accou
 > Bulgarian, Catalan, Chinese (China), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, English (UK), English (US), Finnish, French, German, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, and Turkish.
 > {: .block-success }
 
-![AgentDesktopOverview](/images/agent/agent_desktop_overview.png)
+![AgentDesktopOverview](../images/agent/agent_desktop_overview.png)
 
 ---
 
@@ -249,11 +249,11 @@ Here is an overview of the sections:
 > In this example, please use the specific login for your attendee ID
 > {: .block-warning }
 
-![agent-desktop](/images/agent/01-image.png)
+![agent-desktop](../images/agent/01-image.png)
 
 ---
 
-![agent-desktop](/images/agent/02-image.png)
+![agent-desktop](../images/agent/02-image.png)
 
 ---
 
@@ -269,18 +269,18 @@ Here is an overview of the sections:
 
 - Click Sign in to be connected to telephony and complete the login process.
 
-![agent-desktop](/images/agent/03-image.png)
+![agent-desktop](../images/agent/03-image.png)
 
 > NOTE: Agents cannot access the Agent Desktop from multiple browsers or multiple tabs of the same browser window. In that case, a warning message will be displayed.
 > {: .block-warning }
 
-![agent-desktop](/images/agent/04-image.png)
+![agent-desktop](../images/agent/04-image.png)
 
 ---
 
 > The video below shows a demo about the agent login process and the available options:
 
-![agent-desktop](/images/agent/AgentLogin.gif)
+![agent-desktop](../images/agent/AgentLogin.gif)
 
 ---
 
@@ -309,7 +309,7 @@ The header section of the agent desktop contains the State change toggle where t
 
 This also has the section where you can view the Idle codes.
 
-![agent-desktop-State-Idle](/images/agent/Agent_State_Idle.gif)
+![agent-desktop-State-Idle](../images/agent/Agent_State_Idle.gif)
 
 ---
 
@@ -324,7 +324,7 @@ This also has the section where you can view the Idle codes.
 
 The Agent can access the out of box Agent Personal Statistics Reports on the left navigation screen.
 
-![agent-desktop-Personal-Statistics](/images/agent/Agent_Personal_Statistics.gif)
+![agent-desktop-Personal-Statistics](../images/agent/Agent_Personal_Statistics.gif)
 
 ---
 
@@ -342,7 +342,7 @@ Send a message to the supervisor user - search for supervisor or admin user and 
 Your Supervisor is configured in the format:
 **wxcclabs_supvr_ID\<attendeeID\>@gmail.com**
 
-![agent-desktop-webex-App](/images/agent/Agent_Webex_App.gif)
+![agent-desktop-webex-App](../images/agent/Agent_Webex_App.gif)
 
 ---
 
@@ -351,7 +351,7 @@ Your Supervisor is configured in the format:
 The notification pane on the desktop shows you the notifications of incoming calls or messages.
 The agent can also launch previously delivered screenpops from this pane.
 
-![agent-desktop-Notification-Pane](/images/agent/Agent_Notification_Pane.gif)
+![agent-desktop-Notification-Pane](../images/agent/Agent_Notification_Pane.gif)
 
 ---
 
@@ -359,7 +359,7 @@ The agent can also launch previously delivered screenpops from this pane.
 
 To review or change the Desktop Settings, click on the persona icon on the top right.
 
-![agent-desktop-Settings-Pane](/images/agent/Agent_Settings_Pane.gif)
+![agent-desktop-Settings-Pane](../images/agent/Agent_Settings_Pane.gif)
 
 ---
 
@@ -370,7 +370,7 @@ The Profile settings shows the Agent which Device(s) or Teams are configured for
 > This is defined in the **Desktop Profile** on the User or Team level.
 > Teams are defined on the **User Settings** under Contact Center Settings
 
-![agent-desktop-Profile-Settings](/images/agent/Agent_Profile_Settings.gif)
+![agent-desktop-Profile-Settings](../images/agent/Agent_Profile_Settings.gif)
 
 ---
 
@@ -380,7 +380,7 @@ The Channel capacity determines how many contacts the Agent can handle at a maxi
 
 > This is defined in the **Multimedia Profile** on the User or Team level.
 
-![agent-desktop-Channel-Information](/images/agent/Agent_Channel_Information.gif)
+![agent-desktop-Channel-Information](../images/agent/Agent_Channel_Information.gif)
 
 ---
 
@@ -391,7 +391,7 @@ The notification settings under user settings allows you to Enable/Disable the N
 > Note: These settings persist as long as the browser cache is retained for the user.
 > {: .block-warning }
 
-![agent-desktop-Notification-Pane](/images/agent/Agent_Notification_Pane.gif)
+![agent-desktop-Notification-Pane](../images/agent/Agent_Notification_Pane.gif)
 
 ---
 
@@ -402,7 +402,7 @@ You can switchover the theme on the Desktop using the Dark mode toggle. This hel
 > This is another setting that is preserved with the user's browser cache.
 > {: .block-warning }
 
-![agent-desktop-Dark-Mode](/images/agent/Agent_Dark_Mode.gif)
+![agent-desktop-Dark-Mode](../images/agent/Agent_Dark_Mode.gif)
 
 ---
 
@@ -410,7 +410,7 @@ You can switchover the theme on the Desktop using the Dark mode toggle. This hel
 
 This is a setting that is enabled for all logged in Agents with the Desktop (WebRTC) option. This can help troubleshoot any audio related settings for the Agent's microphone or speaker volumes.
 
-![agent-desktop-Mic-Speaker](/images/agent/Agent_Mic_Speaker.gif)
+![agent-desktop-Mic-Speaker](../images/agent/Agent_Mic_Speaker.gif)
 
 ---
 
@@ -420,7 +420,7 @@ Try to speed up actions with keyboard shortcuts available out of box on the Agen
 
 You can launch the shortcuts using Ctrl+Alt+F for Windows (or control+option+F for MAC users)
 
-![agent-desktop-Shortcuts](/images/agent/Agent_Shortcuts.gif)
+![agent-desktop-Shortcuts](../images/agent/Agent_Shortcuts.gif)
 
 ---
 
@@ -434,7 +434,7 @@ Change the state from Idle to Available using the shortcut
 > Try Ctrl + Option + R to go Ready
 > Try Ctrl + Option + N to go Not Ready by typing an Idle code + Enter
 
-![agent-desktop-State_Change_Shortscut](/images/agent/Agent_State_Change_Shortscut.gif)
+![agent-desktop-State_Change_Shortscut](../images/agent/Agent_State_Change_Shortscut.gif)
 
 ---
 
@@ -444,7 +444,7 @@ A diagnostic must have for Agents is the ability to download error reports to se
 
 > Use Ctrl + Shift + 2 as a shortcut to download and view the log file!
 
-![agent-desktop-Error-Logs](/images/agent/Agent_Error-Logs.gif)
+![agent-desktop-Error-Logs](../images/agent/Agent_Error-Logs.gif)
 
 ---
 
@@ -459,7 +459,7 @@ A diagnostic must have for Agents is the ability to download error reports to se
 
 This is specifically for the Desktop Voice option. Agents can also test their local network connectivity for latency and bandwidth requirements on the Agent Desktop - eespecially for diagnostics.
 
-![agent-desktop-Test-Network](/images/agent/Agent_Test_Network.gif)
+![agent-desktop-Test-Network](../images/agent/Agent_Test_Network.gif)
 
 ---
 
@@ -469,7 +469,7 @@ The help documentation has been enhanced with Webex Help Center. Agents will now
 
 > Note: This will now open a new tab for the
 
-![agent-desktop-Help-Documentation](/images/agent/Agent_Help_Documentation.gif)
+![agent-desktop-Help-Documentation](../images/agent/Agent_Help_Documentation.gif)
 
 ---
 
@@ -484,7 +484,7 @@ The help documentation has been enhanced with Webex Help Center. Agents will now
   - Make sure that **`End Call`** and **`End Consult`** are enabled
   - You can also configure _Auto Wrapup and RONA timeouts_
 
-![CH-Settings-Desktop](/images/agent/CH_Settings_Desktop.gif)
+![CH-Settings-Desktop](../images/agent/CH_Settings_Desktop.gif)
 
 ---
 
@@ -493,7 +493,7 @@ The help documentation has been enhanced with Webex Help Center. Agents will now
     - Make sure the **Buddy Teams** to **`All`**
     - Make sure Enable **`Consult to Queue`** is also set
 
-![CH-Desktop-Profile](/images/agent/CH_Desktop_Profile.gif)
+![CH-Desktop-Profile](../images/agent/CH_Desktop_Profile.gif)
 
 ---
 
@@ -502,7 +502,7 @@ The help documentation has been enhanced with Webex Help Center. Agents will now
     - Make sure that these settings are also enabled at tenant level
   - You can also set the _Recording Pause Duration_. This is the maximum duration that an agent can pause the recording
 
-![CH-Desktop-Queues](/images/agent/CH_Desktop_Queues.gif)
+![CH-Desktop-Queues](../images/agent/CH_Desktop_Queues.gif)
 
 ---
 
@@ -515,13 +515,13 @@ The help documentation has been enhanced with Webex Help Center. Agents will now
 
 - When the call arrives - you will be able to see an incoming popover when the Agent is offered the contact. It will have an Accept and Decline button since it is a Browser powered softphone.
 
-![Agent Popover](/images/agent/Agent_Popover.png)
+![Agent Popover](../images/agent/Agent_Popover.png)
 
 ---
 
 > **Click on the Accept Button to take the call**
 
-![CH-Desktop-Call-In](/images/agent/CH_Desktop_Call_In.gif)
+![CH-Desktop-Call-In](../images/agent/CH_Desktop_Call_In.gif)
 
 ---
 
@@ -529,7 +529,7 @@ The help documentation has been enhanced with Webex Help Center. Agents will now
 > This is done on the flow designer on the flow level.
 > {: .block-warning }
 
-![Variable-Order](/images/agent/Agent_VariableOrder.png)
+![Variable-Order](../images/agent/Agent_VariableOrder.png)
 
 ---
 
@@ -537,7 +537,7 @@ The help documentation has been enhanced with Webex Help Center. Agents will now
   - Check the **CAD variables** and try to edit any of the Editable Variables. This is customizable via Flow Designer.
   - Notice the status of the Desktop has changed to **`Engaged`**.
 
-![CH-Desktop-Call-In-Accepted](/images/agent/CH_Desktop_Call_In_Accepted.gif)
+![CH-Desktop-Call-In-Accepted](../images/agent/CH_Desktop_Call_In_Accepted.gif)
 
 ---
 
@@ -566,7 +566,7 @@ The help documentation has been enhanced with Webex Help Center. Agents will now
   - Give it a name .i.e `supervisor`
   - Click `done`
 
-![CH-Desktop-Call-In-Accepted](/images/agent/Chrome-Create-Profile.gif)
+![CH-Desktop-Call-In-Accepted](../images/agent/Chrome-Create-Profile.gif)
 
 ---
 
@@ -621,7 +621,7 @@ The help documentation has been enhanced with Webex Help Center. Agents will now
 > i.e `admin.webex.com > Contact Center > Desktop Settings > Outdial ANI`
 > {: .block-warning }
 
-![Agent-AddressBook](/images/agent/Agent_AddressBook.gif)
+![Agent-AddressBook](../images/agent/Agent_AddressBook.gif)
 
 ---
 
@@ -630,14 +630,14 @@ The help documentation has been enhanced with Webex Help Center. Agents will now
 
 - Alternatively, you can select a customized Calling Number mask by selecting the Outdial ANI dropdown. This Outdial ANI dropdown can be configured on the `Outdial ANI` settings in Control Hub.
 
-![Agent-OutdialANI_Mask](/images/agent/Agent_OutdialANI_Mask.gif)
+![Agent-OutdialANI_Mask](../images/agent/Agent_OutdialANI_Mask.gif)
 
 ---
 
 > You will notice that upon clicking the dial button, the Agent is presented with a floating pop-over that displays call varibales and is then connected to the call, and then the remote party is connected - following which the call legs are bridged.\_
 > {: .block-warning }
 
-![Agent-Outdial_Call](/images/agent/Agent_Outdial_Call.gif)
+![Agent-Outdial_Call](../images/agent/Agent_Outdial_Call.gif)
 
 ---
 
@@ -645,7 +645,7 @@ The help documentation has been enhanced with Webex Help Center. Agents will now
 > Screenpops for Outdial can also be configured in a similar manner, via Flow Designer.
 > {: .block-warning }
 
-![CH-Outdial_Flow](/images/agent/CH_Outdial_Flow.gif)
+![CH-Outdial_Flow](../images/agent/CH_Outdial_Flow.gif)
 
 ---
 
@@ -657,7 +657,7 @@ The help documentation has been enhanced with Webex Help Center. Agents will now
 
 <br/>
 
-![CH_Outdial_Verify](/images/agent/CH_Outdial_Verify.gif)
+![CH_Outdial_Verify](../images/agent/CH_Outdial_Verify.gif)
 
 ---
 
@@ -667,7 +667,7 @@ The help documentation has been enhanced with Webex Help Center. Agents will now
 
 <br/>
 
-![CH_AddressBook_Verify](/images/agent/CH_AddressBook_Verify.gif)
+![CH_AddressBook_Verify](../images/agent/CH_AddressBook_Verify.gif)
 
 ---
 
@@ -679,7 +679,7 @@ The help documentation has been enhanced with Webex Help Center. Agents will now
 
 <br/>
 
-![CH_Desktop_Profiles_Verify](/images/agent/CH_Desktop_Profiles_Verify.gif)
+![CH_Desktop_Profiles_Verify](../images/agent/CH_Desktop_Profiles_Verify.gif)
 
 ---
 
@@ -691,7 +691,7 @@ The help documentation has been enhanced with Webex Help Center. Agents will now
 
 <br/>
 
-![CH_OutdialANI_Number](/images/agent/CH_OutdialANI_Number.gif)
+![CH_OutdialANI_Number](../images/agent/CH_OutdialANI_Number.gif)
 
 ---
 
@@ -705,7 +705,7 @@ The help documentation has been enhanced with Webex Help Center. Agents will now
 
 - First, we will see how to change from one team to another one
 
-![Agent_Switch_Teams](/images/agent/Agent_Switch_Teams.gif)
+![Agent_Switch_Teams](../images/agent/Agent_Switch_Teams.gif)
 
 ---
 
@@ -717,7 +717,7 @@ The help documentation has been enhanced with Webex Help Center. Agents will now
   - At quick glance you can see that your Team1 is using the `Gloabl Layout` and Team2 is using the `WebexOne_DesktopLayout`
   - You can click each team to explore further
 
-![Agent_Switch_Teams_Show](/images/agent/Agent_Switch_Teams_Show.gif)
+![Agent_Switch_Teams_Show](../images/agent/Agent_Switch_Teams_Show.gif)
 
 ---
 
@@ -726,13 +726,13 @@ The help documentation has been enhanced with Webex Help Center. Agents will now
 - You will see a new notification appears in the **Notification Center**
   - Mark the notification as `Read`.
 
-![Agent_NotificationCenter](/images/agent/Agent_NotificationCenter.gif)
+![Agent_NotificationCenter](../images/agent/Agent_NotificationCenter.gif)
 
 ---
 
 - You can change the **Notification settings** to disable the incoming notifications or the sound.
 
-![Agent_Switch_Teams_Show](/images/agent/Agent_Notification_Change.gif)
+![Agent_Switch_Teams_Show](../images/agent/Agent_Notification_Change.gif)
 
 ---
 
@@ -752,7 +752,7 @@ The help documentation has been enhanced with Webex Help Center. Agents will now
 
 - This is the "Advanced Header" feature and allows you to embed widgets in the header area along with the help of the `advancedHeader`` component in the Desktop Layout.
 
-![Agent_Header](/images/agent/Agent_Header.gif)
+![Agent_Header](../images/agent/Agent_Header.gif)
 
 ---
 
@@ -766,7 +766,7 @@ The left pane of the Agent Desktop now has a large number of custom widgets, sho
 - This loads up an iFrame version of the widget on the desktop.
 - For more information on this widget, speak to your lab proctor.
 
-![Agent_Widget_Analyzer](/images/agent/Agent_Widget_Analyzer.gif)
+![Agent_Widget_Analyzer](../images/agent/Agent_Widget_Analyzer.gif)
 
 ---
 
@@ -775,7 +775,7 @@ The left pane of the Agent Desktop now has a large number of custom widgets, sho
 - External Sites can be embedded into the Agent Desktop for Agent and Supervisor Workflows.
 - In this example, a shareable and embeddable link from Smarsheet.com is embedded into the Desktop workflow.
 
-![Agent_Widget_Smartsheet](/images/agent/Agent_Widget_Smartsheet.gif)
+![Agent_Widget_Smartsheet](../images/agent/Agent_Widget_Smartsheet.gif)
 
 ---
 
@@ -789,14 +789,14 @@ The left pane of the Agent Desktop now has a large number of custom widgets, sho
 - This shows you the power of the extensible Webex Contact Center Desktop JS SDK (JavaScript Software Development Kit) and event driven architectures of custom widgets.
 - For more information on this widget, speak to your lab proctor.
 
-![Agent_Widget_Example](/images/agent/Agent_Widget_Example.gif)
+![Agent_Widget_Example](../images/agent/Agent_Widget_Example.gif)
 
 ---
 
 - Part of the Desktop SDK is a method that can be applied to pause recording if an agent was to enter for example, a customers Credit card information, example below.
 - **FYI**, you must be on an `active` call.
 
-![Agent_Widget_Pause_Resume](/images/agent/Agent_Widget_Pause_Resume.gif)
+![Agent_Widget_Pause_Resume](../images/agent/Agent_Widget_Pause_Resume.gif)
 
 ---
 
@@ -806,7 +806,7 @@ The left pane of the Agent Desktop now has a large number of custom widgets, sho
 - Clicking the Call button actually makes a call externally, showcasing the power of the "Click to Call" functionality built into this custom widget.
 - For more information on this widget, speak to your lab proctor.
 
-![Agent_Widget_AddressBook](/images/agent/Agent_Widget_AddressBook.gif)
+![Agent_Widget_AddressBook](../images/agent/Agent_Widget_AddressBook.gif)
 
 ---
 
@@ -816,7 +816,7 @@ The left pane of the Agent Desktop now has a large number of custom widgets, sho
 - A simple example task would be: Make a call, and then either Hold or Unhold the call, or experiment with Pause and Resume of the Recording while entering credit card information.
 - For more information on this widget, speak to your lab proctor.
 
-![Agent_Widget_CallControls](/images/agent/Agent_Widget_CallControls.gif)
+![Agent_Widget_CallControls](../images/agent/Agent_Widget_CallControls.gif)
 
 ---
 
@@ -828,7 +828,7 @@ The left pane of the Agent Desktop now has a large number of custom widgets, sho
 - In the background, the Widget is configured to use Webex Connect webhooks to send a custom payload and trigger a custom workflow.
 - For more information on this widget, speak to your lab proctor.
 
-![Agent_Widget_SMS](/images/agent/Agent_Widget_SMS.gif)
+![Agent_Widget_SMS](../images/agent/Agent_Widget_SMS.gif)
 
 ---
 
@@ -842,7 +842,7 @@ The following section and describes Desktop Administration that brought together
 
 Here is a schematic showing how the Agent Desktop configuraton aligns to all the entities on Webex Control Hub.
 
-![Configuration-Overview](/images/agent/admin1.png)
+![Configuration-Overview](../images/agent/admin1.png)
 
 As you can see, the order of operations is as follows:
 
@@ -854,13 +854,13 @@ As you can see, the order of operations is as follows:
 
 ## 1.7: Administration Entities
 
-![User-Overview](/images/agent/admin2.png)
+![User-Overview](../images/agent/admin2.png)
 
 The following Administration entities have been configured for you.
 
 To verify, navigate to Control Hub > Contact Center > TENANT SETTINGS
 
-![CH-TENANT SETTINGS](/images/agent/CH-tenantSettings.gif)
+![CH-TENANT SETTINGS](../images/agent/CH-tenantSettings.gif)
 
 ---
 
@@ -938,7 +938,7 @@ We will review this on Control Hub Settings.
 - Look up your Supervisor User bu going to admin.webex.com > Contact Center > User Management (Category) > Contact Center Users
 - Ensure that the Supervisor user wxcclabs+supvr_ID<w class="attendee_out">Your_Attendee_ID</w>@gmail.com has the `Supervisor Profile` in the `User Profile` field
 
-![Supervisor_UserProfile](/images/Supervisor/Supervisor_UserProfile.gif)
+![Supervisor_UserProfile](../images/Supervisor/Supervisor_UserProfile.gif)
 
 ---
 
@@ -955,7 +955,7 @@ We will review this on Control Hub Settings.
 - You can to take calls from the Queue as a supervisor. This is called the **Supervisor and Agent Role**
 - This is enabled by setting up a User with the Supervisor License, a Primary Team AND marking the user Contact Center enabled.
 
-![Supervisor_And_Agent_Role](/images/Supervisor/Supervisor_And_Agent_Role.gif)
+![Supervisor_And_Agent_Role](../images/Supervisor/Supervisor_And_Agent_Role.gif)
 
 ---
 
@@ -981,21 +981,21 @@ We will review this on Control Hub Settings.
 
 <br>
 
-![Supervisor_Login](/images/Supervisor/Supervisor_Login.gif)
+![Supervisor_Login](../images/Supervisor/Supervisor_Login.gif)
 
 - When you sign in to the **Supervisor Desktop**, the appearance depends on how the Webex Contact Center administrator has configured the desktop layout. The **Supervisor Desktop** display size must be greater than 500 x 500 pixels (width x height). You must set your web browser zoom to 100% for the best experience with the Supervisor Desktop. With this lab layout you get :
 
 1. **Home Page**: Displays a user friendly interface that provides a consolidated view of key contact center metrics and filters. This is the default landing page in the Supervisor Desktop. The administrator can customize the Home Page in the layout JSON file.
 
-![Supervisor_Home](/images/Supervisor/Supervisor_Home.png)
+![Supervisor_Home](../images/Supervisor/Supervisor_Home.png)
 
 2. **Task**: Displays all the tasks when you sign in to the Desktop in dual role (supervisor and agent) or as a supervisor, interactions such as voice, chat, email, and social messaging conversations, along with monitoring. The icon displays a badge indicating the number of requests that you have not accepted across various channels.
 
-![Supervisor_Task](/images/Supervisor/Supervisor_Task.gif)
+![Supervisor_Task](../images/Supervisor/Supervisor_Task.gif)
 
 3. **Team Performance**: Displays real-time information about an agent and a consolidated view of an agent’s performance as part of the team. You can also monitor and send 1:1 messages to an agent.
 
-![Supervisor_TeamPerformance](/images/Supervisor/Supervisor_TeamPerformace.gif)
+![Supervisor_TeamPerformance](../images/Supervisor/Supervisor_TeamPerformace.gif)
 
 > Note: **Supervisor Desktop** supports localization in 30 languages. The following are the supported languages:
 > Bulgarian, Catalan, Chinese (China), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, English (UK), English (US),Finnish,French, German, Hungarian, Italian,Japanese, Korean, Norwegian,Polish,Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Turkish, and Ukrainian.
@@ -1028,7 +1028,7 @@ We will review this on Control Hub Settings.
 
 - you can customize this view to show / hide columns or group information at your convenience.
 
-![Supervisor_Modify_Columns](/images/Supervisor/Supervisor_Modify_Columns.gif)
+![Supervisor_Modify_Columns](../images/Supervisor/Supervisor_Modify_Columns.gif)
 
 ## 2.3: Chat with your agents
 
@@ -1036,61 +1036,61 @@ Collaboration between agents and supervisors can help your Contact Center to be 
 
 - Click on the **Send Message** button
 
-![Supervisor_Message](/images/Supervisor/Supervisor_Message.gif)
+![Supervisor_Message](../images/Supervisor/Supervisor_Message.gif)
 
 ---
 
 - Fill the chat window with a message to send to your agent
 
-![Supervisor_Message_Sent](/images/Supervisor/Supervisor_Message_Sent.gif)
+![Supervisor_Message_Sent](../images/Supervisor/Supervisor_Message_Sent.gif)
 
 ---
 
 - On the agent side, observe the message notification received
 
-![Supervisor_Message_Sent_Agent](/images/Supervisor/Supervisor_Message_Sent_Agent.gif)
+![Supervisor_Message_Sent_Agent](../images/Supervisor/Supervisor_Message_Sent_Agent.gif)
 
 ---
 
 - If, as an agent, you want to answer to the supervisor, your will need to click on the **Webex logo** to open the Webex app embedded in the **Agent Desktop**. You can then reply to the supervisor directly.
 
-![Supervisor_Message_Sent_To_Sup](/images/Supervisor/Supervisor_Message_Sent_To_Sup.gif)
+![Supervisor_Message_Sent_To_Sup](../images/Supervisor/Supervisor_Message_Sent_To_Sup.gif)
 
 ---
 
 - On the supervisor side, observe the message notification received
 
-![Supervisor_Message_Received_from_Agent](/images/Supervisor/Supervisor_Message_Received_from_Agent.gif)
+![Supervisor_Message_Received_from_Agent](../images/Supervisor/Supervisor_Message_Received_from_Agent.gif)
 
 ## 2.4: Monitor calls
 
 - As a supervisor, the **Team Performance Details** page allows you to see all connected agents and decide to monitor calls by clicking on the **Review and Monitor** icon.
 
-![Supervisor_Monitor](/images/Supervisor/Supervisor_Monitor.gif)
+![Supervisor_Monitor](../images/Supervisor/Supervisor_Monitor.gif)
 
 ---
 
 - The following popup will be displayed. Click on **Start Monitoring**. Please note a supervisor can monitor other call types such as callbacks, outdial calls, outbound preview campaign calls.
 
-![Supervisor_Monitor_Accept](/images/Supervisor/Supervisor_Monitor_Accept.gif)
+![Supervisor_Monitor_Accept](../images/Supervisor/Supervisor_Monitor_Accept.gif)
 
 ---
 
 - In your **Supervisor Desktop**, an incoming popover window will be displayed and your softphone will ring as Webex Contact Center is now trying to reach you. You recognize the agent you want to monitor and other call variables are displayed. The Flow configuration defines variables to display on this popover (max 6). Accept the call on your supervisor softphone.
 
-![Supervisor_Monitor_Floating](/images/Supervisor/Supervisor_Monitor_Floating.gif)
+![Supervisor_Monitor_Floating](../images/Supervisor/Supervisor_Monitor_Floating.gif)
 
 ---
 
 - As a supervisor, the call you are now monitoring is displayed in your desktop with agent and customer details of which the call variables so you are aware of the context of the call. You can view previous communications with a customer across all channels (voice, email, chat, and social) in the **Contact History** pane. The pane displays details for the last 24 hours.
 
-![Supervisor_Monitor_History](/images/Supervisor/Supervisor_Monitor_History.gif)
+![Supervisor_Monitor_History](../images/Supervisor/Supervisor_Monitor_History.gif)
 
 ---
 
 - You can pause the monitoring and start is again if you will
 
-![Supervisor_Monitor_Pause](/images/Supervisor/Supervisor_Monitor_Pause.gif)
+![Supervisor_Monitor_Pause](../images/Supervisor/Supervisor_Monitor_Pause.gif)
 
 ---
 
@@ -1098,19 +1098,19 @@ Collaboration between agents and supervisors can help your Contact Center to be 
 
 - When you sign in to the Supervisor Desktop, you can - depending or your team assignement - choose either the supervisor role or supervisor AND agent role.
 
-![Supervisor_LoginOptions](/images/Supervisor/Supervisor_LoginOptions.gif)
+![Supervisor_LoginOptions](../images/Supervisor/Supervisor_LoginOptions.gif)
 
 ---
 
 - In the case, the supervisor experience is a bit different as your agent status appears in the header section of the Desktop.
 
-![Lab_4_ESD](/images/Supervisor/Supervisor_No_Message.gif)
+![Lab_4_ESD](../images/Supervisor/Supervisor_No_Message.gif)
 
 ---
 
 - If, as a supervisor, you chose to monitor a call, your status is set to **Engaged** and you cannot take other calls as an agent.
 
-![Supervisor_Engaged](/images/Supervisor/Supervisor_Engaged.gif)
+![Supervisor_Engaged](../images/Supervisor/Supervisor_Engaged.gif)
 
 ---
 
@@ -1125,38 +1125,38 @@ Collaboration between agents and supervisors can help your Contact Center to be 
   - **_supervisor_** section is used when the user signs in to supervisor desktop with **_Supervisor_** role.
   - **_supervisorAdmin_** section is used when the user signs in to supervisor desktop with **_Supervisor and Agent_** role.
 
-![Lab_4_WebexCC_Config_1](/images/Supervisor/DC_Lab_4_Supervisor_WebexCC_1.png)
+![Lab_4_WebexCC_Config_1](../images/Supervisor/DC_Lab_4_Supervisor_WebexCC_1.png)
 
 ---
 
 - Lets see where this is uploaded.
 - On Webex Control Hub (admin.webex.com) - Go to _DESKTOP EXPERIENCE_ -> _Desktop Layout_
 
-![CH_DesktopLayout](/images/Supervisor/CH_DesktopLayout.gif)
+![CH_DesktopLayout](../images/Supervisor/CH_DesktopLayout.gif)
 
 ---
 
 - To verify layout Assignments, go to Control Hub _Contact Center > USER MANAGEMENT > Teams_ and search for your Team (Team1 or Team2). You will find the WebexOne_desktopLayout in there.
 
-![Supervisor_Teams_Layout](/images/Supervisor/Supervisor_Teams_Layout.gif)
+![Supervisor_Teams_Layout](../images/Supervisor/Supervisor_Teams_Layout.gif)
 
 ---
 
 - To verify layout Assignments, go to Control Hub > **_Teams_** and search for your Team (Team1 or Team2). You will find the WebexOne_desktopLayout in there.
 
-![Lab_4_WebexCC_Config_4](/images/Supervisor/DC_Lab_4_Supervisor_WebexCC_4.png)
+![Lab_4_WebexCC_Config_4](../images/Supervisor/DC_Lab_4_Supervisor_WebexCC_4.png)
 
 ## 2.7: User Profile Settings for Supervisor
 
 - Under **_USER MANAGEMENT_** -> **_User Profiles_**, find default **_Supervisor Profile_**, and let us take a look at it.
 
-![Supervisor_userProfile_Verify](/images/Supervisor/Supervisor_userProfile_Verify.gif)
+![Supervisor_userProfile_Verify](../images/Supervisor/Supervisor_userProfile_Verify.gif)
 
 ---
 
 - We are able to view Supervisor settings including Access Rights.
 
-![Supervisor_AccessRights](/images/Supervisor/Supervisor_AccessRights.gif)
+![Supervisor_AccessRights](../images/Supervisor/Supervisor_AccessRights.gif)
 
 ---
 
@@ -1172,19 +1172,19 @@ Collaboration between agents and supervisors can help your Contact Center to be 
 - Click **_Contact Center_**
 - View license options (Do not change, please)
 
-![Supervisor_License](/images/Supervisor/Supervisor_License.gif)
+![Supervisor_License](../images/Supervisor/Supervisor_License.gif)
 
 ---
 
 - Check and make sure supervisor license is displayed in **_Licenses_** section of user seetings on Control Hub.
 
-![Lab_4_Supervisor_Config_5](/images/Supervisor/Supervisor_License_Verify.gif)
+![Lab_4_Supervisor_Config_5](../images/Supervisor/Supervisor_License_Verify.gif)
 
 ---
 
 - To Synchronize Users - Go to **_Contact Center_** -> **_TENANT SETTINGS_** > **General** and press **_Synchronize Users_** button in order to synchronize Webex users with Contact Center licenses in order to successfully assign Contact Center user privileges.
 
-![CH_Synchronize](/images/Supervisor/CH_Synchronize.gif)
+![CH_Synchronize](../images/Supervisor/CH_Synchronize.gif)
 
 ---
 
@@ -1196,19 +1196,19 @@ Explore the product feedback option from right within the Contact Center Desktop
 
 Click the icon to launch the Experience Management Survey.
 
-![ExperienceManagementSurvey](/images/Supervisor/ExperienceManagementSurvey.gif)
+![ExperienceManagementSurvey](../images/Supervisor/ExperienceManagementSurvey.gif)
 
 ---
 
 Please fill in the survey and help us improve the product!
 
-![ExperienceManagementSurvey_Form](/images/Supervisor/ExperienceManagementSurvey_Form.gif)
+![ExperienceManagementSurvey_Form](../images/Supervisor/ExperienceManagementSurvey_Form.gif)
 
 ---
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed the Agent and Supervisor Experience labs!</strong></p>
 		
-<p style="text-align:center;"><img src="/Labguide/gitbook/images/webex.png" width="100"></p>
+<p style="text-align:center;"><img src="/Labguide/gitbook../images/webex.png" width="100"></p>
 
 # Custom Desktop
 
@@ -1449,4 +1449,4 @@ Below, you will find a breakdown of all possible data and type definitions that 
 
 <p style="text-align:center"><strong>Congratulations, you have completed the Advanced Desktop Customizations Section!</strong></p>
 		
-<p style="text-align:center;">![agent-desktop](/Labguide/gitbook/images/webex.png)</p>
+<p style="text-align:center;">![agent-desktop](/Labguide/gitbook../images/webex.png)</p>
