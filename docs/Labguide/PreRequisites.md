@@ -2,8 +2,8 @@
 #icon: material/numeric-0-box-multiple
 icon: material/folder-open-outline
 
-title: Reporting Experience
-author: Krishna Tyagi & George Kovanis & Gagarin Sathiyanarayanan
+title: Virtual Agent Experience
+author: Bhushan Suresh, Chandramouli Valithiyanathan, Sara Santos
 date: 2024-10-02
 layout: post
 ---
