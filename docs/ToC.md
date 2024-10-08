@@ -257,7 +257,7 @@
     <tbody>
       <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">3. Configure Virtual Agents</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Configure</td>
         <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab3/#3-configure-virtual-agents" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>
     </tbody>
@@ -323,24 +323,9 @@
     </thead>
     <tbody>
       <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">4.1: Transfer to Human Agent</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab4/#41-export-data-as-excel-or-csv" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
-      </tr>
-      <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">4.2: Routing Based on Last Intent</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../Labguide/Lab4/#42-visualization-scheduler" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
-      </tr>
-      <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">4.3:  Virtual Agent Transcript</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../Labguide/Lab4/#43-search-apis" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
-      </tr>
-      <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">4.4:  Virtual Agent Summary</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../Labguide/Lab4/#43-search-apis" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
+        <td style="padding: 10px; border: 1px solid #ddd;">4: Configure Intelligent Virtual Agent Handoffs</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Configure</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab4/#4-configure-seemeless-virtual-agent-handoff" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>       
     </tbody>
   </table>
