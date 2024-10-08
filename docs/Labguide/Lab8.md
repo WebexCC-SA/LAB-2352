@@ -23,14 +23,14 @@ This lab is designed to give you a **basic understanding of the new experience**
 
  ![Login](../assets/images/Analyzer/topic1.png)
 
-1. **Simplified Sign-In Process:**
+### Simplified Sign-In Process
 
 - Webex Contact Center Single sign-on (SSO) for both agents and supervisors.
 - New user-friendly dialog design and field copy
 - Skip voice credential input during sign-in for digital-only deployments.
     
 
-2. **Save Station Credential Selections for Future Sign-ins**:
+### Save Station Credential Selections for Future Sign-ins
 
 - Unnecessary information fields during sign-in are removed from the dialog (requires admin set up of user telephony options to be configured).
 - Users can save their selection/preferences and skip the station credential dialog for subsequent sign-ins.
@@ -43,16 +43,18 @@ This lab is designed to give you a **basic understanding of the new experience**
 
   ![Login](../assets/images/Analyzer/topic1.png)
 
-1.	Click the email dialog and enter email and password to log in
-2.	When prompted with the station credentials dialog:
+Step 1: Click the email dialog and enter email and password to log in
+
+Step 2: When prompted with the station credentials dialog:
 
 - Click the drop down for **Handle calls using** and select “Extension”
 - Click the drop down for **Extension** and select **302**
 - **Your team** will be pre-populated as “Debit card”
 - **Save preferences to Profile Settings** will be checked by default
 
-4.	**Confirm** your selection
-5.	**Click on the avatar menu** to review your selections in **Change Profile Settings**
+Step 3: 	**Confirm** your selection
+
+Step 4.	**Click on the avatar menu** to review your selections in **Change Profile Settings**
 
       
 
