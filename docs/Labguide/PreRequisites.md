@@ -5,6 +5,23 @@ date: 2024-10-04
 layout: post
 ---
 
+<script>
+    function update(){them = Array.from(document.querySelectorAll("input")).reduce((acc, input) => ({...acc, [input.id + "_out"] : input.value}),{});
+   Object.entries(them).forEach((entry) => {
+    Array.from(document.getElementsByClassName(entry[0])).forEach((element,index) => 
+    {
+      console.log(document.getElementsByClassName(entry[0])[index].innerHTML); 
+      document.getElementsByClassName(entry[0])[index].innerHTML = entry[1];
+    })})
+
+  event.preventDefault()
+   if(document.forms["attendee-form"][1].value != "Your_Attendee_ID"){
+    localStorage.setItem("attendeeID",document.forms["attendee-form"][1].value)
+  }  
+  }
+</script>
+
+
 Welcome to the **Webex Contact Center Agent and Supervisor Experience!**
 
 In **Part 1**, we will explore the **Webex Contact Center Agent Experience** and the associated administrative toggles for configuring agents in the Webex Contact Center.
@@ -102,12 +119,11 @@ In **Part 2**, we will examine the **Webex Contact Center Supervisor Experience*
 
 (0) **Lab Credentials and Attendee ID** - Provided to you over email.
 
-> Please `submit the form below with your Attendee ID`. All configuration items in the lab guide will be renamed with that prefix.
-> {: .block-warning }
+> Please submit the form below with your Attendee ID in 3 digits long format (e.g. if your attendee ID is 51, please enter 051). All configuration items in the lab guide will be renamed with that prefix.
 
 <script>
 document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") || "Your Attendee ID" 
-
+update()
 </script>
 <form id="attendee-form">
   <label for="attendee">Attendee ID:</label>
@@ -115,8 +131,10 @@ document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") ||
 <br>
   <button onclick="update()">Save</button>
 </form>
-
-<br/>
+<script>
+document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") || "Your Attendee ID"
+update()
+</script>
 
 ### Create Chrome Profiles
 
