@@ -21,8 +21,9 @@
 >
 > Wx1_Flow1_101
 
-![Navigate to Flow](Flow1-attached)
-
+<img align="middle" src="../images/lab2/CreateFirstFlow.gif" width="1000" />  
+<br/>
+<br/>
 
 **Create Your First Flow**
 
