@@ -1,0 +1,2185 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="LAB-2352 - Webex Contact Center Lab Advanced Customer & Agent Experience  (Virtual Agents and Agent AI)">
+      
+      
+        <meta name="author" content="Bhushan Suresh, Chandramouli Valithiyanathan, Sara Santos">
+      
+      
+      
+        <link rel="prev" href="../../overview/">
+      
+      
+        <link rel="next" href="../Lab1/">
+      
+      
+      <link rel="icon" href="../../template_assets/webex75.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.39">
+    
+    
+      
+        <title>IVR Experience - LAB-2352 - Webex Contact Center Lab Advanced Customer & Agent Experience  (Virtual Agents and Agent AI)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8c3ca2c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lab-pre-requisites" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="LAB-2352 - Webex Contact Center Lab Advanced Customer &amp; Agent Experience  (Virtual Agents and Agent AI)" class="md-header__button md-logo" aria-label="LAB-2352 - Webex Contact Center Lab Advanced Customer & Agent Experience  (Virtual Agents and Agent AI)" data-md-component="logo">
+      
+  <img src="../../template_assets/webexLogo91.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            LAB-2352 - Webex Contact Center Lab Advanced Customer & Agent Experience  (Virtual Agents and Agent AI)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              IVR Experience
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../ToC/" class="md-tabs__link">
+        
+  
+    
+  
+  Table of Contents
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../overview/" class="md-tabs__link">
+          
+  
+    
+  
+  Start Lab
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="LAB-2352 - Webex Contact Center Lab Advanced Customer &amp; Agent Experience  (Virtual Agents and Agent AI)" class="md-nav__button md-logo" aria-label="LAB-2352 - Webex Contact Center Lab Advanced Customer & Agent Experience  (Virtual Agents and Agent AI)" data-md-component="logo">
+      
+  <img src="../../template_assets/webexLogo91.png" alt="logo">
+
+    </a>
+    LAB-2352 - Webex Contact Center Lab Advanced Customer & Agent Experience  (Virtual Agents and Agent AI)
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ToC/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Table of Contents
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Start Lab
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Start Lab
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../overview/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10c0-1.16-.21-2.31-.61-3.39l-1.6 1.6c.14.59.21 1.19.21 1.79a8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8c.6 0 1.2.07 1.79.21L15.4 2.6C14.31 2.21 13.16 2 12 2m7 0-4 4v1.5l-2.55 2.55C12.3 10 12.15 10 12 10a2 2 0 0 0-2 2 2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.15 0-.3-.05-.45L16.5 9H18l4-4h-3zm-7 4a6 6 0 0 0-6 6 6 6 0 0 0 6 6 6 6 0 0 0 6-6h-2a4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Lab Guide
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Lab Guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Pre-Requisites
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab1/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 1 Configure Text-To-Speech (TTS)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab2/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 2 Intelligent IVR
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab3/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 3 Cisco Virtual Agents (VA)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab4/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 4 Seamless VA Handoff
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab5/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 5 Auto CSAT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab6/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 6 Call Drop Summary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab8/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 8 (BONUS) Future agent login
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab9/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 9 (BONUS) Topic Analytics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab10/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 10 (BONUS) Auto CSAT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../conclusion/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10c0-1.16-.21-2.31-.61-3.39l-1.6 1.6c.14.59.21 1.19.21 1.79a8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8c.6 0 1.2.07 1.79.21L15.4 2.6C14.31 2.21 13.16 2 12 2m7 0-4 4v1.5l-2.55 2.55C12.3 10 12.15 10 12 10a2 2 0 0 0-2 2 2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.15 0-.3-.05-.45L16.5 9H18l4-4h-3zm-7 4a6 6 0 0 0-6 6 6 6 0 0 0 6 6 6 6 0 0 0 6-6h-2a4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4z"/></svg>
+  
+  <span class="md-ellipsis">
+    Conclusion
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<script>
+ function update () {
+    const form = document.forms['attendee-form'];
+    if (form) {
+      form.addEventListener('submit', function (event) {
+        event.preventDefault();
+        const inputs = Array.from(form.querySelectorAll('input'));
+        const values = inputs.reduce((acc, input) => {
+          acc[input.id + '_out'] = input.value;
+          return acc;
+        }, {});
+
+        Object.entries(values).forEach(([id, value]) => {
+          const elements = document.getElementsByClassName(id);
+          Array.from(elements).forEach(element => {
+
+            console.log(element.innerHTML);
+            if(Number(element.innerHTML) > 99 ){
+               console.log(`Got a 99+ attendee: ${element.innerHTML}`);
+               element.innerHTML = value;
+             }
+            else{
+               console.log(`Got a sub 99 attendee: ${element.innerHTML}`);
+                element.innerHTML = `0${value}`;
+                }
+          });
+        });
+        const attendeeIDInput = form.elements['attendeeID'];
+       if (attendeeIDInput && attendeeIDInput.value !== 'Your_Attendee_ID') {
+          localStorage.setItem('attendeeID', attendeeIDInput.value);
+        }
+      });
+    }
+  };
+</script>
+<style>
+  /* Style for the button */
+  button {
+    background-color: black; /* Set the background color to black */
+    color: white; /* Set the text color to white */
+    border: none; /* Remove the border */
+    padding: 10px 20px; /* Add some padding for better appearance */
+    cursor: pointer; /* Show a pointer cursor on hover */
+  }
+
+   /* Style for the input element */
+  input[type="text"] {
+    border: 2px solid black; /* Set the border thickness to 2px */
+    padding: 5px; /* Add some padding for better appearance */
+
+</style>
+
+<p class="block-warning">Please <strong><code>submit the form below with your Attendee or pod ID</code></strong>. All configuration entries in the lab guide will be renamed to include your pod ID.</p>
+<script>
+document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") || "Your Attendee ID" 
+</script>
+<form id="attendee-form">
+  <label for="attendee">Attendee ID:</label>
+  <input type="text" id="attendee" name="attendee" onChange="update()"><br>
+<br>
+  <button onclick="update()">Save</button>
+</form>
+<p></br></p>
+<h1 id="lab-pre-requisites">Lab Pre-Requisites</h1>
+<p>Welcome to the <strong>Webex Contact Center Agent and Supervisor Experience!</strong></p>
+<p>In <strong>Part 1</strong>, we will explore the <strong>Webex Contact Center Agent Experience</strong> and the associated administrative toggles for configuring agents in the Webex Contact Center.</p>
+<p>In <strong>Part 2</strong>, we will examine the <strong>Webex Contact Center Supervisor Experience</strong> and the associated administrative toggles for configuring supervisors in the Webex Contact Center.</p>
+<h1 id="table-of-contents">Table of Contents</h1>
+<table>
+<thead>
+<tr>
+<th>Topic</th>
+<th>Type</th>
+<th>Dificulty</th>
+<th>Time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#part-1-agent-experience">Part 1: Agent Experience</a></td>
+<td>Exploration</td>
+<td>EASY</td>
+<td>5 min</td>
+</tr>
+<tr>
+<td><a href="#11-agent-desktop-overview">1.1: Agent Desktop Overview</a></td>
+<td>Exploration</td>
+<td>EASY</td>
+<td>5 min</td>
+</tr>
+<tr>
+<td><a href="#12-desktop-login-process">1.2: Desktop Login Process</a></td>
+<td>Activity</td>
+<td>EASY</td>
+<td>5 min</td>
+</tr>
+<tr>
+<td><a href="#13-make-an-incoming-call">1.3: Make an Incoming Call</a></td>
+<td>Activity</td>
+<td>EASY</td>
+<td>5 min</td>
+</tr>
+<tr>
+<td><a href="#14-make-an-outdial-call">1.4 Make an Outdial Call</a></td>
+<td>Activity</td>
+<td>EASY</td>
+<td>5 min</td>
+</tr>
+<tr>
+<td><a href="#15-exploring-profile-settings">1.5: Exploring Profile Settings</a></td>
+<td>Exploration</td>
+<td>EASY</td>
+<td>5 min</td>
+</tr>
+<tr>
+<td><a href="#16-custom-widget-landscape">1.6 Custom Widget Landscape</a></td>
+<td>Activity</td>
+<td>INTERMEDIATE</td>
+<td>10 min</td>
+</tr>
+<tr>
+<td><a href="#verify-desktop-administration">Verify Desktop Administration</a></td>
+<td>Exploration</td>
+<td>INTERMEDIATE</td>
+<td>5 min</td>
+</tr>
+<tr>
+<td><a href="#17-administration-entities">1.7: Administration Entities</a></td>
+<td>Activity</td>
+<td>INTERMEDIATE</td>
+<td>10 min</td>
+</tr>
+<tr>
+<td><a href="#part-2-supervisor-experience">Part 2: Supervisor Experience</a></td>
+<td>Exploration</td>
+<td>EASY</td>
+<td>5 min</td>
+</tr>
+<tr>
+<td><a href="#21-supervisor-desktop-modes">2.1: Supervisor Desktop Modes</a></td>
+<td>Exploration</td>
+<td>EASY</td>
+<td>5 min</td>
+</tr>
+<tr>
+<td><a href="#22-supervisor-login">2.2: Supervisor Login</a></td>
+<td>Activity</td>
+<td>EASY</td>
+<td>5 min</td>
+</tr>
+<tr>
+<td><a href="#23-chat-with-your-agents">2.3: Chat with your agents</a></td>
+<td>Activity</td>
+<td>INTERMEDIATE</td>
+<td>5 min</td>
+</tr>
+<tr>
+<td><a href="#24-monitor-calls">2.4: Monitor calls</a></td>
+<td>Activity</td>
+<td>INTERMEDIATE</td>
+<td>5 min</td>
+</tr>
+<tr>
+<td><a href="#25-supervisor-and-agent-role">2.5: Supervisor and Agent role</a></td>
+<td>Activity</td>
+<td>EASY</td>
+<td>5 min</td>
+</tr>
+<tr>
+<td><a href="#verify-supervisor-desktop-administration">Verify Supervisor Desktop Administration</a></td>
+<td>Exploration</td>
+<td>EASY</td>
+<td>5 min</td>
+</tr>
+</tbody>
+</table>
+<h1 id="part-1-agent-experience">Part 1: Agent Experience</h1>
+<h3 id="objectives">Objectives</h3>
+<ul>
+<li>Explore the Agent Experience on the Webex Contact Center by logging into the Agent Desktop application and navigating its out-of-the-box capabilities.</li>
+<li>Familiarize yourself with the complete Agent Desktop interface and its functions, covering Inbound, Outbound, and Omnichannel contact workflows.</li>
+<li>Dive into extensions of the Agent Desktop Experience, understanding the available widgets—both out-of-the-box and custom—and recognizing the potential of Desktop Widgets and customized workflows.</li>
+<li>The Bonus section (OPTIONAL) delves into advanced Desktop extensions, focusing on Desktop layout design and programmatic extensions.</li>
+</ul>
+<h3 id="pre-requisites">Pre-Requisites</h3>
+<blockquote>
+<p>Note: The initial section of the lab is a walkthrough, the <strong>Desktop has been configured for you</strong>. This ensures you can experience a fully configured Agent desktop. For more insights on Desktop Administration and Configuration toggles available, please refer to the <code>Verify Desktop Administration</code> section in the lab.</p>
+<p>We'll delve into each Administrative element in the following <strong>Verify Desktop Administration</strong> section that covers <code>Configuration and Administrative tasks</code>.</p>
+</blockquote>
+<h3 id="create-chrome-profiles">Create Chrome Profiles</h3>
+<ul>
+<li>
+<p>For the lab, create new Chrome profiles so that you can login the Administrators, Agents and Supervisors using the same Browser.</p>
+</li>
+<li>
+<p>Select <code>Profiles</code> on Chrome</p>
+</li>
+<li>Select <code>Add Profile</code></li>
+<li>Select <code>continue without an account</code></li>
+<li>Give it a name .i.e <code>Admin</code></li>
+<li>Click <code>done</code></li>
+<li>Create 2 more profiles for <code>Supervisor</code> and <code>Agent</code></li>
+</ul>
+<p><a class="glightbox" href="../images/agent/Chrome-Create-Profile.gif" data-type="image" data-width="100%" data-height="auto" data-title="CH-Desktop-Call-In-Accepted" data-desc-position="top"><img alt="CH-Desktop-Call-In-Accepted" src="../images/agent/Chrome-Create-Profile.gif" /></a></p>
+<p>(1) <strong>One additional device</strong> (like your personal phone) to test inbound calls to the Webex Contact Center. You can use your cell phone for this purpose.</p>
+<ul>
+<li>Administrator credentials for the Control Hub: <a href="https://admin.webex.com">admin.webex.com</a>.</li>
+<li>Agent Login Credentials for the Agent Desktop: <a href="https://desktop.wxcc-us1.cisco.com">desktop.wxcc-us1.cisco.com</a>.</li>
+</ul>
+<p>(2) <strong>Webex App</strong> Installed and Logged in. Provided your <code>Supervisor Login ID</code> - use the <strong>Webex App</strong> to login your <strong>Supervisor User.</strong></p>
+<ul>
+<li>This user is in the format:</li>
+</ul>
+<blockquote>
+<p><strong>wxcclabs+supvr_ID<w class = "attendee_out">attendeeID</w>@@gmail.com</strong></p>
+</blockquote>
+<p>(3) The items listed below have been pre-configured for you:</p>
+<ul>
+<li>Agent and Supervisor user accounts are configured and ready for logins.</li>
+<li>You can access the Agent Desktop via the URL: <a href="https://desktop.wxcc-us1.cisco.com">https://desktop.wxcc-us1.cisco.com</a>.</li>
+<li>As an agent, you're associated with two teams—designated by your Attendee ID—as "Team1" and "Team2".</li>
+</ul>
+<p>Example:</p>
+<blockquote>
+<p>If your attendee ID is 100:</p>
+<p>100_Team1</p>
+<p>100_Team2</p>
+</blockquote>
+<p>(4) Agents will use browsers for voice calls using WebRTC (Web Real-time Communication) endpoints. Additionally, Webex Calling extensions have been assigned to users (both agents and supervisors) to facilitate alternate device experiences. Webex Contact Center agents and supervisors can opt for any mix of these devices, encompassing PSTN endpoints and mobile phones.</p>
+<p>(5) A preset inbound Voice flow is available for test calls.</p>
+<h3 id="quick-links">Quick Links</h3>
+<p>For this lab, you'll only require access to two web portals:</p>
+<blockquote>
+<p class="block-success">Control Hub Administration: <strong><a href="https://admin.webex.com" target="_blank">https://admin.webex.com</a></strong>\
+Contact Center Desktop: <strong><a href="https://desktop.wxcc-us1.cisco.com" target="_blank">https://desktop.wxcc-us1.cisco.com</a></strong></p>
+</blockquote>
+<h3 id="lab-configuration">Lab Configuration</h3>
+<p>The following Administration entities have been configured for you via <a href="https://admin.webex.com" target="_blank">Webex Control Hub</a></p>
+<p>Please note, that to proceed to the next section, you will need to use the accounts shown in the top 3 rows.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Entity</strong></th>
+<th><strong>Name</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Agent 1</td>
+<td>wxcclabs+agent_ID<w class = "attendee_out">attendeeID</w>@gmail.com</td>
+</tr>
+<tr>
+<td>Supervisor 1</td>
+<td>wxcclabs+supvr_ID<w class = "attendee_out">attendeeID</w>@gmail.com</td>
+</tr>
+<tr>
+<td>Administrator</td>
+<td>wxcclabs+admin_ID<w class = "attendee_out">attendeeID</w>@gmail.com</td>
+</tr>
+<tr>
+<td>Desktop Profile</td>
+<td><w class = "attendee_out">attendeeID</w>_desktopProfile</td>
+</tr>
+<tr>
+<td>Entry Point</td>
+<td><w class = "attendee_out">attendeeID</w>_EP</td>
+</tr>
+<tr>
+<td>Queue</td>
+<td><w class = "attendee_out">attendeeID</w>_Q</td>
+</tr>
+<tr>
+<td>Team 1</td>
+<td><w class = "attendee_out">attendeeID</w>_team1</td>
+</tr>
+<tr>
+<td>Team 2</td>
+<td><w class = "attendee_out">attendeeID</w>_team2</td>
+</tr>
+<tr>
+<td>Outdial ANI</td>
+<td><w class = "attendee_out">attendeeID</w>_outdialANI</td>
+</tr>
+<tr>
+<td>Outdial ANI Entry 1</td>
+<td>WebexOneOutdial ANI</td>
+</tr>
+<tr>
+<td>Address Book</td>
+<td><w class = "attendee_out">attendeeID</w>_addressBook</td>
+</tr>
+<tr>
+<td>Address Book Entry 1</td>
+<td>WebexOne Addressbook Entry</td>
+</tr>
+<tr>
+<td>Multimedia Profile</td>
+<td><w class = "attendee_out">attendeeID</w>_MMP</td>
+</tr>
+</tbody>
+</table>
+<h2 id="11-agent-desktop-overview">1.1: Agent Desktop Overview</h2>
+<blockquote>
+<p class="block-success">Desktop multi-language support is based on the language settings on the browser. Currently, we support 29 languages, including:
+Bulgarian, Catalan, Chinese (China), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, English (UK), English (US), Finnish, French, German, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, and Turkish.</p>
+</blockquote>
+<p><a class="glightbox" href="../images/agent/agent_desktop_overview.png" data-type="image" data-width="100%" data-height="auto" data-title="AgentDesktopOverview" data-desc-position="top"><img alt="AgentDesktopOverview" src="../images/agent/agent_desktop_overview.png" /></a></p>
+<hr />
+<p>The Agent Desktop is divided into <strong>6 sections</strong>.
+The image above shows the general view after receiving an interaction.</p>
+<p>Here is an overview of the sections:</p>
+<ol>
+<li>
+<p><strong>Task List</strong>: When a request is routed to your queue and you are <em>Available</em>, a new request appears in your Task List pane. You must accept the requests to start communication with the customer.</p>
+</li>
+<li>
+<p><strong>Horizontal Header</strong>: Basic functionalities such as: Title and logo, Agent availability state, Notification Center, Outdial and User Profile. We will explain more in detail some User Profile options in the next section of the lab.</p>
+</li>
+<li>
+<p><strong>Interaction Control</strong>: When you accept a voice call (inbound or outbound), by default, the Interaction Control pane is expanded. This pane includes: customer information (CAD variables), timers (for example: connected and call on hold time) and call control buttons (Record, Hold, Transfer...).</p>
+</li>
+<li>
+<p><strong>Auxiliary Information</strong>: The center pane displays details based on your selection of the contact card in the Task List panel. For Voice requests, it will display the customer contacts history. Whereas for any digital channels (email, chat or social messaging), you will see the whole conversation with the customer and you will be able to send new messages.</p>
+</li>
+<li>
+<p><strong>Agent Interaction History</strong>: You can view your previous contacts of the agent across all the channels (voice, email, chat, and social) in this pane. The pane displays details for the last 24 hours. Moreover, for Voice channel you can callback to the contact phone number.</p>
+</li>
+<li>
+<p><strong>Navigation pane</strong>: By default you can find the following icons here: Home, Agent Performance Statistics and Help. However, you can customize it and add some additional icons and widgets.</p>
+</li>
+</ol>
+<h2 id="12-desktop-login-process">1.2: Desktop Login Process</h2>
+<ul>
+<li>To Login to the Agent Desktop, launch Google Chrome and navigate to the URL: <a href="https://desktop.wxcc-us1.cisco.com">https://desktop.wxcc-us1.cisco.com</a></li>
+</ul>
+<blockquote>
+<p><strong>Note: Please use Google Chrome as the browser to take advantage of the all new WebRTC Voice Option.</strong></p>
+<p class="block-warning">Tip: You can also find this link under Control Hub: <a href="https://admin.webex.com">admin.webex.com</a> &gt; Contact Center &gt; Settings</p>
+</blockquote>
+<ul>
+<li>Once you're in the login page, enter the agent credentials (username and password)</li>
+</ul>
+<blockquote>
+<p class="block-warning">In this example, please use the specific login for your attendee ID</p>
+</blockquote>
+<p><a class="glightbox" href="../images/agent/01-image.png" data-type="image" data-width="100%" data-height="auto" data-title="agent-desktop" data-desc-position="top"><img alt="agent-desktop" src="../images/agent/01-image.png" /></a></p>
+<hr />
+<p><a class="glightbox" href="../images/agent/02-image.png" data-type="image" data-width="100%" data-height="auto" data-title="agent-desktop" data-desc-position="top"><img alt="agent-desktop" src="../images/agent/02-image.png" /></a></p>
+<hr />
+<ul>
+<li>This is the station Login Screen. Agents may input the number where they need to receive incoming and outdial calls.</li>
+</ul>
+<blockquote>
+<p>We will use the new feature of Desktop telephony that uses the browser as a device to directly receive calls.</p>
+</blockquote>
+<ul>
+<li>
+<p>Notice that the voice option defaults to "Desktop".</p>
+</li>
+<li>
+<p>Select Team1 from the list. Agents can belong to multiple teams, but they can only receive calls of 1 specific team. Your agent is configured for 2 teams.</p>
+</li>
+<li>
+<p>Check the <strong>Remember My Credentials</strong> box to save your credentials for future sign-ins.</p>
+</li>
+<li>
+<p>Click Sign in to be connected to telephony and complete the login process.</p>
+</li>
+</ul>
+<p><a class="glightbox" href="../images/agent/03-image.png" data-type="image" data-width="100%" data-height="auto" data-title="agent-desktop" data-desc-position="top"><img alt="agent-desktop" src="../images/agent/03-image.png" /></a></p>
+<blockquote>
+<p class="block-warning">NOTE: Agents cannot access the Agent Desktop from multiple browsers or multiple tabs of the same browser window. In that case, a warning message will be displayed.</p>
+</blockquote>
+<p><a class="glightbox" href="../images/agent/04-image.png" data-type="image" data-width="100%" data-height="auto" data-title="agent-desktop" data-desc-position="top"><img alt="agent-desktop" src="../images/agent/04-image.png" /></a></p>
+<hr />
+<blockquote>
+<p>The video below shows a demo about the agent login process and the available options:</p>
+</blockquote>
+<p><a class="glightbox" href="../images/agent/AgentLogin.gif" data-type="image" data-width="100%" data-height="auto" data-title="agent-desktop" data-desc-position="top"><img alt="agent-desktop" src="../images/agent/AgentLogin.gif" /></a></p>
+<hr />
+<p><strong>NOTE:</strong></p>
+<blockquote>
+<p class="block-warning">The login device and DN can be enforced on the Desktop Profile as follows</p>
+</blockquote>
+<ul>
+<li>If your administrator configures the default Dial Number (DN), the default DN is prepopulated in the Dial Number and Extension fields.</li>
+<li>
+<p>If your administrator restricts the DN to the default DN, you cannot edit the prepopulated DN when signing in to the Agent Desktop.</p>
+</li>
+<li>
+<p>They can choose between Dial Number or Extension or Desktop</p>
+</li>
+<li>
+<p>Extension: Just in case the agent is using Webex Calling or some other softphone as calling endpoint</p>
+<ul>
+<li>Dial Number: E.164 format phone number</li>
+<li>If you check the <strong>International Dialing Format</strong> box, you can choose the country code based on your geographical location from the drop-down list. You can also enter a country code or country name to filter the list. Dial numbers are validated based on the country code</li>
+</ul>
+</li>
+</ul>
+<h3 id="explore-agent-desktop-header-actions">Explore Agent Desktop Header Actions</h3>
+<p>The following section explores the Agent Desktop header actions.</p>
+<h3 id="explore-agent-state-and-idle-codes">Explore Agent State and Idle codes</h3>
+<p>The header section of the agent desktop contains the State change toggle where the agent can make themselves available.</p>
+<p>This also has the section where you can view the Idle codes.</p>
+<p><a class="glightbox" href="../images/agent/Agent_State_Idle.gif" data-type="image" data-width="100%" data-height="auto" data-title="agent-desktop-State-Idle" data-desc-position="top"><img alt="agent-desktop-State-Idle" src="../images/agent/Agent_State_Idle.gif" /></a></p>
+<hr />
+<blockquote>
+<p class="block-warning">Note: The Idle codes are customizable and configured under <strong>Webex Control Hub &gt; Contact Center Settings &gt; Idle / Wrap up Codes</strong>
+These Idle codes can indeed be customized per Desktop Profile, on a per user level.
+Desktop Profiles can also be segmented on a Tenant or Site, or even Team level - i.e one Profile per Team</p>
+</blockquote>
+<hr />
+<h3 id="explore-the-agent-personal-statistics">Explore the Agent Personal Statistics</h3>
+<p>The Agent can access the out of box Agent Personal Statistics Reports on the left navigation screen.</p>
+<p><a class="glightbox" href="../images/agent/Agent_Personal_Statistics.gif" data-type="image" data-width="100%" data-height="auto" data-title="agent-desktop-Personal-Statistics" data-desc-position="top"><img alt="agent-desktop-Personal-Statistics" src="../images/agent/Agent_Personal_Statistics.gif" /></a></p>
+<hr />
+<blockquote>
+<p class="block-warning">Note: These Agent Personal Statistics are canned reports out of the box. However, one can configure custom Analyzer Reports for Agents in the Layout if custom reporting views are needed. The Supervisor Desktop Layout allows you to hide/show certain Personal Statistics.</p>
+</blockquote>
+<hr />
+<h3 id="organizational-messaging-using-the-webex-app">Organizational Messaging using the Webex App</h3>
+<p>Launch the Webex App from within the Desktop to message other users in the organization. This is a quick way for the Agent to message the Supervisor, or the Supervisor to be able to send messages to the Agent.</p>
+<p>Send a message to the supervisor user - search for supervisor or admin user and send a message.</p>
+<p>Your Supervisor is configured in the format:
+<strong>wxcclabs_supvr_ID\&lt;attendeeID&gt;@gmail.com</strong></p>
+<p><a class="glightbox" href="../images/agent/Agent_Webex_App.gif" data-type="image" data-width="100%" data-height="auto" data-title="agent-desktop-webex-App" data-desc-position="top"><img alt="agent-desktop-webex-App" src="../images/agent/Agent_Webex_App.gif" /></a></p>
+<hr />
+<h3 id="launch-the-notification-pane">Launch the Notification Pane</h3>
+<p>The notification pane on the desktop shows you the notifications of incoming calls or messages.
+The agent can also launch previously delivered screenpops from this pane.</p>
+<p><a class="glightbox" href="../images/agent/Agent_Notification_Pane.gif" data-type="image" data-width="100%" data-height="auto" data-title="agent-desktop-Notification-Pane" data-desc-position="top"><img alt="agent-desktop-Notification-Pane" src="../images/agent/Agent_Notification_Pane.gif" /></a></p>
+<hr />
+<h3 id="launch-the-agent-settings-pane">Launch the Agent Settings Pane</h3>
+<p>To review or change the Desktop Settings, click on the persona icon on the top right.</p>
+<p><a class="glightbox" href="../images/agent/Agent_Settings_Pane.gif" data-type="image" data-width="100%" data-height="auto" data-title="agent-desktop-Settings-Pane" data-desc-position="top"><img alt="agent-desktop-Settings-Pane" src="../images/agent/Agent_Settings_Pane.gif" /></a></p>
+<hr />
+<h3 id="verify-profile-settings">Verify Profile Settings</h3>
+<p>The Profile settings shows the Agent which Device(s) or Teams are configured for use, allowing the agent to switch the Device OR Teams that they wish to login.</p>
+<blockquote>
+<p>This is defined in the <strong>Desktop Profile</strong> on the User or Team level.
+Teams are defined on the <strong>User Settings</strong> under Contact Center Settings</p>
+</blockquote>
+<p><a class="glightbox" href="../images/agent/Agent_Profile_Settings.gif" data-type="image" data-width="100%" data-height="auto" data-title="agent-desktop-Profile-Settings" data-desc-position="top"><img alt="agent-desktop-Profile-Settings" src="../images/agent/Agent_Profile_Settings.gif" /></a></p>
+<hr />
+<h3 id="verify-channel-information-for-omnichannel">Verify Channel Information for Omnichannel</h3>
+<p>The Channel capacity determines how many contacts the Agent can handle at a maximum, per channel.</p>
+<blockquote>
+<p>This is defined in the <strong>Multimedia Profile</strong> on the User or Team level.</p>
+</blockquote>
+<p><a class="glightbox" href="../images/agent/Agent_Channel_Information.gif" data-type="image" data-width="100%" data-height="auto" data-title="agent-desktop-Channel-Information" data-desc-position="top"><img alt="agent-desktop-Channel-Information" src="../images/agent/Agent_Channel_Information.gif" /></a></p>
+<hr />
+<h3 id="verify-notification-settings">Verify Notification Settings</h3>
+<p>The notification settings under user settings allows you to Enable/Disable the Notifications, Enable Silent Notifications, or Enable/Disable the sound. You can also change the volume of the Chime for the incoming contact.</p>
+<blockquote>
+<p class="block-warning">Note: These settings persist as long as the browser cache is retained for the user.</p>
+</blockquote>
+<p><a class="glightbox" href="../images/agent/Agent_Notification_Pane.gif" data-type="image" data-width="100%" data-height="auto" data-title="agent-desktop-Notification-Pane" data-desc-position="top"><img alt="agent-desktop-Notification-Pane" src="../images/agent/Agent_Notification_Pane.gif" /></a></p>
+<hr />
+<h3 id="switch-to-dark-mode">Switch to Dark Mode</h3>
+<p>You can switchover the theme on the Desktop using the Dark mode toggle. This helps with visibility on the eyes in low light conditions and can be a user preference for the theme.</p>
+<blockquote>
+<p class="block-warning">This is another setting that is preserved with the user's browser cache.</p>
+</blockquote>
+<p><a class="glightbox" href="../images/agent/Agent_Dark_Mode.gif" data-type="image" data-width="100%" data-height="auto" data-title="agent-desktop-Dark-Mode" data-desc-position="top"><img alt="agent-desktop-Dark-Mode" src="../images/agent/Agent_Dark_Mode.gif" /></a></p>
+<hr />
+<h3 id="view-desktop-mic-speaker-options">View Desktop Mic &amp; Speaker Options</h3>
+<p>This is a setting that is enabled for all logged in Agents with the Desktop (WebRTC) option. This can help troubleshoot any audio related settings for the Agent's microphone or speaker volumes.</p>
+<p><a class="glightbox" href="../images/agent/Agent_Mic_Speaker.gif" data-type="image" data-width="100%" data-height="auto" data-title="agent-desktop-Mic-Speaker" data-desc-position="top"><img alt="agent-desktop-Mic-Speaker" src="../images/agent/Agent_Mic_Speaker.gif" /></a></p>
+<hr />
+<h3 id="explore-shortcuts">Explore Shortcuts</h3>
+<p>Try to speed up actions with keyboard shortcuts available out of box on the Agent Desktop.</p>
+<p>You can launch the shortcuts using Ctrl+Alt+F for Windows (or control+option+F for MAC users)</p>
+<p><a class="glightbox" href="../images/agent/Agent_Shortcuts.gif" data-type="image" data-width="100%" data-height="auto" data-title="agent-desktop-Shortcuts" data-desc-position="top"><img alt="agent-desktop-Shortcuts" src="../images/agent/Agent_Shortcuts.gif" /></a></p>
+<hr />
+<h3 id="change-state-shortcuts">Change State Shortcuts</h3>
+<p>Change the state from Idle to Available using the shortcut</p>
+<p><strong>Example for Mac users:</strong></p>
+<blockquote>
+<p>Try Ctrl + Option + F to bring up the shortcuts
+Try Ctrl + Option + R to go Ready
+Try Ctrl + Option + N to go Not Ready by typing an Idle code + Enter</p>
+</blockquote>
+<p><a class="glightbox" href="../images/agent/Agent_State_Change_Shortscut.gif" data-type="image" data-width="100%" data-height="auto" data-title="agent-desktop-State_Change_Shortscut" data-desc-position="top"><img alt="agent-desktop-State_Change_Shortscut" src="../images/agent/Agent_State_Change_Shortscut.gif" /></a></p>
+<hr />
+<h3 id="download-error-logs">Download Error Logs</h3>
+<p>A diagnostic must have for Agents is the ability to download error reports to send to administrators for troubleshooting.</p>
+<blockquote>
+<p>Use Ctrl + Shift + 2 as a shortcut to download and view the log file!</p>
+</blockquote>
+<p><a class="glightbox" href="../images/agent/Agent_Error-Logs.gif" data-type="image" data-width="100%" data-height="auto" data-title="agent-desktop-Error-Logs" data-desc-position="top"><img alt="agent-desktop-Error-Logs" src="../images/agent/Agent_Error-Logs.gif" /></a></p>
+<hr />
+<blockquote>
+<p class="block-warning">What you will notice when you open the file:
+The Desktop uses a combination of secure HTTPS as well as Websocket connectivity to stay connected to the backend.
+From a connectivity standpoint, this means that the Agent's Desktop requires network access, latency and bandwidth requirements to facilitate streamlined HTTPS traffic for both pure REST as well as WebSocket payloads.</p>
+</blockquote>
+<hr />
+<h3 id="test-your-network">Test Your Network</h3>
+<p>This is specifically for the Desktop Voice option. Agents can also test their local network connectivity for latency and bandwidth requirements on the Agent Desktop - eespecially for diagnostics.</p>
+<p><a class="glightbox" href="../images/agent/Agent_Test_Network.gif" data-type="image" data-width="100%" data-height="auto" data-title="agent-desktop-Test-Network" data-desc-position="top"><img alt="agent-desktop-Test-Network" src="../images/agent/Agent_Test_Network.gif" /></a></p>
+<hr />
+<h3 id="explore-the-new-help-documentation">Explore the new Help Documentation</h3>
+<p>The help documentation has been enhanced with Webex Help Center. Agents will now be redirected to the new Webex Help Center for online help including search.</p>
+<blockquote>
+<p>Note: This will now open a new tab for the</p>
+</blockquote>
+<p><a class="glightbox" href="../images/agent/Agent_Help_Documentation.gif" data-type="image" data-width="100%" data-height="auto" data-title="agent-desktop-Help-Documentation" data-desc-position="top"><img alt="agent-desktop-Help-Documentation" src="../images/agent/Agent_Help_Documentation.gif" /></a></p>
+<hr />
+<h2 id="13-make-an-incoming-call">1.3: Make an Incoming Call</h2>
+<blockquote>
+<p>In this section, you will will interact as an agent and test an Incoming call. Review the video of the lab section above to understand the different call handling options.</p>
+</blockquote>
+<ul>
+<li>
+<p>In order to test properly an incoming call, first we need to make sure that we have all the call handling options enabled</p>
+</li>
+<li>
+<p>Login with your administrator user in the <strong>Control Hub</strong>: <a href="https://admin.webex.com">https://admin.webex.com</a>
+  Navigate to SERVICES &gt; Contact Center &gt; TENANT SETTINGS &gt; Desktop</p>
+</li>
+<li>Make sure that <strong><code>End Call</code></strong> and <strong><code>End Consult</code></strong> are enabled</li>
+<li>You can also configure <em>Auto Wrapup and RONA timeouts</em></li>
+</ul>
+<p><a class="glightbox" href="../images/agent/CH_Settings_Desktop.gif" data-type="image" data-width="100%" data-height="auto" data-title="CH-Settings-Desktop" data-desc-position="top"><img alt="CH-Settings-Desktop" src="../images/agent/CH_Settings_Desktop.gif" /></a></p>
+<hr />
+<ul>
+<li>Navigate to <em>DESKTOP EXPERIENCE &gt; Desktop Profiles</em> and view <em>your Desktop Profile</em>:</li>
+<li>In the <strong>Collaboration</strong> tab:<ul>
+<li>Make sure the <strong>Buddy Teams</strong> to <strong><code>All</code></strong></li>
+<li>Make sure Enable <strong><code>Consult to Queue</code></strong> is also set</li>
+</ul>
+</li>
+</ul>
+<p><a class="glightbox" href="../images/agent/CH_Desktop_Profile.gif" data-type="image" data-width="100%" data-height="auto" data-title="CH-Desktop-Profile" data-desc-position="top"><img alt="CH-Desktop-Profile" src="../images/agent/CH_Desktop_Profile.gif" /></a></p>
+<hr />
+<ul>
+<li>Navigate to CUSTOMER EXPERIENCE &gt; Queue and view the <code>WebexOne_InboundQueue</code></li>
+<li>Make sure <strong><code>Permit Monitoring, Pause/Resume</code></strong> are Enabled<ul>
+<li>Make sure that these settings are also enabled at tenant level</li>
+</ul>
+</li>
+<li>You can also set the <em>Recording Pause Duration</em>. This is the maximum duration that an agent can pause the recording</li>
+</ul>
+<p><a class="glightbox" href="../images/agent/CH_Desktop_Queues.gif" data-type="image" data-width="100%" data-height="auto" data-title="CH-Desktop-Queues" data-desc-position="top"><img alt="CH-Desktop-Queues" src="../images/agent/CH_Desktop_Queues.gif" /></a></p>
+<hr />
+<ul>
+<li>
+<p>Now place it's time to test the incoming call</p>
+</li>
+<li>
+<p>Login the <strong>Agent Desktop</strong> with <em>your Agent 1</em> user</p>
+</li>
+<li>Move to <strong><code>Available</code></strong> state</li>
+<li>Place an incoming call to the DN mapped to your EP, in other words, this is the number a customer would call into... (You should have mapped your EP in Lab 2)</li>
+<li>
+<p>You will be asked to enter your Attendee Id: i.e. <em>138#</em></p>
+</li>
+<li>
+<p>When the call arrives - you will be able to see an incoming popover when the Agent is offered the contact. It will have an Accept and Decline button since it is a Browser powered softphone.</p>
+</li>
+</ul>
+<p><a class="glightbox" href="../images/agent/Agent_Popover.png" data-type="image" data-width="100%" data-height="auto" data-title="Agent Popover" data-desc-position="top"><img alt="Agent Popover" src="../images/agent/Agent_Popover.png" /></a></p>
+<hr />
+<blockquote>
+<p><strong>Click on the Accept Button to take the call</strong></p>
+</blockquote>
+<p><a class="glightbox" href="../images/agent/CH_Desktop_Call_In.gif" data-type="image" data-width="100%" data-height="auto" data-title="CH-Desktop-Call-In" data-desc-position="top"><img alt="CH-Desktop-Call-In" src="../images/agent/CH_Desktop_Call_In.gif" /></a></p>
+<hr />
+<blockquote>
+<p class="block-warning">Note: The variables displayed in the incoming popover and on the Desktop can be ordered in a custom manner.
+This is done on the flow designer on the flow level.</p>
+</blockquote>
+<p><a class="glightbox" href="../images/agent/Agent_VariableOrder.png" data-type="image" data-width="100%" data-height="auto" data-title="Variable-Order" data-desc-position="top"><img alt="Variable-Order" src="../images/agent/Agent_VariableOrder.png" /></a></p>
+<hr />
+<ul>
+<li>After you have Accepted the call in the Agent Desktop of <em>your Agent 1</em></li>
+<li>Check the <strong>CAD variables</strong> and try to edit any of the Editable Variables. This is customizable via Flow Designer.</li>
+<li>Notice the status of the Desktop has changed to <strong><code>Engaged</code></strong>.</li>
+</ul>
+<p><a class="glightbox" href="../images/agent/CH_Desktop_Call_In_Accepted.gif" data-type="image" data-width="100%" data-height="auto" data-title="CH-Desktop-Call-In-Accepted" data-desc-position="top"><img alt="CH-Desktop-Call-In-Accepted" src="../images/agent/CH_Desktop_Call_In_Accepted.gif" /></a></p>
+<hr />
+<blockquote>
+<p class="block-warning"><strong>Note</strong>: While you are engaged for a voice call, you are still marked available on other channels based on your channel capacity. This is the configuration on the Multimedia Profile settings on the Agent Desktop.</p>
+</blockquote>
+<hr />
+<ul>
+<li>Let's play with the call interaction buttons</li>
+<li>Click on <strong><code>Hold</code></strong> to pause the conversation with the end-customer and click on <strong><code>Resume</code></strong> to talk with him again</li>
+<li>Click on <strong><code>Pause Recording</code></strong>, say some personal infor and click again on <strong><code>Resume</code></strong> to continue the recording</li>
+<li>Click on <strong><code>Transfer</code></strong>, select <strong><code>Queue</code></strong> and then in the pull down menu select the <code>Welcome_EP</code><ul>
+<li>End-customer be redirected to a common EP already created</li>
+</ul>
+</li>
+<li><strong>End</strong> the call (this can be done from customer or agent perspective) and select any <strong>Wrap-up code</strong></li>
+</ul>
+<blockquote>
+<p class="block-warning">For this part, you will need a third calling device for interacting as a Supervisor</p>
+</blockquote>
+<p><br/></p>
+<ul>
+<li>
+<p>Now, lets create a new Chrome profile so we can login the Supervisor on the same browser</p>
+</li>
+<li>
+<p>Select <code>Profiles</code> on Chrome</p>
+</li>
+<li>Select <code>Add Profile</code></li>
+<li>Select <code>continue without an account</code></li>
+<li>Give it a name .i.e <code>supervisor</code></li>
+<li>Click <code>done</code></li>
+</ul>
+<p><a class="glightbox" href="../images/agent/Chrome-Create-Profile.gif" data-type="image" data-width="100%" data-height="auto" data-title="CH-Desktop-Call-In-Accepted" data-desc-position="top"><img alt="CH-Desktop-Call-In-Accepted" src="../images/agent/Chrome-Create-Profile.gif" /></a></p>
+<hr />
+<ul>
+<li>
+<p>After you create a new Chrome Profile, login in the <strong>Agent Desktop</strong> with <em>your Supervisor</em> user and move to <strong><code>Available</code></strong> status</p>
+</li>
+<li>
+<p>In a separate device (you mobile phone for example), login in Webex App with your <em>Supervisor</em> user</p>
+</li>
+<li>Place the call from the third calling endpoint (your personal phone for example)</li>
+<li>Try <strong><code>Consult, Conference and Transfer</code></strong> functions between End Customer, Agent and Supervisor.</li>
+</ul>
+<h3 id="agent-states">Agent States</h3>
+<ul>
+<li>
+<p><strong>Available</strong>: Indicates that you are ready to accept and respond to contact requests that are routed to you. After you sign in, you must select Available from the drop-down list to accept voice call, chat, email, and social messaging conversation requests.</p>
+</li>
+<li>
+<p><strong>Idle</strong>: Indicates that you are signed in but not ready to accept any routed requests. When you sign in to the desktop, your state is set to the default idle reason configured by your administrator.</p>
+</li>
+<li>
+<p><strong>RONA (Redirection on No Answer)</strong>: Indicates that you have not accepted a voice call, chat, email, or social messaging conversation request within the specified time. Your administrator configures the time available to accept an incoming request from any channel. If you cannot accept the request within the specified time displayed in the timer, the action button on the popover flashes for a few seconds and your state automatically changes to RONA. The request is returned to the queue. When your state changes to RONA, a popover appears and you can select the state that you want to be moved: to Idle or to Available</p>
+</li>
+<li>
+<p><strong>Engaged</strong>: indicates that you are busy and connected with a customer. When you have accepted the contact request, the Available state changes to the Engaged - Available label. When you're in this state, you can continue to receive active requests on other channels, depending on the channel capacity. If you don't want to receive more requests, you can select any Idle state, so you will be moved to Engaged - Idle label.</p>
+</li>
+</ul>
+<h3 id="manage-voice-calls">Manage Voice Calls</h3>
+<ul>
+<li>
+<p><strong>Call Associated Data (CAD) variables</strong>: These variables allow the administrator to collect call data such as a case number or any action code of the customer. In Flow Designer, your administrator configures the variables, labels of the variables, and the order in which they must appear on the Interaction Control panel. While you are on a call, you can edit the CAD variables if your administrator configures the CAD variables as editable.</p>
+</li>
+<li>
+<p><strong>Hold/Resume</strong>: You can put the customer on hold so that you can consult with another agent or lookup additional information without having the customer listening to you. Click on Resume to take a call off hold.</p>
+</li>
+<li>
+<p><strong>Pause/Resume Recording</strong>: Your administrator can choose for each Queue either to record all the calls or not. In case the recording is enabled, the agent can Pause and Resume the recording.</p>
+</li>
+<li>
+<p><strong>End</strong>: After you have helped your customer with queries, it is a good practice to ask the customer to end the voice call. If necessary, you can also end the call. When the customer ends the call, agent will need to select some Wrap Up Reasons from the dialog box appears.</p>
+</li>
+<li>
+<p><strong>Consult</strong>: You can initiate a consult call with another agent while you are on an active call with a customer.</p>
+</li>
+<li>
+<p><strong>Transfer</strong>: If you cannot resolve a customer query and want to escalate the active voice call (inbound or outbound), you can transfer the call to another agent or supervisor.</p>
+</li>
+<li>
+<p>Either for <strong>Consult and Transfer</strong> you have the following options:</p>
+</li>
+<li>
+<p><em>Agent</em>: You can either select an agent from the drop-down list, or use the search field to filter the list. The drop-down list displays the names of available agents.</p>
+</li>
+<li>
+<p><em>Queue</em>: You can select a Queue or Entry Point from the drop-down list, or use the search field to filter the list. The drop-down list displays the queues that are available to transfer the call.</p>
+</li>
+<li>
+<p><em>DN</em>: You can enter a name or number; select a name or number from the drop-down list; or use the search field to filter the list. The drop-down list shows the grouped list of contacts in your address book. Names are listed along with the numbers for the contacts in the address book.</p>
+</li>
+<li>
+<p><strong>Conference</strong>: To start a three-way conference call between you, the customer and another agent. For this option, you (primary agent) must have initiated a consult call. Click Transfer to transfer the call to the consulting agent. The consulted agent can exit the call by clicking Exit Conference, and the call continues between the primary agent and the customer. Only the primary agent can end the Conference.</p>
+</li>
+</ul>
+<h2 id="14-make-an-outdial-call">1.4 Make an Outdial Call</h2>
+<blockquote>
+<p>In this section, we will test Outdial calls using different Outdial ANIs and Address Books.</p>
+</blockquote>
+<ul>
+<li>While Logged into the Agent Desktop, look for the Address book.</li>
+<li>You will see two contacts that are preloaded for you. You can directly make a call to any of those numbers.</li>
+</ul>
+<blockquote>
+<p class="block-warning">Not choosing an option on the dropdown selects the Default Outdial ANI (Calling Number Mask) of the tenant. This is configured on Control Hub, under the Desktop Settings.
+i.e <code>admin.webex.com &gt; Contact Center &gt; Desktop Settings &gt; Outdial ANI</code></p>
+</blockquote>
+<p><a class="glightbox" href="../images/agent/Agent_AddressBook.gif" data-type="image" data-width="100%" data-height="auto" data-title="Agent-AddressBook" data-desc-position="top"><img alt="Agent-AddressBook" src="../images/agent/Agent_AddressBook.gif" /></a></p>
+<hr />
+<blockquote>
+<p class="block-warning"><strong>Note: These are live, real numbers published on cisco.com!</strong></p>
+</blockquote>
+<ul>
+<li>Alternatively, you can select a customized Calling Number mask by selecting the Outdial ANI dropdown. This Outdial ANI dropdown can be configured on the <code>Outdial ANI</code> settings in Control Hub.</li>
+</ul>
+<p><a class="glightbox" href="../images/agent/Agent_OutdialANI_Mask.gif" data-type="image" data-width="100%" data-height="auto" data-title="Agent-OutdialANI_Mask" data-desc-position="top"><img alt="Agent-OutdialANI_Mask" src="../images/agent/Agent_OutdialANI_Mask.gif" /></a></p>
+<hr />
+<blockquote>
+<p class="block-warning">You will notice that upon clicking the dial button, the Agent is presented with a floating pop-over that displays call varibales and is then connected to the call, and then the remote party is connected - following which the call legs are bridged._</p>
+</blockquote>
+<p><a class="glightbox" href="../images/agent/Agent_Outdial_Call.gif" data-type="image" data-width="100%" data-height="auto" data-title="Agent-Outdial_Call" data-desc-position="top"><img alt="Agent-Outdial_Call" src="../images/agent/Agent_Outdial_Call.gif" /></a></p>
+<hr />
+<blockquote>
+<p class="block-warning"><strong>Note: Outdial also supports pre-dial activities that can be configured on the WebexCC Flow Designer. The Flow Designer has been configured for you with the Custom Caller Associated Data Variables that are visibile upon Outdial</strong>
+Screenpops for Outdial can also be configured in a similar manner, via Flow Designer.</p>
+</blockquote>
+<p><a class="glightbox" href="../images/agent/CH_Outdial_Flow.gif" data-type="image" data-width="100%" data-height="auto" data-title="CH-Outdial_Flow" data-desc-position="top"><img alt="CH-Outdial_Flow" src="../images/agent/CH_Outdial_Flow.gif" /></a></p>
+<hr />
+<h3 id="verify-the-outdial-configuration">Verify the Outdial Configuration</h3>
+<ul>
+<li>On Control Hub, Navigate to <em>DESKTOP EXPERIENCE &gt; Outdial ANI</em></li>
+<li>In the Search bar type your attendee number to find your Outdial ANI<strong><code>NNN_OutdialANI</code></strong></li>
+<li>Click on it, and look at all the settings:</li>
+</ul>
+<p><br/></p>
+<p><a class="glightbox" href="../images/agent/CH_Outdial_Verify.gif" data-type="image" data-width="100%" data-height="auto" data-title="CH_Outdial_Verify" data-desc-position="top"><img alt="CH_Outdial_Verify" src="../images/agent/CH_Outdial_Verify.gif" /></a></p>
+<hr />
+<ul>
+<li>In Control Hub, Navigate to DESKTOP EXPERIENCE &gt; <em>Address Books</em></li>
+<li>Click on <strong><code>WebexOneAddressBook</code></strong></li>
+<li>Look at settings: <code>Please do change these settings as they are global and will affect all users on Tenant</code></li>
+</ul>
+<p><br/></p>
+<p><a class="glightbox" href="../images/agent/CH_AddressBook_Verify.gif" data-type="image" data-width="100%" data-height="auto" data-title="CH_AddressBook_Verify" data-desc-position="top"><img alt="CH_AddressBook_Verify" src="../images/agent/CH_AddressBook_Verify.gif" /></a></p>
+<hr />
+<ul>
+<li>In Control Hub, Navigate to <em>DESKTOP EXPERIENCE &gt; Desktop Profiles</em></li>
+<li>Search for <em>your Desktop Profile</em></li>
+<li>Select <code>Dial Plans</code></li>
+<li>Make sure that <strong>Outdial is enabled and your Outdial ANI <code>NNN_OutdialANI</code> is selected</strong></li>
+<li>This is where you also assign the Address Book</li>
+</ul>
+<p><br/></p>
+<p><a class="glightbox" href="../images/agent/CH_Desktop_Profiles_Verify.gif" data-type="image" data-width="100%" data-height="auto" data-title="CH_Desktop_Profiles_Verify" data-desc-position="top"><img alt="CH_Desktop_Profiles_Verify" src="../images/agent/CH_Desktop_Profiles_Verify.gif" /></a></p>
+<hr />
+<ul>
+<li>In Control Hub, Navigate to <em>TENANT SETTINGS &gt; Voice</em></li>
+<li>See the number of the <strong>Default Outdial ANI</strong></li>
+</ul>
+<blockquote>
+<p class="block-danger"><strong>This is a required setting at tenant level, so PLEASE DON'T EDIT IT</strong></p>
+</blockquote>
+<p><br/></p>
+<p><a class="glightbox" href="../images/agent/CH_OutdialANI_Number.gif" data-type="image" data-width="100%" data-height="auto" data-title="CH_OutdialANI_Number" data-desc-position="top"><img alt="CH_OutdialANI_Number" src="../images/agent/CH_OutdialANI_Number.gif" /></a></p>
+<hr />
+<p><br/></p>
+<h2 id="15-exploring-profile-settings">1.5: Exploring Profile Settings</h2>
+<blockquote>
+<p>In this section, we will explore what are the available options and settings under the Profile Settings.</p>
+</blockquote>
+<p><br/></p>
+<ul>
+<li>First, we will see how to change from one team to another one</li>
+</ul>
+<p><a class="glightbox" href="../images/agent/Agent_Switch_Teams.gif" data-type="image" data-width="100%" data-height="auto" data-title="Agent_Switch_Teams" data-desc-position="top"><img alt="Agent_Switch_Teams" src="../images/agent/Agent_Switch_Teams.gif" /></a></p>
+<hr />
+<ul>
+<li>
+<p>We are applying a different Layout.json per Team, to showcase how two teams might look differently.</p>
+</li>
+<li>
+<p>To see where that is applied</p>
+</li>
+<li>Navigate to the <em>USER MANAGEMENT &gt; Teams</em></li>
+<li>Search <em>your Team 2</em> and click on <code>Edit</code></li>
+<li>At quick glance you can see that your Team1 is using the <code>Gloabl Layout</code> and Team2 is using the <code>WebexOne_DesktopLayout</code></li>
+<li>You can click each team to explore further</li>
+</ul>
+<p><a class="glightbox" href="../images/agent/Agent_Switch_Teams_Show.gif" data-type="image" data-width="100%" data-height="auto" data-title="Agent_Switch_Teams_Show" data-desc-position="top"><img alt="Agent_Switch_Teams_Show" src="../images/agent/Agent_Switch_Teams_Show.gif" /></a></p>
+<hr />
+<p><br/></p>
+<ul>
+<li>You will see a new notification appears in the <strong>Notification Center</strong></li>
+<li>Mark the notification as <code>Read</code>.</li>
+</ul>
+<p><a class="glightbox" href="../images/agent/Agent_NotificationCenter.gif" data-type="image" data-width="100%" data-height="auto" data-title="Agent_NotificationCenter" data-desc-position="top"><img alt="Agent_NotificationCenter" src="../images/agent/Agent_NotificationCenter.gif" /></a></p>
+<hr />
+<ul>
+<li>You can change the <strong>Notification settings</strong> to disable the incoming notifications or the sound.</li>
+</ul>
+<p><a class="glightbox" href="../images/agent/Agent_Notification_Change.gif" data-type="image" data-width="100%" data-height="auto" data-title="Agent_Switch_Teams_Show" data-desc-position="top"><img alt="Agent_Switch_Teams_Show" src="../images/agent/Agent_Notification_Change.gif" /></a></p>
+<hr />
+<p><br></p>
+<h2 id="16-custom-widget-landscape">1.6 Custom Widget Landscape</h2>
+<blockquote>
+<p>The next section covers the experience you just saw with switching to the new team : Team2</p>
+</blockquote>
+<p><strong>Team2 has a dedicated desktop layout that shows you the power of custom widgets and extensibility of the Desktop</strong></p>
+<h3 id="header-widgets-and-advanced-header-order">Header Widgets and Advanced Header order</h3>
+<ul>
+<li>
+<p>You will notice that the Agent desktop now has a custom widget in the Header area that is displaying the shift timer.</p>
+</li>
+<li>
+<p>You will also notice that the order of the widgets has been changed, with the state timer now in the center.</p>
+</li>
+<li>
+<p>This is the "Advanced Header" feature and allows you to embed widgets in the header area along with the help of the `advancedHeader`` component in the Desktop Layout.</p>
+</li>
+</ul>
+<p><a class="glightbox" href="../images/agent/Agent_Header.gif" data-type="image" data-width="100%" data-height="auto" data-title="Agent_Header" data-desc-position="top"><img alt="Agent_Header" src="../images/agent/Agent_Header.gif" /></a></p>
+<hr />
+<h3 id="exploring-navigation-area-widgets">Exploring Navigation Area Widgets</h3>
+<p>The left pane of the Agent Desktop now has a large number of custom widgets, showing you the power of extensibility in the Agent Desktop.</p>
+<h4 id="analyzer-report-custom-widget">Analyzer Report Custom Widget</h4>
+<ul>
+<li>Custom Analyzer Reports can be embedded in the Contact Center Desktop directly by pointing to the permalink inside the layout.</li>
+<li>This loads up an iFrame version of the widget on the desktop.</li>
+<li>For more information on this widget, speak to your lab proctor.</li>
+</ul>
+<p><a class="glightbox" href="../images/agent/Agent_Widget_Analyzer.gif" data-type="image" data-width="100%" data-height="auto" data-title="Agent_Widget_Analyzer" data-desc-position="top"><img alt="Agent_Widget_Analyzer" src="../images/agent/Agent_Widget_Analyzer.gif" /></a></p>
+<hr />
+<h4 id="smartsheet-custom-widget">Smartsheet Custom Widget</h4>
+<ul>
+<li>External Sites can be embedded into the Agent Desktop for Agent and Supervisor Workflows.</li>
+<li>In this example, a shareable and embeddable link from Smarsheet.com is embedded into the Desktop workflow.</li>
+</ul>
+<p><a class="glightbox" href="../images/agent/Agent_Widget_Smartsheet.gif" data-type="image" data-width="100%" data-height="auto" data-title="Agent_Widget_Smartsheet" data-desc-position="top"><img alt="Agent_Widget_Smartsheet" src="../images/agent/Agent_Widget_Smartsheet.gif" /></a></p>
+<hr />
+<h4 id="state-change-custom-widget">State Change Custom Widget</h4>
+<ul>
+<li>Webcomponent widgets like the Example Widget allows developers to pass data from the Desktop into the widget.</li>
+<li>Here, in this example you can see that Agent Desktop data is passed into another widget that is hosted externally.</li>
+<li>The widget can be configured to obtain access to the Agent's Access Token to perform workflow automations.</li>
+<li>Expanding the Drawer, this custom widget also allows you to change the Agent State.</li>
+<li>Once the State is changed, you can see the Team and other information show up.</li>
+<li>This shows you the power of the extensible Webex Contact Center Desktop JS SDK (JavaScript Software Development Kit) and event driven architectures of custom widgets.</li>
+<li>For more information on this widget, speak to your lab proctor.</li>
+</ul>
+<p><a class="glightbox" href="../images/agent/Agent_Widget_Example.gif" data-type="image" data-width="100%" data-height="auto" data-title="Agent_Widget_Example" data-desc-position="top"><img alt="Agent_Widget_Example" src="../images/agent/Agent_Widget_Example.gif" /></a></p>
+<hr />
+<ul>
+<li>Part of the Desktop SDK is a method that can be applied to pause recording if an agent was to enter for example, a customers Credit card information, example below.</li>
+<li><strong>FYI</strong>, you must be on an <code>active</code> call.</li>
+</ul>
+<p><a class="glightbox" href="../images/agent/Agent_Widget_Pause_Resume.gif" data-type="image" data-width="100%" data-height="auto" data-title="Agent_Widget_Pause_Resume" data-desc-position="top"><img alt="Agent_Widget_Pause_Resume" src="../images/agent/Agent_Widget_Pause_Resume.gif" /></a></p>
+<hr />
+<h4 id="custom-address-book-widget">Custom Address Book Widget</h4>
+<ul>
+<li>Another sample widget in the form of a custom Address book widget shows you the power of creating Attendant Console like widgets in the Agent Desktop.</li>
+<li>Clicking the Call button actually makes a call externally, showcasing the power of the "Click to Call" functionality built into this custom widget.</li>
+<li>For more information on this widget, speak to your lab proctor.</li>
+</ul>
+<p><a class="glightbox" href="../images/agent/Agent_Widget_AddressBook.gif" data-type="image" data-width="100%" data-height="auto" data-title="Agent_Widget_AddressBook" data-desc-position="top"><img alt="Agent_Widget_AddressBook" src="../images/agent/Agent_Widget_AddressBook.gif" /></a></p>
+<hr />
+<h4 id="custom-call-control-widget">Custom Call Control Widget</h4>
+<ul>
+<li>Another example widget shows you how you can perform various actions programmatically using the Webex Contact Center Desktop JavaScript Software Development Kit (JS SDK) that has been used to extend functionality beyond what is possible out of box.</li>
+<li>A simple example task would be: Make a call, and then either Hold or Unhold the call, or experiment with Pause and Resume of the Recording while entering credit card information.</li>
+<li>For more information on this widget, speak to your lab proctor.</li>
+</ul>
+<p><a class="glightbox" href="../images/agent/Agent_Widget_CallControls.gif" data-type="image" data-width="100%" data-height="auto" data-title="Agent_Widget_CallControls" data-desc-position="top"><img alt="Agent_Widget_CallControls" src="../images/agent/Agent_Widget_CallControls.gif" /></a></p>
+<hr />
+<h4 id="send-sms-widget">Send SMS Widget</h4>
+<ul>
+<li>Another example widget shows you how the Agent Desktop can be configured to send outbound SMSes in call by configuring Webex Connect flows.</li>
+<li><strong>FYI</strong>, To use these <code>call controls</code> you must be on an <code>active</code> call.</li>
+<li>This custom widget allows you to enter your cell number, and any text - to send yourself a message.</li>
+<li>In the background, the Widget is configured to use Webex Connect webhooks to send a custom payload and trigger a custom workflow.</li>
+<li>For more information on this widget, speak to your lab proctor.</li>
+</ul>
+<p><a class="glightbox" href="../images/agent/Agent_Widget_SMS.gif" data-type="image" data-width="100%" data-height="auto" data-title="Agent_Widget_SMS" data-desc-position="top"><img alt="Agent_Widget_SMS" src="../images/agent/Agent_Widget_SMS.gif" /></a></p>
+<hr />
+<p><br/></p>
+<h1 id="verify-desktop-administration">Verify Desktop Administration</h1>
+<p>The following section and describes Desktop Administration that brought together all the features you experienced on the Agent Desktop.</p>
+<blockquote>
+<p><strong>This is more of a walkthrough, to understand how these toggles are configured</strong></p>
+</blockquote>
+<p>Here is a schematic showing how the Agent Desktop configuraton aligns to all the entities on Webex Control Hub.</p>
+<p><a class="glightbox" href="../images/agent/admin1.png" data-type="image" data-width="100%" data-height="auto" data-title="Configuration-Overview" data-desc-position="top"><img alt="Configuration-Overview" src="../images/agent/admin1.png" /></a></p>
+<p>As you can see, the order of operations is as follows:</p>
+<ul>
+<li>Users need to be configured on Webex Control Hub: admin.webex.com &gt; Users</li>
+<li>Licenses need to be assigned to Users to make them either an Agent or Supervisor into Webex Contact Center.</li>
+<li>Webex Contact Center Configuration is required after Webex Control Hub Users are synced over.</li>
+<li>This is the <code>Contact Center Enabled &gt; User Profile &gt; Site &gt; Team &gt; Multimedia Profile &gt; Desktop Profile &gt; Skill Profile &gt; Default DN configuration.</code></li>
+<li>Go To admin.webex.com &gt; Contact Center Users to verify this configuration for the Agents and the Supervisors.</li>
+</ul>
+<h2 id="17-administration-entities">1.7: Administration Entities</h2>
+<p><a class="glightbox" href="../images/agent/admin2.png" data-type="image" data-width="100%" data-height="auto" data-title="User-Overview" data-desc-position="top"><img alt="User-Overview" src="../images/agent/admin2.png" /></a></p>
+<p>The following Administration entities have been configured for you.</p>
+<p>To verify, navigate to Control Hub &gt; Contact Center &gt; TENANT SETTINGS</p>
+<p><a class="glightbox" href="../images/agent/CH-tenantSettings.gif" data-type="image" data-width="100%" data-height="auto" data-title="CH-TENANT SETTINGS" data-desc-position="top"><img alt="CH-TENANT SETTINGS" src="../images/agent/CH-tenantSettings.gif" /></a></p>
+<hr />
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th><strong>Entity</strong></th>
+<th><strong>Name</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Agent 1</td>
+<td><w class = "attendee_out">attendeeID</w>_agent1@mailinator.com</td>
+</tr>
+<tr>
+<td>Supervisor 1</td>
+<td><w class = "attendee_out">attendeeID</w>_supervisor1@mailinator.com</td>
+</tr>
+<tr>
+<td>Desktop Profile</td>
+<td><w class = "attendee_out">attendeeID</w>_desktopProfile</td>
+</tr>
+<tr>
+<td>Entry Point</td>
+<td><w class = "attendee_out">attendeeID</w>_EP</td>
+</tr>
+<tr>
+<td>Queue</td>
+<td><w class = "attendee_out">attendeeID</w>_Q</td>
+</tr>
+<tr>
+<td>Team 1</td>
+<td><w class = "attendee_out">attendeeID</w>_team1</td>
+</tr>
+<tr>
+<td>Team 2</td>
+<td><w class = "attendee_out">attendeeID</w>_team2</td>
+</tr>
+<tr>
+<td>Outdial ANI</td>
+<td><w class = "attendee_out">attendeeID</w>_outdialANI</td>
+</tr>
+<tr>
+<td>Outdial ANI Entry 1</td>
+<td><w class = "attendee_out">attendeeID</w>_outdialANIEntry1</td>
+</tr>
+<tr>
+<td>Address Book</td>
+<td><w class = "attendee_out">attendeeID</w>_addressBook</td>
+</tr>
+<tr>
+<td>Address Book Entry 1</td>
+<td><w class = "attendee_out">attendeeID</w>_addressBookEntry1</td>
+</tr>
+<tr>
+<td>Multimedia Profile</td>
+<td><w class = "attendee_out">attendeeID</w>_MMP</td>
+</tr>
+</tbody>
+</table>
+<h3 id="administration-walkthrough">Administration Walkthrough</h3>
+<blockquote>
+<p><strong>NOTE:</strong> All of the above the tenant entities follow the naming convention mentioned specified in the table above. Your attendeeID is provided in the email in the <strong>"Attendee ID"</strong> line.
+All of this configuration has been done for you.</p>
+</blockquote>
+<h3 id="teams">Teams</h3>
+<ul>
+<li>You were able to change from one team to another using the Profile Settings.</li>
+<li>You can verify this by going to <code>admin.webex.com &gt; Contact Center &gt; Teams</code> and <code>Contact Center &gt; Contact Center Users &gt; Check the Team Assignment</code> on the user.</li>
+<li>This allows you to verify the the <code>User &gt; Team</code> association</li>
+</ul>
+<h3 id="multimedia-profiles">Multimedia Profiles</h3>
+<ul>
+<li>Navigate to <em>Control Hub &gt; Provisioning &gt; Teams</em> - Click on the Teams: <em>Team1 and _Team2 <code>Edit</code> - Check _your User settings</em> and make sure that the <strong>Multimedia Profile</strong> is assigned.</li>
+<li>Note: <strong>User settings have preference over Team setting</strong>, so the Multimedia Profile at User level will be applied.</li>
+</ul>
+<h3 id="desktop-profiles">Desktop Profiles</h3>
+<ul>
+<li>Desktop Profiles is what brings together all the different components of the Desktop Behavior.</li>
+</ul>
+<hr />
+<h1 id="part-2-supervisor-experience">Part 2: Supervisor Experience</h1>
+<h3 id="objective">Objective</h3>
+<p>This lab is designed to introduce the audience to the Extensible Supervisor Desktop (ESD), its configuration and capabilities.</p>
+<p>At the end of the lab, you should have a good understanding of the Supervisor role on Webex Contact Center, the Supervisor Desktop and common Supervisor workflows available.</p>
+<h4 id="you-are-provided-two-users-on-control-hub-to-simulate-the-lab-activities">You are provided two users on Control Hub to simulate the lab activities</h4>
+<table>
+<thead>
+<tr>
+<th><strong>User Role</strong></th>
+<th><strong>User email</strong></th>
+<th><strong>User Extension</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Agent</td>
+<td>wxcclabs+agent_ID<w class="attendee_out">Your_Attendee_ID</w>@gmail.com</td>
+<td>WebRTC (Browser)</td>
+</tr>
+<tr>
+<td>Supervisor</td>
+<td>wxcclabs+supvr_ID<w class="attendee_out">Your_Attendee_ID</w>@gmail.com</td>
+<td><w class= "supervisorEXT_out">Your Supervisor Extension</w></td>
+</tr>
+</tbody>
+</table>
+<h4 id="quick-links_1">Quick Links</h4>
+<blockquote>
+<p>Control Hub: <strong><a href="https://admin.webex.com/">https://admin.webex.com</a></strong><br />
+Supervisor Desktop: <strong><a href="https://desktop.wxcc-us1.cisco.com/">https://desktop.wxcc-us1.cisco.com</a></strong>
+Webex App (Download): ****</p>
+</blockquote>
+<h2 id="21-supervisor-desktop-modes">2.1: Supervisor Desktop Modes</h2>
+<blockquote>
+<p><strong>The following section explains the types of login modes into the Supervisor Desktop</strong></p>
+<p>The Supervisor Role is assigned as a part of the Control Hub License.
+When you assign a Control Hub Supervisor License, you are automatically assigned the Default Supervisor User Profile.</p>
+</blockquote>
+<p>We will review this on Control Hub Settings.</p>
+<blockquote>
+<p>Control Hub &gt; Contact Center Users &gt; Supervisor User &gt; User Profile: Supervisor Profile</p>
+</blockquote>
+<ul>
+<li>Look up your Supervisor User bu going to admin.webex.com &gt; Contact Center &gt; User Management (Category) &gt; Contact Center Users</li>
+<li>Ensure that the Supervisor user wxcclabs+supvr_ID<w class="attendee_out">Your_Attendee_ID</w>@gmail.com has the <code>Supervisor Profile</code> in the <code>User Profile</code> field</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_UserProfile.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_UserProfile" data-desc-position="top"><img alt="Supervisor_UserProfile" src="../images/Supervisor/Supervisor_UserProfile.gif" /></a></p>
+<hr />
+<p><strong>Supervisor Only Mode:</strong></p>
+<ul>
+<li>You can choose not to be an Agent but still login to the Supervisor Desktop. This is called the <strong>Supervisor Only Role</strong>.</li>
+<li>This is enabled by setting up a User with the Supervisor License and a Primary Team.</li>
+<li>Contact Center need not be enabled for the User.</li>
+<li>In this role, you will still need a Primary Team assigment which will be used to display the statistics.</li>
+<li>The Supervisor Only Role is used for Team Statistics and Reporting.</li>
+</ul>
+<p><strong>Supervisor and Agent Mode</strong></p>
+<ul>
+<li>You can to take calls from the Queue as a supervisor. This is called the <strong>Supervisor and Agent Role</strong></li>
+<li>This is enabled by setting up a User with the Supervisor License, a Primary Team AND marking the user Contact Center enabled.</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_And_Agent_Role.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_And_Agent_Role" data-desc-position="top"><img alt="Supervisor_And_Agent_Role" src="../images/Supervisor/Supervisor_And_Agent_Role.gif" /></a></p>
+<hr />
+<h3 id="pre-requisites_1">Pre-requisites:</h3>
+<ol>
+<li>A supervisor user configured as described below.</li>
+<li>A agent logged in and in conversation with a customer so you can monitor the call.</li>
+<li>Webex App Installed - Please install and download the Webex App from: https://www.webex.com/downloads.html</li>
+</ol>
+<blockquote>
+<p><strong>We will use the <a href="https://www.webex.com/downloads.html">Webex App</a> as the Supervisor endpoint Device.</strong></p>
+</blockquote>
+<hr />
+<p><br></p>
+<h2 id="22-supervisor-login">2.2: Supervisor Login</h2>
+<ul>
+<li>
+<p>Sign in to the <strong>Supervisor Desktop</strong>: https://desktop.wxcc-us1.cisco.com with your supervisor credentials.</p>
+</li>
+<li>
+<p>In the next window, set your role as <strong>Supervisor</strong> and your <strong>own extension</strong>. Please note that you can set your role either as <strong>supervisor</strong> or <strong>agent and supervisor</strong>. We will select this second option at the end of this lab.</p>
+</li>
+</ul>
+<blockquote>
+<p><strong>This mode will help you perform midcall monitoring and reporting</strong></p>
+</blockquote>
+<p><br></p>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Login.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Login" data-desc-position="top"><img alt="Supervisor_Login" src="../images/Supervisor/Supervisor_Login.gif" /></a></p>
+<ul>
+<li>
+<p>When you sign in to the <strong>Supervisor Desktop</strong>, the appearance depends on how the Webex Contact Center administrator has configured the desktop layout. The <strong>Supervisor Desktop</strong> display size must be greater than 500 x 500 pixels (width x height). You must set your web browser zoom to 100% for the best experience with the Supervisor Desktop. With this lab layout you get :</p>
+</li>
+<li>
+<p><strong>Home Page</strong>: Displays a user friendly interface that provides a consolidated view of key contact center metrics and filters. This is the default landing page in the Supervisor Desktop. The administrator can customize the Home Page in the layout JSON file.</p>
+</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Home.png" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Home" data-desc-position="top"><img alt="Supervisor_Home" src="../images/Supervisor/Supervisor_Home.png" /></a></p>
+<ol>
+<li><strong>Task</strong>: Displays all the tasks when you sign in to the Desktop in dual role (supervisor and agent) or as a supervisor, interactions such as voice, chat, email, and social messaging conversations, along with monitoring. The icon displays a badge indicating the number of requests that you have not accepted across various channels.</li>
+</ol>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Task.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Task" data-desc-position="top"><img alt="Supervisor_Task" src="../images/Supervisor/Supervisor_Task.gif" /></a></p>
+<ol>
+<li><strong>Team Performance</strong>: Displays real-time information about an agent and a consolidated view of an agent’s performance as part of the team. You can also monitor and send 1:1 messages to an agent.</li>
+</ol>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_TeamPerformace.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_TeamPerformance" data-desc-position="top"><img alt="Supervisor_TeamPerformance" src="../images/Supervisor/Supervisor_TeamPerformace.gif" /></a></p>
+<blockquote>
+<p>Note: <strong>Supervisor Desktop</strong> supports localization in 30 languages. The following are the supported languages:
+Bulgarian, Catalan, Chinese (China), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, English (UK), English (US),Finnish,French, German, Hungarian, Italian,Japanese, Korean, Norwegian,Polish,Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Turkish, and Ukrainian.</p>
+<p>The Supervisor Desktop language is based on the language preference settings on your browser.</p>
+<p>For example, let us consider that you have selected the preferred language as French on the Google Chrome browser.</p>
+<p>When you launch the Supervisor Desktop in the Google Chrome browser, the Supervisor Desktop UI appears in Français (French).</p>
+</blockquote>
+<ul>
+<li>
+<p>Click on the third menu option, you now see the <strong>Team Performance Details</strong> page where your agents activities are displayed : status, call duration, team, ... In the last column, you are presented two options : <strong>chat</strong> or <strong>monitor</strong>. The monitoring option is obvisously only enabled when an agent is in conversation with a customer otherwise the icon will be greyed.</p>
+</li>
+<li>
+<p>The columns displayed are the following</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th><strong>Column</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Agent Name</td>
+<td>Displays name and avatar (Webex image) of the agent.</td>
+</tr>
+<tr>
+<td>Agent State</td>
+<td>The work status while using the Supervisor Desktop. The agent availability state includes Available, Idle codes, or RONA.</td>
+</tr>
+<tr>
+<td>Agent State Duration</td>
+<td>The time that the agent has been in the current state. The state timer format is hh<img alt="🇲🇲" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f1f2-1f1f2.svg" title=":mm:" />ss (for example, 01:10:25).</td>
+</tr>
+<tr>
+<td>Phone Number</td>
+<td>Dial number or extension of the agent signed in.</td>
+</tr>
+<tr>
+<td>Site</td>
+<td>Name of the site with which the agent is associated.</td>
+</tr>
+<tr>
+<td>Team</td>
+<td>Name of the team with which the agent is associated.</td>
+</tr>
+<tr>
+<td>Channels</td>
+<td>The mode of communication through which an agent can communicate.For example, voice call.</td>
+</tr>
+<tr>
+<td>Contact Queue</td>
+<td>Name of the queue from where the agent receives the incoming call.</td>
+</tr>
+<tr>
+<td>Contact Status</td>
+<td>The status of the agent in an active call. Example: Connected, Consulting, Conference, or Wrap up</td>
+</tr>
+<tr>
+<td>Time in Contact Status</td>
+<td>The time spent by an agent in an active call. For example, the time an agent is in conference call.</td>
+</tr>
+<tr>
+<td>Total Contact Duration</td>
+<td>Total duration of the contact from when it was first connected (including any other state like consult or conference in the same contact). The time elapsed since the agent accepted the request. The connected timer format is hh<img alt="🇲🇲" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f1f2-1f1f2.svg" title=":mm:" />ss (for example, 01:10:25).</td>
+</tr>
+<tr>
+<td>Sign In Time</td>
+<td>The time an agent has signed in to the Supervisor Desktop. The date and time format is dynamic and displays according to location.</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>You can perform the following actions:• Review and Monitor - Based on the privilege provided by Administrator as part of user profile, you can review and monitor an ongoing agent call silently. • Send1:1 message to Agent – Based on the privilege provided by Administrator as part of user profile, you can send 1:1 message to an agent.</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>you can customize this view to show / hide columns or group information at your convenience.</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Modify_Columns.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Modify_Columns" data-desc-position="top"><img alt="Supervisor_Modify_Columns" src="../images/Supervisor/Supervisor_Modify_Columns.gif" /></a></p>
+<h2 id="23-chat-with-your-agents">2.3: Chat with your agents</h2>
+<p>Collaboration between agents and supervisors can help your Contact Center to be more effective and efficient for your customers and this is why we have enabled Webex messaging features in both Agent and Supervisor desktops.</p>
+<ul>
+<li>Click on the <strong>Send Message</strong> button</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Message.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Message" data-desc-position="top"><img alt="Supervisor_Message" src="../images/Supervisor/Supervisor_Message.gif" /></a></p>
+<hr />
+<ul>
+<li>Fill the chat window with a message to send to your agent</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Message_Sent.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Message_Sent" data-desc-position="top"><img alt="Supervisor_Message_Sent" src="../images/Supervisor/Supervisor_Message_Sent.gif" /></a></p>
+<hr />
+<ul>
+<li>On the agent side, observe the message notification received</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Message_Sent_Agent.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Message_Sent_Agent" data-desc-position="top"><img alt="Supervisor_Message_Sent_Agent" src="../images/Supervisor/Supervisor_Message_Sent_Agent.gif" /></a></p>
+<hr />
+<ul>
+<li>If, as an agent, you want to answer to the supervisor, your will need to click on the <strong>Webex logo</strong> to open the Webex app embedded in the <strong>Agent Desktop</strong>. You can then reply to the supervisor directly.</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Message_Sent_To_Sup.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Message_Sent_To_Sup" data-desc-position="top"><img alt="Supervisor_Message_Sent_To_Sup" src="../images/Supervisor/Supervisor_Message_Sent_To_Sup.gif" /></a></p>
+<hr />
+<ul>
+<li>On the supervisor side, observe the message notification received</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Message_Received_from_Agent.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Message_Received_from_Agent" data-desc-position="top"><img alt="Supervisor_Message_Received_from_Agent" src="../images/Supervisor/Supervisor_Message_Received_from_Agent.gif" /></a></p>
+<h2 id="24-monitor-calls">2.4: Monitor calls</h2>
+<ul>
+<li>As a supervisor, the <strong>Team Performance Details</strong> page allows you to see all connected agents and decide to monitor calls by clicking on the <strong>Review and Monitor</strong> icon.</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Monitor.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Monitor" data-desc-position="top"><img alt="Supervisor_Monitor" src="../images/Supervisor/Supervisor_Monitor.gif" /></a></p>
+<hr />
+<ul>
+<li>The following popup will be displayed. Click on <strong>Start Monitoring</strong>. Please note a supervisor can monitor other call types such as callbacks, outdial calls, outbound preview campaign calls.</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Monitor_Accept.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Monitor_Accept" data-desc-position="top"><img alt="Supervisor_Monitor_Accept" src="../images/Supervisor/Supervisor_Monitor_Accept.gif" /></a></p>
+<hr />
+<ul>
+<li>In your <strong>Supervisor Desktop</strong>, an incoming popover window will be displayed and your softphone will ring as Webex Contact Center is now trying to reach you. You recognize the agent you want to monitor and other call variables are displayed. The Flow configuration defines variables to display on this popover (max 6). Accept the call on your supervisor softphone.</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Monitor_Floating.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Monitor_Floating" data-desc-position="top"><img alt="Supervisor_Monitor_Floating" src="../images/Supervisor/Supervisor_Monitor_Floating.gif" /></a></p>
+<hr />
+<ul>
+<li>As a supervisor, the call you are now monitoring is displayed in your desktop with agent and customer details of which the call variables so you are aware of the context of the call. You can view previous communications with a customer across all channels (voice, email, chat, and social) in the <strong>Contact History</strong> pane. The pane displays details for the last 24 hours.</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Monitor_History.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Monitor_History" data-desc-position="top"><img alt="Supervisor_Monitor_History" src="../images/Supervisor/Supervisor_Monitor_History.gif" /></a></p>
+<hr />
+<ul>
+<li>You can pause the monitoring and start is again if you will</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Monitor_Pause.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Monitor_Pause" data-desc-position="top"><img alt="Supervisor_Monitor_Pause" src="../images/Supervisor/Supervisor_Monitor_Pause.gif" /></a></p>
+<hr />
+<h2 id="25-supervisor-and-agent-role">2.5: Supervisor and Agent role</h2>
+<ul>
+<li>When you sign in to the Supervisor Desktop, you can - depending or your team assignement - choose either the supervisor role or supervisor AND agent role.</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_LoginOptions.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_LoginOptions" data-desc-position="top"><img alt="Supervisor_LoginOptions" src="../images/Supervisor/Supervisor_LoginOptions.gif" /></a></p>
+<hr />
+<ul>
+<li>In the case, the supervisor experience is a bit different as your agent status appears in the header section of the Desktop.</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_No_Message.gif" data-type="image" data-width="100%" data-height="auto" data-title="Lab_4_ESD" data-desc-position="top"><img alt="Lab_4_ESD" src="../images/Supervisor/Supervisor_No_Message.gif" /></a></p>
+<hr />
+<ul>
+<li>If, as a supervisor, you chose to monitor a call, your status is set to <strong>Engaged</strong> and you cannot take other calls as an agent.</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Engaged.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Engaged" data-desc-position="top"><img alt="Supervisor_Engaged" src="../images/Supervisor/Supervisor_Engaged.gif" /></a></p>
+<hr />
+<h1 id="verify-supervisor-desktop-administration">Verify Supervisor Desktop Administration</h1>
+<blockquote>
+<p><strong>The following section outlines where you can find the main configuration settings for Supervisors, and their Teams, Queues and other segmentation settings</strong></p>
+</blockquote>
+<h2 id="26-desktop-layout-regions-for-supervisor">2.6: Desktop Layout Regions for Supervisor</h2>
+<ul>
+<li>The Supervisor Layout is enabled for a user via the <a href="https://webexone.github.io/Labguide/files/WebexOne_Layout.json">Desktop Layout JSON</a> file for supervisor from GitHub.</li>
+<li>Open the file in any JSON editor, check and make sure it contains <strong><em>supervisor</em></strong> and <strong><em>supervisorAgent</em></strong> sections.</li>
+<li><strong><em>supervisor</em></strong> section is used when the user signs in to supervisor desktop with <strong><em>Supervisor</em></strong> role.</li>
+<li><strong><em>supervisorAdmin</em></strong> section is used when the user signs in to supervisor desktop with <strong><em>Supervisor and Agent</em></strong> role.</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/DC_Lab_4_Supervisor_WebexCC_1.png" data-type="image" data-width="100%" data-height="auto" data-title="Lab_4_WebexCC_Config_1" data-desc-position="top"><img alt="Lab_4_WebexCC_Config_1" src="../images/Supervisor/DC_Lab_4_Supervisor_WebexCC_1.png" /></a></p>
+<hr />
+<ul>
+<li>Lets see where this is uploaded.</li>
+<li>On Webex Control Hub (admin.webex.com) - Go to <em>DESKTOP EXPERIENCE</em> -&gt; <em>Desktop Layout</em></li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/CH_DesktopLayout.gif" data-type="image" data-width="100%" data-height="auto" data-title="CH_DesktopLayout" data-desc-position="top"><img alt="CH_DesktopLayout" src="../images/Supervisor/CH_DesktopLayout.gif" /></a></p>
+<hr />
+<ul>
+<li>To verify layout Assignments, go to Control Hub <em>Contact Center &gt; USER MANAGEMENT &gt; Teams</em> and search for your Team (Team1 or Team2). You will find the WebexOne_desktopLayout in there.</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Teams_Layout.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Teams_Layout" data-desc-position="top"><img alt="Supervisor_Teams_Layout" src="../images/Supervisor/Supervisor_Teams_Layout.gif" /></a></p>
+<hr />
+<ul>
+<li>To verify layout Assignments, go to Control Hub &gt; <strong><em>Teams</em></strong> and search for your Team (Team1 or Team2). You will find the WebexOne_desktopLayout in there.</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/DC_Lab_4_Supervisor_WebexCC_4.png" data-type="image" data-width="100%" data-height="auto" data-title="Lab_4_WebexCC_Config_4" data-desc-position="top"><img alt="Lab_4_WebexCC_Config_4" src="../images/Supervisor/DC_Lab_4_Supervisor_WebexCC_4.png" /></a></p>
+<h2 id="27-user-profile-settings-for-supervisor">2.7: User Profile Settings for Supervisor</h2>
+<ul>
+<li>Under <strong><em>USER MANAGEMENT</em></strong> -&gt; <strong><em>User Profiles</em></strong>, find default <strong><em>Supervisor Profile</em></strong>, and let us take a look at it.</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_userProfile_Verify.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_userProfile_Verify" data-desc-position="top"><img alt="Supervisor_userProfile_Verify" src="../images/Supervisor/Supervisor_userProfile_Verify.gif" /></a></p>
+<hr />
+<ul>
+<li>We are able to view Supervisor settings including Access Rights.</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_AccessRights.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_AccessRights" data-desc-position="top"><img alt="Supervisor_AccessRights" src="../images/Supervisor/Supervisor_AccessRights.gif" /></a></p>
+<hr />
+<h1 id="supervisor-licensing">Supervisor Licensing</h1>
+<blockquote>
+<p>In This section, we will review the Supervisor Licensing that creates the supervisor.</p>
+</blockquote>
+<ul>
+<li>Login to Control Hub using your administrator account.</li>
+<li>Go to <strong><em>Users</em></strong>,</li>
+<li>Search for your Supervisor</li>
+<li>Click on supervisor's account, scroll dow to <strong><em>Licenses</em></strong> section and press <strong><em>Edit Licenses</em></strong> button.</li>
+<li>Click again <strong><em>Edit Licenses</em></strong> button, located bottom right</li>
+<li>Click <strong><em>Contact Center</em></strong></li>
+<li>View license options (Do not change, please)</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_License.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_License" data-desc-position="top"><img alt="Supervisor_License" src="../images/Supervisor/Supervisor_License.gif" /></a></p>
+<hr />
+<ul>
+<li>Check and make sure supervisor license is displayed in <strong><em>Licenses</em></strong> section of user seetings on Control Hub.</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_License_Verify.gif" data-type="image" data-width="100%" data-height="auto" data-title="Lab_4_Supervisor_Config_5" data-desc-position="top"><img alt="Lab_4_Supervisor_Config_5" src="../images/Supervisor/Supervisor_License_Verify.gif" /></a></p>
+<hr />
+<ul>
+<li>To Synchronize Users - Go to <strong><em>Contact Center</em></strong> -&gt; <strong><em>TENANT SETTINGS</em></strong> &gt; <strong>General</strong> and press <strong><em>Synchronize Users</em></strong> button in order to synchronize Webex users with Contact Center licenses in order to successfully assign Contact Center user privileges.</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/CH_Synchronize.gif" data-type="image" data-width="100%" data-height="auto" data-title="CH_Synchronize" data-desc-position="top"><img alt="CH_Synchronize" src="../images/Supervisor/CH_Synchronize.gif" /></a></p>
+<hr />
+<h1 id="send-product-feedback">Send Product Feedback</h1>
+<p>Thank you for completing the Agent and Supervisor labs, we would love to hear direct product feedback from you!</p>
+<p>Explore the product feedback option from right within the Contact Center Desktop.</p>
+<p>Click the icon to launch the Experience Management Survey.</p>
+<p><a class="glightbox" href="../images/Supervisor/ExperienceManagementSurvey.gif" data-type="image" data-width="100%" data-height="auto" data-title="ExperienceManagementSurvey" data-desc-position="top"><img alt="ExperienceManagementSurvey" src="../images/Supervisor/ExperienceManagementSurvey.gif" /></a></p>
+<hr />
+<p>Please fill in the survey and help us improve the product!</p>
+<p><a class="glightbox" href="../images/Supervisor/ExperienceManagementSurvey_Form.gif" data-type="image" data-width="100%" data-height="auto" data-title="ExperienceManagementSurvey_Form" data-desc-position="top"><img alt="ExperienceManagementSurvey_Form" src="../images/Supervisor/ExperienceManagementSurvey_Form.gif" /></a></p>
+<hr />
+<p style="text-align:center"><strong>Congratulations, you have officially completed the Agent and Supervisor Experience labs!</strong></p>
+
+<p style="text-align:center;"><a class="glightbox" href="/Labguide/gitbook../images/webex.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="top"><img src="/Labguide/gitbook../images/webex.png" width="100"></a></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../../overview/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Lab Overview">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Lab Overview
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../Lab1/" class="md-footer__link md-footer__link--next" aria-label="Next: Lab 1 Configure Text-To-Speech (TTS)">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Lab 1 Configure Text-To-Speech (TTS)
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 Cisco
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "content.tabs.link", "navigation.icons", "navigation.expand", "navigation.path", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.tabs.link", "navigation.tracking", "navigation.highlight", "navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.instant", "navigation.top", "navigation.footer", "search.suggest", "content.code.copy", "toc.integrate"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.525ec568.min.js"></script>
+      
+    
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": false, "openEffect": "fade", "closeEffect": "fade", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>
