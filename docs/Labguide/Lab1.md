@@ -25,10 +25,10 @@ layout: post
 </script>
 
 
-# Lab 2
-<!-- # Part 2: Intelligent IVR -->
+# Lab 1 Native Text To Speech (TTS) 
+<!-- # Part 1: Native Text To Speech -->
 
-In this lab, we will learn how traditional Dual-tone multi-frequency (DTMF) flows can be transformed into intelligent and personalized interactions using text-to-speech and dynamic data.
+In this lab, we will learn how Native Text To Speech can be used to transform flows into intelligent and personalized interactions using text-to-speech. 
 
 We will discover how Cisco's text-to-speech capability can enhance the customer experience by personalizing interactions within flows. Then, we will elevate these flows by integrating virtual agents in a subsequent lab.
 
@@ -36,9 +36,16 @@ We will discover how Cisco's text-to-speech capability can enhance the customer 
 
 By the end of this lab, attendees will:
 
-- Understand the core components of Flow Designer that enable the construction of traditional and next-generation IVR flows.
 - Transform traditional flows using text-to-speech to enhance the call path and introduce personalization through data.
-- Learn how data is exchanged between Webex Contact Center and third-party systems, using example APIs.
+
+##  Eligibility Criteria for TTS in the Real World 
+
+### 1 Flex 3 Subscription
+Must have an active Flex 3 subscription for WxCC contact Center – “SKU = A-Flex-3-CC”
+
+### 2 Next Generation Media platform
+Customer tenant ”MUST” be on an enhancement media platform (RTMS)
+
 
 **Pre-requisites**
 
