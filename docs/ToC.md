@@ -108,12 +108,12 @@
       <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">1.1: Enable Text-To-Speech </td>
         <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab1/#11-analyzer-user-interface" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
+        <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab1/#11-Enable-Text-To-Speech" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>
       <tr style="background-color: #f9f9f9; color: #333;">
         <td style="padding: 10px; border: 1px solid #ddd;">1.2: Setup Flow wiht Text-To-Speech</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../Labguide/Lab1/#12-new-analyzer-user-interface" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../Labguide/Lab1/#12-Enable-Text-To-Speech"" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
       </tr>
     </tbody>
   </table>
