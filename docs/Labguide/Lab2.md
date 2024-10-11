@@ -108,8 +108,8 @@ The exercises are designed to provide a hands-on understanding of creating Cisco
 - Go to Contact Center from the left side navigation panel, and under Quick Links, click on `Webex AI Agent`
 
 
-<img align="middle" src="../imagesimages/lab3/1_CH2Bot.gif" width="1000" />  
-../imagesimages/lab3/1.png
+<img align="middle" src="../images/lab3/1_CH2Bot.gif" width="1000" />  
+../images/lab3/1.png
 <br/>
 <br/>
 
@@ -117,7 +117,7 @@ The exercises are designed to provide a hands-on understanding of creating Cisco
 - Select the `Appointment Booking` Template and click on `Next` button
 
 
-<img align="middle" src="../imagesimages/lab3/2_CreatingBot_1.gif" width="1000" />  
+<img align="middle" src="../images/lab3/2_CreatingBot_1.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -127,20 +127,20 @@ The exercises are designed to provide a hands-on understanding of creating Cisco
 - Enter `v1` in the popup modal which appears after clicking on `Make Live`.
 - Click on the `Preview` button on the top right side to test the bot.
 
-<img align="middle" src="../imagesimages/lab3/2_CreatingBot_2.gif" width="1000" />  
+<img align="middle" src="../images/lab3/2_CreatingBot_2.gif" width="1000" />  
 <br/>
 <br/>
 
 
 - Try the bot flow by typing "I would like to cancel an appointment" and continue the conversation.
 
-<img align="middle" src="../imagesimages/lab3/3-cancelappt.gif" width="1000" />  
+<img align="middle" src="../images/lab3/3-cancelappt.gif" width="1000" />  
 <br/>
 <br/>
 
 - Go back and click on New Chat to initiate a new chat for "booking a new appointment" by typing "I would like to book an appointment" and continue the conversation.
 
-<img align="middle" src="../imagesimages/lab3/9.png" width="1000" />  
+<img align="middle" src="../images/lab3/9.png" width="1000" />  
 <br/>
 <br/>
 
@@ -152,7 +152,7 @@ The exercises are designed to provide a hands-on understanding of creating Cisco
 
 - Name the new flow Wx1\_VA\_<w class = "attendee_out">attendeeID</w> where <w class = "attendee_out">attendeeID</w> is your attendeeID.
 
-<img align="middle" src="../imagesimages/lab3/4-CreateFlow.gif" width="1000" />  
+<img align="middle" src="../images/lab3/4-CreateFlow.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -167,7 +167,7 @@ from the dropdown menu.
 - Drag and drop the `DisconnectContact` activity onto the canvas, placing it in your flow.
 - Connect the handled, escalated, and errored outputs from the `VirtualAgentV2` activity to the `DisconnectContact` activity.
 
-<img align="middle" src="../imagesimages/lab3/4-createVAFlow.gif" width="1000" />  
+<img align="middle" src="../images/lab3/4-createVAFlow.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -177,7 +177,7 @@ from the dropdown menu.
 - As a best practice select `Live`  click on `Publish Flow`.
 
 
-<img align="middle" src="../imagesimages/lab3/4-ValidateVAFlow.gif" width="1000" />  
+<img align="middle" src="../images/lab3/4-ValidateVAFlow.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -190,7 +190,7 @@ from the dropdown menu.
 - Note down the Support Number and then click on Save.
 - Dial the  Support Number from your mobile phone to test the Virtual Agent over a voice call.
 
-<img align="middle" src="../imagesimages/lab3/4-CreatEPTagFlow.gif" width="1000" />  
+<img align="middle" src="../images/lab3/4-CreatEPTagFlow.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -201,7 +201,7 @@ from the dropdown menu.
 
 - From the Control Hub Go to Contact center and the under Quick Links, open the `Webex AI Agent`. If you encounter an authentication error due to inactivity, log out from the control hub, log back in, and then access the Webex `Webex AI Agent`.
 
-<img align="middle" src="../imagesimages/lab3/1_CH2Bot.gif" width="1000" />  
+<img align="middle" src="../images/lab3/1_CH2Bot.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -209,7 +209,7 @@ from the dropdown menu.
 - Go to the Responses tab on the left-hand panel.
 - Select the Welcome message.
 
-<img align="middle" src="../imagesimages/lab3/5-ChangeResp1.gif" width="1000" />  
+<img align="middle" src="../images/lab3/5-ChangeResp1.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -220,13 +220,13 @@ from the dropdown menu.
 - Click on the update button to confirm the changes.Make the bot live by clicking on the `Make Live` button
 
 
-<img align="middle" src="../imagesimages/lab3/5-ChangeResp2.gif" width="1000" />  
+<img align="middle" src="../images/lab3/5-ChangeResp2.gif" width="1000" />  
 <br/>
 <br/>
 
 - click on `Preview` to test if the Greeting has been successfully updated.
 
-<img align="middle" src="../imagesimages/lab3/5-Validatechange.gif" width="1000" />  
+<img align="middle" src="../images/lab3/5-Validatechange.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -240,19 +240,19 @@ from the dropdown menu.
   - "I would like a referral for a cardiologist."
   - "I need a referral to visit a neurologist."
 
-<img align="middle" src="../imagesimages/lab3/6-CreateIntent.gif" width="1000" />  
+<img align="middle" src="../images/lab3/6-CreateIntent.gif" width="1000" />  
 <br/>
 <br/>
 
 - Add a new utterances for rest of the languages
 
-<img align="middle" src="../imagesimages/lab3/6-Intent_spanish.gif" width="1000" />  
+<img align="middle" src="../images/lab3/6-Intent_spanish.gif" width="1000" />  
 <br/>
 <br/>
 
 - Enable/ disable can be done from `Settings->Language` (This is optional settings for this lab)
 
-<img align="middle" src="../imagesimages/lab3/6-ChangeLang.gif" width="1000" />  
+<img align="middle" src="../images/lab3/6-ChangeLang.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -262,7 +262,7 @@ from the dropdown menu.
 
 - Again, click on `Link Entity` and add `patient dob` (date of birth) as a required entity with the template key as "askPatientDob". When this intent is matched, it will trigger the Virtual Agent to ask the user to provide their phone number and date of birth for verification purposes.
 
-<img align="middle" src="../imagesimages/lab3/6-LinkIntent.gif" width="1000" />  
+<img align="middle" src="../images/lab3/6-LinkIntent.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -276,7 +276,7 @@ from the dropdown menu.
 
 
 
-<img align="middle" src="../imagesimages/lab3/6-finalResp.gif" width="1000" />  
+<img align="middle" src="../images/lab3/6-finalResp.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -289,14 +289,14 @@ from the dropdown menu.
 
 - Provide a description for the update and choose `Make Live` or `Make Live both` if there are other unsaved changes pending.
 
-<img align="middle" src="../imagesimages/lab3/6-Train&makelive.gif" width="1000" />  
+<img align="middle" src="../images/lab3/6-Train&makelive.gif" width="1000" />  
 <br/>
 <br/>
 
 - Use the "Preview" feature to test the bot flow with the input query: "I need a referral for a cardiologist".
 - You can also test this interaction in voice mode by dialing the PSTN number assigned to your pod.
 
-<img align="middle" src="../imagesimages/lab3/6-testandvalidate .gif" width="1000" />  
+<img align="middle" src="../images/lab3/6-testandvalidate .gif" width="1000" />  
 <br/>
 <br/>
 
@@ -309,7 +309,7 @@ from the dropdown menu.
 
 - Enter a description such as "generate intents for requesting a referral to different doctor specialties from primary care." Set the Number of Variants to "10", which will determine the number of new phrases to be generated.
 
-<img align="middle" src="../imagesimages/lab3/7-CreateGenAIIntent.gif" width="1000" />  
+<img align="middle" src="../images/lab3/7-CreateGenAIIntent.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -326,13 +326,13 @@ from the dropdown menu.
 
 - Confirm the update by clicking on "Make Live" in the modal that appears.
 
-<img align="middle" src="../imagesimages/lab3/7-TrainNMakeLive.gif" width="1000" />  
+<img align="middle" src="../images/lab3/7-TrainNMakeLive.gif" width="1000" />  
 <br/>
 <br/>
 
 - Test the updated bot flow by using the "Preview" button and inputting queries related to the new training data.
 
-<img align="middle" src="../imagesimages/lab3/7-PreviewNTest.gif" width="1000" />  
+<img align="middle" src="../images/lab3/7-PreviewNTest.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -344,7 +344,7 @@ from the dropdown menu.
 
 - Review the transcript for the selected interaction to gain insights into how the conversation unfolded.
 
-<img align="middle" src="../imagesimages/lab3/8-AnalyzeSession.gif" width="1000" />  
+<img align="middle" src="../images/lab3/8-AnalyzeSession.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -353,7 +353,7 @@ from the dropdown menu.
 
 - By carefully analyzing these transcripts and analytics, you can identify areas for improvement, understand user behavior, and refine the Virtual Agent's performance accordingly.
 
-<img align="middle" src="../imagesimages/lab3/8-AnzlyeDepDive.gif" width="1000" />  
+<img align="middle" src="../images/lab3/8-AnzlyeDepDive.gif" width="1000" />  
 <br/>
 <br/>
 
