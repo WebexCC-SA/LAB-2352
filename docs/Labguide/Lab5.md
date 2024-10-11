@@ -77,7 +77,7 @@ document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") ||
 
 <br/>
 
-# Lab 6: Agent Wellness
+# Lab 5: Agent Wellness
 
 ## Objectives
 
