@@ -76,7 +76,7 @@ document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") ||
 
 <br/>
 
-# Lab 9: Topic Analytics
+# Lab 7: Topic Analytics
 
 ## Lab Objective
 
