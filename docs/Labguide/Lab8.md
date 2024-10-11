@@ -8,9 +8,9 @@ author: Bhushan Suresh
 date: 2024-10-02
 layout: post
 
-# LAB 8 (Bonus): Future Agent and Supervisor sign in
+# LAB 6 (Bonus): Enhanced Agent and Supervisor Sign-in Experience
 
-## 8.1: Overview
+## 6.1: Overview
 
 New Webex Contact Center Desktop Sign-in with Streamlined Station Credentials
 
@@ -19,7 +19,7 @@ To streamline the agent and supervisor sign-in process, we will enhance the Webe
 This lab is designed to give you a **basic understanding of the new experience** and all you to **experience it first-hand**. You will be using a working prototype to complete the steps in this lab.
 
 
-## 8.2: Prototype: What to expect and what’s new
+## 6.2: Prototype: What to expect and what’s new
 
  ![Login](../assets/images/Analyzer/topic1.png)
 
@@ -39,7 +39,7 @@ This lab is designed to give you a **basic understanding of the new experience**
 
     
 
-## 8.3: Prototype: What to expect and what’s new
+## 6.3: Prototype: What to expect and what’s new
 
   ![Login](../assets/images/Analyzer/topic1.png)
 
@@ -58,7 +58,7 @@ Step 4.	**Click on the avatar menu** to review your selections in **Change Profi
 
       
 
-## 8.4: Review user value
+## 6.4: Review user value
 
 This new experience will help solve key friction points when signing in. Because a user’s selection can be saved for future sign ins, it will reduce time, errors, and the number of repetitive steps required at sign in.
 
