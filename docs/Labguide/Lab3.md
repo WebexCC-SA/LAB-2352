@@ -75,7 +75,7 @@ document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") ||
 
 <br/>
 
-# Lab 4: Intelligent Virtual Agent Handoffs
+# Lab 3: Intelligent Virtual Agent Handoffs
 
 ## Objectives
 
