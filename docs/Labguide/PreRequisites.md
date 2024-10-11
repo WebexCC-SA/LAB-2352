@@ -186,34 +186,8 @@ Please note, that to proceed to the next section, you will need to use the accou
 | Team 2               | <w class = "attendee_out">attendeeID</w>\_team2                     |
 | Multimedia Profile   | <w class = "attendee_out">attendeeID</w>\_MMP                       |
 
-## 1.1: Agent Desktop Overview
 
-> Desktop multi-language support is based on the language settings on the browser. Currently, we support 29 languages, including:
-> Bulgarian, Catalan, Chinese (China), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, English (UK), English (US), Finnish, French, German, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, and Turkish.
-> {: .block-success }
-
-![AgentDesktopOverview](../images/agent/agent_desktop_overview.png)
-
----
-
-The Agent Desktop is divided into **6 sections**.
-The image above shows the general view after receiving an interaction.
-
-Here is an overview of the sections:
-
-1. **Task List**: When a request is routed to your queue and you are _Available_, a new request appears in your Task List pane. You must accept the requests to start communication with the customer.
-
-2. **Horizontal Header**: Basic functionalities such as: Title and logo, Agent availability state, Notification Center, Outdial and User Profile. We will explain more in detail some User Profile options in the next section of the lab.
-
-3. **Interaction Control**: When you accept a voice call (inbound or outbound), by default, the Interaction Control pane is expanded. This pane includes: customer information (CAD variables), timers (for example: connected and call on hold time) and call control buttons (Record, Hold, Transfer...).
-
-4. **Auxiliary Information**: The center pane displays details based on your selection of the contact card in the Task List panel. For Voice requests, it will display the customer contacts history. Whereas for any digital channels (email, chat or social messaging), you will see the whole conversation with the customer and you will be able to send new messages.
-
-5. **Agent Interaction History**: You can view your previous contacts of the agent across all the channels (voice, email, chat, and social) in this pane. The pane displays details for the last 24 hours. Moreover, for Voice channel you can callback to the contact phone number.
-
-6. **Navigation pane**: By default you can find the following icons here: Home, Agent Performance Statistics and Help. However, you can customize it and add some additional icons and widgets.
-
-## 1.2: Desktop Login Process
+## 1.1: Desktop Login Process
 
 - To Login to the Agent Desktop, launch Google Chrome and navigate to the URL: [https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com)
 
@@ -311,19 +285,6 @@ The Agent can access the out of box Agent Personal Statistics Reports on the lef
 
 ---
 
-### Organizational Messaging using the Webex App
-
-Launch the Webex App from within the Desktop to message other users in the organization. This is a quick way for the Agent to message the Supervisor, or the Supervisor to be able to send messages to the Agent.
-
-Send a message to the supervisor user - search for supervisor or admin user and send a message.
-
-Your Supervisor is configured in the format:
-**wxcclabs_supvr_ID\<attendeeID\>@gmail.com**
-
-![agent-desktop-webex-App](../images/agent/Agent_Webex_App.gif)
-
----
-
 ### Launch the Notification Pane
 
 The notification pane on the desktop shows you the notifications of incoming calls or messages.
@@ -373,16 +334,6 @@ The notification settings under user settings allows you to Enable/Disable the N
 
 ---
 
-### Switch to Dark Mode
-
-You can switchover the theme on the Desktop using the Dark mode toggle. This helps with visibility on the eyes in low light conditions and can be a user preference for the theme.
-
-> This is another setting that is preserved with the user's browser cache.
-> {: .block-warning }
-
-![agent-desktop-Dark-Mode](../images/agent/Agent_Dark_Mode.gif)
-
----
 
 ### View Desktop Mic & Speaker Options
 
@@ -402,19 +353,6 @@ You can launch the shortcuts using Ctrl+Alt+F for Windows (or control+option+F f
 
 ---
 
-### Change State Shortcuts
-
-Change the state from Idle to Available using the shortcut
-
-**Example for Mac users:**
-
-> Try Ctrl + Option + F to bring up the shortcuts
-> Try Ctrl + Option + R to go Ready
-> Try Ctrl + Option + N to go Not Ready by typing an Idle code + Enter
-
-![agent-desktop-State_Change_Shortscut](../images/agent/Agent_State_Change_Shortscut.gif)
-
----
 
 ### Download Error Logs
 
@@ -441,16 +379,6 @@ This is specifically for the Desktop Voice option. Agents can also test their lo
 
 ---
 
-### Explore the new Help Documentation
-
-The help documentation has been enhanced with Webex Help Center. Agents will now be redirected to the new Webex Help Center for online help including search.
-
-> Note: This will now open a new tab for the
-
-![agent-desktop-Help-Documentation](../images/agent/Agent_Help_Documentation.gif)
-
----
-
 ## 1.3: Make an Incoming Call
 
 > In this section, you will will interact as an agent and test an Incoming call. Review the video of the lab section above to understand the different call handling options.
@@ -466,31 +394,11 @@ The help documentation has been enhanced with Webex Help Center. Agents will now
 
 ---
 
-- Navigate to _DESKTOP EXPERIENCE > Desktop Profiles_ and view _your Desktop Profile_:
-  - In the **Collaboration** tab:
-    - Make sure the **Buddy Teams** to **`All`**
-    - Make sure Enable **`Consult to Queue`** is also set
-
-![CH-Desktop-Profile](../images/agent/CH_Desktop_Profile.gif)
-
----
-
-- Navigate to CUSTOMER EXPERIENCE > Queue and view the `WebexOne_InboundQueue`
-  - Make sure **`Permit Monitoring, Pause/Resume`** are Enabled
-    - Make sure that these settings are also enabled at tenant level
-  - You can also set the _Recording Pause Duration_. This is the maximum duration that an agent can pause the recording
-
-![CH-Desktop-Queues](../images/agent/CH_Desktop_Queues.gif)
-
----
-
 - Now place it's time to test the incoming call
 
   - Login the **Agent Desktop** with _your Agent 1_ user
   - Move to **`Available`** state
-  - Place an incoming call to the DN mapped to your EP, in other words, this is the number a customer would call into... (You should have mapped your EP in Lab 2)
-  - You will be asked to enter your Attendee Id: i.e. _138#_
-
+  
 - When the call arrives - you will be able to see an incoming popover when the Agent is offered the contact. It will have an Accept and Decline button since it is a Browser powered softphone.
 
 ![Agent Popover](../images/agent/Agent_Popover.png)
@@ -503,38 +411,8 @@ The help documentation has been enhanced with Webex Help Center. Agents will now
 
 ---
 
-> Note: The variables displayed in the incoming popover and on the Desktop can be ordered in a custom manner.
-> This is done on the flow designer on the flow level.
-> {: .block-warning }
 
-![Variable-Order](../images/agent/Agent_VariableOrder.png)
-
----
-
-- After you have Accepted the call in the Agent Desktop of _your Agent 1_
-  - Check the **CAD variables** and try to edit any of the Editable Variables. This is customizable via Flow Designer.
-  - Notice the status of the Desktop has changed to **`Engaged`**.
-
-![CH-Desktop-Call-In-Accepted](../images/agent/CH_Desktop_Call_In_Accepted.gif)
-
----
-
-> **Note**: While you are engaged for a voice call, you are still marked available on other channels based on your channel capacity. This is the configuration on the Multimedia Profile settings on the Agent Desktop.
-> {: .block-warning }
-
----
-
-- Let's play with the call interaction buttons
-  - Click on **`Hold`** to pause the conversation with the end-customer and click on **`Resume`** to talk with him again
-  - Click on **`Pause Recording`**, say some personal infor and click again on **`Resume`** to continue the recording
-  - Click on **`Transfer`**, select **`Queue`** and then in the pull down menu select the `Welcome_EP`
-    - End-customer be redirected to a common EP already created
-  - **End** the call (this can be done from customer or agent perspective) and select any **Wrap-up code**
-
-> For this part, you will need a third calling device for interacting as a Supervisor
-> {: .block-warning }
-
- <br/>
+# Part 2: Supervisor Experience
 
 - Now, lets create a new Chrome profile so we can login the Supervisor on the same browser
 
@@ -545,52 +423,6 @@ The help documentation has been enhanced with Webex Help Center. Agents will now
   - Click `done`
 
 ![CH-Desktop-Call-In-Accepted](../images/agent/Chrome-Create-Profile.gif)
-
----
-
-- After you create a new Chrome Profile, login in the **Agent Desktop** with _your Supervisor_ user and move to **`Available`** status
-
-  - In a separate device (you mobile phone for example), login in Webex App with your _Supervisor_ user
-  - Place the call from the third calling endpoint (your personal phone for example)
-  - Try **`Consult, Conference and Transfer`** functions between End Customer, Agent and Supervisor.
-
-### Agent States
-
-- **Available**: Indicates that you are ready to accept and respond to contact requests that are routed to you. After you sign in, you must select Available from the drop-down list to accept voice call, chat, email, and social messaging conversation requests.
-
-- **Idle**: Indicates that you are signed in but not ready to accept any routed requests. When you sign in to the desktop, your state is set to the default idle reason configured by your administrator.
-
-- **RONA (Redirection on No Answer)**: Indicates that you have not accepted a voice call, chat, email, or social messaging conversation request within the specified time. Your administrator configures the time available to accept an incoming request from any channel. If you cannot accept the request within the specified time displayed in the timer, the action button on the popover flashes for a few seconds and your state automatically changes to RONA. The request is returned to the queue. When your state changes to RONA, a popover appears and you can select the state that you want to be moved: to Idle or to Available
-
-- **Engaged**: indicates that you are busy and connected with a customer. When you have accepted the contact request, the Available state changes to the Engaged - Available label. When you're in this state, you can continue to receive active requests on other channels, depending on the channel capacity. If you don't want to receive more requests, you can select any Idle state, so you will be moved to Engaged - Idle label.
-
-### Manage Voice Calls
-
-- **Call Associated Data (CAD) variables**: These variables allow the administrator to collect call data such as a case number or any action code of the customer. In Flow Designer, your administrator configures the variables, labels of the variables, and the order in which they must appear on the Interaction Control panel. While you are on a call, you can edit the CAD variables if your administrator configures the CAD variables as editable.
-
-- **Hold/Resume**: You can put the customer on hold so that you can consult with another agent or lookup additional information without having the customer listening to you. Click on Resume to take a call off hold.
-
-- **Pause/Resume Recording**: Your administrator can choose for each Queue either to record all the calls or not. In case the recording is enabled, the agent can Pause and Resume the recording.
-
-- **End**: After you have helped your customer with queries, it is a good practice to ask the customer to end the voice call. If necessary, you can also end the call. When the customer ends the call, agent will need to select some Wrap Up Reasons from the dialog box appears.
-
-- **Consult**: You can initiate a consult call with another agent while you are on an active call with a customer.
-
-- **Transfer**: If you cannot resolve a customer query and want to escalate the active voice call (inbound or outbound), you can transfer the call to another agent or supervisor.
-
-- Either for **Consult and Transfer** you have the following options:
-
-  - _Agent_: You can either select an agent from the drop-down list, or use the search field to filter the list. The drop-down list displays the names of available agents.
-
-  - _Queue_: You can select a Queue or Entry Point from the drop-down list, or use the search field to filter the list. The drop-down list displays the queues that are available to transfer the call.
-
-  - _DN_: You can enter a name or number; select a name or number from the drop-down list; or use the search field to filter the list. The drop-down list shows the grouped list of contacts in your address book. Names are listed along with the numbers for the contacts in the address book.
-
-- **Conference**: To start a three-way conference call between you, the customer and another agent. For this option, you (primary agent) must have initiated a consult call. Click Transfer to transfer the call to the consulting agent. The consulted agent can exit the call by clicking Exit Conference, and the call continues between the primary agent and the customer. Only the primary agent can end the Conference.
-
----
-
-# Part 2: Supervisor Experience
 
 ### Objective
 
