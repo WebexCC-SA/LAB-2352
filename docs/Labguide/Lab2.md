@@ -75,8 +75,8 @@ document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") ||
 
 <br/>
 
-# Lab 3
-<!-- # Part 3: Cisco Virtual Agents (VA) -->
+# Lab 2: Cisco Virtual Agent
+<!-- # Part 2: Cisco Virtual Agents (VA) -->
 
 ## Objectives
 
