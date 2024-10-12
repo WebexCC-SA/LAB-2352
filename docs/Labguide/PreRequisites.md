@@ -60,8 +60,15 @@ layout: post
     background-color: yellow; /* Set the inside (background) color to yellow */
     padding: 5px; /* Add some padding for better appearance */
   }
+
+  /* Style for the paragraph element */
+  p {
+    border: 5px solid black; /* Add a 5px solid black border around the <p> element */
+    padding: 10px; /* Add padding inside the border for better appearance */
+  }
 </style>
 
+<p>Please <strong>submit the form below with your Attendee or pod ID</strong> and hit <strong>Save</strong>. All configuration entries in the lab guide will be renamed to include your pod ID.</p>
 
 <form id="attendee-form">
   <label for="attendee">Attendee ID:</label>
@@ -70,9 +77,9 @@ layout: post
 </form>
 
 <script>
-  <p>Please <strong>submit the form below with your Attendee or pod ID</strong> and hit <strong>Save</strong>. All configuration entries in the lab guide will be renamed to include your pod ID.</p>
   document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") || "Your Attendee ID";
 </script>
+
 
 
 
