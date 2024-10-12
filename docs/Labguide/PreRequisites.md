@@ -91,15 +91,13 @@ In **Part 2**, we will examine the **Webex Contact Center Supervisor Experience*
 
 | Topic                                                                                  | Type             | Dificulty    | Time   |
 | -------------------------------------------------------------------------------------- | ---------------- | ------------ | ------ |
-| [Part 1: Agent Experience](#part-1-agent-experience)                                   | Exploration      | EASY         | 5 min  |
-| [1.1: Agent Desktop Overview](#11-agent-desktop-overview)                              | Exploration      | EASY         | 5 min  |
-| [1.2: Desktop Login Process](#12-desktop-login-process)                                | Activity         | EASY         | 5 min  |
-| [1.3: Make an Incoming Call](#13-make-an-incoming-call)                                | Activity         | EASY         | 5 min  |
-| [Part 2: Supervisor Experience](#part-2-supervisor-experience)                         | Exploration      | EASY         | 5 min  |
-| [2.1: Supervisor Desktop Modes](#21-supervisor-desktop-modes)                          | Exploration      | EASY         | 5 min  |
-| [2.2: Supervisor Login](#22-supervisor-login)                                          | Activity         | EASY         | 5 min  |
-
-
+| [Part 1: Agent Experience](#part-1-agent-experience)                                   | Exploration      | EASY         | 5 mins |
+| [1.1: Agent Desktop Overview](#12-desktop-login-process)                               | Exploration      | EASY         | 	    |
+| [1.2: Make an Incoming Call](#13-make-an-incoming-call)                                | Activity         | EASY         |        |
+| [Part 2: Supervisor Experience](#part-2-supervisor-experience)                         | Exploration      | EASY         | 5 mins |
+| [2.1: Supervisor Desktop Modes](#21-supervisor-desktop-modes)                          | Exploration      | EASY         |        |
+| [2.2: Supervisor Login](#22-supervisor-login)                                          | Activity         | EASY         |        |
+| [Part 3: Flow Experience](#part-3-flow-experience)                         	         | Exploration      | EASY         | 5 min  |
 
 ## Part 1: Agent Experience
 
@@ -313,16 +311,6 @@ The Profile settings shows the Agent which Device(s) or Teams are configured for
 
 ---
 
-**Verify Channel Information for Omnichannel**
-
-The Channel capacity determines how many contacts the Agent can handle at a maximum, per channel.
-
-> This is defined in the **Multimedia Profile** on the User or Team level.
-
-![agent-desktop-Channel-Information](../images/agent/Agent_Channel_Information.gif)
-
----
-
 **Verify Notification Settings**
 
 The notification settings under user settings allows you to Enable/Disable the Notifications, Enable Silent Notifications, or Enable/Disable the sound. You can also change the volume of the Chime for the incoming contact.
@@ -343,26 +331,6 @@ This is a setting that is enabled for all logged in Agents with the Desktop (Web
 
 ---
 
-**Explore Shortcuts**
-
-Try to speed up actions with keyboard shortcuts available out of box on the Agent Desktop.
-
-You can launch the shortcuts using Ctrl+Alt+F for Windows (or control+option+F for MAC users)
-
-![agent-desktop-Shortcuts](../images/agent/Agent_Shortcuts.gif)
-
----
-
-
-**Download Error Logs**
-
-A diagnostic must have for Agents is the ability to download error reports to send to administrators for troubleshooting.
-
-> Use Ctrl + Shift + 2 as a shortcut to download and view the log file!
-
-![agent-desktop-Error-Logs](../images/agent/Agent_Error-Logs.gif)
-
----
 
 > What you will notice when you open the file:
 > The Desktop uses a combination of secure HTTPS as well as Websocket connectivity to stay connected to the backend.
@@ -424,20 +392,20 @@ This is specifically for the Desktop Voice option. Agents can also test their lo
 
 ![CH-Desktop-Call-In-Accepted](../images/agent/Chrome-Create-Profile.gif)
 
-### Objective
+**Objective**
 
 This lab is designed to introduce the audience to the Extensible Supervisor Desktop (ESD), its configuration and capabilities.
 
 At the end of the lab, you should have a good understanding of the Supervisor role on Webex Contact Center, the Supervisor Desktop and common Supervisor workflows available.
 
-#### You are provided two users on Control Hub to simulate the lab activities
+You are provided two users on Control Hub to simulate the lab activities
 
 | **User Role** | **User email**                                                          | **User Extension**                                          |
 | ------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------- |
 | Agent         | wxcclabs+agent_ID<w class="attendee_out">Your_Attendee_ID</w>@gmail.com | WebRTC (Browser)                                            |
 | Supervisor    | wxcclabs+supvr_ID<w class="attendee_out">Your_Attendee_ID</w>@gmail.com | <w class= "supervisorEXT_out">Your Supervisor Extension</w> |
 
-#### Quick Links
+**Quick Links**
 
 > Control Hub: **[https://admin.webex.com](https://admin.webex.com/)**  
 > Supervisor Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com/)**
@@ -478,7 +446,7 @@ We will review this on Control Hub Settings.
 
 ---
 
-### Pre-requisites:
+**Pre-requisites:**
 
 1.  A supervisor user configured as described below.
 2.  A agent logged in and in conversation with a customer so you can monitor the call.
@@ -549,7 +517,7 @@ We will review this on Control Hub Settings.
 
 ![Supervisor_Modify_Columns](../images/Supervisor/Supervisor_Modify_Columns.gif)
 
-# Understanding WxCC Flow Builder 
+## Understanding WxCC Flow Builder 
 
 **Objective**
 
