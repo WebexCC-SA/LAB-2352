@@ -92,8 +92,8 @@ In **Part 2**, we will examine the **Webex Contact Center Supervisor Experience*
 | Topic                                                                                  | Type             | Dificulty    | Time   |
 | -------------------------------------------------------------------------------------- | ---------------- | ------------ | ------ |
 | [Part 1: Agent Experience](#part-1-agent-experience)                                   | Exploration      | EASY         | 5 mins |
-| [1.1: Agent Desktop Overview](#12-desktop-login-process)                               | Exploration      | EASY         | 	    |
-| [1.2: Make an Incoming Call](#13-make-an-incoming-call)                                | Activity         | EASY         |        |
+| [1.1: Agent Desktop Overview](#11-desktop-login-process)                               | Exploration      | EASY         | 	    |
+| [1.2: Make an Incoming Call](#12-make-an-incoming-call)                                | Activity         | EASY         |        |
 | [Part 2: Supervisor Experience](#part-2-supervisor-experience)                         | Exploration      | EASY         | 5 mins |
 | [2.1: Supervisor Desktop Modes](#21-supervisor-desktop-modes)                          | Exploration      | EASY         |        |
 | [2.2: Supervisor Login](#22-supervisor-login)                                          | Activity         | EASY         |        |
