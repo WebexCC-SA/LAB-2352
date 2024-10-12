@@ -1,5 +1,7 @@
-#icon: material/numeric-2-box-multiple
+---
+icon: material/numeric-2-box-multiple
 icon: material/folder-open-outline
+
 
 title: IVR Experience
 author: Bhushan Suresh, Chandramouli Valithiyanathan, Sara Santos
@@ -118,7 +120,7 @@ Customer tenant ”MUST” be on an enhancement media platform (RTMS)
 
 - Verify that an entry point named <w class = "attendee_out">attendeeID</w>\_EP exists in the system,  where <w class = "attendee_out">attendeeID</w> is your attendeeID. Make sure to take a note of the support Number assigned to your entry point. This will the number you dial in to make test call.
 
-<img align="middle" src="../images/lab2/2.gif" width="1000" />  
+<img align="middle" src="../images/lab1/lab1_channel.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -126,7 +128,7 @@ Customer tenant ”MUST” be on an enhancement media platform (RTMS)
 
 - Once selected, please rename the flow temaplate with your attendeeID <w class = "attendee_out">attendeeID</w>
 
-<img align="middle" src="../images/lab1/8.gif" width="1000" />  
+<img align="middle" src="../images/lab1/lab1_flow_temp.gif" width="1000" />  
 <br/>
 <br/>
 
