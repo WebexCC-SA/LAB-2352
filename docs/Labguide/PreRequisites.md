@@ -36,7 +36,7 @@ layout: post
           });
         });
         const attendeeIDInput = form.elements['attendeeID'];
-       if (attendeeIDInput && attendeeIDInput.value !== 'Your_Attendee_ID') {
+        if (attendeeIDInput && attendeeIDInput.value !== 'Your_Attendee_ID') {
           localStorage.setItem('attendeeID', attendeeIDInput.value);
         }
       });
@@ -56,12 +56,12 @@ layout: post
 
    /* Style for the input element */
   input[type="text"] {
-    border: 2px solid yellow; /* Set the border color to yellow */
+    border: 5px solid black; /* Set the border thickness to 5px and color to black */
+    background-color: yellow; /* Set the inside (background) color to yellow */
     padding: 5px; /* Add some padding for better appearance */
   }
 </style>
 
-<p>Please <strong>submit the form below with your Attendee or pod ID</strong> and hit <strong>Save</strong>. All configuration entries in the lab guide will be renamed to include your pod ID.</p>
 
 <form id="attendee-form">
   <label for="attendee">Attendee ID:</label>
@@ -70,6 +70,7 @@ layout: post
 </form>
 
 <script>
+  <p>Please <strong>submit the form below with your Attendee or pod ID</strong> and hit <strong>Save</strong>. All configuration entries in the lab guide will be renamed to include your pod ID.</p>
   document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") || "Your Attendee ID";
 </script>
 
