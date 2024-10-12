@@ -20,7 +20,7 @@
     <span style="font-size: 20px;">Pre-Requisites</span>
     <span style="display: flex; align-items: center;">
       <span style="background-color: #44cc44; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">Easy</span>&nbsp;&nbsp;
-      <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">10 min</span>
+      <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">15 mins</span>
     </span>
   </summary>
   
@@ -34,16 +34,10 @@
     </thead>
     <tbody>
       <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">Agent and Supervisor Experience Walk Through</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Agent, Supervisor and Flow Experience
         <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
         <td style="padding: 10px; border: 1px solid #ddd;"><a href="../Labguide/PreRequisites/#agent-sup-login-process" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
       </tr>
-      <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">Flow Control Walk Through</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Activity</td>
-        <td style="padding: 10px; border: 1px solid #ddd;"><a href="../Labguide/FlowOverview/#Flow-Overview" style="color: #007AAE; text-decoration: none;">Go to section</a></td>
-      </tr>       
-    </tbody>
   </table>
 </details>
 
