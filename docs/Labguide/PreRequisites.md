@@ -87,7 +87,7 @@ In **Part 2**, we will examine the **Webex Contact Center Supervisor Experience*
 
 
 
-## Table of Contents
+** Table of Contents
 
 | Topic                                                                                  | Type             | Dificulty    | Time   |
 | -------------------------------------------------------------------------------------- | ---------------- | ------------ | ------ |
@@ -103,14 +103,14 @@ In **Part 2**, we will examine the **Webex Contact Center Supervisor Experience*
 
 ## Part 1: Agent Experience
 
-### Objectives
+**Objectives**
 
 - Explore the Agent Experience on the Webex Contact Center by logging into the Agent Desktop application and navigating its out-of-the-box capabilities.
 - Familiarize yourself with the complete Agent Desktop interface and its functions, covering Inbound, Outbound, and Omnichannel contact workflows.
 - Dive into extensions of the Agent Desktop Experience, understanding the available widgets—both out-of-the-box and custom—and recognizing the potential of Desktop Widgets and customized workflows.
 - The Bonus section (OPTIONAL) delves into advanced Desktop extensions, focusing on Desktop layout design and programmatic extensions.
 
-### Pre-Requisites
+**Pre-Requisites**
 
 > Note: The initial section of the lab is a walkthrough, the **Desktop has been configured for you**. This ensures you can experience a fully configured Agent desktop. For more insights on Desktop Administration and Configuration toggles available, please refer to the `Verify Desktop Administration` section in the lab.
 
@@ -118,7 +118,7 @@ In **Part 2**, we will examine the **Webex Contact Center Supervisor Experience*
 
 
 
-### Create Chrome Profiles
+**Create Chrome Profiles**
 
 - For the lab, create new Chrome profiles so that you can login the Administrators, Agents and Supervisors using the same Browser.
 
@@ -160,7 +160,7 @@ Example:
 
 (5) A preset inbound Voice flow is available for test calls.
 
-### Quick Links
+**Quick Links**
 
 For this lab, you'll only require access to two web portals:
 
@@ -168,7 +168,7 @@ For this lab, you'll only require access to two web portals:
 > Contact Center Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com){:target="\_blank"}**
 > {: .block-success }
 
-### Lab Configuration
+**Lab Configuration***
 
 The following Administration entities have been configured for you via [Webex Control Hub](https://admin.webex.com){:target="\_blank"}
 
@@ -251,11 +251,11 @@ Please note, that to proceed to the next section, you will need to use the accou
     - Dial Number: E.164 format phone number
       - If you check the **International Dialing Format** box, you can choose the country code based on your geographical location from the drop-down list. You can also enter a country code or country name to filter the list. Dial numbers are validated based on the country code
 
-### Explore Agent Desktop Header Actions
+**Explore Agent Desktop Header Actions**
 
 The following section explores the Agent Desktop header actions.
 
-### Explore Agent State and Idle codes
+**Explore Agent State and Idle codes**
 
 The header section of the agent desktop contains the State change toggle where the agent can make themselves available.
 
@@ -272,7 +272,7 @@ This also has the section where you can view the Idle codes.
 
 ---
 
-### Explore the Agent Personal Statistics
+**Explore the Agent Personal Statistics**
 
 The Agent can access the out of box Agent Personal Statistics Reports on the left navigation screen.
 
@@ -285,7 +285,7 @@ The Agent can access the out of box Agent Personal Statistics Reports on the lef
 
 ---
 
-### Launch the Notification Pane
+**Launch the Notification Pane**
 
 The notification pane on the desktop shows you the notifications of incoming calls or messages.
 The agent can also launch previously delivered screenpops from this pane.
@@ -294,7 +294,7 @@ The agent can also launch previously delivered screenpops from this pane.
 
 ---
 
-### Launch the Agent Settings Pane
+**Launch the Agent Settings Pane**
 
 To review or change the Desktop Settings, click on the persona icon on the top right.
 
@@ -302,7 +302,7 @@ To review or change the Desktop Settings, click on the persona icon on the top r
 
 ---
 
-### Verify Profile Settings
+**Verify Profile Settings**
 
 The Profile settings shows the Agent which Device(s) or Teams are configured for use, allowing the agent to switch the Device OR Teams that they wish to login.
 
@@ -313,7 +313,7 @@ The Profile settings shows the Agent which Device(s) or Teams are configured for
 
 ---
 
-### Verify Channel Information for Omnichannel
+**Verify Channel Information for Omnichannel**
 
 The Channel capacity determines how many contacts the Agent can handle at a maximum, per channel.
 
@@ -323,7 +323,7 @@ The Channel capacity determines how many contacts the Agent can handle at a maxi
 
 ---
 
-### Verify Notification Settings
+**Verify Notification Settings**
 
 The notification settings under user settings allows you to Enable/Disable the Notifications, Enable Silent Notifications, or Enable/Disable the sound. You can also change the volume of the Chime for the incoming contact.
 
@@ -335,7 +335,7 @@ The notification settings under user settings allows you to Enable/Disable the N
 ---
 
 
-### View Desktop Mic & Speaker Options
+**View Desktop Mic & Speaker Options**
 
 This is a setting that is enabled for all logged in Agents with the Desktop (WebRTC) option. This can help troubleshoot any audio related settings for the Agent's microphone or speaker volumes.
 
@@ -343,7 +343,7 @@ This is a setting that is enabled for all logged in Agents with the Desktop (Web
 
 ---
 
-### Explore Shortcuts
+**Explore Shortcuts**
 
 Try to speed up actions with keyboard shortcuts available out of box on the Agent Desktop.
 
@@ -354,7 +354,7 @@ You can launch the shortcuts using Ctrl+Alt+F for Windows (or control+option+F f
 ---
 
 
-### Download Error Logs
+**Download Error Logs**
 
 A diagnostic must have for Agents is the ability to download error reports to send to administrators for troubleshooting.
 
@@ -371,7 +371,7 @@ A diagnostic must have for Agents is the ability to download error reports to se
 
 ---
 
-### Test Your Network
+**Test Your Network**
 
 This is specifically for the Desktop Voice option. Agents can also test their local network connectivity for latency and bandwidth requirements on the Agent Desktop - eespecially for diagnostics.
 
