@@ -1,4 +1,3 @@
-![2024-10-12_09h58_51](https://github.com/user-attachments/assets/7f183e37-8ac1-4b12-bd9b-3d6844fdddf7)---
 #icon: material/numeric-2-box-multiple
 icon: material/folder-open-outline
 
