@@ -185,7 +185,7 @@ Please note, that to proceed to the next section, you will need to use the accou
 | Multimedia Profile   | <w class = "attendee_out">attendeeID</w>\_MMP                       |
 
 
-## 1.1: Desktop Login Process
+### 1.1: Desktop Login Process
 
 - To Login to the Agent Desktop, launch Google Chrome and navigate to the URL: [https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com)
 
@@ -347,7 +347,7 @@ This is specifically for the Desktop Voice option. Agents can also test their lo
 
 ---
 
-## 1.2: Make an Incoming Call
+### 1.2: Make an Incoming Call
 
 > In this section, you will will interact as an agent and test an Incoming call. Review the video of the lab section above to understand the different call handling options.
 
@@ -411,7 +411,7 @@ You are provided two users on Control Hub to simulate the lab activities
 > Supervisor Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com/)**
 > Webex App (Download): \*\*\*\*
 
-## 2.1: Supervisor Desktop Modes
+### 2.1: Supervisor Desktop Modes
 
 > **The following section explains the types of login modes into the Supervisor Desktop**
 >
@@ -458,7 +458,7 @@ We will review this on Control Hub Settings.
 
 <br>
 
-## 2.2: Supervisor Login
+### 2.2: Supervisor Login
 
 - Sign in to the **Supervisor Desktop**: https://desktop.wxcc-us1.cisco.com with your supervisor credentials.
 
