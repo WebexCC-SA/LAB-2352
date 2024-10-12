@@ -2,8 +2,8 @@
 #icon: material/numeric-4-box-multiple
 icon: material/folder-open-outline
 
-title: Reporting Experience
-author: Gagarin Sathiyanarayanan
+title: Admin Flow Experience
+author: Bhushan Suresh
 date: 2024-10-02
 layout: post
 ---
@@ -44,46 +44,47 @@ layout: post
 
 <table>
   <tr>
-    <td style="background-color: #d9edf7; font-weight: bold;">Your Administrator Login</td>
+    <td style="background-color: #d9edf7; font-weight: bold;">Administrator Login</td>
     <td>wxcclabs+admin_ID<w class = "attendee_out">AttendeeID</w>@gmail.com</td>
   </tr>
     <tr>
-    <td style="background-color: #d9edf7; font-weight: bold;">Your Agent Login</td>
+    <td style="background-color: #d9edf7; font-weight: bold;">Agent Login</td>
     <td>wxcclabs+agent_ID<w class = "attendee_out">AttendeeID</w>@gmail.com</td>
   </tr>
    <tr>
-    <td style="background-color: #d9edf7; font-weight: bold;">Your Supervisor Login</td>
+    <td style="background-color: #d9edf7; font-weight: bold;">Supervisor Login</td>
     <td>wxcclabs+supvr_ID<w class = "attendee_out">AttendeeID</w>@gmail.com</td>
   </tr>
     <tr>
-    <td style="background-color: #d9edf7; font-weight: bold;">Your Voice Entrypoint ID</td>
+    <td style="background-color: #d9edf7; font-weight: bold;">Entrypoint Name</td>
     <td>WX1_EP_<w class = "attendee_out">AttendeeID</w></td>
   </tr>
    <tr>
-    <td style="background-color: #d9edf7; font-weight: bold;">Your Team1</td>
+    <td style="background-color: #d9edf7; font-weight: bold;">Team</td>
     <td><w class = "attendee_out">AttendeeID</w>_Team1</td>
   </tr>
-     <tr>
-    <td style="background-color: #d9edf7; font-weight: bold;">Your Team2</td>
+  <tr>
+    <td style="background-color: #d9edf7; font-weight: bold;">Queue</td>
     <td><w class = "attendee_out">AttendeeID</w>_Team2</td>
+  </tr>  
+  <tr>
+    <td style="background-color: #d9edf7; font-weight: bold;">Agent Desktop Profile</td>
+    <td>Lab2352_DesktopProfile</td>
+  </tr> 
+  <tr>
+    <td style="background-color: #d9edf7; font-weight: bold;">Supervisor Desktop Profile</td>
+    <td>Lab2352_DesktopProfile_Sup</td>
   </tr>
-
-  
-  
-   <tr>
+  <tr>
+    <td style="background-color: #d9edf7; font-weight: bold;">Multimedia Profile</td>
+    <td><w class = "attendee_out">AttendeeID</w>_MMP</td>
+  </tr>    
+  <tr>
     <td style="background-color: #d9edf7; font-weight: bold;">Control Hub</td>
     <td><a href="https://admin.webex.com/">https://admin.webex.com/</a></td>
   </tr>
   <tr>
     <td style="background-color: #d9edf7; font-weight: bold;">Agent Desktop</td>
     <td><a href="https://desktop.wxcc-us1.cisco.com/">https://desktop.wxcc-us1.cisco.com/</a></td>
-  </tr>
-  <tr>
-    <td style="background-color: #d9edf7; font-weight: bold;">Analyzer</td>
-    <td><a href="https://analyzer-v2.wxcc-us1.cisco.com/analyzer">Analyzer</a></td>
-  </tr>
-    <tr>
-    <td style="background-color: #d9edf7; font-weight: bold;">Search Task API Documentation</td>
-    <td><a href="https://developer.webex-cx.com/documentation/search/v1/search-tasks">Search Task API</a></td>
   </tr>
 </table>
