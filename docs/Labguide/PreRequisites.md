@@ -97,7 +97,7 @@ In **Part 2**, we will examine the **Webex Contact Center Supervisor Experience*
 | [Part 2: Supervisor Experience](#part-2-supervisor-experience)                         | Exploration      | EASY         | 5 mins |
 | [2.1: Supervisor Desktop Modes](#21-supervisor-desktop-modes)                          | Exploration      | EASY         |        |
 | [2.2: Supervisor Login](#22-supervisor-login)                                          | Activity         | EASY         |        |
-| [Part 3: Flow Experience](#part-3-flow-experience)                         	         | Exploration      | EASY         | 5 min  |
+| [Part 3: Flow Experience](#part-3-flow-experience)                         	         | Exploration      | EASY         | 5 mins  |
 
 ## Part 1: Agent Experience
 
