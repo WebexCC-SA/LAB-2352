@@ -1,4 +1,4 @@
----
+![2024-10-12_09h58_51](https://github.com/user-attachments/assets/7f183e37-8ac1-4b12-bd9b-3d6844fdddf7)---
 #icon: material/numeric-2-box-multiple
 icon: material/folder-open-outline
 
@@ -124,6 +124,12 @@ Customer tenant ”MUST” be on an enhancement media platform (RTMS)
 <br/>
 
 - Create a a flow by using the flow template and choose template **Hello World**
+
+- Once selected, please rename the flow temaplate with your attendeeID <w class = "attendee_out">attendeeID</w>
+
+<img align="middle" src="../images/lab1/8.gif" width="1000" />  
+<br/>
+<br/>
 
 - Check the Play Message node to see the connector used and the text-to-Speeh Message that is added 
 
