@@ -517,7 +517,7 @@ We will review this on Control Hub Settings.
 
 ![Supervisor_Modify_Columns](../images/Supervisor/Supervisor_Modify_Columns.gif)
 
-## Understanding WxCC Flow Builder 
+## 3. Flow Experience 
 
 **Objective**
 
