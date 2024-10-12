@@ -347,7 +347,7 @@ This is specifically for the Desktop Voice option. Agents can also test their lo
 
 ---
 
-## 1.3: Make an Incoming Call
+## 1.2: Make an Incoming Call
 
 > In this section, you will will interact as an agent and test an Incoming call. Review the video of the lab section above to understand the different call handling options.
 
