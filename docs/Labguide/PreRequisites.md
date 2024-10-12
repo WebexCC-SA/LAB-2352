@@ -55,7 +55,7 @@ In **Part 2**, we will examine the **Webex Contact Center Supervisor Experience*
 
 
 
-** Table of Contents
+**Table of Contents**
 
 | Topic                                                                                  | Type             | Dificulty    | Time   |
 | -------------------------------------------------------------------------------------- | ---------------- | ------------ | ------ |
@@ -112,15 +112,14 @@ In **Part 2**, we will examine the **Webex Contact Center Supervisor Experience*
 
 - Agent and Supervisor user accounts are configured and ready for logins.
 - You can access the Agent Desktop via the URL: [https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com).
-- As an agent, you're associated with two teams—designated by your Attendee ID—as "Team1" and "Team2".
+- As an agent, you're associated with a team—designated by your Attendee ID—as "Team" 
 
 Example:
 
 > If your attendee ID is 100:
 >
 > 100_Team1
->
-> 100_Team2
+
 
 (4) Agents will use browsers for voice calls using WebRTC (Web Real-time Communication) endpoints. Additionally, Webex Calling extensions have been assigned to users (both agents and supervisors) to facilitate alternate device experiences. Webex Contact Center agents and supervisors can opt for any mix of these devices, encompassing PSTN endpoints and mobile phones.
 
