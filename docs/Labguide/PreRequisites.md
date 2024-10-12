@@ -9,7 +9,7 @@ layout: post
 ---
 
 <script>
- function update () {
+  function update () {
     const form = document.forms['attendee-form'];
     if (form) {
       form.addEventListener('submit', function (event) {
@@ -43,6 +43,7 @@ layout: post
     }
   };
 </script>
+
 <style>
   /* Style for the button */
   button {
@@ -55,24 +56,22 @@ layout: post
 
    /* Style for the input element */
   input[type="text"] {
-    border: 2px solid black; /* Set the border thickness to 2px */
+    border: 2px solid yellow; /* Set the border color to yellow */
     padding: 5px; /* Add some padding for better appearance */
-
+  }
 </style>
 
-Please **`submit the form below with your Attendee or pod ID`** and hit **Save**. All configuration entries in the lab guide will be renamed to include your pod ID. 
-{: .block-warning }
+<p>Please <strong>submit the form below with your Attendee or pod ID</strong> and hit <strong>Save</strong>. All configuration entries in the lab guide will be renamed to include your pod ID.</p>
 
-<script>
-document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") || "Your Attendee ID" 
-</script>
 <form id="attendee-form">
   <label for="attendee">Attendee ID:</label>
-  <input type="text" id="attendee" name="attendee" onChange="update()"><br>
-<br>
+  <input type="text" id="attendee" name="attendee" onChange="update()"><br><br>
   <button onclick="update()">Save</button>
 </form>
-</br>
+
+<script>
+  document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") || "Your Attendee ID";
+</script>
 
 
 
@@ -517,7 +516,7 @@ We will review this on Control Hub Settings.
 
 ![Supervisor_Modify_Columns](../images/Supervisor/Supervisor_Modify_Columns.gif)
 
-## 3. Flow Experience 
+## Part 3. Flow Experience 
 
 **Objective**
 
