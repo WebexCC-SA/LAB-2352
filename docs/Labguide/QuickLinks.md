@@ -57,7 +57,7 @@ layout: post
   </tr>
     <tr>
     <td style="background-color: #d9edf7; font-weight: bold;">Entrypoint Name</td>
-    <td>WX1_EP_<w class = "attendee_out">AttendeeID</w></td>
+    <td><w class = "attendee_out">AttendeeID</w>_EP</td>
   </tr>
    <tr>
     <td style="background-color: #d9edf7; font-weight: bold;">Team</td>
