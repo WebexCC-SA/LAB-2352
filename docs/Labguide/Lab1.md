@@ -99,14 +99,14 @@ By the end of this lab, attendees will:
 
 - Validate the flow by clicking "Validate" and then "Publish" the Flow.
 
-<img align="middle" src="../images/lab2/2-ValidateNPublish.gif" width="1000" />  
+<img align="middle" src="../images/lab1/2-ValidateNPublish.gif" width="1000" />  
 <br/>
 <br/>
 
 - Assign the Flow to your Channel (Entry Point) - Do this by first going to Channel > Search for your channel <w class = "attendee_out">attendeeID</w>\_EP  where <w class = "attendee_out">attendeeID</w> is your attendeeID
 - Select the Latest version of the flow > Click Save.
 
-<img align="middle" src="../images/lab2/3-ChannelCreation.gif" width="1000" />  
+<img align="middle" src="../images/lab1/3-ChannelCreation.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -118,7 +118,7 @@ By the end of this lab, attendees will:
 
 - Open the debug view and explore the call path and the steps taken in the flow.
 
-<img align="middle" src="../images/lab2/4-FlowDebug.gif" width="1000" />  
+<img align="middle" src="../images/lab1/4-FlowDebug.gif" width="1000" />  
 <br/>
 <br/>
 
