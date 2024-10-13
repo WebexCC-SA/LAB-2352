@@ -114,7 +114,7 @@ By the end of this lab, attendees will:
 
 - Make a test call by calling the Support Number provided, which is configured in your Channel Configuration.
 
-- Reopen the flow designer by choosing your Flow > `CL_`<w class = "attendee_out">attendeeID</w>`_SimpleFlow`  where <w class = "attendee_out">attendeeID</w> is your attendeeID
+- Reopen the flow designer by choosing your Flow > `Wx1_TTS_<w class = "attendee_out">attendeeID</w>  where <w class = "attendee_out">attendeeID</w> is your attendeeID
 
 - Open the debug view and explore the call path and the steps taken in the flow.
 
