@@ -159,7 +159,7 @@ By the end of this lab, you will:
 
 ### Step 3: Routing Based on Last Intent
 
-## Important Prereq for Step 3 
+**Important Prereq for Step 3**
 
 -Before Starting this lab, please make sure to Enable the Virtual Agent transcript by  checking `Enable Conversation Transcript` option for the `Virtual Agent V2` activity, and publishing the flow again
 
