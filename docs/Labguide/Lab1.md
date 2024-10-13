@@ -73,7 +73,7 @@ By the end of this lab, attendees will:
 | ------------- | ------------------------------------------------------------------- |
 | Administrator | wxcclabs+admin_ID<w class = "attendee_out">attendeeID</w>@gmail.com |
 
-## Step 1: Creating a  Flow through the Flow Template
+**Step 1: Creating a  Flow through the Flow Template**
 
 - Log into Control Hub with your Administrator User - wxcclabs+admin_ID<w class = "attendee_out">attendeeID</w>@gmail.com
 
@@ -89,7 +89,7 @@ By the end of this lab, attendees will:
 
 - Create a a flow by using the flow template and choose template **Hello World**
 
-- Once selected, please rename the flow temaplate with your attendeeID <w class = "attendee_out">attendeeID</w>
+- Once selected, please rename the flow temaplate with your attendeeID Wx1_TTS_<w class = "attendee_out">attendeeID</w>
 
 <img align="middle" src="../images/lab1/1-TTS_Create_Flow_using_Template.gif" width="1000" />  
 <br/>
