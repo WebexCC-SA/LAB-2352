@@ -57,13 +57,10 @@ By the end of this lab, attendees will:
 
 - Transform traditional flows using text-to-speech to enhance the call path and introduce personalization through data.
 
-##  Eligibility Criteria for TTS in the Real World 
+**Eligibility Criteria for TTS in the Real World**
 
-### 1 Flex 3 Subscription
-Must have an active Flex 3 subscription for WxCC contact Center – “SKU = A-Flex-3-CC”
-
-### 2 Next Generation Media platform
-Customer tenant ”MUST” be on an enhancement media platform (RTMS)
+- Flex 3 Subscription - Must have an active Flex 3 subscription for WxCC contact Center – “SKU = A-Flex-3-CC”
+- Next Generation Media platform - Customer tenant ”MUST” be on an enhancement media platform (RTMS)
 
 
 **Pre-requisites**
@@ -94,7 +91,7 @@ Customer tenant ”MUST” be on an enhancement media platform (RTMS)
 
 - Once selected, please rename the flow temaplate with your attendeeID <w class = "attendee_out">attendeeID</w>
 
-<img align="middle" src="../images/lab1/lab1_flow_temp.gif" width="1000" />  
+<img align="middle" src="../images/lab1/1-TTS_Create_Flow_using_Template.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -102,14 +99,14 @@ Customer tenant ”MUST” be on an enhancement media platform (RTMS)
 
 - Validate the flow by clicking "Validate" and then "Publish" the Flow.
 
-<img align="middle" src="../images/lab2/8.gif" width="1000" />  
+<img align="middle" src="../images/lab2/2-ValidateNPublish.gif" width="1000" />  
 <br/>
 <br/>
 
 - Assign the Flow to your Channel (Entry Point) - Do this by first going to Channel > Search for your channel <w class = "attendee_out">attendeeID</w>\_EP  where <w class = "attendee_out">attendeeID</w> is your attendeeID
 - Select the Latest version of the flow > Click Save.
 
-<img align="middle" src="../images/lab2/9.gif" width="1000" />  
+<img align="middle" src="../images/lab2/3-ChannelCreation.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -121,60 +118,11 @@ Customer tenant ”MUST” be on an enhancement media platform (RTMS)
 
 - Open the debug view and explore the call path and the steps taken in the flow.
 
-<img align="middle" src="../images/lab2/10.gif" width="1000" />  
+<img align="middle" src="../images/lab2/4-FlowDebug.gif" width="1000" />  
 <br/>
 <br/>
 
 - Note that the interaction ID uniquely identifies the flow and assists in debugging.
 
 
-## Step 2: Transform the Flow with Text-to-Speech
-
-> In this section, we will use the same flow, and convert all the media activities to use Cisco Text to Speech.
-
-- Follow the steps in the GIF below to replace your welcome prompt from using Audio file to  text-to-speech. Enable the Cisco text-to-speech and enter the welcome message you want played, for example, "Welcome to Cisco Live!"
-
-Welcome Prompt: `Welcome to Cisco Live!`
-
-<img align="middle" src="../images/lab2/15.gif" width="1000" />  
-<br/>
-<br/>
-
-- Follow this by now requesting for the 3 digit attendee ID.
-
-Collect Digit Prompt: `Press Enter your 3 digit attendee ID followed by pound.`
-
-<img align="middle" src="../images/lab2/16.gif" width="1000" />  
-<br/>
-<br/>
-
-- Now edit the Play Message connected to the collect digit activity as well - you can experiment with any text.
-
-Prompt: `Thanks. Please hold while we find you an expert.`
-
-<img align="middle" src="../images/lab2/17_1.gif" width="1000" />  
-<br/>
-<br/>
-
-- Feel free to Modify the Comfort message while in Queue as well by changing the prompt in Play message activity connected to the play music activity
-
-Prompt: `Thank you for waiting. Please Hold while we get you an expert.`
-
-<img align="middle" src="../images/lab2/17_2.gif" width="1000" />  
-<br/>
-<br/>
-
-- Validate and publish the flow.
-
-<img align="middle" src="../images/lab2/8.gif" width="1000" />  
-<br/>
-<br/>
-
-- Make another test call to the same DN by dialing the number - and notice the change in the prompts, which are now using text-to-speech.
-
-
   **Congratulations! You just completed the lab!**
-  
-> You can refer to this [URL](https://cloud.google.com/text-to-speech/docs/ssml){:target="\_blank"} if you would like to learn more about SSML tags.
-
-> Feel free to reach out to the proctors for any questions or clarifications.
