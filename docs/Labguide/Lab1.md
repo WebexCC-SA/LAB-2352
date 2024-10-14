@@ -44,10 +44,10 @@ layout: post
 
 
 
-# Lab 1 Native TTS 
-<!-- # Part 1: Native Text To Speech -->
+# Lab 1 Cisco TTS 
+<!-- # Part 1: Cisco Text To Speech -->
 
-In this lab, we will learn how Native Text To Speech can be used to transform flows into intelligent and personalized interactions using text-to-speech. 
+In this lab, we will learn how Cisco Text To Speech can be used to transform flows into intelligent and personalized interactions using text-to-speech. 
 
 We will discover how Cisco's text-to-speech capability can enhance the customer experience by personalizing interactions within flows. Then, we will elevate these flows by integrating virtual agents in a subsequent lab.
 
