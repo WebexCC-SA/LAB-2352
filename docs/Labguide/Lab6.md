@@ -220,7 +220,7 @@ Collaboration between agents and supervisors can help your Contact Center to be 
 ---
 
 
-## 2.6: Desktop Layout Regions for Supervisor
+## 6.6: Desktop Layout Regions for Supervisor
 
 > **The following section outlines where you can find the main configuration settings for Supervisors, and their Teams, Queues and other segmentation settings**
 
@@ -250,7 +250,7 @@ Collaboration between agents and supervisors can help your Contact Center to be 
 
 ![Lab_4_WebexCC_Config_4](../images/Supervisor/DC_Lab_4_Supervisor_WebexCC_4.png)
 
-## 2.7: User Profile Settings for Supervisor
+## 6.7: User Profile Settings for Supervisor
 
 - Under **_USER MANAGEMENT_** -> **_User Profiles_**, find default **_Supervisor Profile_**, and let us take a look at it.
 
@@ -264,7 +264,7 @@ Collaboration between agents and supervisors can help your Contact Center to be 
 
 ---
 
-## 2.8 Supervisor Licensing
+## 6.8 Supervisor Licensing
 
 > In This section, we will review the Supervisor Licensing that creates the supervisor.
 
