@@ -93,6 +93,9 @@ In **Part 2**, we will examine the **Webex Contact Center Flow Experience** and 
 
 ![CH-Desktop-Call-In-Accepted](../images/agent/Chrome-Create-Profile.gif)
 
+**Pre-requisites**
+
+
 (1) **One additional device** (like your personal phone) to test inbound calls to the Webex Contact Center. You can use your cell phone for this purpose.
 
 - Administrator credentials for the Control Hub: [admin.webex.com](https://admin.webex.com).
@@ -103,13 +106,7 @@ In **Part 2**, we will examine the **Webex Contact Center Flow Experience** and 
 - Agent and Admin user accounts are configured and ready for logins.
 - You can access the Agent Desktop via the URL: [https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com).
 - As an agent, you're associated with a team—designated by your Attendee ID—as "Team" 
-
-Example:
-
-> If your attendee ID is 100:
->
-> 100_Team
-
+  Example: If your attendee ID is 100: 100_Team
 
 (3) Agents will use browsers for voice calls using WebRTC (Web Real-time Communication) endpoints. 
 
@@ -131,7 +128,7 @@ Please note, that to proceed to the next section, you will need to use the accou
 
 | **Entity**           | **Name**                                                            |
 | -------------------- | ------------------------------------------------------------------- |
-| Agent 1              | wxcclabs+agent_ID<w class = "attendee_out">attendeeID</w>@gmail.com |
+| Agent                | wxcclabs+agent_ID<w class = "attendee_out">attendeeID</w>@gmail.com |
 | Administrator        | wxcclabs+admin_ID<w class = "attendee_out">attendeeID</w>@gmail.com |
 | Desktop Profile      | <w class = "attendee_out">attendeeID</w>\_desktopProfile            |
 | Entry Point          | <w class = "attendee_out">attendeeID</w>\_EP                        |
@@ -142,6 +139,12 @@ Please note, that to proceed to the next section, you will need to use the accou
 
 
 ### 1.1: Desktop Login Process
+
+<!-- md:option type:note -->
+
+!!! note "Lab Learning"
+
+    In this section, we will go through the agent desktop login process and explore agent states and idle codes. Please keep your agent ID and password handy. 
 
 - To Login to the Agent Desktop, launch Google Chrome and navigate to the URL: [https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com)
 
@@ -184,7 +187,7 @@ Please note, that to proceed to the next section, you will need to use the accou
 
 ---
 
-> The video below shows a demo about the agent login process and the available options:
+> The below shows a demo about the agent login process and the available options:
 
 ![agent-desktop](../images/agent/AgentLogin.gif)
 
@@ -311,12 +314,13 @@ This is specifically for the Desktop Voice option. Agents can also test their lo
 
 ## Part 2. Flow Experience 
 
-**Objective**
+<!-- md:option type:note -->
 
-- The objective of this lab is to familiarize you with the Flow Builder in Webex Contact Center. It is divided into two parts: Part 1 covers navigating to the Flow Builder, and Part 2 focuses on understanding how it works.
+!!! note "Lab Learning"
 
+    The objective of this lab is to familiarize you with the Flow Builder in Webex Contact Center by creating a flow from scratch. 
 
-**Navigating to the Flow Builder**
+### 2.1 Navigating to the Flow Builder**
 
   - Sign into   [Admin Portal](https://admin.webex.com) using Admin Credentials
   - Click on  `Contact Center`
@@ -336,7 +340,7 @@ This is specifically for the Desktop Voice option. Agents can also test their lo
 <br/>
 <br/>
 
-**Create Your First Flow**
+### 2.2 Create Your First Flow**
 
   - Drag and Drop `Play Mesasge ` Activity from the Activity Library
   - Drag and Drop `Disconnect Contact` Activity from the Activity Library
@@ -348,7 +352,7 @@ This is specifically for the Desktop Voice option. Agents can also test their lo
 <br/>
 <br/>
   
-**Validate Your First Flow**
+### 2.3 Validate Your First Flow**
 
 - At the bottom right toggle   `Validation` to on 
 - Click on  `Publish Flow` and Add `Live` version label and click on `Publish Flow` 
