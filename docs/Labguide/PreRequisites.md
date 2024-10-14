@@ -46,7 +46,7 @@ layout: post
 
 # Lab Pre-Requisites
 
-Welcome to the **Webex Contact Center Agent and Supervisor Experience!**
+Welcome to the **Webex Contact Center Agent and Flow Experience!**
 
 In **Part 1**, we will explore the **Webex Contact Center Agent Experience** and the associated administrative toggles for configuring agents in the Webex Contact Center.
 
@@ -62,6 +62,8 @@ In **Part 2**, we will examine the **Webex Contact Center Flow Experience** and 
 | [1.1: Agent Desktop Overview](#11-desktop-login-process)                               | Exploration      | EASY         | 	    |
 | [1.2: Make an Incoming Call](#12-make-an-incoming-call)                                | Activity         | EASY         |        |
 | [1.3: (Optional) Troubleshooting Tips for WebRTC](#13-troubleshooting-agent-desktop)   | Exploration      | EASY         |        |
+| [Part 2: Flow Experience](#part-2-flow-experience)                         	         | Exploration      | EASY         | 5 mins |
+| [2.1: Flow Experience](#part-2-flow-experience)                         	         | Exploration      | EASY         | 5 mins |
 | [Part 2: Flow Experience](#part-2-flow-experience)                         	         | Exploration      | EASY         | 5 mins |
 
 ## Part 1: Agent Experience
@@ -340,7 +342,7 @@ This is specifically for the Desktop Voice option. Agents can also test their lo
 <br/>
 <br/>
 
-### 2.2 Create Your First Flow**
+### 2.2 Create Your First Flow
 
   - Drag and Drop `Play Mesasge ` Activity from the Activity Library
   - Drag and Drop `Disconnect Contact` Activity from the Activity Library
@@ -352,7 +354,7 @@ This is specifically for the Desktop Voice option. Agents can also test their lo
 <br/>
 <br/>
   
-### 2.3 Validate Your First Flow**
+### 2.3 Validate Your First Flow
 
 - At the bottom right toggle   `Validation` to on 
 - Click on  `Publish Flow` and Add `Live` version label and click on `Publish Flow` 
