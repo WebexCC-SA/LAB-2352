@@ -100,8 +100,9 @@ nav:
             - Lab 3 Seamless VA Handoff: ./Labguide/Lab3.md
             - Lab 4 Call Drop Summary: ./Labguide/Lab4.md
             - Lab 5 Agent Wellness: ./Labguide/Lab5.md
-            - Lab 6 (BONUS) Future agent login: ./Labguide/Lab6.md
-            - Lab 7 (BONUS) Topic Analytics: ./Labguide/Lab7.md
-            - Lab 8 (BONUS) Auto CSAT: ./Labguide/Lab8.md     
+            - Lab 6 (BONUS) Supervsior Login: ./Labguide/Lab9.md
+            - Lab 7 (BONUS) Future agent login: ./Labguide/Lab6.md
+            #- Lab 7 (BONUS) Topic Analytics: ./Labguide/Lab7.md
+            #- Lab 8 (BONUS) Auto CSAT: ./Labguide/Lab8.md     
       - Conclusion: conclusion.md
   - Quick Links: ./Labguide/QuickLinks.md
