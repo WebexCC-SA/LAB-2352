@@ -43,7 +43,7 @@ We will review this on Control Hub Settings.
 - Look up your Supervisor User bu going to admin.webex.com > Contact Center > User Management (Category) > Contact Center Users
 - Ensure that the Supervisor user wxcclabs+supvr_ID<w class="attendee_out">Your_Attendee_ID</w>@gmail.com has the `Supervisor Profile` in the `User Profile` field
 
-![Supervisor_UserProfile](/assets/images/Supervisor/Supervisor_UserProfile.gif)
+![Supervisor_UserProfile](../images/Supervisor/Supervisor_UserProfile.gif)
 
 ---
 
@@ -60,7 +60,7 @@ We will review this on Control Hub Settings.
 - You can to take calls from the Queue as a supervisor. This is called the **Supervisor and Agent Role**
 - This is enabled by setting up a User with the Supervisor License, a Primary Team AND marking the user Contact Center enabled.
 
-![Supervisor_And_Agent_Role](/assets/images/Supervisor/Supervisor_And_Agent_Role.gif)
+![Supervisor_And_Agent_Role](../images/Supervisor/Supervisor_And_Agent_Role.gif)
 
 ---
 
@@ -86,21 +86,21 @@ We will review this on Control Hub Settings.
 
 <br>
 
-![Supervisor_Login](/assets/images/Supervisor/Supervisor_Login.gif)
+![Supervisor_Login](../images/Supervisor/Supervisor_Login.gif)
 
 - When you sign in to the **Supervisor Desktop**, the appearance depends on how the Webex Contact Center administrator has configured the desktop layout. The **Supervisor Desktop** display size must be greater than 500 x 500 pixels (width x height). You must set your web browser zoom to 100% for the best experience with the Supervisor Desktop. With this lab layout you get :
 
 1. **Home Page**: Displays a user friendly interface that provides a consolidated view of key contact center metrics and filters. This is the default landing page in the Supervisor Desktop. The administrator can customize the Home Page in the layout JSON file.
 
-![Supervisor_Home](/assets/images/Supervisor/Supervisor_Home.png)
+![Supervisor_Home](../images/Supervisor/Supervisor_Home.png)
 
 2. **Task**: Displays all the tasks when you sign in to the Desktop in dual role (supervisor and agent) or as a supervisor, interactions such as voice, chat, email, and social messaging conversations, along with monitoring. The icon displays a badge indicating the number of requests that you have not accepted across various channels.
 
-![Supervisor_Task](/assets/images/Supervisor/Supervisor_Task.gif)
+![Supervisor_Task](../images/Supervisor/Supervisor_Task.gif)
 
 3. **Team Performance**: Displays real-time information about an agent and a consolidated view of an agent’s performance as part of the team. You can also monitor and send 1:1 messages to an agent.
 
-![Supervisor_TeamPerformance](/assets/images/Supervisor/Supervisor_TeamPerformace.gif)
+![Supervisor_TeamPerformance](../images/Supervisor/Supervisor_TeamPerformace.gif)
 
 > Note: **Supervisor Desktop** supports localization in 30 languages. The following are the supported languages:
 > Bulgarian, Catalan, Chinese (China), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, English (UK), English (US),Finnish,French, German, Hungarian, Italian,Japanese, Korean, Norwegian,Polish,Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Turkish, and Ukrainian.
@@ -133,7 +133,7 @@ We will review this on Control Hub Settings.
 
 - you can customize this view to show / hide columns or group information at your convenience.
 
-![Supervisor_Modify_Columns](/assets/images/Supervisor/Supervisor_Modify_Columns.gif)
+![Supervisor_Modify_Columns](../images/Supervisor/Supervisor_Modify_Columns.gif)
 
 ## 6.3: Chat with your agents
 
@@ -141,61 +141,61 @@ Collaboration between agents and supervisors can help your Contact Center to be 
 
 - Click on the **Send Message** button
 
-![Supervisor_Message](/assets/images/Supervisor/Supervisor_Message.gif)
+![Supervisor_Message](../images/Supervisor/Supervisor_Message.gif)
 
 ---
 
 - Fill the chat window with a message to send to your agent
 
-![Supervisor_Message_Sent](/assets/images/Supervisor/Supervisor_Message_Sent.gif)
+![Supervisor_Message_Sent](../images/Supervisor/Supervisor_Message_Sent.gif)
 
 ---
 
 - On the agent side, observe the message notification received
 
-![Supervisor_Message_Sent_Agent](/assets/images/Supervisor/Supervisor_Message_Sent_Agent.gif)
+![Supervisor_Message_Sent_Agent](../images/Supervisor/Supervisor_Message_Sent_Agent.gif)
 
 ---
 
 - If, as an agent, you want to answer to the supervisor, your will need to click on the **Webex logo** to open the Webex app embedded in the **Agent Desktop**. You can then reply to the supervisor directly.
 
-![Supervisor_Message_Sent_To_Sup](/assets/images/Supervisor/Supervisor_Message_Sent_To_Sup.gif)
+![Supervisor_Message_Sent_To_Sup](../images/Supervisor/Supervisor_Message_Sent_To_Sup.gif)
 
 ---
 
 - On the supervisor side, observe the message notification received
 
-![Supervisor_Message_Received_from_Agent](/assets/images/Supervisor/Supervisor_Message_Received_from_Agent.gif)
+![Supervisor_Message_Received_from_Agent](../images/Supervisor/Supervisor_Message_Received_from_Agent.gif)
 
 ## 6.4: Monitor calls
 
 - As a supervisor, the **Team Performance Details** page allows you to see all connected agents and decide to monitor calls by clicking on the **Review and Monitor** icon.
 
-![Supervisor_Monitor](/assets/images/Supervisor/Supervisor_Monitor.gif)
+![Supervisor_Monitor](../images/Supervisor/Supervisor_Monitor.gif)
 
 ---
 
 - The following popup will be displayed. Click on **Start Monitoring**. Please note a supervisor can monitor other call types such as callbacks, outdial calls, outbound preview campaign calls.
 
-![Supervisor_Monitor_Accept](/assets/images/Supervisor/Supervisor_Monitor_Accept.gif)
+![Supervisor_Monitor_Accept](../images/Supervisor/Supervisor_Monitor_Accept.gif)
 
 ---
 
 - In your **Supervisor Desktop**, an incoming popover window will be displayed and your softphone will ring as Webex Contact Center is now trying to reach you. You recognize the agent you want to monitor and other call variables are displayed. The Flow configuration defines variables to display on this popover (max 6). Accept the call on your supervisor softphone.
 
-![Supervisor_Monitor_Floating](/assets/images/Supervisor/Supervisor_Monitor_Floating.gif)
+![Supervisor_Monitor_Floating](../images/Supervisor/Supervisor_Monitor_Floating.gif)
 
 ---
 
 - As a supervisor, the call you are now monitoring is displayed in your desktop with agent and customer details of which the call variables so you are aware of the context of the call. You can view previous communications with a customer across all channels (voice, email, chat, and social) in the **Contact History** pane. The pane displays details for the last 24 hours.
 
-![Supervisor_Monitor_History](/assets/images/Supervisor/Supervisor_Monitor_History.gif)
+![Supervisor_Monitor_History](../images/Supervisor/Supervisor_Monitor_History.gif)
 
 ---
 
 - You can pause the monitoring and start is again if you will
 
-![Supervisor_Monitor_Pause](/assets/images/Supervisor/Supervisor_Monitor_Pause.gif)
+![Supervisor_Monitor_Pause](../images/Supervisor/Supervisor_Monitor_Pause.gif)
 
 ---
 
@@ -203,19 +203,19 @@ Collaboration between agents and supervisors can help your Contact Center to be 
 
 - When you sign in to the Supervisor Desktop, you can - depending or your team assignement - choose either the supervisor role or supervisor AND agent role.
 
-![Supervisor_LoginOptions](/assets/images/Supervisor/Supervisor_LoginOptions.gif)
+![Supervisor_LoginOptions](../images/Supervisor/Supervisor_LoginOptions.gif)
 
 ---
 
 - In the case, the supervisor experience is a bit different as your agent status appears in the header section of the Desktop.
 
-![Lab_4_ESD](/assets/images/Supervisor/Supervisor_No_Message.gif)
+![Lab_4_ESD](../images/Supervisor/Supervisor_No_Message.gif)
 
 ---
 
 - If, as a supervisor, you chose to monitor a call, your status is set to **Engaged** and you cannot take other calls as an agent.
 
-![Supervisor_Engaged](/assets/images/Supervisor/Supervisor_Engaged.gif)
+![Supervisor_Engaged](../images/Supervisor/Supervisor_Engaged.gif)
 
 ---
 
@@ -224,43 +224,43 @@ Collaboration between agents and supervisors can help your Contact Center to be 
 
 > **The following section outlines where you can find the main configuration settings for Supervisors, and their Teams, Queues and other segmentation settings**
 
-- The Supervisor Layout is enabled for a user via the [Desktop Layout JSON](https://webexone.github.io/assets/files/WebexOne_Layout.json) file for supervisor from GitHub.
+- The Supervisor Layout is enabled for a user via the [Desktop Layout JSON](https://webexone.github.io../files/WebexOne_Layout.json) file for supervisor from GitHub.
 - Open the file in any JSON editor, check and make sure it contains **_supervisor_** and **_supervisorAgent_** sections.
   - **_supervisor_** section is used when the user signs in to supervisor desktop with **_Supervisor_** role.
   - **_supervisorAdmin_** section is used when the user signs in to supervisor desktop with **_Supervisor and Agent_** role.
 
-![Lab_4_WebexCC_Config_1](/assets/images/Supervisor/DC_Lab_4_Supervisor_WebexCC_1.png)
+![Lab_4_WebexCC_Config_1](../images/Supervisor/DC_Lab_4_Supervisor_WebexCC_1.png)
 
 ---
 
 - Lets see where this is uploaded.
 - On Webex Control Hub (admin.webex.com) - Go to _DESKTOP EXPERIENCE_ -> _Desktop Layout_
 
-![CH_DesktopLayout](/assets/images/Supervisor/CH_DesktopLayout.gif)
+![CH_DesktopLayout](../images/Supervisor/CH_DesktopLayout.gif)
 
 ---
 
 - To verify layout Assignments, go to Control Hub _Contact Center > USER MANAGEMENT > Teams_ and search for your Team (Team1 or Team2). You will find the WebexOne_desktopLayout in there.
 
-![Supervisor_Teams_Layout](/assets/images/Supervisor/Supervisor_Teams_Layout.gif)
+![Supervisor_Teams_Layout](../images/Supervisor/Supervisor_Teams_Layout.gif)
 
 ---
 
 - To verify layout Assignments, go to Control Hub > **_Teams_** and search for your Team (Team1 or Team2). You will find the WebexOne_desktopLayout in there.
 
-![Lab_4_WebexCC_Config_4](/assets/images/Supervisor/DC_Lab_4_Supervisor_WebexCC_4.png)
+![Lab_4_WebexCC_Config_4](../images/Supervisor/DC_Lab_4_Supervisor_WebexCC_4.png)
 
 ## 2.7: User Profile Settings for Supervisor
 
 - Under **_USER MANAGEMENT_** -> **_User Profiles_**, find default **_Supervisor Profile_**, and let us take a look at it.
 
-![Supervisor_userProfile_Verify](/assets/images/Supervisor/Supervisor_userProfile_Verify.gif)
+![Supervisor_userProfile_Verify](../images/Supervisor/Supervisor_userProfile_Verify.gif)
 
 ---
 
 - We are able to view Supervisor settings including Access Rights.
 
-![Supervisor_AccessRights](/assets/images/Supervisor/Supervisor_AccessRights.gif)
+![Supervisor_AccessRights](../images/Supervisor/Supervisor_AccessRights.gif)
 
 ---
 
@@ -276,16 +276,16 @@ Collaboration between agents and supervisors can help your Contact Center to be 
 - Click **_Contact Center_**
 - View license options (Do not change, please)
 
-![Supervisor_License](/assets/images/Supervisor/Supervisor_License.gif)
+![Supervisor_License](../images/Supervisor/Supervisor_License.gif)
 
 ---
 
 - Check and make sure supervisor license is displayed in **_Licenses_** section of user seetings on Control Hub.
 
-![Lab_4_Supervisor_Config_5](/assets/images/Supervisor/Supervisor_License_Verify.gif)
+![Lab_4_Supervisor_Config_5](../images/Supervisor/Supervisor_License_Verify.gif)
 
 ---
 
 - To Synchronize Users - Go to **_Contact Center_** -> **_TENANT SETTINGS_** > **General** and press **_Synchronize Users_** button in order to synchronize Webex users with Contact Center licenses in order to successfully assign Contact Center user privileges.
 
-![CH_Synchronize](/assets/images/Supervisor/CH_Synchronize.gif)
+![CH_Synchronize](../images/Supervisor/CH_Synchronize.gif)
