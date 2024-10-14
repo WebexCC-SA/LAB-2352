@@ -119,9 +119,9 @@ Example:
 > 100_Team
 
 
-(4) Agents will use browsers for voice calls using WebRTC (Web Real-time Communication) endpoints. Additionally, Webex Calling extensions have been assigned to users (both agents and supervisors) to facilitate alternate device experiences. Webex Contact Center agents and supervisors can opt for any mix of these devices, encompassing PSTN endpoints and mobile phones.
+(3) Agents will use browsers for voice calls using WebRTC (Web Real-time Communication) endpoints. 
 
-(5) A preset inbound Voice flow is available for test calls.
+(4) A preset inbound Voice flow is available for test calls.
 
 **Quick Links**
 
@@ -140,7 +140,6 @@ Please note, that to proceed to the next section, you will need to use the accou
 | **Entity**           | **Name**                                                            |
 | -------------------- | ------------------------------------------------------------------- |
 | Agent 1              | wxcclabs+agent_ID<w class = "attendee_out">attendeeID</w>@gmail.com |
-| Supervisor 1         | wxcclabs+supvr_ID<w class = "attendee_out">attendeeID</w>@gmail.com |
 | Administrator        | wxcclabs+admin_ID<w class = "attendee_out">attendeeID</w>@gmail.com |
 | Desktop Profile      | <w class = "attendee_out">attendeeID</w>\_desktopProfile            |
 | Entry Point          | <w class = "attendee_out">attendeeID</w>\_EP                        |
@@ -198,21 +197,6 @@ Please note, that to proceed to the next section, you will need to use the accou
 ![agent-desktop](../images/agent/AgentLogin.gif)
 
 ---
-
-**NOTE:**
-
-> The login device and DN can be enforced on the Desktop Profile as follows
-> {: .block-warning }
-
-- If your administrator configures the default Dial Number (DN), the default DN is prepopulated in the Dial Number and Extension fields.
-- If your administrator restricts the DN to the default DN, you cannot edit the prepopulated DN when signing in to the Agent Desktop.
-
-- They can choose between Dial Number or Extension or Desktop
-
-  - Extension: Just in case the agent is using Webex Calling or some other softphone as calling endpoint
-
-    - Dial Number: E.164 format phone number
-      - If you check the **International Dialing Format** box, you can choose the country code based on your geographical location from the drop-down list. You can also enter a country code or country name to filter the list. Dial numbers are validated based on the country code
 
 **Explore Agent Desktop Header Actions**
 
