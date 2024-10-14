@@ -50,7 +50,7 @@ Welcome to the **Webex Contact Center Agent and Supervisor Experience!**
 
 In **Part 1**, we will explore the **Webex Contact Center Agent Experience** and the associated administrative toggles for configuring agents in the Webex Contact Center.
 
-In **Part 2**, we will examine the **Webex Contact Center Supervisor Experience** and the associated administrative toggles for configuring supervisors in the Webex Contact Center.
+In **Part 2**, we will examine the **Webex Contact Center Flow Experience** and the associated administrative toggles for configuring supervisors in the Webex Contact Center.
 
 
 
@@ -70,9 +70,15 @@ In **Part 2**, we will examine the **Webex Contact Center Supervisor Experience*
 **Objectives**
 
 - Explore the Agent Experience on the Webex Contact Center by logging into the Agent Desktop application and navigating its out-of-the-box capabilities.
-- Familiarize yourself with the complete Agent Desktop interface and its functions, covering Inbound, Outbound, and Omnichannel contact workflows.
-- Dive into extensions of the Agent Desktop Experience, understanding the available widgets—both out-of-the-box and custom—and recognizing the potential of Desktop Widgets and customized workflows.
-- The Bonus section (OPTIONAL) delves into advanced Desktop extensions, focusing on Desktop layout design and programmatic extensions.
+- Familiarize yourself with the complete Agent Desktop interface and its functions
+
+
+<!-- md:option type:warning -->
+
+!!! warning "README"
+
+    The initial section of the lab is a walkthrough, the **Desktop has been configured for you**. This ensures you can experience a fully configured Agent desktop. **The Password that is sent throught the email is the same for Agent and Admin login **
+
 
 **Pre-Requisites**
 
@@ -100,15 +106,9 @@ In **Part 2**, we will examine the **Webex Contact Center Supervisor Experience*
 - Administrator credentials for the Control Hub: [admin.webex.com](https://admin.webex.com).
 - Agent Login Credentials for the Agent Desktop: [desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com).
 
-(2) **Webex App** Installed and Logged in. Provided your `Supervisor Login ID` - use the **Webex App** to login your **Supervisor User.**
+(2) The items listed below have been pre-configured for you:
 
-- This user is in the format:
-
-> **wxcclabs+supvr_ID<w class = "attendee_out">attendeeID</w>@@gmail.com**
-
-(3) The items listed below have been pre-configured for you:
-
-- Agent and Supervisor user accounts are configured and ready for logins.
+- Agent and Admin user accounts are configured and ready for logins.
 - You can access the Agent Desktop via the URL: [https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com).
 - As an agent, you're associated with a team—designated by your Attendee ID—as "Team" 
 
@@ -116,7 +116,7 @@ Example:
 
 > If your attendee ID is 100:
 >
-> 100_Team1
+> 100_Team
 
 
 (4) Agents will use browsers for voice calls using WebRTC (Web Real-time Communication) endpoints. Additionally, Webex Calling extensions have been assigned to users (both agents and supervisors) to facilitate alternate device experiences. Webex Contact Center agents and supervisors can opt for any mix of these devices, encompassing PSTN endpoints and mobile phones.
