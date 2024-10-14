@@ -54,7 +54,6 @@ In **Part 2**, we will examine the **Webex Contact Center Flow Experience** and 
 
 
 
-
 **Table of Contents**
 
 | Topic                                                                                  | Type             | Dificulty    | Time   |
@@ -62,8 +61,8 @@ In **Part 2**, we will examine the **Webex Contact Center Flow Experience** and 
 | [Part 1: Agent Experience](#part-1-agent-experience)                                   | Exploration      | EASY         | 5 mins |
 | [1.1: Agent Desktop Overview](#11-desktop-login-process)                               | Exploration      | EASY         | 	    |
 | [1.2: Make an Incoming Call](#12-make-an-incoming-call)                                | Activity         | EASY         |        |
-| [1.3: (Optional) Troubleshooting Agent Desktop](#13-troubleshooting-agent-desktop)     | Exploration      | EASY         |        |
-| [Part 2: Flow Experience](#part-3-flow-experience)                         	         | Exploration      | EASY         | 5 mins |
+| [1.3: (Optional) Troubleshooting Tips for WebRTC](#13-troubleshooting-agent-desktop)   | Exploration      | EASY         |        |
+| [Part 2: Flow Experience](#part-2-flow-experience)                         	         | Exploration      | EASY         | 5 mins |
 
 ## Part 1: Agent Experience
 
@@ -77,14 +76,7 @@ In **Part 2**, we will examine the **Webex Contact Center Flow Experience** and 
 
 !!! warning "README"
 
-    The initial section of the lab is a walkthrough, the **Desktop has been configured for you**. This ensures you can experience a fully configured Agent desktop. **The Password that is sent throught the email is the same for Agent and Admin login **
-
-
-**Pre-Requisites**
-
-> Note: The initial section of the lab is a walkthrough, the **Desktop has been configured for you**. This ensures you can experience a fully configured Agent desktop. For more insights on Desktop Administration and Configuration toggles available, please refer to the `Verify Desktop Administration` section in the lab.
-
-> We'll delve into each Administrative element in the following **Verify Desktop Administration** section that covers `Configuration and Administrative tasks`.
+    The initial section of the lab is a walkthrough, the Desktop has been configured for you. This ensures you can experience a fully configured Agent desktop. **The Password sent through the email is the same for Agent and Admin login**
 
 
 
@@ -198,9 +190,6 @@ Please note, that to proceed to the next section, you will need to use the accou
 
 ---
 
-**Explore Agent Desktop Header Actions**
-
-The following section explores the Agent Desktop header actions.
 
 **Explore Agent State and Idle codes**
 
@@ -222,7 +211,12 @@ This also has the section where you can view the Idle codes.
 
 ### 1.2: Make an Incoming Call
 
-> In this section, you will will interact as an agent and test an Incoming call. Review the video of the lab section above to understand the different call handling options.
+<!-- md:option type:note -->
+
+!!! note "Lab Learning"
+
+    In this section, you will will interact as an agent and test an Incoming call. Please keep the Dial Number assigned to the you handy to place the incoming call. 
+
 
 - In order to test properly an incoming call, first we need to make sure that we have all the call handling options enabled
 
@@ -252,8 +246,13 @@ This also has the section where you can view the Idle codes.
 
 ---
 
-### 1.3: Troubleshooting Agent Desktop
+### 1.3: (Optional lab) Troubleshooting Tips for WebRTC 
 
+<!-- md:option type:warning -->
+
+!!! warning "README"
+
+    This is an optional lab that goes over few tips to settings to ensure WebRTC to work correctly that can be completed now or revisited at a later time. 
 
 **Launch the Notification Pane**
 
@@ -272,16 +271,6 @@ To review or change the Desktop Settings, click on the persona icon on the top r
 
 ---
 
-**Verify Profile Settings**
-
-The Profile settings shows the Agent which Device(s) or Teams are configured for use, allowing the agent to switch the Device OR Teams that they wish to login.
-
-> This is defined in the **Desktop Profile** on the User or Team level.
-> Teams are defined on the **User Settings** under Contact Center Settings
-
-![agent-desktop-Profile-Settings](../images/agent/Agent_Profile_Settings.gif)
-
----
 
 **Verify Notification Settings**
 
