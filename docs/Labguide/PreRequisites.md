@@ -63,8 +63,7 @@ In **Part 2**, we will examine the **Webex Contact Center Flow Experience** and 
 | [1.2: Make an Incoming Call](#12-make-an-incoming-call)                                | Activity         | EASY         |        |
 | [1.3: (Optional) Troubleshooting Tips for WebRTC](#13-troubleshooting-agent-desktop)   | Exploration      | EASY         |        |
 | [Part 2: Flow Experience](#part-2-flow-experience)                         	         | Exploration      | EASY         | 5 mins |
-| [2.1: Flow Experience](#part-2-flow-experience)                         	         | Exploration      | EASY         | 5 mins |
-| [Part 2: Flow Experience](#part-2-flow-experience)                         	         | Exploration      | EASY         | 5 mins |
+
 
 ## Part 1: Agent Experience
 
