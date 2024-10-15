@@ -257,13 +257,6 @@ This is a setting that is enabled for all logged in Agents with the Desktop (Web
 ---
 
 
-> What you will notice when you open the file:
-> The Desktop uses a combination of secure HTTPS as well as Websocket connectivity to stay connected to the backend.
-> From a connectivity standpoint, this means that the Agent's Desktop requires network access, latency and bandwidth requirements to facilitate streamlined HTTPS traffic for both pure REST as well as WebSocket payloads.
-> {: .block-warning }
-
----
-
 **Test Your Network**
 
 This is specifically for the Desktop Voice option. Agents can also test their local network connectivity for latency and bandwidth requirements on the Agent Desktop - eespecially for diagnostics.
