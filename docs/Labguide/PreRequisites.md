@@ -105,6 +105,7 @@ For this lab, you'll only require access to two web portals:
 
 !!! note "Links"
     Control Hub Administration: **[https://admin.webex.com](https://admin.webex.com){:target="\_blank"}**
+    
     Contact Center Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com){:target="\_blank"}**
 
 
@@ -310,4 +311,4 @@ Explore the flow and use the Debug function in the flow to step through the node
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed the Agent and Supervisor Experience labs!</strong></p>
 		
-<p style="text-align:center;"><img src="../images/webex.png" width="100"></p>
+<p style="text-align:center;"><img src="../images/webex-new-logo1.png" width="100"></p>
