@@ -135,8 +135,8 @@ Please note, that to proceed to the next section, you will need to use the accou
 | Desktop Profile      | <w class = "attendee_out">attendeeID</w>\_desktopProfile            |
 | Entry Point          | <w class = "attendee_out">attendeeID</w>\_EP                        |
 | Queue                | <w class = "attendee_out">attendeeID</w>\_Q                         |
-| Team 1               | <w class = "attendee_out">attendeeID</w>\_team1                     |
-| Team 2               | <w class = "attendee_out">attendeeID</w>\_team2                     |
+| Team                 | <w class = "attendee_out">attendeeID</w>\_team1                     |
+| Inbound Flow         | WebexOne_Inboundflow                                                |
 | Multimedia Profile   | <w class = "attendee_out">attendeeID</w>\_MMP                       |
 
 
@@ -225,14 +225,13 @@ This also has the section where you can view the Idle codes.
 
 - In order to test properly an incoming call, first we need to make sure that we have all the call handling options enabled
 
-- Login with your administrator user in the **Control Hub**: [https://admin.webex.com](https://admin.webex.com)
-  Navigate to SERVICES > Contact Center > TENANT SETTINGS > Desktop
-  - Make sure that **`End Call`** and **`End Consult`** are enabled
-  - You can also configure _Auto Wrapup and RONA timeouts_
 
-![CH-Settings-Desktop](../images/agent/CH_Settings_Desktop.gif)
+<!-- md:option type:warning -->
 
----
+!!! warning "README"
+
+   Before place call to you are logged in and available on agent desktop 
+
 
 - Now place it's time to test the incoming call
 
@@ -320,52 +319,25 @@ This is specifically for the Desktop Voice option. Agents can also test their lo
 
 !!! note "Lab Learning"
 
-    The objective of this lab is to familiarize you with the Flow Builder in Webex Contact Center by creating a flow from scratch. 
+    The objective of this lab is to familiarize you with the Flow Builder in Webex Contact Center by explore the flow that ensured that the call reached the agent in the previous step 
 
 ### 2.1 Navigating to the Flow Builder**
 
   - Sign into   [Admin Portal](https://admin.webex.com) using Admin Credentials
   - Click on  `Contact Center`
   - Click on  `Flows`
-  - On the top right click on `Manage Flows`
-  - Select  `Create Flow`
-  - Click on  `Start Fresh`
-  - Enter a name `Wx1_Flow1_<ID>`
-
-  Example:
-
-> If your attendee ID is 101:
->
-> Wx1_Flow1_101
-
-<img align="middle" src="../images/lab2/CreateFirstFlow.gif" width="1000" />  
-<br/>
-<br/>
-
-### 2.2 Create Your First Flow
-
-  - Drag and Drop `Play Mesasge ` Activity from the Activity Library
-  - Drag and Drop `Disconnect Contact` Activity from the Activity Library
-  - Connect to output of the `NewPhonecontact` node to the  `PlayMesasge` Node
-  - Connect to output of the `PlayMesasge` node to the  `Disconnect Contact` Node
-  - Click on  `PlayMesasge` on the right side select `default_music_on_hold` as the Audio File
-
-<img align="middle" src="../images/lab2/CreateFirstFlow.gif" width="1000" />  
-<br/>
-<br/>
-  
-### 2.3 Validate Your First Flow
-
-- At the bottom right toggle   `Validation` to on 
-- Click on  `Publish Flow` and Add `Live` version label and click on `Publish Flow` 
+  - Search for flow in `WebexOne_Inboundflow` in the search bar 
+  - Open the flow in Read-Only mode 
 
 
-<img align="middle" src="../images/lab2/FlowValidate.gif" width="1000" />  
-<br/>
-<br/>
+<!-- md:option type:warning -->
 
+!!! TIP "README"
+1. Flow variable AttendeeEmail that has a default value wxcclabs+agent_ID assigned **`wxcclabs+agent_ID`**
+2. Collect Digits Activity Settings - Configured with the Cisco TTS Cisco Cloud Text-to-Speech for a TTS message to collect the attendee ID. The attendeeID is captured in the AttendeeID.DigitsEntered output variable 
+3. SetVariable node has a flow Variable (AttendeeEmail) that is set with value {{AttendeeEmail}}{{AttendeeID.DigitsEntered}}@gmail.com. With the inputs from the prevous two steps based on the agent ID the Attendee Email is constructe. Example Attendee ID entered in Step 2 is 050, wxcclabs+agent_ID050@gmail.com is constructed  
+4. QueueToAgent is configured to perform an Agent Loop Type as Email and uses the AttendeeEmail output from the previous to route the call to the agent
 
----
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed the Agent and Supervisor Experience labs!</strong></p>
 		
