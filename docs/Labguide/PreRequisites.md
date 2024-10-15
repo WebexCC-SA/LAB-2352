@@ -287,7 +287,7 @@ This is specifically for the Desktop Voice option. Agents can also test their lo
 
 Explore the flow and use the Debug function in the flow to step through the nodes and outputs from them. If you have any further questions, please reach out to your lab proctor 
 
-![flow-debug](../images/agent/flow_debug.gif)
+![flow-debug](../images/agent/flow_debug.png)
  
 <!-- md:option type:warning -->
 
