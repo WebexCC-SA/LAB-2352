@@ -95,24 +95,6 @@ In **Part 2**, we will examine the **Webex Contact Center Flow Experience** and 
 
 ![CH-Desktop-Call-In-Accepted](../images/agent/Chrome-Create-Profile.gif)
 
-**Pre-requisites**
-
-
-(1) **One additional device** (like your personal phone) to test inbound calls to the Webex Contact Center. You can use your cell phone for this purpose.
-
-- Administrator credentials for the Control Hub: [admin.webex.com](https://admin.webex.com).
-- Agent Login Credentials for the Agent Desktop: [desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com).
-
-(2) The items listed below have been pre-configured for you:
-
-- Agent and Admin user accounts are configured and ready for logins.
-- You can access the Agent Desktop via the URL: [https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com).
-- As an agent, you're associated with a team—designated by your Attendee ID—as "Team" 
-  Example: If your attendee ID is 100: 100_Team
-
-(3) Agents will use browsers for voice calls using WebRTC (Web Real-time Communication) endpoints. 
-
-(4) A preset inbound Voice flow is available for test calls.
 
 **Quick Links**
 
@@ -170,11 +152,8 @@ Please note, that to proceed to the next section, you will need to use the accou
 
 - This is the station Login Screen. Agents may input the number where they need to receive incoming and outdial calls.
 
-> We will use the new feature of Desktop telephony that uses the browser as a device to directly receive calls.
-
 - Notice that the voice option defaults to "Desktop".
 
-- Select Team1 from the list. Agents can belong to multiple teams, but they can only receive calls of 1 specific team. Your agent is configured for 2 teams.
 
 - Check the **Remember My Credentials** box to save your credentials for future sign-ins.
 
@@ -332,6 +311,10 @@ This is specifically for the Desktop Voice option. Agents can also test their lo
 
 **Decrypting the flow**
 
+Explore the flow and use the Debug function in the flow to step through the nodes and outputs from them. If you have any further questions, please reach out to your lab proctor 
+
+![flow-debug](../images/agent/flow_debug.gif)
+ 
 <!-- md:option type:warning -->
 
 !!! TIP "README"
