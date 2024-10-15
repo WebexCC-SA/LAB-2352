@@ -317,7 +317,7 @@ Explore the flow and use the Debug function in the flow to step through the node
  
 <!-- md:option type:warning -->
 
-!!! TIP "README"
+!!! TIP "Flow layout"
     1. **`Flow variable`** AttendeeEmail that has a default value assigned as **`wxcclabs+agent_ID`**
     2. **`Collect Digits Activity Settings`** - Configured with the **`Cisco TTS Cisco Cloud Text-to-Speech`** for a TTS message to collect the attendee ID. The attendeeID is captured in the **`AttendeeID.DigitsEntered`** output variable 
     3. **`SetVariable`** node has a flow Variable **`(AttendeeEmail)`** that is set with value **`{{AttendeeEmail}}{{AttendeeID.DigitsEntered}}@gmail.com`**. With the inputs from the prevous two steps based on the agent ID the Attendee Email is constructe. Example Attendee ID entered in Step 2 is 050 **`wxcclabs+agent_ID050@gmail.com`** is constructed  
