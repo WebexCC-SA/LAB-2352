@@ -138,19 +138,17 @@ Please note, that to proceed to the next section, you will need to use the accou
 - To Login to the Agent Desktop, launch Google Chrome and navigate to the URL: [https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com)
 
 
-> Tip: You can also find this link under Control Hub: [admin.webex.com](https://admin.webex.com) > Contact Center > Settings
-> {: .block-warning }
+- Once you're in the login page, enter the agent credentials (username and password) that are sent to your email 
 
-- Once you're in the login page, enter the agent credentials (username and password)
-
-> In this example, please use the specific login for your attendee ID. 
-> {: .block-warning }
-
-![agent-desktop](../images/agent/01-image.png)
+<img align="middle" src="../images/agent/01-image.png" width="1000" />  
+<br/>
+<br/>
 
 ---
 
-![agent-desktop](../images/agent/02-image.png)
+<img align="middle" src="../images/agent/02-image.png" width="1000" />  
+<br/>
+<br/>
 
 ---
 
@@ -158,17 +156,20 @@ Please note, that to proceed to the next section, you will need to use the accou
 
 - Notice that the voice option defaults to "Desktop".
 
-
 - Check the **Remember My Credentials** box to save your credentials for future sign-ins.
 
 - Click Sign in to be connected to telephony and complete the login process.
 
-![agent-desktop](../images/agent/03-image.png)
+<img align="middle" src="../images/agent/03-image.png" width="1000" />  
+<br/>
+<br/>
 
 > NOTE: Agents cannot access the Agent Desktop from multiple browsers or multiple tabs of the same browser window. In that case, a warning message will be displayed.
 > {: .block-warning }
 
-![agent-desktop](../images/agent/04-image.png)
+<img align="middle" src="../images/agent/04-image.png" width="1000" />  
+<br/>
+<br/>
 
 ---
 
