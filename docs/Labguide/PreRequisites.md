@@ -100,11 +100,14 @@ In **Part 2**, we will examine the **Webex Contact Center Flow Experience** and 
 
 For this lab, you'll only require access to two web portals:
 
-> Control Hub Administration: **[https://admin.webex.com](https://admin.webex.com){:target="\_blank"}**\
-> Contact Center Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com){:target="\_blank"}**
-> {: .block-success }
+<!-- md:option type:note -->
 
-**Lab Configuration***
+!!! note "Links"
+    Control Hub Administration: **[https://admin.webex.com](https://admin.webex.com){:target="\_blank"}**
+    Contact Center Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com){:target="\_blank"}**
+
+
+**Lab Configuration**
 
 The following Administration entities have been configured for you via [Webex Control Hub](https://admin.webex.com){:target="\_blank"}
 
@@ -273,6 +276,12 @@ This is specifically for the Desktop Voice option. Agents can also test their lo
 !!! note "Lab Learning"
 
     The objective of this lab is to familiarize you with the Flow Builder in Webex Contact Center by explore the flow that ensured that the call reached the agent in the previous step 
+
+**Lab Configuration**
+
+| **Entity**           | **Name**                                                            |
+| -------------------- | ------------------------------------------------------------------- |
+| Administrator        | wxcclabs+admin_ID<w class = "attendee_out">attendeeID</w>@gmail.com |    
 
 **Navigating to the Flow**
 
