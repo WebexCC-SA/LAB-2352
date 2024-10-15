@@ -333,10 +333,11 @@ This is specifically for the Desktop Voice option. Agents can also test their lo
 <!-- md:option type:warning -->
 
 !!! TIP "README"
-1. **`Flow variable`** AttendeeEmail that has a default value assigned as **`wxcclabs+agent_ID`**
-2. **`Collect Digits Activity Settings`** - Configured with the **`Cisco TTS Cisco Cloud Text-to-Speech`** for a TTS message to collect the attendee ID. The attendeeID is captured in the **`AttendeeID.DigitsEntered`** output variable 
-3. **`SetVariable`** node has a flow Variable **`(AttendeeEmail)`** that is set with value **`{{AttendeeEmail}}{{AttendeeID.DigitsEntered}}@gmail.com`**. With the inputs from the prevous two steps based on the agent ID the Attendee Email is constructe. Example Attendee ID entered in Step 2 is 050, **`wxcclabs+agent_ID050@gmail.com`** is constructed  
-4. **`QueueToAgent`** is configured to perform an Agent Loop Type as Email and uses the AttendeeEmail output from the previous to route the call to the agent
+    1. **`Flow variable`** AttendeeEmail that has a default value assigned as **`wxcclabs+agent_ID`**
+    2. **`Collect Digits Activity Settings`** - Configured with the **`Cisco TTS Cisco Cloud Text-to-Speech`** for a TTS message to collect the attendee ID. The attendeeID is captured in the **`AttendeeID.DigitsEntered`** output variable 
+    3. **`SetVariable`** node has a flow Variable **`(AttendeeEmail)`** that is set with value **`{{AttendeeEmail}}{{AttendeeID.DigitsEntered}}@gmail.com`**. With the inputs from the prevous two steps based on the agent ID the Attendee Email is constructe. Example Attendee ID entered in Step 2 is 050 
+ **`wxcclabs+agent_ID050@gmail.com`** is constructed  
+    4. **`QueueToAgent`** is configured to perform an Agent Loop Type as Email and uses the AttendeeEmail output from the previous to route the call to the agent
 
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed the Agent and Supervisor Experience labs!</strong></p>
