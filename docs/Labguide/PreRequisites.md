@@ -321,7 +321,7 @@ This is specifically for the Desktop Voice option. Agents can also test their lo
 
     The objective of this lab is to familiarize you with the Flow Builder in Webex Contact Center by explore the flow that ensured that the call reached the agent in the previous step 
 
-### 2.1 Navigating to the Flow Builder**
+**Navigating to the Flow**
 
   - Sign into   [Admin Portal](https://admin.webex.com) using Admin Credentials
   - Click on  `Contact Center`
@@ -329,6 +329,8 @@ This is specifically for the Desktop Voice option. Agents can also test their lo
   - Search for flow in `WebexOne_Inboundflow` in the search bar 
   - Open the flow in Read-Only mode 
 
+
+**Decrypting the flow**
 
 <!-- md:option type:warning -->
 
