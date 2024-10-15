@@ -93,7 +93,9 @@ In **Part 2**, we will examine the **Webex Contact Center Flow Experience** and 
   - Click `done`
   - Create 2 more profiles for `Supervisor` and `Agent`
 
-![CH-Desktop-Call-In-Accepted](../images/agent/Chrome-Create-Profile.gif)
+<img align="middle" src="../images/agent/Chrome-Create-Profile.gif" width="1000" />  
+<br/>
+<br/>
 
 
 **Quick Links**
