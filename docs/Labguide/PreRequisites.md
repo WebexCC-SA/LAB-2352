@@ -128,18 +128,17 @@ Please note, that to proceed to the next section, you will need to use the accou
 
 !!! note "Lab Learning"
 
-    In this section, we will go through the agent desktop login process and explore agent states and idle codes. Please keep your agent ID and password handy. 
+    In this section, we will go through the agent desktop login process and explore agent states and idle codes. Please keep your agent ID and password handy. Please use Google Chrome as the browser to take advantage of the all new WebRTC Voice Option 
 
 - To Login to the Agent Desktop, launch Google Chrome and navigate to the URL: [https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com)
 
-> **Note: Please use Google Chrome as the browser to take advantage of the all new WebRTC Voice Option.**
 
 > Tip: You can also find this link under Control Hub: [admin.webex.com](https://admin.webex.com) > Contact Center > Settings
 > {: .block-warning }
 
 - Once you're in the login page, enter the agent credentials (username and password)
 
-> In this example, please use the specific login for your attendee ID
+> In this example, please use the specific login for your attendee ID. 
 > {: .block-warning }
 
 ![agent-desktop](../images/agent/01-image.png)
@@ -208,8 +207,7 @@ This also has the section where you can view the Idle codes.
 <!-- md:option type:warning -->
 
 !!! warning "README"
-
-   Before place call to you are logged in and available on agent desktop 
+    Before place call to you are logged in and available on agent desktop 
 
 
 - Now place it's time to test the incoming call
@@ -236,23 +234,6 @@ This also has the section where you can view the Idle codes.
 !!! warning "README"
 
     This is an optional lab that goes over few tips to settings to ensure WebRTC to work correctly that can be completed now or revisited at a later time. 
-
-**Launch the Notification Pane**
-
-The notification pane on the desktop shows you the notifications of incoming calls or messages.
-The agent can also launch previously delivered screenpops from this pane.
-
-![agent-desktop-Notification-Pane](../images/agent/Agent_Notification_Pane.gif)
-
----
-
-**Launch the Agent Settings Pane**
-
-To review or change the Desktop Settings, click on the persona icon on the top right.
-
-![agent-desktop-Settings-Pane](../images/agent/Agent_Settings_Pane.gif)
-
----
 
 
 **Verify Notification Settings**
