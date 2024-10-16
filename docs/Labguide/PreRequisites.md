@@ -62,8 +62,8 @@ In **Part 2**, we will examine the **Webex Contact Center Flow Experience** and 
 | [1.1: Agent Desktop Overview](#11-desktop-login-process)                               | Exploration      | EASY         | 	    |
 | [1.2: Make an Incoming Call](#12-make-an-incoming-call)                                | Activity         | EASY         |        |
 | [1.3: (Optional) Troubleshooting Tips for WebRTC](#13-troubleshooting-agent-desktop)   | Exploration      | EASY         |        |
-| [Part 2: Flow Experience](#part-2-flow-experience)                         	         | Exploration      | EASY         | 5 mins |
-| [Part 3: Building a Flow from Scratch Experience](#part-3-flow-experience)                         	         | Exploration      | EASY         | 5 mins |
+| [Part 2: Flow Experience](#part-2-flow-experience)                         	         | Exploration      | EASY         | 10mins |
+| [2,1: Building a Flow from Scratch Experience](#part-2.1-flow-experience)              | Exploration      | EASY         |        |
 
 
 ## Part 1: Agent Experience
@@ -311,12 +311,12 @@ Explore the flow and use the Debug function in the flow to step through the node
     4. **`QueueToAgent`** is configured to perform an Agent Lookup Type as Email and uses the AttendeeEmail output from the previous which is the email ID of the attendee to queue the call to the agent
 
 
-## Part 3: Building Flow From Skratch 
+### Part 2.1: Building Flow From Skratch 
 
 <!-- md:option type:note -->
 
 !!! note "Lab Objective"
-    Creating a flow: The objective of this lab is to familiarize you with the Flow Builder in Webex Contact Center by creating a flow from the start. 
+    Creating a flow: The objective of this lab is to familiarize you with the Flow Builder in Webex Contact Center by creating a flow from the start. This step does not require you to map it to an entry point to test the flow
 
 
 **Navigating to the Flow Builder**
