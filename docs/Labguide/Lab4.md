@@ -121,13 +121,18 @@ Please Use the provided script to simulate an agent/customer conversation (minim
 
 ### Step 3: Simulate an Unexpected Call Drop
 
+
 - Transfer the call to transfer call to the Queue **`Wx1_Q_CallDrop`**.
 
-> Note: This queue is being used just to simulate a call drop. Since the call drop has to be system initiated.
+<!-- md:option type:note -->
 
-> The way this is simulated is that, the queue has a maximum time in queue as 10 seconds.
+!!! note "Call Drop Summary Script"
 
-> So, wait in the queue for about 10 seconds for the system to drop the call "automatically"
+    This queue is being used just to simulate a call drop. Since the call drop has to be system initiated.
+    
+    The way this is simulated is that, the queue has a maximum time in queue as 10 seconds.
+    
+    So, wait in the queue for about 10 seconds for the system to drop the call "automatically"
 
 <img align="middle" src="../images/lab5/1.png" width="1000" />  
 <br/>
