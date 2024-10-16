@@ -224,14 +224,6 @@ from the dropdown menu.
 
 ### Step 4: Adding New Intents & Entities
 
-To expedite the completion of this lab, it is recommended to remove all languages except the default language(English), and proceed with the lab.
-
-While the screenshots in this guide display all available languages, we advise you to retain only English for simplicity.
-
-<img align="middle" src="../images/lab3/Disable_Language.gif" width="1000" />  
-<br/>
-<br/>
-
 
 !!! note "Step Objective"
     In this Step, 
@@ -239,6 +231,22 @@ While the screenshots in this guide display all available languages, we advise y
     1. We will learn how to add new intents and entities to enhance the bot's ability to understand and respond to a wider range of user inputs. 
 
     2. We will test these updates in both preview mode and through a live call, confirming that the bot correctly identifies the new intents and entities and provides appropriate responses.
+
+
+To expedite the completion of this lab, it is recommended to remove all languages except the default language(English), and proceed with the lab.
+
+While the screenshots in this guide display all available languages, we advise you to retain only English for simplicity.
+
+!! note "README"
+   After disabling all the languages please make sure to hit on ** Update bot** and you should see a green **Bot updated** message that confirms the action 
+
+
+<img align="middle" src="../images/lab3/Disable_Language.gif" width="1000" />  
+<br/>
+<br/>
+
+
+
 
 - Navigate to the Training Tab from the left-hand panel and click on the "Create Intent" button located in the top right corner.
 
