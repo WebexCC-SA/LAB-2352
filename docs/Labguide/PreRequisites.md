@@ -149,7 +149,7 @@ Please note, that to proceed to the next section, you will need to use the accou
 
 - Click Sign in to be connected to telephony and complete the login process.
 
-<img align="middle" src="../images/agent/AgentLogin.png" width="1000" />  
+<img align="middle" src="../images/agent/AgentLogin.gif" width="1000" />  
 <br/>
 <br/>
 
