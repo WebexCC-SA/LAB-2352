@@ -95,7 +95,7 @@ A customer is calling to make changes to their flight reservation. The call gets
 
 <!-- md:option type:warning -->
 
-!!! warning "Call Drop Summary Script"
+!!! warning "README"
     Note: This is required by the model to transcribe meaningful audio to text and provide a summary of the conversation by simulating 2 parties. You may also reach out to the lab instrcutors for any queries around this. You may use the two endpoints, your cellphone and the agent device, and complete the conversation.
 
     After this, you will need to transfer the call to simulate a call drop for the customer (it has to be system initiated, not user initiated)
