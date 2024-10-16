@@ -1,7 +1,7 @@
 ---
 icon: material/numeric-2-box-multiple
 icon: material/folder-open-outline
-
+icon: material/medal
 
 title: IVR Experience
 author: Bhushan Suresh, Chandramouli Valithiyanathan, Sara Santos
@@ -196,4 +196,7 @@ By the end of this lab, attendees will:
     Other supported lanaguages are listed here: [Supported Languages](https://help.webex.com/en-us/article/ntkjqhw/Text-to-Speech-(TTS)-in-Webex-Contact-Center)
 
 
-  **Congratulations! You just completed the lab!**
+<p style="text-align:center"><strong>Congratulations, you have officially completed the lab! 🎉🎉 </strong></p>
+		
+<p style="text-align:center;"><img src="../images/webex-new-logo1.png" width="100"></p>
+
