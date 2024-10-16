@@ -142,22 +142,15 @@ Please Use the provided script to simulate an agent/customer conversation (minim
 ### Step 5: View the Call Drop Summary
 
 - Accept the call on the Agent Desktop.
-
-<img align="middle" src="../images/lab2/14.gif" width="1000" />  
-<br/>
-<br/>
-
 - The AI Assistant notifies the agent of the available call drop summary.
-
-<img align="middle" src="../images/lab5/2.png" width="500" />  
-<br/>
-<br/>
-
 - Open the AI Assistant to review the summary.
 
-<img align="middle" src="../images/lab5/3.png" width="500" />  
+<img align="middle" src="../images/lab4/Call_Drop_Summary.gif" width="1000" />  
 <br/>
 <br/>
+
+
+
 
 **Congratulations! You just completed the lab!**
 
