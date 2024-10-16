@@ -72,8 +72,8 @@ The exercises are designed to provide a hands-on understanding of creating Cisco
 
 <!-- md:option type:note -->
 
-!!! note "Lab Objective"
-    In this lab, We will learned how to:
+!!! note "Step Objective"
+    In this step, We will learned how to:
 
     1) Create a Webex AI bot.
 
@@ -126,8 +126,8 @@ The exercises are designed to provide a hands-on understanding of creating Cisco
 
 <!-- md:option type:note -->
 
-!!! note "Lab Objective"
-    In this lab, we will learn how to:
+!!! note "Step Objective"
+    In this Step, we will learn how to:
 
     1. Integrate the Webex AI Bot with the Flow Builder.
     
@@ -185,8 +185,8 @@ from the dropdown menu.
 
 ### Step 3: Updating Bot Responses
 
-!!! note "Lab Objective"
-    In this lab:
+!!! note "Step Objective"
+    In this Step:
 
     1. We will learn how to update bot responses and test these changes both in preview mode and by making a live call , Testing in preview mode allowed you to ensure the changes worked as expected, while making a live call confirmed the bot's performance in a real-world scenario.
 
@@ -224,8 +224,8 @@ from the dropdown menu.
 
 ### Step 4: Adding New Intents & Entities
 
-!!! note "Lab Objective"
-    In this lab, 
+!!! note "Step Objective"
+    In this Step, 
 
     1. We will learn how to add new intents and entities to enhance the bot's ability to understand and respond to a wider range of user inputs. 
 
@@ -302,8 +302,8 @@ from the dropdown menu.
 
 ### Step 5: Adding Training Data using Generative AI
 
-!!! note "Lab Objective"
-    In this lab, 
+!!! note "Step Objective"
+    In this Step, 
 
     1. We will learn how to enhance your bot's capabilities by adding training data using Generative AI
 
@@ -345,8 +345,8 @@ from the dropdown menu.
 
 ### Step 6: Bot Transcripts & Analytics
 
-!!! note "Lab Objective"
-    In this lab:
+!!! note "Step Objective"
+    In this Step:
 
     1. We will explore how to access and analyze bot transcripts and analytics to gain insights into user interactions.
     
