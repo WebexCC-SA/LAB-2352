@@ -224,6 +224,15 @@ from the dropdown menu.
 
 ### Step 4: Adding New Intents & Entities
 
+To expedite the completion of this lab, it is recommended to remove all languages except the default language(English), and proceed with the lab.
+
+While the screenshots in this guide display all available languages, we advise you to retain only English for simplicity.
+
+<img align="middle" src="../images/lab3/Disable_Language.gif" width="1000" />  
+<br/>
+<br/>
+
+
 !!! note "Step Objective"
     In this Step, 
 
@@ -240,18 +249,6 @@ from the dropdown menu.
   - "I need a referral to visit a neurologist."
 
 <img align="middle" src="../images/lab3/6-CreateIntent.gif" width="1000" />  
-<br/>
-<br/>
-
-- Add a new utterances for rest of the languages
-
-<img align="middle" src="../images/lab3/6-Intent_spanish.gif" width="1000" />  
-<br/>
-<br/>
-
-- Enable/ disable can be done from `Settings->Language` (This is optional settings for this lab)
-
-<img align="middle" src="../images/lab3/6-ChangeLang.gif" width="1000" />  
 <br/>
 <br/>
 
