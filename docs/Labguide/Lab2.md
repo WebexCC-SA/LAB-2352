@@ -70,6 +70,7 @@ The exercises are designed to provide a hands-on understanding of creating Cisco
 
 ### Step 1: Creating a Virtual Agent using a Template
 
+
 - Log in to the Control Hub using the contact center `admin` credentials.
 - Go to Contact Center from the left side navigation panel, and under Quick Links, click on `Webex AI Agent`
 
@@ -110,7 +111,23 @@ The exercises are designed to provide a hands-on understanding of creating Cisco
 <br/>
 <br/>
 
+<!-- md:option type:note -->
+
+!!! note "Lessons Learnt"
+    In this lab, you learned how to:
+    1)Create a Webex AI bot.
+    2)Set up basic interaction using Webex API.
+    3)Test the bot in preview mode to ensure proper functionality.
+
 ### Step 2: Integrating the Bot with Flow for Voice Calls
+
+<!-- md:option type:note -->
+
+!!! note "Lab Learning"
+    In this lab, you learned how to:
+    1)Create a Webex AI bot.
+    2)Set up basic interaction using Webex API.
+    3)Test the bot in preview mode to ensure proper functionality.
 
 - Log into Control Hub using your contact center admin credentials. Select 'Contact Center' from the left panel and then navigate to 'Flows' from the left panel.
 
@@ -160,6 +177,10 @@ from the dropdown menu.
 <br/>
 <br/>
 
+!!! note "Lessons Learnt"
+    In this lab,
+    1. We successfully learned how to integrate the Webex AI Bot with the Flow Builder.
+    2. Additionally, you tested the integration by making a test call and verifying the bot's initial response, ensuring that it functions as expected.
 
 
 
@@ -195,6 +216,11 @@ from the dropdown menu.
 <img align="middle" src="../images/lab3/5-Validatechange.gif" width="1000" />  
 <br/>
 <br/>
+
+!!! note "Lessons Learnt"
+    In this lab,
+    1. We successfully learned how to integrate the Webex AI Bot with the Flow Builder.
+    2. Additionally, you tested the integration by making a test call and verifying the bot's initial response, ensuring that it functions as expected.
 
 ### Step 4: Adding New Intents & Entities
 
@@ -266,6 +292,10 @@ from the dropdown menu.
 <br/>
 <br/>
 
+!!! note "Lessons Learnt"
+    In this lab, 
+    1. We successfully added new intents and entities to enhance the bot's ability to understand and respond to a wider range of user inputs. You tested these updates in both preview mode and through a live call, confirming that the bot correctly identifies the new intents and entities and provides appropriate responses.
+
 
 ### Step 5: Adding Training Data using Generative AI
 
@@ -302,6 +332,11 @@ from the dropdown menu.
 <br/>
 <br/>
 
+!!! note "Lessons Learnt"
+    In this lab, 
+    1. We you learned how to enhance your bot's capabilities by adding training data using Generative AI
+    2. Successfully made call using and validated the change
+
 ### Step 6: Bot Transcripts & Analytics
 
 - Click on "Sessions" in the left-hand panel of your bot builder interface to view all the call history. Click on any Session ID to delve into a more detailed analysis of that particular interaction.
@@ -323,66 +358,12 @@ from the dropdown menu.
 <br/>
 <br/>
 
+!!! note "Lessons Learnt"
+    In this lab, 
+    1. We explored how to access and analyze bot transcripts and analytics to gain insights into user interactions.
+    
 
-### Step 7: Generative Fallback with ChatGPT
+<p style="text-align:center"><strong>Congratulations, you have officially completed the Agent and Supervisor Experience labs!</strong></p>
+		
+<p style="text-align:center;"><img src="../images/webex-new-logo1.png" width="100"></p>
 
-- Begin by creating a new bot. Click on `New Task Bot` within the Webex Connect Bot Builder interface.
-
-<img align="middle" src="../images/lab3/54.png" width="1000" />  
-<br/>
-<br/>
-
-- Navigate to the "Create bot" tab to set up your new bot.
-
-<img align="middle" src="../images/lab3/55.png" width="1000" />  
-<br/>
-<br/>
-
-- Assign the name CL\_fallback\_<w class = "attendee_out">attendeeID</w> where <w class = "attendee_out">attendeeID</w> is your attendeeID. Click on ‘Done’ button on the bottom right side.
-
-<img align="middle" src="../images/lab3/56.png" width="1000" />  
-<br/>
-<br/>
-
-- Download the `fallback.json` file from [https://cisco.box.com/s/b0ptxk10gfid1jk09a3e68jg39jb2hbd](https://cisco.box.com/s/b0ptxk10gfid1jk09a3e68jg39jb2hbd){:target="\_blank"}
-
-- Go to the Training Tab, click on the "ellipsis" (three dots), and then select "Import from JSON".
-
-<img align="middle" src="../images/lab3/57.png" width="1000" />  
-   <br/>
-   <br/>
-   
-   
-- Browse your computer and select the `fallback.json` file you downloaded earlier.
-<img align="middle" src="../images/lab3/59.png" width="1000" />  
-   <br/>
-   <br/>
-
-
-- Choose the option "Overwrite current intents and entities" and click on "Import" to upload the JSON content into your bot.
-
-<img align="middle" src="../images/lab3/60.png" width="1000" />  
-   <br/>
-   <br/>
-
-- After importing, click on the NLU Engine and update the Score below which fallback is shown to 0.7
-
-<img align="middle" src="../images/lab3/fallback_config.png" width="1000" />  
-   <br/>
-   <br/>
-
-- Click on "Make Live" to apply the changes, and confirm the action.
-
-<img align="middle" src="../images/lab3/64.png" width="1000" />  
-<br/>
-<br/>
-
-- Test the fallback functionality by using the "Preview" button. Try inputting medical queries such as "Which doctor should I consult for a nasal infection?" to see how the bot responds with the new fallback mechanism.
-
-<img align="middle" src="../images/lab3/65.png" width="1000" />  
-<br/>
-<br/>
-
-**Congratulations! You just completed the lab!**
-
-> Feel free to reach out to the proctors for any questions or clarifications.
