@@ -83,7 +83,7 @@ By the end of this lab, attendees will:
 
 - Verify that an entry point named <w class = "attendee_out">attendeeID</w>\_EP exists in the system,  where <w class = "attendee_out">attendeeID</w> is your attendeeID. Make sure to take a note of the support Number assigned to your entry point. This will the number you dial in to make test call.
 
-<img align="middle" src="../images/lab1/lab1_channel.gif" width="1000" />  
+<img align="middle" src="../images/lab1/TTS_channel_navigation.gif" width="1000" />  
 <br/>
 <br/>
 
