@@ -127,7 +127,7 @@ Please Use the provided script to simulate an agent/customer conversation (minim
 
 ### Step 3: Simulate an Unexpected Call Drop
 
-- Transfer the call to transfer call to the Queue `CL_Q_CallDrop`.
+- Transfer the call to transfer call to the Queue **`Wx1_Q_CallDrop`**.
 
 > Note: This queue is being used just to simulate a call drop. Since the call drop has to be system initiated.
 
