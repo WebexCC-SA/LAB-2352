@@ -130,4 +130,8 @@ By the end of this lab, attendees will:
 - Note that the interaction ID uniquely identifies the flow and assists in debugging.
 
 
+<img align="middle" src="../images/lab1/TTS_flow_variable.gif" width="1000" />  
+<br/>
+<br/>
+
   **Congratulations! You just completed the lab!**
