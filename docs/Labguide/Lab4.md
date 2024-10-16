@@ -72,13 +72,7 @@ A customer is calling to make changes to their flight reservation. The call gets
 
 - Choose the Correct Team corresponding to your POD number and sign in With the Desktop Option.
 
-<img align="middle" src="../images/lab2/12.gif" width="1000" />  
-<br/>
-<br/>
-
-- Go to an available state to receive the call once you have called into the Queue.
-
-<img align="middle" src="../images/lab2/13.gif" width="1000" />  
+<img align="middle" src="../images/lab4/1_6_Agent_Login.gif" width="1000" />  
 <br/>
 <br/>
 
