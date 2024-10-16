@@ -63,6 +63,7 @@ In **Part 2**, we will examine the **Webex Contact Center Flow Experience** and 
 | [1.2: Make an Incoming Call](#12-make-an-incoming-call)                                | Activity         | EASY         |        |
 | [1.3: (Optional) Troubleshooting Tips for WebRTC](#13-troubleshooting-agent-desktop)   | Exploration      | EASY         |        |
 | [Part 2: Flow Experience](#part-2-flow-experience)                         	         | Exploration      | EASY         | 5 mins |
+| [Part 3: Building a Flow from Scratch Experience](#part-3-flow-experience)                         	         | Exploration      | EASY         | 5 mins |
 
 
 ## Part 1: Agent Experience
@@ -278,7 +279,7 @@ This is specifically for the Desktop Voice option. Agents can also test their lo
 
 !!! note "Lab Learning"
 
-    The objective of this lab is to familiarize you with the Flow Builder in Webex Contact Center by explore the flow that ensured that the call reached the agent in the previous step 
+    Exploring the flow: The objective of this lab is to familiarize you with the Flow Builder in Webex Contact Center by exploring the flow that ensured that the call reached the agent in the previous step. 
 
 **Lab Configuration**
 
@@ -308,6 +309,59 @@ Explore the flow and use the Debug function in the flow to step through the node
     2. **`Collect Digits Activity Settings`** - Configured with the **`Cisco TTS Cisco Cloud Text-to-Speech`** for announce a message to collect the attendee ID. The attendeeID is captured in the **`AttendeeID.DigitsEntered`** output variable 
     3. **`SetVariable`** is set with value **`{{AttendeeEmail}}{{AttendeeID.DigitsEntered}}@gmail.com`**. With the inputs from the previous two steps the Attendee Email is constructed. Example Attendee ID entered in Step 2 is 050 **`wxcclabs+agent_ID050@gmail.com`** is constructed  
     4. **`QueueToAgent`** is configured to perform an Agent Lookup Type as Email and uses the AttendeeEmail output from the previous which is the email ID of the attendee to queue the call to the agent
+
+
+## Part 3: Building Flow From Skratch 
+
+<!-- md:option type:note -->
+
+!!! note "Ojective"
+    Creating a flow: The objective of this lab is to familiarize you with the Flow Builder in Webex Contact Center by creating a flow from the start. 
+
+
+**Navigating to the Flow Builder**
+
+  - Sign into   [Admin Portal](https://admin.webex.com) using Admin Credentials
+  - Click on  `Contact Center`
+  - Click on  `Flows`
+  - On the top right click on `Manage Flows`
+  - Select  `Create Flow`
+  - Click on  `Start Fresh`
+  - Enter a name `Wx1_Flow1_<ID>`
+
+  Example:
+
+> If your attendee ID is 101:
+>
+> Wx1_Flow1_101
+
+<img align="middle" src="../images/lab2/CreateFirstFlow.gif" width="1000" />  
+<br/>
+<br/>
+
+**Create Your First Flow**
+
+  - Drag and Drop `Play Mesasge ` Activity from the Activity Library
+  - Drag and Drop `Disconnect Contact` Activity from the Activity Library
+  - Connect to output of the `NewPhonecontact` node to the  `PlayMesasge` Node
+  - Connect to output of the `PlayMesasge` node to the  `Disconnect Contact` Node
+  - Click on  `PlayMesasge` on the right side select `default_music_on_hold` as the Audio File
+
+<img align="middle" src="../images/lab2/CreateFirstFlow.gif" width="1000" />  
+<br/>
+<br/>
+  
+**Validate Your First Flow**
+
+- At the bottom right toggle   `Validation` to on 
+- Click on  `Publish Flow` and Add `Live` version label and click on `Publish Flow` 
+
+
+<img align="middle" src="../images/lab2/FlowValidate.gif" width="1000" />  
+<br/>
+<br/>
+
+
 
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed the Agent and Supervisor Experience labs!</strong></p>
