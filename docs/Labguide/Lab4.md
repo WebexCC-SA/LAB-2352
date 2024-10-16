@@ -92,15 +92,22 @@ A customer is calling to make changes to their flight reservation. The call gets
 
 ### Step 2: Simulate Customer Script
 
-- Use the provided script to simulate an agent/customer conversation (minimum 30 seconds).
-
-> Note: This is required by the model to transcribe meaningful audio to text and provide a summary of the conversation by simulating 2 parties. You may also reach out to the lab instrcutors for any queries around this. You may use the two endpoints, your cellphone and the agent device, and complete the conversation.
-
-> After this, you will need to transfer the call to simulate a call drop for the customer (it has to be system initiated, not user initiated)
 
 <!-- md:option type:warning -->
 
 !!! warning "Call Drop Summary Script"
+    Note: This is required by the model to transcribe meaningful audio to text and provide a summary of the conversation by simulating 2 parties. You may also reach out to the lab instrcutors for any queries around this. You may use the two endpoints, your cellphone and the agent device, and complete the conversation.
+
+    After this, you will need to transfer the call to simulate a call drop for the customer (it has to be system initiated, not user initiated)
+
+Please Use the provided script to simulate an agent/customer conversation (minimum 30 seconds).
+
+
+<!-- md:option type:note -->
+
+
+
+!!! note "Call Drop Summary Script"
     Agent 1: Good morning, thank you for calling Airway Express. My name is Michelle. How can I assist you today?
 
     Customer: Hi Michelle, I'm having an issue trying to make an adjustment to a flight I have with you. I booked a flight from Boston to Seattle, but now I need to add a leg to go from Seattle to San Jose a couple of days later. I just can't seem to do it through the website.
