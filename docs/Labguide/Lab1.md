@@ -178,18 +178,12 @@ By the end of this lab, attendees will:
 <br/>
 
 
-- Validate the flow by clicking "Validate" and then "Publish" the Flow.
+- Validate the flow by clicking "Validate", "Publish" and select the Latest version of the flow:
 
 <img align="middle" src="../images/lab1/TTS_publish_var.gif" width="1000" />  
 <br/>
 <br/>
 
-
-- Select the Latest version of the flow > Click Save.
-
-<img align="middle" src="../images/lab1/TTS_publish_var.gif" width="1000" />  
-<br/>
-<br/>
 
 - Click "Save".
 
