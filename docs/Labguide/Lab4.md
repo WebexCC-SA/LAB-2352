@@ -124,9 +124,11 @@ Please Use the provided script to simulate an agent/customer conversation (minim
 
 - Transfer the call to transfer call to the Queue **`Wx1_Q_CallDrop`**.
 
-<!-- md:option type:note -->
+- **Wait for a minute for the call to timeout and disconnect. This simulates an accidental call drop.**
 
-!!! note "Call Drop Summary Script"
+<!-- md:option type:warning -->
+
+!!! note "README"
 
     This queue is being used just to simulate a call drop. Since the call drop has to be system initiated.
     
@@ -138,7 +140,7 @@ Please Use the provided script to simulate an agent/customer conversation (minim
 <br/>
 <br/>
 
-- **Wait for a minute for the call to timeout and disconnect. This simulates an accidental call drop.**
+
 
 ### Step 4: Call as a Repeat Customer
 
