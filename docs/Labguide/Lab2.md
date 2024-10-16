@@ -86,7 +86,7 @@ The exercises are designed to provide a hands-on understanding of creating Cisco
 
 
 <img align="middle" src="../images/lab3/1_CH2Bot.gif" width="1000" />  
-../images/lab3/1.png
+
 <br/>
 <br/>
 
