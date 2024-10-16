@@ -98,19 +98,19 @@ A customer is calling to make changes to their flight reservation. The call gets
 
 > After this, you will need to transfer the call to simulate a call drop for the customer (it has to be system initiated, not user initiated)
 
-```
-Call Drop Summary Script
-Agent 1: Good morning, thank you for calling Airway Express. My name is Michelle. How can I assist you today?
+<!-- md:option type:warning -->
 
-Customer: Hi Michelle, I'm having an issue trying to make an adjustment to a flight I have with you. I booked a flight from Boston to Seattle, but now I need to add a leg to go from Seattle to San Jose a couple of days later. I just can't seem to do it through the website.
+!!! warning "Call Drop Summary Script"
+    Agent 1: Good morning, thank you for calling Airway Express. My name is Michelle. How can I assist you today?
 
-Agent 1: I'm sorry to hear you're experiencing issues with our app. I can definitely help you with that. Could I have your flight confirmation number to start with, please?
+    Customer: Hi Michelle, I'm having an issue trying to make an adjustment to a flight I have with you. I booked a flight from Boston to Seattle, but now I need to add a leg to go from Seattle to San Jose a couple of days later. I just can't seem to do it through the website.
 
-Silence
+    Agent 1: I'm sorry to hear you're experiencing issues with our app. I can definitely help you with that. Could I have your flight confirmation number to start with, please?
 
-Agent: Hello, hello, hello
+    Silence
 
-******************************************************************************************
+    Agent: Hello, hello, hello
+
 
 
 Agent 2: Good morning, thank you for calling Airway Express. My name is Anita. I see that you were talking to my colleague a little while ago about making an adjustment a flight. I should be able to help you with this. Can you share your flight confirmation number please.
