@@ -1,6 +1,6 @@
 ---
-site_name: LAB-2352 - Webex Contact Center Advanced Lab: AI-powered Customer & Agent Experience  # This must begin with the session ID
-site_description: LAB-2352 - Webex Contact Center Advanced Lab: AI-powered Customer & Agent Experience # must be same as "site_name"
+site_name: LAB-2352 - Webex Contact Center Advanced Lab&colon; AI-powered Customer & Agent Experience  # This must begin with the session ID
+site_description: LAB-2352 - Webex Contact Center Advanced Lab&colon; AI-powered Customer & Agent Experience # must be same as "site_name"
 site_author: Bhushan Suresh
 copyright: Copyright &copy; 2024 Cisco
 theme:
