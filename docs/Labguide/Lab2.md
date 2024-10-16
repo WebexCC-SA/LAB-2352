@@ -1,6 +1,7 @@
 ---
 #icon: material/numeric-2-box-multiple
 icon: material/folder-open-outline
+icon: material/medal
 
 title: Cisco Virtual Agents (VA)
 author: Bhushan Suresh, Chandramouli Valithiyanathan, Sara Santos
@@ -378,7 +379,6 @@ While the screenshots in this guide display all available languages, we advise y
 
 
 
-<p style="text-align:center"><strong>Congratulations on completing this lab!</strong></p>
+<p style="text-align:center"><strong>Congratulations, you have officially completed the lab! 🎉🎉 </strong></p>
 		
 <p style="text-align:center;"><img src="../images/webex-new-logo1.png" width="100"></p>
-
