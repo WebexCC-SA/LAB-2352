@@ -63,7 +63,7 @@ In **Part 2**, we will examine the **Webex Contact Center Flow Experience** and 
 | [1.2: Make an Incoming Call](#12-make-an-incoming-call)                                | Activity         | EASY         |        |
 | [1.3: (Optional) Troubleshooting Tips for WebRTC](#13-troubleshooting-agent-desktop)   | Exploration      | EASY         |        |
 | [Part 2: Flow Experience](#part-2-flow-experience)                         	         | Exploration      | EASY         | 10mins |
-| [2,1: Building a Flow from Scratch Experience](#part-2.1-flow-experience)              | Exploration      | EASY         |        |
+| [2.1: Building a Flow from Scratch Experience](#part-2-1-flow-Scratch)                 | Exploration      | EASY         |        |
 
 
 ## Part 1: Agent Experience
@@ -303,7 +303,7 @@ Explore the flow and use the Debug function in the flow to step through the node
     4. **`QueueToAgent`** is configured to perform an Agent Lookup Type as Email and uses the AttendeeEmail output from the previous which is the email ID of the attendee to queue the call to the agent
 
 
-### Part 2.1: Building Flow From Skratch 
+### Part 2.1: Building Flow From Scratch 
 
 <!-- md:option type:note -->
 
