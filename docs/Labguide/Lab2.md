@@ -239,7 +239,7 @@ While the screenshots in this guide display all available languages, we advise y
 
 <!-- md:option type:warning -->
 !!! note "README"
-   After disabling all the languages please make sure to hit on ** Update bot** and you should see a green **Bot updated** message that confirms the action 
+    After disabling all the languages please make sure to hit on **Update bot** and you should see a green **`Bot updated`** message that confirms the action. 
 
 
 <img align="middle" src="../images/lab3/Disable_Language.gif" width="1000" />  
