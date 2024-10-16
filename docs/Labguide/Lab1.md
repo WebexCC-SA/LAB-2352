@@ -150,9 +150,7 @@ By the end of this lab, attendees will:
 
     In this step: 
 
-    - We will create a flow using Flow Template 
-
-    - Explore the flow to see how Text-To-Speech is used 
+    - Change the TTS lanauage to use en-AU
 
     - Place a call to see verify/validate the speech  
 
@@ -185,7 +183,7 @@ By the end of this lab, attendees will:
 <br/>
 
 
-- Click "Save".
+
 
 - Make a test call by calling the Support Number provided, which is configured in your Channel Configuration.
 
