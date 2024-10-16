@@ -142,7 +142,7 @@ By the end of this lab, attendees will:
 
 - Note that the interaction ID uniquely identifies the flow and assists in debugging.
 
-## Step 2: Enhance TTS by addding a language 
+## Step 2: Enhance TTS by adding a language 
 
 <!-- md:option type:note -->
 
@@ -154,7 +154,7 @@ By the end of this lab, attendees will:
 
     - Place a call to see verify/validate the speech  
 
-- Go back to the flow created in the previosus step Wx1_TTS_<w class = "attendee_out">attendeeID</w>
+- Go back to the flow created in the previosus step named Wx1_TTS_<w class = "attendee_out">attendeeID</w>
 
 - Change the mode from `Read-only` to `Edit-on` mode  
 
@@ -187,8 +187,13 @@ By the end of this lab, attendees will:
 
 - Make a test call by calling the Support Number provided, which is configured in your Channel Configuration.
 
+- Verify if the TTS language changed 
 
+<!-- md:option type:note -->
 
+!!! note "Note"
+
+    Other supported lanaguages are listed here: [Supported Languages](https://help.webex.com/en-us/article/ntkjqhw/Text-to-Speech-(TTS)-in-Webex-Contact-Center)
 
 
   **Congratulations! You just completed the lab!**
