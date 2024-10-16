@@ -76,7 +76,9 @@ The exercises are designed to provide a hands-on understanding of creating Cisco
     In this lab, We will learned how to:
 
     1) Create a Webex AI bot.
+
     2) Set up basic interaction using Webex API.
+
     3) Test the bot in preview mode to ensure proper functionality.
 
 - Log in to the Control Hub using the contact center `admin` credentials.
@@ -125,13 +127,11 @@ The exercises are designed to provide a hands-on understanding of creating Cisco
 <!-- md:option type:note -->
 
 !!! note "Lab Objective"
-    In this lab, you learned how to:
+    In this lab, we will learn how to:
 
-    1)Create a Webex AI bot.
-
-    2)Set up basic interaction using Webex API.
-
-    3)Test the bot in preview mode to ensure proper functionality.
+    1. Integrate the Webex AI Bot with the Flow Builder.
+    
+    2. We will test the integration by making a test call and verifying the bot's initial response, ensuring that it functions as expected.
 
 - Log into Control Hub using your contact center admin credentials. Select 'Contact Center' from the left panel and then navigate to 'Flows' from the left panel.
 
@@ -181,14 +181,14 @@ from the dropdown menu.
 <br/>
 <br/>
 
-!!! note "Lessons Learnt"
-    In this lab,
-    1. We successfully learned how to integrate the Webex AI Bot with the Flow Builder.
-    2. Additionally, you tested the integration by making a test call and verifying the bot's initial response, ensuring that it functions as expected.
-
 
 
 ### Step 3: Updating Bot Responses
+
+!!! note "Lab Objective"
+    In this lab:
+
+    1. We will learn how to update bot responses and test these changes both in preview mode and by making a live call , Testing in preview mode allowed you to ensure the changes worked as expected, while making a live call confirmed the bot's performance in a real-world scenario.
 
 - From the Control Hub Go to Contact center and the under Quick Links, open the `Webex AI Agent`. If you encounter an authentication error due to inactivity, log out from the control hub, log back in, and then access the Webex `Webex AI Agent`.
 
@@ -221,12 +221,15 @@ from the dropdown menu.
 <br/>
 <br/>
 
-!!! note "Lessons Learnt"
-    In this lab,
-    1. We successfully learned how to integrate the Webex AI Bot with the Flow Builder.
-    2. Additionally, you tested the integration by making a test call and verifying the bot's initial response, ensuring that it functions as expected.
 
 ### Step 4: Adding New Intents & Entities
+
+!!! note "Lab Objective"
+    In this lab, 
+
+    1. We will learn how to add new intents and entities to enhance the bot's ability to understand and respond to a wider range of user inputs. 
+
+    2. We will test these updates in both preview mode and through a live call, confirming that the bot correctly identifies the new intents and entities and provides appropriate responses.
 
 - Navigate to the Training Tab from the left-hand panel and click on the "Create Intent" button located in the top right corner.
 
@@ -296,12 +299,15 @@ from the dropdown menu.
 <br/>
 <br/>
 
-!!! note "Lessons Learnt"
-    In this lab, 
-    1. We successfully added new intents and entities to enhance the bot's ability to understand and respond to a wider range of user inputs. You tested these updates in both preview mode and through a live call, confirming that the bot correctly identifies the new intents and entities and provides appropriate responses.
-
 
 ### Step 5: Adding Training Data using Generative AI
+
+!!! note "Lab Objective"
+    In this lab, 
+
+    1. We will learn how to enhance your bot's capabilities by adding training data using Generative AI
+
+    2. We will make a call to validate the change
 
 - Return to the "Referral Request" intent that you created in the previous exercise.
 
@@ -336,12 +342,14 @@ from the dropdown menu.
 <br/>
 <br/>
 
-!!! note "Lessons Learnt"
-    In this lab, 
-    1. We you learned how to enhance your bot's capabilities by adding training data using Generative AI
-    2. Successfully made call using and validated the change
 
 ### Step 6: Bot Transcripts & Analytics
+
+!!! note "Lab Objective"
+    In this lab:
+
+    1. We will explore how to access and analyze bot transcripts and analytics to gain insights into user interactions.
+    
 
 - Click on "Sessions" in the left-hand panel of your bot builder interface to view all the call history. Click on any Session ID to delve into a more detailed analysis of that particular interaction.
 
@@ -362,10 +370,7 @@ from the dropdown menu.
 <br/>
 <br/>
 
-!!! note "Lessons Learnt"
-    In this lab, 
-    1. We explored how to access and analyze bot transcripts and analytics to gain insights into user interactions.
-    
+
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed the Agent and Supervisor Experience labs!</strong></p>
 		
