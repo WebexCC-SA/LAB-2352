@@ -141,18 +141,6 @@ Please note, that to proceed to the next section, you will need to use the accou
 
 - Once you're in the login page, enter the agent credentials (username and password) that are sent to your email 
 
-<img align="middle" src="../images/agent/01-image.png" width="1000" />  
-<br/>
-<br/>
-
----
-
-<img align="middle" src="../images/agent/02-image.png" width="1000" />  
-<br/>
-<br/>
-
----
-
 - This is the station Login Screen. Agents may input the number where they need to receive incoming and outdial calls.
 
 - Notice that the voice option defaults to "Desktop".
@@ -161,25 +149,20 @@ Please note, that to proceed to the next section, you will need to use the accou
 
 - Click Sign in to be connected to telephony and complete the login process.
 
-<img align="middle" src="../images/agent/03-image.png" width="1000" />  
+<img align="middle" src="../images/agent/AgentLogin.png" width="1000" />  
 <br/>
 <br/>
 
-> NOTE: Agents cannot access the Agent Desktop from multiple browsers or multiple tabs of the same browser window. In that case, a warning message will be displayed.
-> {: .block-warning }
+<!-- md:option type:note -->
+
+!!! note "Note"
+    Agents cannot access the Agent Desktop from multiple browsers or multiple tabs of the same browser window. In that case, a warning message will be displayed.
 
 <img align="middle" src="../images/agent/04-image.png" width="1000" />  
 <br/>
 <br/>
 
 ---
-
-> The below shows a demo about the agent login process and the available options:
-
-![agent-desktop](../images/agent/AgentLogin.gif)
-
----
-
 
 **Explore Agent State and Idle codes**
 
@@ -287,16 +270,25 @@ This is specifically for the Desktop Voice option. Agents can also test their lo
 | -------------------- | ------------------------------------------------------------------- |
 | Administrator        | wxcclabs+admin_ID<w class = "attendee_out">attendeeID</w>@gmail.com |    
 
+
+**Admin Login Process**
+
+ - We will go through the agent desktop login process and explore agent states and idle codes. Please keep your agent ID and password handy
+- Sign into   [Admin Portal](https://admin.webex.com) using Admin Credentials sent though email
+
+  ![flow-debug](../images/agent/Admin_Login.gif)
+
+
+
 **Navigating to the Flow**
 
-  - Sign into   [Admin Portal](https://admin.webex.com) using Admin Credentials
-  - Click on  `Contact Center`
+   - Click on  `Contact Center`
   - Click on  `Flows`
   - Search for flow in `WebexOne_Inboundflow` in the search bar 
   - Open the flow in Read-Only mode 
 
 
-**Decrypting the flow**
+**Exploring the flow**
 
 Explore the flow and use the Debug function in the flow to step through the nodes and outputs from them. If you have any further questions, please reach out to your lab proctor 
 
