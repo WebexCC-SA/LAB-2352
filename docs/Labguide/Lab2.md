@@ -70,6 +70,16 @@ The exercises are designed to provide a hands-on understanding of creating Cisco
 
 ### Step 1: Creating a Virtual Agent using a Template
 
+<!-- md:option type:note -->
+
+!!! note "Lab Objective"
+    In this lab, We will learned how to:
+
+    1) Create a Webex AI bot.
+
+    2)Set up basic interaction using Webex API.
+
+    3)Test the bot in preview mode to ensure proper functionality.
 
 - Log in to the Control Hub using the contact center `admin` credentials.
 - Go to Contact Center from the left side navigation panel, and under Quick Links, click on `Webex AI Agent`
@@ -111,22 +121,18 @@ The exercises are designed to provide a hands-on understanding of creating Cisco
 <br/>
 <br/>
 
-<!-- md:option type:note -->
-
-!!! note "Lessons Learnt"
-    In this lab, you learned how to:
-    1)Create a Webex AI bot.
-    2)Set up basic interaction using Webex API.
-    3)Test the bot in preview mode to ensure proper functionality.
 
 ### Step 2: Integrating the Bot with Flow for Voice Calls
 
 <!-- md:option type:note -->
 
-!!! note "Lab Learning"
+!!! note "Lab Objective"
     In this lab, you learned how to:
+
     1)Create a Webex AI bot.
+
     2)Set up basic interaction using Webex API.
+
     3)Test the bot in preview mode to ensure proper functionality.
 
 - Log into Control Hub using your contact center admin credentials. Select 'Contact Center' from the left panel and then navigate to 'Flows' from the left panel.
