@@ -132,7 +132,7 @@ Please note, that to proceed to the next section, you will need to use the accou
 
 <!-- md:option type:note -->
 
-!!! note "Lab Learning"
+!!! note "Lab Objective"
 
     In this section, we will go through the agent desktop login process and explore agent states and idle codes. Please keep your agent ID and password handy. Please use Google Chrome as the browser to take advantage of the all new WebRTC Voice Option 
 
@@ -203,7 +203,7 @@ This also has the section where you can view the Idle codes.
 
 <!-- md:option type:note -->
 
-!!! note "Lab Learning"
+!!! note "Lab Objective"
 
     In this section, you will will interact as an agent and test an Incoming call. Please keep the Dial Number assigned to the you handy to place the incoming call. 
 
@@ -277,7 +277,7 @@ This is specifically for the Desktop Voice option. Agents can also test their lo
 
 <!-- md:option type:note -->
 
-!!! note "Lab Learning"
+!!! note "Lab Objective"
 
     Exploring the flow: The objective of this lab is to familiarize you with the Flow Builder in Webex Contact Center by exploring the flow that ensured that the call reached the agent in the previous step. 
 
@@ -315,7 +315,7 @@ Explore the flow and use the Debug function in the flow to step through the node
 
 <!-- md:option type:note -->
 
-!!! note "Ojective"
+!!! note "Lab Objective"
     Creating a flow: The objective of this lab is to familiarize you with the Flow Builder in Webex Contact Center by creating a flow from the start. 
 
 
