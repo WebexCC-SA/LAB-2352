@@ -57,10 +57,15 @@ By the end of this lab, attendees will:
 
 - Transform traditional flows using text-to-speech to enhance the call path and introduce personalization through data.
 
-**Eligibility Criteria for TTS in the Real World**
+<!-- md:option type:warning -->
 
-- Flex 3 Subscription - Must have an active Flex 3 subscription for WxCC contact Center – “SKU = A-Flex-3-CC”
-- Next Generation Media platform - Customer tenant ”MUST” be on an enhancement media platform (RTMS)
+!!! warning "Eligibility Criteria for TTS in the Real World"
+
+    Before place call to you are logged in and available on agent desktop
+
+    Flex 3 Subscription - Must have an active Flex 3 subscription for WxCC contact Center – “SKU = A-Flex-3-CC”
+
+    Next Generation Media platform - Customer tenant ”MUST” be on an enhancement media platform (RTMS)
 
 
 **Pre-requisites**
