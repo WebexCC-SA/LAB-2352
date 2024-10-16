@@ -356,6 +356,6 @@ Explore the flow and use the Debug function in the flow to step through the node
 
 
 
-<p style="text-align:center"><strong>Congratulations, you have officially completed the Agent and Supervisor Experience labs!</strong></p>
+<p style="text-align:center"><strong>Congratulations, you have officially completed the labs! </strong></p>
 		
 <p style="text-align:center;"><img src="../images/webex-new-logo1.png" width="100"></p>
