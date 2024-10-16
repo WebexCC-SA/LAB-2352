@@ -224,7 +224,7 @@ from the dropdown menu.
 
 ### Step 4: Adding New Intents & Entities
 
-
+<!-- md:option type:note -->
 !!! note "Step Objective"
     In this Step, 
 
@@ -237,7 +237,8 @@ To expedite the completion of this lab, it is recommended to remove all language
 
 While the screenshots in this guide display all available languages, we advise you to retain only English for simplicity.
 
-!! note "README"
+<!-- md:option type:warning -->
+!!! note "README"
    After disabling all the languages please make sure to hit on ** Update bot** and you should see a green **Bot updated** message that confirms the action 
 
 
