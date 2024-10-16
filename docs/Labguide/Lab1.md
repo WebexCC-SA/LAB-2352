@@ -173,7 +173,7 @@ Open the debug view and explore the call path and the steps taken in the flow.
 
 - Add a SetVariable node with variable `Global_Language` that was added to the flow from the previsous step. Add Set Value as en-AU which English (Australia)
 
-<img align="middle" src="../images/lab1/TTS_flow_variable.gif" width="1000" />  
+<img align="middle" src="../images/lab1/TTS_flow_variable_1.gif" width="1000" />  
 <br/>
 <br/>
 
