@@ -256,7 +256,7 @@ This is specifically for the Desktop Voice option. Agents can also test their lo
 
 !!! note "Lab Objective"
 
-    Exploring the flow: The objective of this lab is to familiarize you with the Flow Builder in Webex Contact Center by exploring the flow that ensured that the call reached the agent in the previous step. 
+    Exploring the flow: The objective of this lab is to familiarize you with the Flow Builder in Webex Contact Center. We will explore the flow that ensured that the call reached the agent in the previous step. 
 
 **Lab Configuration**
 
@@ -302,7 +302,7 @@ Explore the flow and use the Debug function in the flow to step through the node
 <!-- md:option type:note -->
 
 !!! note "Lab Objective"
-    Creating a flow: The objective of this lab is to familiarize you with the Flow Builder in Webex Contact Center by creating a flow from the start. This step does not require you to map it to an entry point to test the flow
+    Creating a flow: The objective of this lab is to familiarize you with the Flow Builder in Webex Contact Center by creating a flow from the start. This step does not require you to map it to an entry point to test the flow. 
 
 
 **Navigating to the Flow Builder**
@@ -327,11 +327,11 @@ Explore the flow and use the Debug function in the flow to step through the node
 
 **Create Your First Flow**
 
-  - Drag and Drop `Play Mesasge ` Activity from the Activity Library
-  - Drag and Drop `Disconnect Contact` Activity from the Activity Library
-  - Connect to output of the `NewPhonecontact` node to the  `PlayMesasge` Node
-  - Connect to output of the `PlayMesasge` node to the  `Disconnect Contact` Node
-  - Click on  `PlayMesasge` on the right side select `default_music_on_hold` as the Audio File
+  - Drag and Drop **`Play Mesasge`** Activity from the Activity Library
+  - Drag and Drop **`Disconnect Contact`** Activity from the Activity Library
+  - Connect to output of the **`NewPhonecontact`** node to the  **`PlayMesasge`** Node
+  - Connect to output of the **`PlayMesasge`** node to the  **`Disconnect Contact`** Node
+  - Click on  **`PlayMesasge`** on the right side select **`default_music_on_hold`** as the Audio File
 
 <img align="middle" src="../images/lab2/CreateFirstFlow.gif" width="1000" />  
 <br/>
@@ -339,8 +339,8 @@ Explore the flow and use the Debug function in the flow to step through the node
   
 **Validate Your First Flow**
 
-- At the bottom right toggle   `Validation` to on 
-- Click on  `Publish Flow` and Add `Live` version label and click on `Publish Flow` 
+- At the bottom right toggle **`Validation`** to on 
+- Click on **`Publish Flow`** and Add **`Live`** version label and click on **`Publish Flow` **
 
 
 <img align="middle" src="../images/lab2/FlowValidate.gif" width="1000" />  
@@ -350,6 +350,6 @@ Explore the flow and use the Debug function in the flow to step through the node
 
 
 
-<p style="text-align:center"><strong>Congratulations, you have officially completed the pre-req! 🎉🎉 </strong></p>
+<p style="text-align:center"><strong>Congratulations, you have officially completed the Pre-Requisites lab 🎉🎉 </strong></p>
 		
 <p style="text-align:center;"><img src="../images/webex-new-logo1.png" width="100"></p>
