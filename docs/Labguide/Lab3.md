@@ -284,16 +284,27 @@ By the end of this lab, you will:
 <!-- md:option type:note -->
 
 !!! note "Sample Conversation"
+
     "I would like to Book  an appointment"
+
      What date are you considering for your visit 
+
      "Nov 20th"
+
      Could tell us preferred time for your visit 
+
      "3PM"
-     Which doctor you want appointment with  
+
+     Which doctor you want appointment with
+  
      "Dr John"
+
      What is name of the  patience 
+
      "Peter<any name>"
+
      Could you tell us patience Date of Birth
+
      "Please transfer me to an agent "
 
 
