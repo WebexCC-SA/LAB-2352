@@ -315,6 +315,6 @@ By the end of this lab, you will:
 <br/>
 <br/>
 
-**Congratulations! You just completed the lab!**
-
-> Feel free to reach out to the proctors for any questions or clarifications.
+<p style="text-align:center"><strong>Congratulations, you have officially completed the Intelligent Virtual Agent Handoffs lab! 🎉🎉 </strong></p>
+		
+<p style="text-align:center;"><img src="../images/webex-new-logo1.png" width="100"></p>
