@@ -192,7 +192,7 @@ This also has the section where you can view the Idle codes.
     In this section, you will will interact as an agent and test an Incoming call. Please keep the Dial Number assigned to the you handy to place the incoming call. 
 
 
-- In order to test properly an incoming call, first we need to make sure that we have all the call handling options enabled
+- 
 
 
 <!-- md:option type:warning -->
@@ -212,7 +212,7 @@ This also has the section where you can view the Idle codes.
 
 ---
 
-> **Click on the Accept Button to take the call**
+> **Click on the Answer Button to take the call**
 
 ![CH-Desktop-Call-In](../images/agent/CH_Desktop_Call_In.gif)
 
@@ -297,11 +297,11 @@ Explore the flow and use the Debug function in the flow to step through the node
  
 <!-- md:option type:warning -->
 
-!!! TIP "Flow layout"
-    1. **`Flow variable`** AttendeeEmail that has a default value assigned as **`wxcclabs+agent_ID`**
+!!! TIP "Break down of the flow configuration"
+    1. **`Flow variable`** - AttendeeEmail that has a default value assigned as **`wxcclabs+agent_ID`**
     2. **`Collect Digits Activity Settings`** - Configured with the **`Cisco TTS Cisco Cloud Text-to-Speech`** for announce a message to collect the attendee ID. The attendeeID is captured in the **`AttendeeID.DigitsEntered`** output variable 
-    3. **`SetVariable`** is set with value **`{{AttendeeEmail}}{{AttendeeID.DigitsEntered}}@gmail.com`**. With the inputs from the previous two steps the Attendee Email is constructed. Example Attendee ID entered in Step 2 is 050 **`wxcclabs+agent_ID050@gmail.com`** is constructed  
-    4. **`QueueToAgent`** is configured to perform an Agent Lookup Type as Email and uses the AttendeeEmail output from the previous which is the email ID of the attendee to queue the call to the agent
+    3. **`SetVariable`** - is set with value **`{{AttendeeEmail}}{{AttendeeID.DigitsEntered}}@gmail.com`**. With the inputs from the previous two steps the Attendee Email is constructed. Example Attendee ID entered in Step 2 is 050 **`wxcclabs+agent_ID050@gmail.com`** is constructed  
+    4. **`QueueToAgent`** - is configured to perform an Agent Lookup Type as Email and uses the AttendeeEmail output from the previous which is the email ID of the attendee to queue the call to the agent
 
 
 ### Part 2.1: Building Flow From Scratch 
@@ -357,6 +357,6 @@ Explore the flow and use the Debug function in the flow to step through the node
 
 
 
-<p style="text-align:center"><strong>Congratulations, you have officially completed the lab! 🎉🎉 </strong></p>
+<p style="text-align:center"><strong>Congratulations, you have officially completed the pre-req! 🎉🎉 </strong></p>
 		
 <p style="text-align:center;"><img src="../images/webex-new-logo1.png" width="100"></p>
