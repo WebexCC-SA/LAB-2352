@@ -45,12 +45,15 @@ layout: post
 
 # Lab 5: Agent Wellness
 
-## Objectives
+<!-- md:option type:note -->
 
-By the end of this lab, you will:
+!!! note "Lab Objective"
 
-- Be able to identify and understand the mechanisms in place to support agent wellness.
-- Learn how the system responds to agents’ wellness indicators, such as burnout.
+    By the end of this lab, you will:
+
+    - Be able to identify and understand the mechanisms in place to support agent wellness.
+
+    - Learn how the system responds to agents’ wellness indicators, such as burnout.
 
 ## Customer Scenario
 
@@ -84,14 +87,19 @@ In this scenario, we will explore how a contact center can utilize AI to monitor
 
 #### Step 3: Observe the Reset
 
+<!-- md:option type:warning -->
+
+!!! warning "README"
+    Note: The details for the reset process are not provided in the document and should be completed by the instructor or the person responsible for the lab content.
+
 - Observe the actions taken by the contact center system once a burnout event is detected.
 - Note how contact center administrators have tools today to address and support the wellness of their agents.
 
 <img align="middle" src="../images/lab6/1.gif" width="1000" />  
 <br/>
 
-(Note: The details for the reset process are not provided in the document and should be completed by the instructor or the person responsible for the lab content.)
 
-**Congratulations! You just completed the lab!**
 
-> Feel free to reach out to the proctors for any questions or clarifications.
+<p style="text-align:center"><strong>Congratulations, you have officially completed the Agent Wellness lab! 🎉🎉 </strong></p>
+		
+<p style="text-align:center;"><img src="../images/webex-new-logo1.png" width="100"></p>
