@@ -186,10 +186,6 @@ This also has the section where you can view the Idle codes.
 
     In this section, you will will interact as an agent and test an Incoming call. Please keep the Dial Number assigned to the you handy to place the incoming call. 
 
-
-- 
-
-
 <!-- md:option type:warning -->
 
 !!! warning "README"
@@ -219,15 +215,17 @@ This also has the section where you can view the Idle codes.
 
 !!! warning "README"
 
-    This is an optional lab that goes over few tips to settings to ensure WebRTC to work correctly that can be completed now or revisited at a later time. 
+    This optional lab provides different settings that you can review to ensure your WebRTC is set up correctly. 
 
 
 **Verify Notification Settings**
 
-The notification settings under user settings allows you to Enable/Disable the Notifications, Enable Silent Notifications, or Enable/Disable the sound. You can also change the volume of the Chime for the incoming contact.
+Click the agent avatar. Under user settings, click Notification Settings. These settings allow you to Enable/Disable the Notifications, Enable Silent Notifications, or Enable/Disable Sound Notifications. You can also adjust the volume of the Chime played for the incoming contact.
 
-> Note: These settings persist as long as the browser cache is retained for the user.
-> {: .block-warning }
+<!-- md:option type:note -->
+
+!!! warning "note"
+    Note: These settings persist as long as the browser cache is retained for the user.
 
 ![agent-desktop-Notification-Pane](../images/agent/Agent_Notification_Pane.gif)
 
@@ -236,7 +234,7 @@ The notification settings under user settings allows you to Enable/Disable the N
 
 **View Desktop Mic & Speaker Options**
 
-This is a setting that is enabled for all logged in Agents with the Desktop (WebRTC) option. This can help troubleshoot any audio related settings for the Agent's microphone or speaker volumes.
+Click the agent avatar. Under user settings, click Speaker and Microphone. This setting is enabled for all Agents signed in with the Desktop (WebRTC) telephony option. You can use this to test your speaker and microphone selections. This can be useful for troubleshooting audio-related issues. 
 
 ![agent-desktop-Mic-Speaker](../images/agent/Agent_Mic_Speaker.gif)
 
@@ -245,7 +243,7 @@ This is a setting that is enabled for all logged in Agents with the Desktop (Web
 
 **Test Your Network**
 
-This is specifically for the Desktop Voice option. Agents can also test their local network connectivity for latency and bandwidth requirements on the Agent Desktop - eespecially for diagnostics.
+This is specifically for the Desktop Voice option. Agents can also test their local network connectivity for latency and bandwidth requirements on the Agent Desktop for diagnostics. 
 
 ![agent-desktop-Test-Network](../images/agent/Agent_Test_Network.gif)
 
