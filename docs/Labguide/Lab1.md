@@ -44,26 +44,21 @@ layout: post
 
 
 
-# Lab 1 Cisco TTS 
+# Lab 1 Cisco Text-To-Speech  
 <!-- # Part 1: Cisco Text To Speech -->
 
 In this lab, we will learn how Cisco Text To Speech can be used to transform flows into intelligent and personalized interactions using text-to-speech. 
 
-We will discover how Cisco's text-to-speech capability can enhance the customer experience by personalizing interactions within flows. Then, we will elevate these flows by integrating virtual agents in a subsequent lab.
+We will discover how Cisco's text-to-speech capability can enhance the customer experience by personalizing interactions within flows. Then, we will elevate these flows by integrating virtual agents in a subsequent lab. 
 
-## Objectives
+**Objectives**
 
-By the end of this lab, attendees will:
+<!-- md:option type:note -->
 
-- Transform traditional flows using text-to-speech to enhance the call path and introduce personalization through data.
+!!! note "Lab Objective"
+    By the end of this lab, attendees will:
 
-<!-- md:option type:warning -->
-
-!!! warning "Eligibility Criteria for TTS in the Real World"
-
-    Flex 3 Subscription - Must have an active Flex 3 subscription for WxCC contact Center – “SKU = A-Flex-3-CC”
-
-    Next Generation Media platform - Customer tenant ”MUST” be on an enhancement media platform (RTMS)
+    Transform traditional flows using text-to-speech to enhance the call path and introduce personalization through data. 
 
 
 **Pre-requisites**
@@ -71,6 +66,16 @@ By the end of this lab, attendees will:
 - You have received the access credentials with a contact center administrator access.
 
 - Your Attendee ID will be used as the login in all the web pages, in the format: `wxcclabs+admin_ID***@gmail.com`
+
+<!-- md:option type:warning -->
+
+!!! warning "Eligibility Criteria for TTS in the Production"
+
+    Flex 3 Subscription - Must have an active Flex 3 subscription for WxCC contact Center – “SKU = A-Flex-3-CC”
+
+    Next Generation Media platform - Customer tenant ”MUST” be on an enhancement media platform (RTMS)
+
+**Lab Configuration**
 
 | **User Role** | **User Login Credentials**                                          |
 | ------------- | ------------------------------------------------------------------- |
@@ -104,9 +109,9 @@ By the end of this lab, attendees will:
 <br/>
 <br/>
 
-- Create a a flow by using the flow template and choose template **Hello World**
+- Create a flow by using the flow template and choose template **Hello World**
 
-- Once selected, please rename the flow temaplate with your attendeeID Wx1_TTS_<w class = "attendee_out">attendeeID</w>
+- Once selected, please rename the flow template with your attendeeID Wx1_TTS_<w class = "attendee_out">attendeeID</w>
 
 <img align="middle" src="../images/lab1/1-TTS_Create_Flow_using_Template.gif" width="1000" />  
 <br/>
@@ -169,19 +174,18 @@ By the end of this lab, attendees will:
 <br/>
 
 
-- Add a SetVariable node with variable `Global_Language` that was added to the flow from the previsous step. Add Set Value as en-AU which English (Australia)
+- Add a SetVariable node with variable **`Global_Language`** that was added to the flow from the previsous step. Add Set Value as **`en-AU`** which **`English (Australia)`**
 
 <img align="middle" src="../images/lab1/TTS_flow_variable_1.gif" width="1000" />  
 <br/>
 <br/>
 
 
-- Validate the flow by clicking "Validate", "Publish" and select the Latest version of the flow:
+- Validate the flow by clicking **`Validate`**, **`Publish`** and select the Latest version of the flow:
 
 <img align="middle" src="../images/lab1/TTS_publish_var.gif" width="1000" />  
 <br/>
 <br/>
-
 
 
 
@@ -196,7 +200,7 @@ By the end of this lab, attendees will:
     Other supported lanaguages are listed here: [Supported Languages](https://help.webex.com/en-us/article/ntkjqhw/Text-to-Speech-(TTS)-in-Webex-Contact-Center)
 
 
-<p style="text-align:center"><strong>Congratulations, you have officially completed the lab! 🎉🎉 </strong></p>
+<p style="text-align:center"><strong>Congratulations, you have officially completed the Cisco Text-To-Speech lab! 🎉🎉 </strong></p>
 		
 <p style="text-align:center;"><img src="../images/webex-new-logo1.png" width="100"></p>
 
