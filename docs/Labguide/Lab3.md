@@ -250,66 +250,61 @@ By the end of this lab, you will:
 
 - Log in to Control Hub with the admin credentials provided, and navigate to the Contact Center tab on the left panel.
 
-<img align="middle" src="../images/lab4/56.png" width="1000" />  
+<img align="middle" src="/Users/chmouli/Desktop/Wx1/Lab/LAB-2352-main/docs/Labguide/images/lab4/34-1-Admin_Login.gif" width="1000" />  
 <br/>
 <br/>
 
 - Click on `Teams` in the left panel.
 
-<img align="middle" src="../images/lab4/57.png" width="1000" />  
+- Search for your team with the identifier <w class = "attendee_out">attendeeID</w>\_team where <w class = "attendee_out">attendeeID</w> is your attendeeID
+
+-Verify the Desktop Layout setting is set to ` VA-summary`  if not change it to `VA-summary`  and then click on Save
+
+<img align="middle" src="/Users/chmouli/Desktop/Wx1/Lab/LAB-2352-main/docs/Labguide/images/lab4/34-2-TeamNavNLayout.gif" width="1000" />  
 <br/>
 <br/>
 
-- Search for your team with the identifier CL_Team\_<w class = "attendee_out">attendeeID</w> where <w class = "attendee_out">attendeeID</w> is your attendeeID
 
-<img align="middle" src="../images/lab4/58.png" width="1000" />  
-<br/>
-<br/>
+-  Only if the Desktop Layout was different, please sign out and sign in back again   into the agent desktop using the link [https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/)
 
-- Change the Desktop Layout setting from `Global Layout` to `VA-summary`and then click on Save.
 
-<img align="middle" src="../images/lab4/59.png" width="1000" />  
-<br/>
-<br/>
-<img align="middle" src="../images/lab4/60.png" width="1000" />  
-<br/>
-<br/>
-
-- Sign out from the agent desktop.
-  <img align="middle" src="../images/lab4/61.png" width="1000" />  
-  <br/>
-  <br/>
-
-- Log back into the agent desktop using the link [https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/){:target="\_blank"} and the agent login wxcclabs+agent_ID<w class = "attendee_out">attendeeID</w>@gmail.com`.
-  <img align="middle" src="../images/lab4/62.png" width="1000" />  
-  <br/>
-  <br/>
-
-- Choose `Desktop` as your Telephony Option.
-
-<img align="middle" src="../images/lab4/63.png" width="1000" />  
+<img align="middle" src="/Users/chmouli/Desktop/Wx1/Lab/LAB-2352-main/docs/Labguide/images/lab4/34-3-Agent_Login.gif" width="1000" />  
 <br/>
 <br/>
 
 - Click on the AI assistant icon located on the top left navigation panel.
 
-<img align="middle" src="../images/lab4/64.png" width="1000" />  
+<img align="middle" src="/Users/chmouli/Desktop/Wx1/Lab/LAB-2352-main/docs/Labguide/images/lab4/34-4-checkAIIcon.gif" width="1000" />  
 <br/>
 <br/>
 
-<img align="middle" src="../images/lab4/65.png" width="1000" />  
+
+- Dial the support number assigned to your POD and initiate a conversation with below 
+
+<!-- md:option type:note -->
+
+!!! note "Sample Conversation"
+
+ "I would like to Book  an appointment"
+What date are you considering for your visit 
+"Nov 20th"
+Could tell us preferred time for your visit 
+"3PM"
+Which doctor you want appointment with  
+"Dr John"
+What is name of the  patience 
+"Peter<any name>"
+Could you tell us patience Date of Birth
+"Please transfer me to an agent "
+
+
+- During the interaction with the virtual Agent, request a transfer by saying, "Please transfer me to an Agent." Answer the call on the agent desktop upon receiving the ring notification.
+-	Observe that, after answering the call, a summary of the Virtual Agent interaction is now displayed on the agent desktop
+
+<img align="middle" src="/Users/chmouli/Desktop/Wx1/Lab/LAB-2352-main/docs/Labguide/images/lab4/34-5-ValidateAgentSummary.gif" width="1000" />  
 <br/>
 <br/>
 
-- Dial the support number assigned to your POD and initiate a conversation with "I would like to cancel my appointment." During the interaction with the virtual Agent, request a transfer by saying, "Please transfer me to an Agent." Answer the call on the agent desktop upon receiving the ring notification.
+**Congratulations! You just completed the lab!**
 
-- Observe that, after answering the call, a summary of the Virtual Agent interaction is now displayed on the agent desktop.
-
-<img align="middle" src="../images/lab4/66.png" width="1000" />  
-<br/>
-<br/>
-
-<p style="text-align:center"><strong>Congratulations on completing this lab! Feel free to reach out to the proctors for any questions or clarifications.</strong></p>
-		
-<p style="text-align:center;"><img src="../images/webex-new-logo1.png" width="100"></p>
-
+> Feel free to reach out to the proctors for any questions or clarifications.
