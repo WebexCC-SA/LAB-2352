@@ -2,7 +2,7 @@
 #icon: material/numeric-2-box-multiple
 icon: material/folder-open-outline
 
-title: IVR Experience
+title: Call Drop Summary
 author: Bhushan Suresh, Chandramouli Valithiyanathan, Sara Santos
 date: 2024-10-02
 layout: post
@@ -44,15 +44,20 @@ layout: post
 
 # Lab 4: Call Drop Summary
 
-## Lab Objective
+<!-- md:option type:note -->
 
-The objective of this lab is to familiarize agents with the process of handling call drops efficiently using an AI Assistant.
+!!! note "Lab Objective"
+
+    - The objective of this lab is to familiarize agents with the process of handling call drops efficiently using an AI Assistant.
 After this lab, you will be able to:
 
-- Demonstrate how agents can quickly recover from a customer call drop situation by accessing a summary of the previous conversation with the customer.
-- Enable agents to continue the customer service process without requiring the customer to repeat information, thereby saving time and improving the customer experience.
-- Teach agents how to utilize the AI Assistant's call drop summary feature to provide seamless service continuity.
-- Equip agents with the skills to manage and mitigate the negative effects of dropped calls on customer satisfaction and call resolution.
+    - Demonstrate how agents can quickly recover from a customer call drop situation by accessing a summary of the previous conversation with the customer.
+
+    - Enable agents to continue the customer service process without requiring the customer to repeat information, thereby saving time and improving the customer experience.
+
+    - Teach agents how to utilize the AI Assistant's call drop summary feature to provide seamless service continuity.
+
+    - Equip agents with the skills to manage and mitigate the negative effects of dropped calls on customer satisfaction and call resolution.
 
 ## Customer Scenario
 
@@ -158,6 +163,6 @@ Please Use the provided script to simulate an agent/customer conversation (minim
 
 
 
-<p style="text-align:center"><strong>Congratulations on completing this lab! Feel free to reach out to the proctors for any questions or clarifications.</strong></p>
+<p style="text-align:center"><strong>Congratulations, you have officially completed the Call Drop Summary lab! 🎉🎉 </strong></p>
 		
 <p style="text-align:center;"><img src="../images/webex-new-logo1.png" width="100"></p>
