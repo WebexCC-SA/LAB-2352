@@ -7,13 +7,15 @@ icon: material/bullseye-arrow
 
 ## Learning Objectives
 
-Welcome to the Webex Virtual Agent Lab, where you will gain hands-on experience with Cisco's advanced AI solutions. This lab is designed to help you understand the Cisco Text-to-Speech engine and explore the capabilities of the Webex AI Agent, which utilizes built-in and indigenous models as well as natural language processing (NLP). You'll learn how to seamlessly escalate conversations from a virtual agent to a human agent, ensuring efficient and intelligent customer interactions.
+Welcome to the AI-powered Customer & Agent Experiences lab. This lab is considered an advanced lab. Take your time completing each of the steps. You have 24 hours to complete the lab with your pod user. The lab content will be available to you even after your pod is no longer available. 
 
-In addition, we’ll touch on several exciting AI-driven features such as Agent Wellness, which supports the well-being of agents during interactions, and Call Drop Summary, a feature that captures and summarizes the previous  dropped calls. These innovations demonstrate the power of AI in enhancing both customer and agent experiences.
+In this lab, you will gain hands-on experience with Webex Contact Center's advanced AI solutions. This lab is designed to help you understand the Cisco Text-to-Speech engine and explore the capabilities of the Webex AI Agent, which utilizes built-in and proprietary models as well as natural language processing (NLP). You'll learn how to seamlessly escalate conversations from an AI agent to a human agent, ensuring efficient and intelligent customer interactions. 
 
-To further enhance your learning, we’ve included bonus lab content. This will allow you to practice and familiarize yourself with key features such as Topic Analytics, Auto CSAT (Customer Satisfaction scoring), and future of Human Agent Login, giving you a comprehensive understanding of Webex's AI capabilities.
+In addition, we will cover several exciting AI-driven features such as Agent Wellness, which supports the well-being of agents during interactions, and Call Drop Summary, a feature that captures and summarizes previous dropped calls. These innovations demonstrate the power of AI in enhancing both customer and agent experiences. 
 
-Let’s dive in and explore how Webex AI is shaping the future of customer service and agent support.
+To further enhance your learning, we have included bonus lab content. This will allow you to familiarize yourself with our Supervisor Desktop, future enhancements to streamline Agent and Supervisor sign-in, and future AI Agent capabilities. 
+
+Let’s dive in and explore how Webex AI is shaping the future of customer service and agent support. 
 
 ## Disclaimer
 
