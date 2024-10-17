@@ -47,13 +47,11 @@ layout: post
 
 # Lab Pre-Requisites
 
-Welcome to the **Webex Contact Center Agent and Flow Experience!**
+Welcome to the AI-Powered Agents Pre-requisites lab! 
 
-In **Part 1**, we will explore the **Webex Contact Center Agent Experience** and the associated administrative toggles for configuring agents in the Webex Contact Center.
+Once this is completed, Part 1 will cover **Webex Contact Center Agent Desktop** basics, including making a test call. We’ve also included some optional troubleshooting tips to ensure your WebRTC calling is working correctly prior to starting the lab. 
 
-In **Part 2**, we will examine the **Webex Contact Center Flow Experience** and the associated administrative toggles for configuring supervisors in the Webex Contact Center.
-
-
+In Part 2, we will examine the **Webex Contact Center Flow Experience** and the associated administrative toggles for configuring supervisors in the Webex Contact Center. 
 
 **Table of Contents**
 
@@ -69,18 +67,15 @@ In **Part 2**, we will examine the **Webex Contact Center Flow Experience** and 
 
 ## Part 1: Agent Experience
 
-**Objectives**
+<!-- md:option type:note -->
 
-- Explore the Agent Experience on the Webex Contact Center by logging into the Agent Desktop application and navigating its out-of-the-box capabilities.
-- Familiarize yourself with the complete Agent Desktop interface and its functions
+!!! note "Lab Objectives"
 
+    - The initial section of the lab is a walkthrough, the Desktop has been configured for you. This ensures you can experience a fully configured Agent desktop. **The Password sent through the email is the same for Agent and Admin login**
 
-<!-- md:option type:warning -->
+    - Explore the Agent Experience on the Webex Contact Center by logging into the Agent Desktop application and navigating its out-of-the-box capabilities.
 
-!!! warning "README"
-
-    The initial section of the lab is a walkthrough, the Desktop has been configured for you. This ensures you can experience a fully configured Agent desktop. **The Password sent through the email is the same for Agent and Admin login**
-
+    - Familiarize yourself with the complete Agent Desktop interface and its functions
 
 
 **Create Chrome Profiles**
