@@ -12,7 +12,7 @@ layout: post
 !!! warning "Disclaimer"
     This section gives you an insight into the upcoming feature that is still in development and is subject to change. 
 
-# LAB 8 (Bonus): Automonus Agents  
+# LAB 8 (Bonus): Autonomous Agents  
 
 ## 8.1: Overview
 
