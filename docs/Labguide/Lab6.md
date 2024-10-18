@@ -43,11 +43,13 @@ layout: post
 
 # Part 6: Supervisor Experience
 
-**Objective**
+<!-- md:option type:note -->
 
-This lab is designed to introduce the audience to the Extensible Supervisor Desktop (ESD), its configuration and capabilities.
+!!! note "Lab Objective"
+    This lab is designed to introduce the audience to the Extensible Supervisor Desktop (ESD), its configuration and capabilities.
 
-At the end of the lab, you should have a good understanding of the Supervisor role on Webex Contact Center, the Supervisor Desktop and common Supervisor workflows available.
+    At the end of the lab, you should have a good understanding of the Supervisor role on Webex Contact Center, the Supervisor Desktop and common Supervisor workflows available.
+
 
 **You are provided two users on Control Hub to simulate the lab activities**
 
@@ -56,7 +58,7 @@ At the end of the lab, you should have a good understanding of the Supervisor ro
 | Agent         | wxcclabs+agent_ID<w class="attendee_out">Your_Attendee_ID</w>@gmail.com | WebRTC (Browser)                                            |
 | Supervisor    | wxcclabs+supvr_ID<w class="attendee_out">Your_Attendee_ID</w>@gmail.com | <w class= "supervisorEXT_out">Your Supervisor Extension</w> |
 
-#### Quick Links
+**Quick Links**
 
 > Control Hub: **[https://admin.webex.com](https://admin.webex.com/)**  
 > Supervisor Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com/)**
@@ -64,16 +66,21 @@ At the end of the lab, you should have a good understanding of the Supervisor ro
 
 ## 6.1: Supervisor Desktop Modes
 
-> **The following section explains the types of login modes into the Supervisor Desktop**
->
-> The Supervisor Role is assigned as a part of the Control Hub License.
-> When you assign a Control Hub Supervisor License, you are automatically assigned the Default Supervisor User Profile.
 
-We will review this on Control Hub Settings.
+<!-- md:option type:note -->
 
-> Control Hub > Contact Center Users > Supervisor User > User Profile: Supervisor Profile
+!!! note "Step Objective"
+    
+    The following section explains the types of login modes into the Supervisor Desktop
 
-- Look up your Supervisor User bu going to admin.webex.com > Contact Center > User Management (Category) > Contact Center Users
+    The Supervisor Role is assigned as a part of the Control Hub License.
+
+    When you assign a Control Hub Supervisor License, you are automatically assigned the Default Supervisor User Profile.
+
+- We will start by reviewing this on Control Hub Settings:  Control Hub > Contact Center Users > Supervisor User > User Profile: Supervisor Profile
+
+- Look up your Supervisor User by going to admin.webex.com > Contact Center > User Management (Category) > Contact Center Users
+
 - Ensure that the Supervisor user wxcclabs+supvr_ID<w class="attendee_out">Your_Attendee_ID</w>@gmail.com has the `Supervisor Profile` in the `User Profile` field
 
 ![Supervisor_UserProfile](../images/Supervisor/Supervisor_UserProfile.gif)
@@ -97,7 +104,7 @@ We will review this on Control Hub Settings.
 
 ---
 
-### Pre-requisites:
+**Pre-requisites**
 
 1.  A supervisor user configured as described below.
 2.  A agent logged in and in conversation with a customer so you can monitor the call.
@@ -111,13 +118,19 @@ We will review this on Control Hub Settings.
 
 ## 6.2: Supervisor Login
 
+<!-- md:option type:note -->
+!!! note "Step Objective"
+    In this section, you will sign in as a supervisor
+
 - Sign in to the **Supervisor Desktop**: https://desktop.wxcc-us1.cisco.com with your supervisor credentials.
 
-- In the next window, set your role as **Supervisor** and your **own extension**. Please note that you can set your role either as **supervisor** or **agent and supervisor**. We will select this second option at the end of this lab.
-
-> **This mode will help you perform midcall monitoring and reporting**
+- In the next window, set your role as **Supervisor** and your **own extension**. Please note that you can set your role either as **supervisor** or **agent and supervisor**. We will select this second option at the end of this lab.This mode will help you perform midcall monitoring and reporting
 
 <br>
+
+<!-- md:option type:warning -->
+!!! warning "README"
+    This section is for reference only that goes through the nitty gritty of Supervsior Desktop
 
 ![Supervisor_Login](../images/Supervisor/Supervisor_Login.gif)
 
@@ -170,7 +183,10 @@ We will review this on Control Hub Settings.
 
 ## 6.3: Chat with your agents
 
-Collaboration between agents and supervisors can help your Contact Center to be more effective and efficient for your customers and this is why we have enabled Webex messaging features in both Agent and Supervisor desktops.
+<!-- md:option type:note -->
+!!! note "Step Objective"
+    In this section, you will discover how to enable chat with your agents. Collaboration between agents and supervisors can help your Contact Center to be more effective and efficient for your customers and this is why we have enabled Webex messaging features in both Agent and Supervisor desktops.
+
 
 - Click on the **Send Message** button
 
@@ -201,6 +217,10 @@ Collaboration between agents and supervisors can help your Contact Center to be 
 ![Supervisor_Message_Received_from_Agent](../images/Supervisor/Supervisor_Message_Received_from_Agent.gif)
 
 ## 6.4: Monitor calls
+
+<!-- md:option type:note -->
+!!! note "Step Objective"
+    In this step, you will go over the steps to monitor agents from Supervisor Desktop 
 
 - As a supervisor, the **Team Performance Details** page allows you to see all connected agents and decide to monitor calls by clicking on the **Review and Monitor** icon.
 
@@ -234,6 +254,10 @@ Collaboration between agents and supervisors can help your Contact Center to be 
 
 ## 6.5: Supervisor and Agent role
 
+<!-- md:option type:note -->
+!!! note "Step Objective"
+    
+
 - When you sign in to the Supervisor Desktop, you can - depending or your team assignement - choose either the supervisor role or supervisor AND agent role.
 
 ![Supervisor_LoginOptions](../images/Supervisor/Supervisor_LoginOptions.gif)
@@ -253,72 +277,3 @@ Collaboration between agents and supervisors can help your Contact Center to be 
 ---
 
 
-## 6.6: Desktop Layout Regions for Supervisor
-
-> **The following section outlines where you can find the main configuration settings for Supervisors, and their Teams, Queues and other segmentation settings**
-
-- The Supervisor Layout is enabled for a user via the [Desktop Layout JSON](https://webexone.github.io../files/WebexOne_Layout.json) file for supervisor from GitHub.
-- Open the file in any JSON editor, check and make sure it contains **_supervisor_** and **_supervisorAgent_** sections.
-  - **_supervisor_** section is used when the user signs in to supervisor desktop with **_Supervisor_** role.
-  - **_supervisorAdmin_** section is used when the user signs in to supervisor desktop with **_Supervisor and Agent_** role.
-
-![Lab_4_WebexCC_Config_1](../images/Supervisor/DC_Lab_4_Supervisor_WebexCC_1.png)
-
----
-
-- Lets see where this is uploaded.
-- On Webex Control Hub (admin.webex.com) - Go to _DESKTOP EXPERIENCE_ -> _Desktop Layout_
-
-![CH_DesktopLayout](../images/Supervisor/CH_DesktopLayout.gif)
-
----
-
-- To verify layout Assignments, go to Control Hub _Contact Center > USER MANAGEMENT > Teams_ and search for your Team (Team1 or Team2). You will find the WebexOne_desktopLayout in there.
-
-![Supervisor_Teams_Layout](../images/Supervisor/Supervisor_Teams_Layout.gif)
-
----
-
-- To verify layout Assignments, go to Control Hub > **_Teams_** and search for your Team (Team1 or Team2). You will find the WebexOne_desktopLayout in there.
-
-![Lab_4_WebexCC_Config_4](../images/Supervisor/DC_Lab_4_Supervisor_WebexCC_4.png)
-
-## 6.7: User Profile Settings for Supervisor
-
-- Under **_USER MANAGEMENT_** -> **_User Profiles_**, find default **_Supervisor Profile_**, and let us take a look at it.
-
-![Supervisor_userProfile_Verify](../images/Supervisor/Supervisor_userProfile_Verify.gif)
-
----
-
-- We are able to view Supervisor settings including Access Rights.
-
-![Supervisor_AccessRights](../images/Supervisor/Supervisor_AccessRights.gif)
-
----
-
-## 6.8 Supervisor Licensing
-
-> In This section, we will review the Supervisor Licensing that creates the supervisor.
-
-- Login to Control Hub using your administrator account.
-- Go to **_Users_**,
-- Search for your Supervisor
-- Click on supervisor's account, scroll dow to **_Licenses_** section and press **_Edit Licenses_** button.
-- Click again **_Edit Licenses_** button, located bottom right
-- Click **_Contact Center_**
-- View license options (Do not change, please)
-
-![Supervisor_License](../images/Supervisor/Supervisor_License.gif)
-
----
-
-- Check and make sure supervisor license is displayed in **_Licenses_** section of user seetings on Control Hub.
-
-![Lab_4_Supervisor_Config_5](../images/Supervisor/Supervisor_License_Verify.gif)
-
----
-
-- To Synchronize Users - Go to **_Contact Center_** -> **_TENANT SETTINGS_** > **General** and press **_Synchronize Users_** button in order to synchronize Webex users with Contact Center licenses in order to successfully assign Contact Center user privileges.
-
-![CH_Synchronize](../images/Supervisor/CH_Synchronize.gif)
