@@ -85,16 +85,16 @@ Go to Contact Center from the left side navigation panel, and under Quick Links,
 <br/>
 <br/>
 
-If you select Scripted and the Answer questions we will see the **`Q&A Bot`** page open 
+If you select Scripted and the Answer questions we will be redirected to the **`Q&A Bot`** page: 
 
 <img align="middle" src="../images/lab8/5.png" width="500" />  
 
 <br/>
 <br/>
 
-If you select Scripted and the Answer questions we will see the **`Task bot`**  page open 
+If you select Scripted and the Answer questions we will be redirected to the **`Task bot`** page:
 
-<img align="middle" src="../images/lab8/6.png" width="1000" />  
+<img align="middle" src="../images/lab8/6.png" width="500" />  
 
 <br/>
 <br/>
