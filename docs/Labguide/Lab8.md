@@ -21,7 +21,7 @@ We discuss Autonomous agents presentation
 
 ## 8.1: Prototype: What to expect and what’s new
 
-<img align="middle" src="../images/AI/1.gif" width="1000" />  
+<img align="middle" src="../images/lab8/1.gif" width="1000" />  
 
 <br/>
 <br/>
@@ -54,7 +54,7 @@ Perform actions: Automates tasks in response to customer requests
 
 If you choose Scripted - it is similar to the Q&A and Task bot that is currently present in production 
 
-<img align="middle" src="../images/AI/2.gif" width="1000" />  
+<img align="middle" src="../images/lab8/2.gif" width="1000" />  
 
 <br/>
 <br/>
