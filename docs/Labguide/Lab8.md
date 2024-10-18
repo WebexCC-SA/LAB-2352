@@ -70,7 +70,7 @@ You can choose between **`Answer questions`** and **`Perform actions`** dependin
 
 If you choose Scripted - it is similar to the **`Q&A Bot`** and **`Task bot`** that is currently present in production 
 
-<img align="middle" src="../images/lab8/2.png" width="1000" />  
+<img align="middle" src="../images/lab8/2.png" width="500" />  
 
 <br/>
 <br/>
@@ -80,14 +80,14 @@ Log in to the Control Hub using the contact center `admin` credentials.
 Go to Contact Center from the left side navigation panel, and under Quick Links, click on `Webex AI Agent`
 
 
-<img align="middle" src="../images/lab3/1_CH2Bot.gif" width="1000" />  
+<img align="middle" src="../images/lab3/1_CH2Bot.gif" width="500" />  
 
 <br/>
 <br/>
 
 If you select Scripted and the Answer questions we will see the **`Q&A Bot`** page open 
 
-<img align="middle" src="../images/lab8/5.png" width="1000" />  
+<img align="middle" src="../images/lab8/5.png" width="500" />  
 
 <br/>
 <br/>
