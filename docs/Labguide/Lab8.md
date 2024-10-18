@@ -14,7 +14,7 @@ layout: post
 
 # LAB 8 (Bonus): Autonomous Agents  
 
-## 8.1: Overview
+## Overview
 
 We discuss Autonomous agents presentation 
 
@@ -62,7 +62,7 @@ You can choose between **`Answer questions`** and **`Perform actions`** dependin
 
     **Perform actions:** Automated tasks in response to customer requests 
 
-### 8.2 Scripted Agents: Linking the old with the new
+## 8.2 Scripted Agents: Linking the old with the new
 
 <!-- md:option type:note -->
 !!! note "Step objective"
@@ -100,7 +100,7 @@ If you select Scripted and the Answer questions we will be redirected to the **`
 <br/>
 
 
-### 8.3 Autonomous Agents: Whats new? 
+## 8.3 Autonomous Agents: Whats new? 
 
 <!-- md:option type:note -->
 !!! note "Step objective"
