@@ -80,14 +80,14 @@ Log in to the Control Hub using the contact center `admin` credentials.
 Go to Contact Center from the left side navigation panel, and under Quick Links, click on `Webex AI Agent`
 
 
-<img align="middle" src="../images/lab3/1_CH2Bot.gif" width="750" />  
+<img align="middle" src="../images/lab3/1_CH2Bot.gif" width="1000" />  
 
 <br/>
 <br/>
 
 If you select Scripted and the Answer questions we will be redirected to the **`Q&A Bot`** page: 
 
-<img align="middle" src="../images/lab8/5.png" width="500" />  
+<img align="middle" src="../images/lab8/5.png" width="750" />  
 
 <br/>
 <br/>
