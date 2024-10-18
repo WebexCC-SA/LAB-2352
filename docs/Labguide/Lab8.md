@@ -35,7 +35,7 @@ When you try to create a new agent and when you select Start from Scratch
 
 Step 1: **What type of agent are you building?**
 
-- You will promoted to pick between** `Autonomous`** and **`Scripted` **
+- You will promoted to pick between** `Autonomous`** and **`Scripted`**
 
 Autonomous: Used generative AI to create dynamics responses 
 
@@ -50,7 +50,7 @@ Answer questions: Delivers answers using information from knowledge base
 
 Perform actions: Automates tasks in response to customer requests 
 
-**Scripted: Linking the old with the new **
+**Scripted: Linking the old with the new**
 
 If you choose Scripted - it is similar to the Q&A and Task bot that is currently present in production 
 
