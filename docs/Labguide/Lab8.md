@@ -54,12 +54,11 @@ Perform actions: Automates tasks in response to customer requests
 
 If you choose Scripted - it is similar to the Q&A and Task bot that is currently present in production 
 
+<img align="middle" src="../images/images/AI/2.gif" width="1000" />  
 
-| **Decision**         |            **Agent Function**                 |
-|                      |  Answer Questions    |      Perform Actions   |
-| -------------------- | ----------------------------------------------|
-| Autonomous           |                      | 
-| Scripted             |  Q&A bot             |     Task bot           |
+<br/>
+<br/>
+
 
 
 **Autonomous: Linking the old with the new **
