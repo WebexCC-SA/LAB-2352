@@ -1,7 +1,6 @@
 ---
 #icon: material/numeric-2-box-multiple
 icon: material/folder-open-outline
-icon: material/medal
 
 title: Cisco Virtual Agents (VA)
 author: Bhushan Suresh, Chandramouli Valithiyanathan, Sara Santos
