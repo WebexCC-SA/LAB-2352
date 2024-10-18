@@ -104,16 +104,13 @@ If you select Scripted and the Answer questions we will see the **`Task bot`**  
 
 <!-- md:option type:note -->
 !!! note "Step objective"
-    We look at how Autonomous Agents are created 
+    The Autonomous AI Agent for performing actions can handle various tasks, including:
+
+    Natural Language Processing (NLP)—Understand and respond to human language in a natural and conversational manner.
+
+    Decision making—Make informed choices based on available information and predefined rules. Automation—Automate repetitive or time-consuming tasks
 
 
-The Autonomous AI Agent for performing actions can handle various tasks, including:
-
-Natural Language Processing (NLP)—Understand and respond to human language in a natural and 
-conversational manner.
-
-Decision making—Make informed choices based on available information and predefined rules.
-Automation—Automate repetitive or time-consuming tasks
 
 Step by step guide are provided here: [Autonomous Agents](../images/lab8/3.pdf)
 
