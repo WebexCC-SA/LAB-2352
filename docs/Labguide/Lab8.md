@@ -62,18 +62,60 @@ You can choose between **`Answer questions`** and **`Perform actions`** dependin
 
     **Perform actions:** Automated tasks in response to customer requests 
 
-### Scripted Agents: Linking the old with the new
+### 8.2 Scripted Agents: Linking the old with the new
 
-If you choose Scripted - it is similar to the Q&A Bot and Task bot that is currently present in production 
+<!-- md:option type:note -->
+!!! note "Step objective"
+    We look at how Scripted Agents ties back to what is currently present in production 
+
+If you choose Scripted - it is similar to the **`Q&A Bot`** and **`Task bot`** that is currently present in production 
 
 <img align="middle" src="../images/lab8/2.png" width="1000" />  
 
 <br/>
 <br/>
 
-### Autonomous Agents: Whats new? 
+Log in to the Control Hub using the contact center `admin` credentials.
 
-Step by step guides are provided here: [Supported Languages](../images/lab8/3.pdf)
+Go to Contact Center from the left side navigation panel, and under Quick Links, click on `Webex AI Agent`
+
+
+<img align="middle" src="../images/lab3/1_CH2Bot.gif" width="1000" />  
+
+<br/>
+<br/>
+
+If you select Scripted and the Answer questions we will see the **`Q&A Bot`** page open 
+
+<img align="middle" src="../images/lab8/5.png" width="1000" />  
+
+<br/>
+<br/>
+
+If you select Scripted and the Answer questions we will see the **`Task bot`**  page open 
+
+<img align="middle" src="../images/lab8/6.png" width="1000" />  
+
+<br/>
+<br/>
+
+
+### 8.3 Autonomous Agents: Whats new? 
+
+<!-- md:option type:note -->
+!!! note "Step objective"
+    We look at how Autonomous Agents are created 
+
+
+The Autonomous AI Agent for performing actions can handle various tasks, including:
+
+Natural Language Processing (NLP)—Understand and respond to human language in a natural and 
+conversational manner.
+
+Decision making—Make informed choices based on available information and predefined rules.
+Automation—Automate repetitive or time-consuming tasks
+
+Step by step guide are provided here: [Supported Languages](../images/lab8/3.pdf)
 
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed the Autonomous AI lab! 🎉🎉 </strong></p>
