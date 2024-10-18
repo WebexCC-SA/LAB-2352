@@ -118,15 +118,6 @@ We will begin this step by:
 
     Agent: Hello, hello, hello
 
-    Agent 2: Good morning, thank you for calling Airway Express. My name is Anita. I see that you were talking to my colleague a little while ago about making an adjustment a flight. I should be able to help you with this. Can you share your flight confirmation number please.
-
-    Customer:
-    Thanks so much. I’m afraid I can’t find my confirmation number
-
-    Agent 2:
-    No problem, could you share your date of birth and name as per your ticketing information
-
-
 ### Step 3: Simulate an Unexpected Call Drop
 
 
