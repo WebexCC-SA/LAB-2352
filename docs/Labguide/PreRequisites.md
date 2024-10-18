@@ -70,6 +70,8 @@ In Part 2, we will examine the **Webex Contact Center Flow Experience** an
 
 !!! note "Lab Objectives"
 
+    - We will create Chrome profiles so that you can login the Administrators, Agents and Supervisors using the same Browser
+
     - The initial section of the lab is a walkthrough, the Desktop has been configured for you. This ensures you can experience a fully configured Agent desktop. **The Password sent through the email is the same for Agent and Admin login**
 
     - Explore the Agent Experience on the Webex Contact Center by logging into the Agent Desktop application and navigating its out-of-the-box capabilities.
