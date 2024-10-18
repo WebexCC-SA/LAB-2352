@@ -48,8 +48,7 @@ layout: post
 
 !!! note "Lab Objective"
 
-    - The objective of this lab is to familiarize agents with the process of handling call drops efficiently using an AI Assistant.
-After this lab, you will be able to:
+    - The objective of this lab is to familiarize you with the agent experience when they handle an interaction with a call drop summary .
 
     - Demonstrate how agents can quickly recover from a customer call drop situation by accessing a summary of the previous conversation with the customer.
 
@@ -65,41 +64,45 @@ A customer is calling to make changes to their flight reservation. The call gets
 
 ## Pre-requisites
 
-- You have received access to the agent and supervisor accounts.
+- Ensure that you can log in as an agent into the Agent Desktop.
 
 ## Step by Step Guide
 
-### Step 1: Making a Test call as Customer
+### Step 1: Making a test call as customer
 
-> **Log in to the Agent Desktop with your credentials. Choose the correct Team.**
+- Log in to the Agent Desktop with your credentials.
 
-- Open the Agent Desktop URL with a correct Chrome Profile: https://desktop.wxcc-us1.cisco.com
+- Open the Agent Desktop URL with your agent with a correct Chrome Profile: https://desktop.wxcc-us1.cisco.com
 
-- Choose the Correct Team corresponding to your POD number and sign in With the Desktop Option.
+- Make yourself available to answer the call
 
-<img align="middle" src="../images/lab4/1_6_Agent_Login.gif" width="1000" />  
-<br/>
-<br/>
-
-- Make a call from your cell phone to the contact center.
+- Make a call from your cell phone to the contact center. When the prompt asks, request to speak with an agent.
 
 - Accept the call on the Agent Desktop.
+
+- Disconnect the call 
 
 <img align="middle" src="../images/lab2/14.gif" width="1000" />  
 <br/>
 <br/>
 
-### Step 2: Simulate Customer Script
+### Step 2: Simulate a Call Drop Using Customer Scrip
 
 
 <!-- md:option type:warning -->
 
 !!! warning "README"
-    Note: This is required by the model to transcribe meaningful audio to text and provide a summary of the conversation by simulating 2 parties. You may also reach out to the lab instrcutors for any queries around this. You may use the two endpoints, your cellphone and the agent device, and complete the conversation.
+    This model requires meaningful audio to transcribe and provide a summary of the conversation. You will need to simulate both the customer and agent speaking. If you have questions, reach out to the lab instructors for help. We suggest using your cellphone and the agent device to complete the conversation. As a tip, mute your cell phone when you are speaking as the agent and mute your Agent Desktop when you are speaking as the customer
 
-    After this, you will need to transfer the call to simulate a call drop for the customer (it has to be system initiated, not user initiated)
+    After this, you will need to transfer the call to simulate a call drop for the customer (it must be system initiated, not user initiated) 
 
-Please Use the provided script to simulate an agent/customer conversation (minimum 30 seconds).
+We will begin this step by: 
+
+- Place a call to begin the interaction 
+
+- When you hear the prompt, ask to speak to an agent 
+
+- Answer the call on Agent Desktop and use the provided script to simulate an agent/customer conversation (minimum 30 seconds). 
 
 
 <!-- md:option type:note -->
@@ -127,35 +130,31 @@ Please Use the provided script to simulate an agent/customer conversation (minim
 ### Step 3: Simulate an Unexpected Call Drop
 
 
-- Transfer the call to transfer call to the Queue **`Wx1_Q_CallDrop`**.
+- From the Agent Call Controls, transfer the call to transfer call to the Queue **`Wx1_Q_CallDrop`**. Click the “Queue” radio button to search for this Queue. 
 
-- **Wait for a minute for the call to timeout and disconnect. This simulates an accidental call drop.**
+- **Wait for the call to timeout and disconnect. This simulates an accidental call drop.**
 
 <!-- md:option type:warning -->
 
 !!! note "README"
 
-    This queue is being used just to simulate a call drop. Since the call drop has to be system initiated.
-    
-    The way this is simulated is that, the queue has a maximum time in queue as 10 seconds.
-    
-    So, wait in the queue for about 10 seconds for the system to drop the call "automatically"
-
-<img align="middle" src="../images/lab5/1.png" width="1000" />  
-<br/>
-<br/>
+    Since the call drop must be system initiated, Queue Wx1_Q_CallDrop has been pre-configured with a maximum time in queue of 10 seconds (pictured in screenshot from Control Hub). Wait in the queue for about 10 seconds for the system to drop the call "automatically". 	
+    <img align="middle" src="../images/lab5/1.png" width="1000" />  
+    <br/>
+    <br/>
 
 
 
 ### Step 4: Call as a Repeat Customer
 
-- Call back the contact center from your cell phone - as a customer who is trying to connect again.
+- Call back the contact center from your cell phone. This will simulate a customer calling back after a call was dropped and trying to connect again to resolve the original issue
 
 ### Step 5: View the Call Drop Summary
 
 - Accept the call on the Agent Desktop.
 - The AI Assistant notifies the agent of the available call drop summary.
 - Open the AI Assistant to review the summary.
+- This summary can be used by the agent to pick up where the previous agent left off, reducing customer frustration and need for them to repeat themselves. 
 
 <img align="middle" src="../images/lab4/Call_Drop_Summary.gif" width="1000" />  
 <br/>
