@@ -153,14 +153,16 @@ layout: post
 
 ![Supervisor_TeamPerformance](../images/Supervisor/Supervisor_TeamPerformace.gif)
 
-> Note: **Supervisor Desktop** supports localization in 30 languages. The following are the supported languages:
-> Bulgarian, Catalan, Chinese (China), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, English (UK), English (US),Finnish,French, German, Hungarian, Italian,Japanese, Korean, Norwegian,Polish,Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Turkish, and Ukrainian.
->
-> The Supervisor Desktop language is based on the language preference settings on your browser.
->
-> For example, let us consider that you have selected the preferred language as French on the Google Chrome browser.
->
-> When you launch the Supervisor Desktop in the Google Chrome browser, the Supervisor Desktop UI appears in Français (French).
+<!-- md:option type:note -->
+!!! note "README"
+    
+    Note: **Supervisor Desktop** supports localization in 30 languages. The following are the supported languages:
+    
+    Bulgarian, Catalan, Chinese (China), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, English (UK), English (US),Finnish,French, German, Hungarian, Italian,Japanese, Korean, Norwegian,Polish,Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Turkish, and Ukrainian.
+
+    The Supervisor Desktop language is based on the language preference settings on your browser.For example, let us consider that you have selected the preferred language as French on the Google Chrome browser.
+
+    When you launch the Supervisor Desktop in the Google Chrome browser, the Supervisor Desktop UI appears in Français (French).
 
 - Click on the third menu option, you now see the **Team Performance Details** page where your agents activities are displayed : status, call duration, team, ... In the last column, you are presented two options : **chat** or **monitor**. The monitoring option is obvisously only enabled when an agent is in conversation with a customer otherwise the icon will be greyed.
 
