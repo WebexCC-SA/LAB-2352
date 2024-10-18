@@ -21,34 +21,46 @@ We discuss Autonomous agents presentation
 
 ## 8.1: Prototype: What to expect and what’s new
 
+<!-- md:option type:note -->
+!!! note "Step objective"
+    We will dive into the differences between what has changed and what remains the same 
+
+
+We have 2 broad classes of agents: **`Autonomous`** and **`Scripted`** 
+
+Agents that we are using so far Q&A bot and Task bot that fall under scripted agents we are now introducing Autonomous agents that used GenAI 
+
+When you create a new agent and when you select Start from Scratch, you will see the below enhanced view
+
+
 <img align="middle" src="../images/lab8/1.gif" width="1000" />  
 
 <br/>
 <br/>
 
-- We have 2 broad classes of agents 
-
-Agents that we are using so far Q&A bot and Task bot that fall under scripted agents we are not introducing Autonomous agents that used GenAI 
-
-When you try to create a new agent and when you select Start from Scratch 
-
 
 Step 1: **What type of agent are you building?**
 
-- You will promoted to pick between** `Autonomous`** and **`Scripted`**
+- You will promoted to pick between ** `Autonomous`** and **`Scripted`**
 
-Autonomous: Used generative AI to create dynamics responses 
+<!-- md:option type:note -->
+!!! note "Defining the terms"
 
-Scripted: Uses natural language processing to follow your set logic and responses 
+    Autonomous: Used generative AI to create dynamics responses 
+
+    Scripted: Uses natural language processing to follow your set logic and responses 
 
 
 Step 2: **What's your agents main function?**
 
 You can choose between **`Answer questions`** and **`Perform actions`** depending on what the agent's main function is 
 
-Answer questions: Delivers answers using information from knowledge base 
+<!-- md:option type:note -->
+!!! note "Defining the terms"
+    
+    **Answer questions:** Delivers answers using information from knowledge base 
 
-Perform actions: Automates tasks in response to customer requests 
+    **Perform actions:** Automated tasks in response to customer requests 
 
 **Scripted: Linking the old with the new**
 
