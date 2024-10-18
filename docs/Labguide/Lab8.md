@@ -9,7 +9,7 @@ date: 2024-10-02
 layout: post
 
 <!-- md:option type:warning -->
-!!! note "Disclaimer"
+!!! warning "Disclaimer"
     This section gives you an insight into the upcoming feature that is still in development and is subject to change. 
 
 # LAB 8 (Bonus): Automonus Agents  
