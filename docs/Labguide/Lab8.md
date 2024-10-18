@@ -21,7 +21,10 @@ We discuss Autonomous agents presentation
 
 ## 8.1: Prototype: What to expect and what’s new
 
- ![Login](../images/AI/1.gif)
+<img align="middle" src="../images/images/Ai/1.gif" width="1000" />  
+
+<br/>
+<br/>
 
 - We have 2 broad classes of agents 
 
