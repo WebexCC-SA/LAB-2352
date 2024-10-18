@@ -41,6 +41,11 @@ layout: post
     update();
     </script>
 
+<!-- md:option type:warning -->
+
+!!! warning "README"
+    This lab has been added a bonus lab to provide details on supervisor experience and is independent of other labs. The reference lab can either be completed now or at a later time.  
+
 # Part 6: Supervisor Experience
 
 <!-- md:option type:note -->
@@ -256,6 +261,7 @@ layout: post
 
 <!-- md:option type:note -->
 !!! note "Step Objective"
+    In this step, you will learn the Supervisor and agent role
     
 
 - When you sign in to the Supervisor Desktop, you can - depending or your team assignement - choose either the supervisor role or supervisor AND agent role.
@@ -275,5 +281,9 @@ layout: post
 ![Supervisor_Engaged](../images/Supervisor/Supervisor_Engaged.gif)
 
 ---
+
+<p style="text-align:center"><strong>Congratulations, you have officially completed the bonus Supervisor Experience lab! 🎉🎉 </strong></p>
+		
+<p style="text-align:center;"><img src="../images/webex-new-logo1.png" width="100"></p>
 
 
