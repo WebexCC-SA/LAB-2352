@@ -8,6 +8,10 @@ author: Bhushan Suresh
 date: 2024-10-02
 layout: post
 
+<!-- md:option type:warning -->
+!!! note "Disclaimer"
+    This section gives you an insight into the upcoming feature that is still in development and is subject to change. 
+
 # LAB 7 (Bonus): Enhanced Agent and Supervisor Sign-in Experience
 
 ## 7.1: Overview
