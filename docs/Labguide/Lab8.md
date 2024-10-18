@@ -21,7 +21,7 @@ We discuss Autonomous agents presentation
 
 ## 8.1: Prototype: What to expect and what’s new
 
-<img align="middle" src="../images/images/Ai/1.gif" width="1000" />  
+<img align="middle" src="../images/images/AI/1.gif" width="1000" />  
 
 <br/>
 <br/>
