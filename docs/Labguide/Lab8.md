@@ -39,16 +39,16 @@ When you create a new agent and select Start from Scratch, you will see the belo
 <br/>
 
 
-Step 1: **What type of agent are you building?**
+Step 1: Define **What type of agent are you building?**
 
-- You will promoted to pick between ** `Autonomous`** and **`Scripted`**
+You will promoted to pick between ** `Autonomous`** and **`Scripted`**
 
 <!-- md:option type:note -->
 !!! note "Defining the terms"
 
-    Autonomous: Used generative AI to create dynamics responses 
+    **Autonomous:** Used generative AI to create dynamics responses 
 
-    Scripted: Uses natural language processing to follow your set logic and responses 
+    **Scripted:** Uses natural language processing to follow your set logic and responses 
 
 
 Step 2: **What's your agents main function?**
