@@ -138,7 +138,9 @@ We will begin this step by:
 
 !!! note "README"
 
-    Since the call drop must be system initiated, Queue Wx1_Q_CallDrop has been pre-configured with a maximum time in queue of 10 seconds (pictured in screenshot from Control Hub). Wait in the queue for about 10 seconds for the system to drop the call "automatically". 	
+    Since the call drop must be system initiated, Queue Wx1_Q_CallDrop has been pre-configured with a maximum time in queue of 10 seconds (pictured in screenshot from Control Hub). Wait in the queue for about 10 seconds for the system to drop the call "automatically". 
+    <br>
+    <br>
     <img align="middle" src="../images/lab5/1.png" width="1000" />  
     <br/>
     <br/>
