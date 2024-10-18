@@ -47,7 +47,19 @@ Answer questions: Delivers answers using information from knowledge base
 
 Perform actions: Automates tasks in response to customer requests 
 
+**Scripted: Linking the old with the new **
 
+If you choose Scripted - it is similar to the Q&A and Task bot that is currently present in production 
+
+
+| **Decision**         |            **Agent Function**                 |
+|                      |  Answer Questions    |      Perform Actions   |
+| -------------------- | ----------------------------------------------|
+| Autonomous           |                      | 
+| Scripted             |  Q&A bot             |     Task bot           |
+
+
+**Autonomous: Linking the old with the new **
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed the Autonomous AI lab! 🎉🎉 </strong></p>
 		
