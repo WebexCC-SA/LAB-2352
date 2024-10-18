@@ -30,10 +30,10 @@ We have 2 broad classes of agents: **`Autonomous`** and **`Scripted`**
 
 Agents that we are using so far Q&A bot and Task bot that fall under scripted agents we are now introducing Autonomous agents that used GenAI 
 
-When you create a new agent and when you select Start from Scratch, you will see the below enhanced view
+When you create a new agent and select Start from Scratch, you will see the below enhanced view
 
 
-<img align="middle" src="../images/lab8/1.gif" width="1000" />  
+<img align="middle" src="../images/lab8/1.png" width="1000" />  
 
 <br/>
 <br/>
@@ -62,18 +62,19 @@ You can choose between **`Answer questions`** and **`Perform actions`** dependin
 
     **Perform actions:** Automated tasks in response to customer requests 
 
-**Scripted: Linking the old with the new**
+### Scripted Agents: Linking the old with the new
 
-If you choose Scripted - it is similar to the Q&A and Task bot that is currently present in production 
+If you choose Scripted - it is similar to the Q&A Bot and Task bot that is currently present in production 
 
 <img align="middle" src="../images/lab8/2.gif" width="1000" />  
 
 <br/>
 <br/>
 
+### Autonomous Agents: Whats new? 
 
+Step by step guides are provided here: [Supported Languages](../images/lab8/3.pdf)
 
-**Autonomous: Linking the old with the new **
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed the Autonomous AI lab! 🎉🎉 </strong></p>
 		
