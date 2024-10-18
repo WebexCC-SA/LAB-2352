@@ -33,7 +33,7 @@ Agents that we are using so far Q&A bot and Task bot that fall under scripted ag
 When you create a new agent and select Start from Scratch, you will see the below enhanced view
 
 
-<img align="middle" src="../images/lab8/1.png" width="1000" />  
+<img align="middle" src="../images/lab8/1.gif" width="1000" />  
 
 <br/>
 <br/>
@@ -66,7 +66,7 @@ You can choose between **`Answer questions`** and **`Perform actions`** dependin
 
 If you choose Scripted - it is similar to the Q&A Bot and Task bot that is currently present in production 
 
-<img align="middle" src="../images/lab8/2.gif" width="1000" />  
+<img align="middle" src="../images/lab8/2.png" width="1000" />  
 
 <br/>
 <br/>
