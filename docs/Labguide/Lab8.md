@@ -30,23 +30,25 @@ Agents that we are using so far Q&A bot and Task bot that fall under scripted ag
 When you try to create a new agent and when you select Start from Scratch 
 
 
-What type of agent are you building? 
+Step 1: **What type of agent are you building?**
 
-you will now get to pick between Autonomous and Scripted 
+- You will promoted to pick between** `Autonomous`** and **`Scripted` **
 
 Autonomous: Used generative AI to create dynamics responses 
 
 Scripted: Uses natural language processing to follow your set logic and responses 
 
 
-What's your agents main function?
+Step 2: **What's your agents main function?**
 
-and you can choose between Answer questions and Perform actions depending on what the agent's main function is 
+You can choose between **`Answer questions`** and **`Perform actions`** depending on what the agent's main function is 
+
 Answer questions: Delivers answers using information from knowledge base 
+
 Perform actions: Automates tasks in response to customer requests 
 
 
-Autonomous and Answers 
-<p style="text-align:center"><strong>Congratulations, you have officially completed the Enhanced Agent and Supervisor Sign-in Experience lab! 🎉🎉 </strong></p>
+
+<p style="text-align:center"><strong>Congratulations, you have officially completed the Autonomous AI lab! 🎉🎉 </strong></p>
 		
 <p style="text-align:center;"><img src="../images/webex-new-logo1.png" width="100"></p>
