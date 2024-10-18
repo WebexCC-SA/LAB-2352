@@ -1,118 +1,52 @@
 ---
-#icon: material/numeric-2-box-multiple
+#icon: material/numeric-4-box-multiple
 icon: material/folder-open-outline
-
-title: Auto CSAT
-author: Bhushan Suresh, Chandramouli Valithiyanathan, Sara Santos
-date: 2024-10-02
-layout: post
 ---
 
+title: Future Agent and Supervisor sign in
+author: Bhushan Suresh 
+date: 2024-10-02
+layout: post
 
-<script>
- function update () {
-    const form = document.forms['attendee-form'];
-    if (form) {
-      form.addEventListener('submit', function (event) {
-        event.preventDefault();
-        const inputs = Array.from(form.querySelectorAll('input'));
-        const values = inputs.reduce((acc, input) => {
-          acc[input.id + '_out'] = input.value;
-          return acc;
-        }, {});
+<!-- md:option type:warning -->
+!!! note "Disclaimer"
+    This section gives you an insight into the upcoming feature that is still in development and is subject to change. 
 
-        Object.entries(values).forEach(([id, value]) => {
-          const elements = document.getElementsByClassName(id);
-          Array.from(elements).forEach(element => {
+# LAB 8 (Bonus): Automonus Agents  
 
-            console.log(element.innerHTML);
-            if(Number(element.innerHTML) > 99 ){
-               console.log(`Got a 99+ attendee: ${element.innerHTML}`);
-               element.innerHTML = value;
-             }
-            else{
-               console.log(`Got a sub 99 attendee: ${element.innerHTML}`);
-                element.innerHTML = `0${value}`;
-                }
-          });
-        });
-        const attendeeIDInput = form.elements['attendeeID'];
-       if (attendeeIDInput && attendeeIDInput.value !== 'Your_Attendee_ID') {
-          localStorage.setItem('attendeeID', attendeeIDInput.value);
-        }
-      });
-    }
-  };
-</script>
-<style>
-  /* Style for the button */
-  button {
-    background-color: black; /* Set the background color to black */
-    color: white; /* Set the text color to white */
-    border: none; /* Remove the border */
-    padding: 10px 20px; /* Add some padding for better appearance */
-    cursor: pointer; /* Show a pointer cursor on hover */
-  }
+## 8.1: Overview
 
-   /* Style for the input element */
-  input[type="text"] {
-    border: 2px solid black; /* Set the border thickness to 2px */
-    padding: 5px; /* Add some padding for better appearance */
+We discuss Autonomous agents presentation 
 
-</style>
 
-Please **`submit the form below with your Attendee or pod ID`**. All configuration entries in the lab guide will be renamed to include your pod ID.
-{: .block-warning }
+## 8.1: Prototype: What to expect and what’s new
 
-<script>
-document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") || "Your Attendee ID" 
-</script>
-<form id="attendee-form">
-  <label for="attendee">Attendee ID:</label>
-  <input type="text" id="attendee" name="attendee" onChange="update()"><br>
-<br>
-  <button onclick="update()">Save</button>
-</form>
+ ![Login](../images/AI/1.gif)
 
-<br/>
+- We have 2 broad classes of agents 
 
-# Lab 8: Auto CSAT Reporting
+Agents that we are using so far Q&A bot and Task bot that fall under scripted agents we are not introducing Autonomous agents that used GenAI 
 
-## Objectives
+When you try to create a new agent and when you select Start from Scratch 
 
-By the end of this lab, you will:
 
-- Be able to identify understand how to run reports for the AutoCSAT feature that relies on a combination of AI technologies to automatically.
+What type of agent are you building? 
 
-## Step by Step Guide
+you will now get to pick between Autonomous and Scripted 
 
-#### Step 1: Login to Control Hub
+Autonomous: Used generative AI to create dynamics responses 
 
-- Log-in with your admin credentials to admin.webex.com
+Scripted: Uses natural language processing to follow your set logic and responses 
 
-- Launch the Analyzer application that is used for Reporting on Webex Contact Center
 
-<img align="middle" src="../images/lab10/1.gif" width="1000" />  
-<br/>
-<br/>
+What's your agents main function?
 
-#### Step 2: Open Auto CSAT Reporting
+and you can choose between Answer questions and Perform actions depending on what the agent's main function is 
+Answer questions: Delivers answers using information from knowledge base 
+Perform actions: Automates tasks in response to customer requests 
 
-- Open the Analyzer Report titled "Auto CSAT Report"
 
-<img align="middle" src="../images/lab10/2.gif" width="1000" />  
-<br/>
-
-#### Step 3: Explore creating filters
-
-- Observe the actions taken by the contact center system once a burnout event is detected.
-- Note how contact center administrators have tools today to address and support the wellness of their agents.
-
-<img align="middle" src="../images/lab10/2.gif" width="1000" />  
-<br/>
-
-(Note: The details for the reset process are not provided in the document and should be completed by the instructor or the person responsible for the lab content.)
-
-**Congratulations! You just completed the lab!**
-
-> Feel free to reach out to the proctors for any questions or clarifications.
+Autonomous and Answers 
+<p style="text-align:center"><strong>Congratulations, you have officially completed the Enhanced Agent and Supervisor Sign-in Experience lab! 🎉🎉 </strong></p>
+		
+<p style="text-align:center;"><img src="../images/webex-new-logo1.png" width="100"></p>
