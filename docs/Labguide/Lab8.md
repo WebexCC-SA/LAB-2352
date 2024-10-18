@@ -41,7 +41,7 @@ When you create a new agent and select Start from Scratch, you will see the belo
 
 Step 1: Define **What type of agent are you building?**
 
-You will promoted to pick between ** `Autonomous`** and **`Scripted`**
+You will promoted to pick between **`Autonomous`** and **`Scripted`**
 
 <!-- md:option type:note -->
 !!! note "Defining the terms"
@@ -115,7 +115,7 @@ conversational manner.
 Decision making—Make informed choices based on available information and predefined rules.
 Automation—Automate repetitive or time-consuming tasks
 
-Step by step guide are provided here: [Supported Languages](../images/lab8/3.pdf)
+Step by step guide are provided here: [Autonomous Agents](../images/lab8/3.pdf)
 
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed the Autonomous AI lab! 🎉🎉 </strong></p>
