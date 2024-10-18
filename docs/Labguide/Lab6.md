@@ -63,11 +63,14 @@ layout: post
 | Agent         | wxcclabs+agent_ID<w class="attendee_out">Your_Attendee_ID</w>@gmail.com | WebRTC (Browser)                                            |
 | Supervisor    | wxcclabs+supvr_ID<w class="attendee_out">Your_Attendee_ID</w>@gmail.com | <w class= "supervisorEXT_out">Your Supervisor Extension</w> |
 
-**Quick Links**
+<!-- md:option type:note -->
 
-> Control Hub: **[https://admin.webex.com](https://admin.webex.com/)**  
-> Supervisor Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com/)**
-> Webex App (Download): \*\*\*\*
+!!! note "Quick Links"
+    
+    Control Hub: **[https://admin.webex.com](https://admin.webex.com/)**     
+     
+    Supervisor Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com/)**
+
 
 ## 6.1: Supervisor Desktop Modes
 
@@ -136,6 +139,8 @@ layout: post
 <!-- md:option type:warning -->
 !!! warning "README"
     This section is for reference only that goes through the nitty gritty of Supervsior Desktop
+<br>
+
 
 ![Supervisor_Login](../images/Supervisor/Supervisor_Login.gif)
 
