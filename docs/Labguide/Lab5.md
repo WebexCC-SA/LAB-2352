@@ -51,9 +51,9 @@ layout: post
 
     By the end of this lab, you will:
 
-    - Be able to identify and understand the mechanisms in place to support agent wellness.
+    - Experience an agent wellness reset. 
 
-    - Learn how the system responds to agents’ wellness indicators, such as burnout.
+    - See how Webex Contact Center responds to an agent’s wellness indicators, such as burnout. 
 
 ## Customer Scenario
 
@@ -61,7 +61,7 @@ In this scenario, we will explore how a contact center can utilize AI to monitor
 
 ## Pre-requisites
 
-- Ensure that you have the ability to log in as an agent into the Agent Desktop.
+- Ensure that you can log in as an agent into the Agent Desktop
 
 ## Step by Step Guide
 
@@ -82,7 +82,7 @@ In this scenario, we will explore how a contact center can utilize AI to monitor
 
 #### Step 2: Simulation of Burnout Event
 
-- The instructor will trigger the AI model to simulate a burnout event for the agent in question.
+- Let an instructor know that you are ready to complete this lab
 - This simulation will demonstrate what the agent experiences when the AI model detects a threshold that initiates a wellness intervention.
 
 #### Step 3: Observe the Reset
@@ -93,7 +93,8 @@ In this scenario, we will explore how a contact center can utilize AI to monitor
     Note: The details for the reset process are not provided in the document and should be completed by the instructor or the person responsible for the lab content.
 
 - Observe the actions taken by the contact center system once a burnout event is detected.
-- Note how contact center administrators have tools today to address and support the wellness of their agents.
+- With Webex Agent Wellness, contact center administrators now have the tools to support their agents' well-being and enhance the employee experience in their contact centers. 
+ 
 
 <img align="middle" src="../images/lab6/1.gif" width="1000" />  
 <br/>
