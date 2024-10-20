@@ -576,7 +576,7 @@
     </thead>
     <tbody>
       <tr style="background-color: #f9f9f9; color: #333;">
-        <td style="padding: 10px; border: 1px solid #ddd;">Explore enhanced login</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Explore Autonomous Agents </td>
         <td style="padding: 10px; border: 1px solid #ddd;">Exploration</td>
         <td style="padding: 10px; border: 1px solid #ddd;"> <a href="../Labguide/Lab8/#8-Autonomous-agents" style="color: #007AAE; text-decoration: none;">Go to section</a> </td>
       </tr>
