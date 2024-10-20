@@ -71,7 +71,7 @@ In this scenario, we will explore how a contact center can utilize AI to monitor
 
 - Select the team associated with your attendee ID.
 
-<img align="middle" src="../images/lab2/12.gif" width="1000" />  
+<img align="middle" src="../images/agent/AgentLogin.gif" width="1000" />  
 <br/>
 <br/>
 
