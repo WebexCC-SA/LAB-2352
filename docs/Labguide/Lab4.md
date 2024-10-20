@@ -86,7 +86,7 @@ A customer is calling to make changes to their flight reservation. The call gets
 <br/>
 <br/>
 
-### Step 2: Simulate a Call Drop Using Customer Scrip
+### Step 2: Simulate a Call Drop Using Customer Script
 
 
 <!-- md:option type:warning -->
