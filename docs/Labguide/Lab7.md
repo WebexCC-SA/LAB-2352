@@ -25,8 +25,6 @@ This lab is designed to give you a **basic understanding** of the new experience
 
 ## 7.2: Prototype: What to expect and what’s new
 
- ![Login](../assets/images/Analyzer/topic1.png)
-
 **Reduced user error:**
 
 - Unnecessary information fields during sign-in are removed from the dialog (requires admin set up of user telephony options to be configured).
@@ -55,9 +53,16 @@ This lab is designed to give you a **basic understanding** of the new experience
 
 ## 7.3: Prototype: What to expect and what’s new
 
-  ![Login](../assets/images/Analyzer/topic1.png)
-
 Step 1: Click the email dialog and enter email and password to log in
+
+<img align="middle" src="../images/lab7/lab7_1.png" width="1000" />  
+<br/>
+<br/>	
+
+
+<img align="middle" src="../images/lab7/lab7_2.png" width="1000" />  
+<br/>
+<br/>	
 
 Step 2: When prompted with the station credentials dialog:
 
@@ -66,9 +71,27 @@ Step 2: When prompted with the station credentials dialog:
 - **Your team** will be pre-populated as “Debit card”
 - **Save preferences to Profile Settings** will be checked by default
 
-Step 3: 	**Confirm** your selection
+
+Step 3: **Confirm** your selection
+
+<img align="middle" src="../images/lab7/lab7_3.png" width="1000" />  
+<br/>
+<br/>	
+
+<img align="middle" src="../images/lab7/lab7_4.png" width="1000" />  
+<br/>
+<br/>	
+
+<img align="middle" src="../images/lab7/lab7_5.png" width="1000" />  
+<br/>
+<br/>	
 
 Step 4.	**Click on the avatar menu** to review your selections in **Change Profile Settings**
+
+
+<img align="middle" src="../images/lab7/lab7_6.png" width="1000" />  
+<br/>
+<br/>	
 
       
 
