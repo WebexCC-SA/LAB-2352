@@ -111,6 +111,10 @@ If you select Scripted and the Answer questions we will be redirected to the **`
     Decision making—Make informed choices based on available information and predefined rules. Automation—Automate repetitive or time-consuming tasks
 
 
+<!-- md:option type:warning -->
+!!! warning "Guide"
+
+Autonomous Agents are showcased in the demo session at WebexOne
 
 Step by step guide are provided here: [Autonomous Agents](../images/lab8/3.pdf)
 
