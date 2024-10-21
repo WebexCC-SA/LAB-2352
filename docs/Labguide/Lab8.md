@@ -113,10 +113,9 @@ If you select Scripted and the Answer questions we will be redirected to the **`
 
 <!-- md:option type:warning -->
 !!! warning "Guide"
+    Autonomous Agents are showcased in the demo session at WebexOne and has not been enabled on the lab tenant. Please feel free attend the session for more details. Below steps are provided only as reference. 
 
-Autonomous Agents are showcased in the demo session at WebexOne
-
-Step by step guide are provided here: [Autonomous Agents](../images/lab8/3.pdf)
+Step by step guide and overview: [Autonomous Agents](../images/lab8/3.pdf)
 
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed the Autonomous AI lab! 🎉🎉 </strong></p>
