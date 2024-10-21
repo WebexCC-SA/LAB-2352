@@ -28,7 +28,7 @@ We discuss Autonomous agents presentation
 
 We have 2 broad classes of agents: **`Autonomous`** and **`Scripted`** 
 
-Agents that we are using so far Q&A bot and Task bot that fall under scripted agents we are now introducing Autonomous agents that used GenAI 
+Agents that we are using so far Q&A bot and Task bot that fall under scripted agents and now we are introducing Autonomous agents that uses GenAI 
 
 When you create a new agent and select Start from Scratch, you will see the below enhanced view
 
@@ -41,12 +41,12 @@ When you create a new agent and select Start from Scratch, you will see the belo
 
 Step 1: Define **What type of agent are you building?**
 
-You will promoted to pick between **`Autonomous`** and **`Scripted`**
+You will prompted to pick between **`Autonomous`** and **`Scripted`**
 
 <!-- md:option type:note -->
 !!! note "Defining the terms"
 
-    **Autonomous:** Used generative AI to create dynamics responses 
+    **Autonomous:** Uses generative AI to create dynamics responses 
 
     **Scripted:** Uses natural language processing to follow your set logic and responses 
 
