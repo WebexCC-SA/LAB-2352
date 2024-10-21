@@ -99,7 +99,7 @@ The exercises are designed to provide a hands-on understanding of creating Cisco
 <br/>
 
 
-- Update the Bot Name to WebexOne\_bot\_<w class = "attendee_out">attendeeID</w> where <w class = "attendee_out">attendeeID</w> is your attendeeID. Click on `Import` to create the bot.
+- Update the Bot Name to Wx1\_bot\_<w class = "attendee_out">attendeeID</w> where <w class = "attendee_out">attendeeID</w> is your attendeeID. Click on `Import` to create the bot.
 - Make the bot live by clicking on the `Make Live` button on the top right.
 - Enter `v1` in the popup modal which appears after clicking on `Make Live`.
 - Click on the `Preview` button on the top right side to test the bot.
