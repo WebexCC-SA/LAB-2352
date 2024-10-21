@@ -1,0 +1,34 @@
+.md-typeset__table {
+    min-width: 100%;
+}
+
+.md-typeset table:not([class]) {
+    display: table;
+}
+
+.md-grid {
+    max-width: 1440px;
+}
+
+:root {
+    --md-primary-fg-color: #051C2C;
+    --md-accent-fg-color: #00bdeb;
+}
+
+[data-md-color-scheme="default"] {
+    --md-typeset-a-color: #3a7fff;
+    --md-accent-fg-color: #00bdeb;
+}
+
+[data-md-color-scheme="slate"] {
+    --md-typeset-a-color: #3a7fff;
+    --md-accent-fg-color: #00bdeb;
+}
+
+.md-sidebar .md-nav__link {
+    max-width: 350px; /* Adjust based on the sidebar width */
+    overflow-x: auto; /* Hide overflow if any */
+    text-overflow: ellipsis; /* Add ellipsis for overflowed text */
+    white-space: nowrap; /* Prevent text wrapping */
+
+}
