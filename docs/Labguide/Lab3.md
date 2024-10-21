@@ -132,7 +132,7 @@ By the end of this lab, you will:
 
 - Once the call is answered, disconnect the call by clicking on the `End` button.
 
-<img align="middle" src="../images/lab4/1_7callNVerify.mov" width="1000" />  
+<img align="middle" src="../images/lab4/1_7callNVerify.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -153,7 +153,7 @@ By the end of this lab, you will:
 
 - You can dial into the same support and observe that the conversation transcript is "Not available" on the Agent Desktop when `Enable Conversation Transcript` is `unchecked`.
 
-<img align="middle" src="../images/lab4/2_2callNVerify.mov" width="1000" />  
+<img align="middle" src="../images/lab4/2_2callNVerify.gif" width="1000" />  
 <br/>
 <br/>
 
