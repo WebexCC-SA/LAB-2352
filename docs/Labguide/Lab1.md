@@ -68,7 +68,7 @@ We will discover how Cisco's text-to-speech capability can enhance the customer 
 
 <!-- md:option type:warning -->
 
-!!! warning "Eligibility Criteria for TTS in the Production"
+!!! warning "Eligibility Criteria for TTS in Production"
 
     Flex 3 Subscription - Must have an active Flex 3 subscription for WxCC contact Center – “SKU = A-Flex-3-CC”
 
