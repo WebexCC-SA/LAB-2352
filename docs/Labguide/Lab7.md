@@ -55,12 +55,12 @@ This lab is designed to give you a **basic understanding** of the new experience
 
 Step 1: Click the email dialog and enter email and password to log in
 
-<img align="middle" src="../images/lab7/lab7_1.png" width="1000" />  
+<img align="middle" src="../images/lab7/1.png" width="1000" />  
 <br/>
 <br/>	
 
 
-<img align="middle" src="../images/lab7/lab7_2.png" width="1000" />  
+<img align="middle" src="../images/lab7/2.png" width="1000" />  
 <br/>
 <br/>	
 
@@ -74,22 +74,19 @@ Step 2: When prompted with the station credentials dialog:
 
 Step 3: **Confirm** your selection
 
-<img align="middle" src="../images/lab7/lab7_3.png" width="1000" />  
+<img align="middle" src="../images/lab7/3.png" width="1000" />  
 <br/>
 <br/>	
 
-<img align="middle" src="../images/lab7/lab7_4.png" width="1000" />  
+<img align="middle" src="../images/lab7/4.png" width="1000" />  
 <br/>
 <br/>	
 
-<img align="middle" src="../images/lab7/lab7_5.png" width="1000" />  
-<br/>
-<br/>	
 
 Step 4.	**Click on the avatar menu** to review your selections in **Change Profile Settings**
 
 
-<img align="middle" src="../images/lab7/lab7_6.png" width="1000" />  
+<img align="middle" src="../images/lab7/5.png" width="1000" />  
 <br/>
 <br/>	
 
