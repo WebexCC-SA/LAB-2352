@@ -147,7 +147,7 @@ The exercises are designed to provide a hands-on understanding of creating Cisco
 - Connect the "New Phone Contact" activity to the `VirtualAgentV2` activity by dragging a line between them.
 - Click on the `VirtualAgentV2` activity to configure it. In the right-side panel, select `Webex CCAI Config` as the Contact Center AI Config 
 from the dropdown menu.
-- From the Virtual Agent dropdown, choose the bot you created in Step 1, labeled `Wx1_bot_<w class = "attendee_out">attendeeID</w>`.
+- From the Virtual Agent dropdown, choose the bot you created in Step 1, labeled  `Wx1\_bot\_<w class = "attendee_out">attendeeID</w>`.
 - From the left side panel, find and select the `DisconnectContact` activity.
 - Drag and drop the `DisconnectContact` activity onto the canvas, placing it in your flow.
 - Connect the handled, escalated, and errored outputs from the `VirtualAgentV2` activity to the `DisconnectContact` activity.
