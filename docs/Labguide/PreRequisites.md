@@ -222,13 +222,13 @@ Now place it's time to test the incoming call
 
 ---
 
-### 1.3: (Optional lab) Troubleshooting Tips for WebRTC 
+### 1.3: (Optional Section) Troubleshooting Tips for WebRTC 
 
 <!-- md:option type:warning -->
 
 !!! warning "README"
 
-    This optional lab provides different settings that you can review to ensure your WebRTC is set up correctly. 
+    This optional section provides different settings that you can review to ensure your WebRTC is set up correctly. 
 
 
 **Verify Notification Settings**
