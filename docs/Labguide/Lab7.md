@@ -23,7 +23,7 @@ To streamline the agent and supervisor sign-in process, we will enhance the Webe
 This lab is designed to give you a **basic understanding** of the new experience and all you to **experience it first-hand**. You will be using a working prototype to complete the steps in this lab.
 
 
-## 7.2: Prototype: What to expect and what’s new
+## 7.2: What to expect and what’s new
 
 **Reduced user error:**
 
@@ -51,7 +51,7 @@ This lab is designed to give you a **basic understanding** of the new experience
 
 - Agents can select their team upon sign-in to determine the appropriate layout, routing, and generating relevant reports.
 
-## 7.3: Prototype: What to expect and what’s new
+## 7.3: What to expect and what’s new
 
 Step 1: Click the email dialog and enter email and password to log in
 
