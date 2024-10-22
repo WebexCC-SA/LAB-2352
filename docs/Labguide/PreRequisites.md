@@ -88,7 +88,7 @@ In Part 2, we will examine the **Webex Contact Center Flow Experience** an
   - Select `continue without an account`
   - Give it a name .i.e `Admin`
   - Click `done`
-  - Create 2 more profiles for `Supervisor` and `Agent`
+  - Create 1 more profile for `Agent`
 
 <img align="middle" src="../images/agent/Chrome-Create-Profile.gif" width="1000" />  
 <br/>
@@ -192,8 +192,20 @@ This also has the section where you can view the Idle codes.
 !!! warning "README"
     Before place call to you are logged in and available on agent desktop 
 
+- Log into Control Hub with your Administrator User - wxcclabs+admin_ID<w class = "attendee_out">attendeeID</w>@gmail.com using the **`Admin`** Chrome Profile created in the previous step 
 
-- Now place it's time to test the incoming call
+<img align="middle" src="../images/lab2/1.gif" width="1000" />  
+<br/>
+<br/>
+
+- Verify that an entry point named <w class = "attendee_out">attendeeID</w>\_EP exists in the system,  where <w class = "attendee_out">attendeeID</w> is your attendeeID. Make sure to take a note of the support Number assigned to your entry point. This will the number you dial in to make test call.
+
+<img align="middle" src="../images/lab1/TTS_channel_navigation.gif" width="1000" />  
+<br/>
+<br/>
+
+
+Now place it's time to test the incoming call
 
   - Login the **Agent Desktop** with _your Agent 1_ user
   - Move to **`Available`** state
