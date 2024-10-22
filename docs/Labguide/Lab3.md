@@ -180,7 +180,7 @@ Before Starting this lab, please make sure to Enable the Virtual Agent transcrip
   - **Output variable**: `VirtualAgentV2.MetaData`
   - **Content Type**: `JSON`
   - **Output Variable**: `last_intent`
-  - **Path Expression**: `$.last-matched-intent.intent-name`
+  - **Path Expression**: `$.previous-intent.name`
 
 - Connect the `Escalated` output from the `Virtual Agent V2` activity to the `Parse` activity.
 
