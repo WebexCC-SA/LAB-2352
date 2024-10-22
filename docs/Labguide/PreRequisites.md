@@ -81,7 +81,7 @@ In Part 2, we will examine the **Webex Contact Center Flow Experience** an
 
 **Create Chrome Profiles**
 
-- For the lab, create new Chrome profiles so that you can login the Administrators, Agents and Supervisors using the same Browser.
+- For the lab, create new Chrome profiles so that you can login the Administrator and Agent using the same Browser.
 
   - Select `Profiles` on Chrome
   - Select `Add Profile`
@@ -93,7 +93,6 @@ In Part 2, we will examine the **Webex Contact Center Flow Experience** an
 <img align="middle" src="../images/agent/Chrome-Create-Profile.gif" width="1000" />  
 <br/>
 <br/>
-
 
 **Quick Links**
 
