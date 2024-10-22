@@ -46,13 +46,13 @@ layout: post
 
 ## Objectives
 
-This lab is designed to provide an in-depth understanding of the Webex AI Agents available in Webex Contact Center. By completing this section of the lab, you will:
+This lab is designed to provide an in-depth understanding of the Webex AI  Agents available in Webex Contact Center. By completing this section of the lab, you will:
 
-- Gain practical skills and knowledge on how to effectively utilize Webex Contact Center's Virtual Agent capabilities to create self-service automation.
+- Gain practical skills and knowledge on how to effectively utilize Webex Contact Center's AI capabilities to create self-service automation.
 - Improve the containment rate of your contact center, increasing efficiency and reducing costs.
-- Learn how to create an effective Virtual Agent Voice solution using Cisco's Webex Connect Bot builder platform and Webex Contact Center Flow Designer.
+- Learn how to create an effective AI Voice solution using Cisco's Webex Connect Bot builder platform and Webex Contact Center Flow Designer.
 - Understand the use of Generative AI to fast-track bot development and save time.
-- Troubleshoot Virtual Agent functionality to enhance performance.
+- Troubleshoot AI Agent functionality to enhance performance.
 
 ## Overview
 
