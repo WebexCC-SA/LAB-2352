@@ -246,30 +246,6 @@ Before Starting this lab, please make sure to Enable the Virtual Agent transcrip
 
 ### Step 4: Virtual Agent Summary
 
-- Log in to Control Hub with the admin credentials provided, and navigate to the Contact Center tab on the left panel.
-
-<img align="middle" src="../images/lab4/34-1-Admin_Login.gif" width="1000" />  
-<br/>
-<br/>
-
-- Click on `Teams` in the left panel.
-
-- Search for your team with the identifier <w class = "attendee_out">attendeeID</w>\_team where <w class = "attendee_out">attendeeID</w> is your attendeeID
-
--Verify the Desktop Layout setting is set to ` VA-summary`  if not change it to `VA-summary`  and then click on Save
-
-<img align="middle" src="../images/lab4/34-2-TeamNavNLayout.gif" width="1000" />  
-<br/>
-<br/>
-
-
--  Only if the Desktop Layout was different, please sign out and sign in back again   into the agent desktop using the link [https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/)
-
-
-<img align="middle" src="../images/lab4/34-3-Agent_Login.gif" width="1000" />  
-<br/>
-<br/>
-
 - Click on the AI assistant icon located on the top left navigation panel.
 
 <img align="middle" src="../images/lab4/34-4-checkAIIcon.gif" width="1000" />  
