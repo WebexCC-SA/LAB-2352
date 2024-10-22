@@ -2,7 +2,7 @@
 #icon: material/numeric-2-box-multiple
 icon: material/folder-open-outline
 
-title: Intelligent Virtual Agent Handoffs
+title: Seemless AI to Human Agent Handoffs
 author: Bhushan Suresh, Chandramouli Valithiyanathan, Sara Santos
 date: 2024-10-02
 layout: post
@@ -42,7 +42,7 @@ layout: post
     </script>
 
 
-# Lab 3: Intelligent Virtual Agent Handoffs
+# Lab 3: Seemless AI to Human Agent Handoffs
 
 ## Objectives
 
