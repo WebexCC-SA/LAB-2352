@@ -2,7 +2,7 @@
 #icon: material/numeric-2-box-multiple
 icon: material/folder-open-outline
 
-title: Intelligent Virtual Agent Handoffs
+title: Seemless AI to Human Agent Handoffs
 author: Bhushan Suresh, Chandramouli Valithiyanathan, Sara Santos
 date: 2024-10-02
 layout: post
@@ -45,11 +45,11 @@ loadem()
     </script>
 
 
-# Lab 3: Intelligent Virtual Agent Handoffs
+# Lab 3: Seamless AI to Human Agent Handoffs
 
 ## Objectives
 
-This lab is designed to explore how to pass contextual intelligence from Virtual Agents to Webex Contact Center agents. It involves leveraging AI for virtual agent conversational transcripts and summaries. By completing this lab, you will gain practical skills and knowledge on how to provide the right context to agents to better handle customer queries.
+This lab is designed to explore how to pass contextual intelligence from AI Agents to Webex Contact Center agents. It involves leveraging AI Summaries for Webex AI  agent conversational transcripts . By completing this lab, you will gain practical skills and knowledge on how to provide the right context to agents to better handle customer queries.
 
 By the end of this lab, you will:
 
@@ -91,8 +91,6 @@ By the end of this lab, you will:
 - Select the `Play Music` activity and choose the `defaultmusic_on_hold.wav` file from the `Music File` dropdown.
 
 - Select the `Queue Contact` activity and set the Queue name to <w class = "attendee_out">attendeeID</w> where <w class = "attendee_out">attendeeID</w>_Queue 
-
-- Example 101_Queue where `101` is your `Attendee Id`
 
 - Connect the `Queue Contact` activity to the `Play Music` activity.
 
@@ -164,7 +162,7 @@ By the end of this lab, you will:
 
 **Important Prereq for Step 3**
 
--Before Starting this lab, please make sure to Enable the Virtual Agent transcript by  checking `Enable Conversation Transcript` option for the `Virtual Agent V2` activity, and publishing the flow again
+Before Starting this lab, please make sure to Enable the Virtual Agent transcript by  checking `Enable Conversation Transcript` option for the `Virtual Agent V2` activity, and publishing the flow again
 
 
 
@@ -185,7 +183,7 @@ By the end of this lab, you will:
   - **Output variable**: `VirtualAgentV2.MetaData`
   - **Content Type**: `JSON`
   - **Output Variable**: `last_intent`
-  - **Path Expression**: `$.last-matched-intent.intent-name`
+  - **Path Expression**: `$.previous-intent.name`
 
 - Connect the `Escalated` output from the `Virtual Agent V2` activity to the `Parse` activity.
 
@@ -250,30 +248,6 @@ By the end of this lab, you will:
 
 
 ### Step 4: Virtual Agent Summary
-
-- Log in to Control Hub with the admin credentials provided, and navigate to the Contact Center tab on the left panel.
-
-<img align="middle" src="../images/lab4/34-1-Admin_Login.gif" width="1000" />  
-<br/>
-<br/>
-
-- Click on `Teams` in the left panel.
-
-- Search for your team with the identifier <w class = "attendee_out">attendeeID</w>\_team where <w class = "attendee_out">attendeeID</w> is your attendeeID
-
--Verify the Desktop Layout setting is set to ` VA-summary`  if not change it to `VA-summary`  and then click on Save
-
-<img align="middle" src="../images/lab4/34-2-TeamNavNLayout.gif" width="1000" />  
-<br/>
-<br/>
-
-
--  Only if the Desktop Layout was different, please sign out and sign in back again   into the agent desktop using the link [https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/)
-
-
-<img align="middle" src="../images/lab4/34-3-Agent_Login.gif" width="1000" />  
-<br/>
-<br/>
 
 - Click on the AI assistant icon located on the top left navigation panel.
 

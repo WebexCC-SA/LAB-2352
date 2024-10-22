@@ -2,7 +2,7 @@
 #icon: material/numeric-2-box-multiple
 icon: material/folder-open-outline
 
-title: Cisco Virtual Agents (VA)
+title: Webex AI Agents
 author: Bhushan Suresh, Chandramouli Valithiyanathan, Sara Santos
 date: 2024-10-02
 layout: post
@@ -44,18 +44,18 @@ loadem()
     update();
     </script>
 
-# Lab 2: Cisco Virtual Agent
+# Lab 2: Webex AI Agent
 <!-- # Part 2: Cisco Virtual Agents (VA) -->
 
 ## Objectives
 
-This lab is designed to provide an in-depth understanding of the Cisco Virtual Agents available in Webex Contact Center. By completing this section of the lab, you will:
+This lab is designed to provide an in-depth understanding of the Webex AI  Agents available in Webex Contact Center. By completing this section of the lab, you will:
 
-- Gain practical skills and knowledge on how to effectively utilize Webex Contact Center's Virtual Agent capabilities to create self-service automation.
+- Gain practical skills and knowledge on how to effectively utilize Webex Contact Center's AI capabilities to create self-service automation.
 - Improve the containment rate of your contact center, increasing efficiency and reducing costs.
-- Learn how to create an effective Virtual Agent Voice solution using Cisco's Webex Connect Bot builder platform and Webex Contact Center Flow Designer.
+- Learn how to create an effective AI Voice solution using Cisco's Webex Connect Bot builder platform and Webex Contact Center Flow Designer.
 - Understand the use of Generative AI to fast-track bot development and save time.
-- Troubleshoot Virtual Agent functionality to enhance performance.
+- Troubleshoot AI Agent functionality to enhance performance.
 
 ## Overview
 
@@ -71,18 +71,16 @@ The exercises are designed to provide a hands-on understanding of creating Cisco
 
 ## Step by Step Guide
 
-### Step 1: Creating a Virtual Agent using a Template
+### Step 1: Creating a AI Agent using a Template
 
 <!-- md:option type:note -->
 
 !!! note "Step Objective"
     In this step, We will learned how to:
 
-    1) Create a Webex AI bot.
+    1) Create a Webex AI bot. 
 
-    2) Set up basic interaction using Webex API.
-
-    3) Test the bot in preview mode to ensure proper functionality.
+    2) Test the bot in preview mode to ensure proper functionality.
 
 - Log in to the Control Hub using the contact center `admin` credentials.
 - Go to Contact Center from the left side navigation panel, and under Quick Links, click on `Webex AI Agent`
@@ -152,7 +150,7 @@ The exercises are designed to provide a hands-on understanding of creating Cisco
 - Connect the "New Phone Contact" activity to the `VirtualAgentV2` activity by dragging a line between them.
 - Click on the `VirtualAgentV2` activity to configure it. In the right-side panel, select `Webex CCAI Config` as the Contact Center AI Config 
 from the dropdown menu.
-- From the Virtual Agent dropdown, choose the bot you created in Step 1, labeled `Wx1_XXXX`.
+- From the Virtual Agent dropdown, choose the bot you created in Step 1, labeled  `Wx1\_bot\_<w class = "attendee_out">attendeeID</w>`.
 - From the left side panel, find and select the `DisconnectContact` activity.
 - Drag and drop the `DisconnectContact` activity onto the canvas, placing it in your flow.
 - Connect the handled, escalated, and errored outputs from the `VirtualAgentV2` activity to the `DisconnectContact` activity.
