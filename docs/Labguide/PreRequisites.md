@@ -48,9 +48,9 @@ layout: post
 
 Welcome to the AI-Powered Agents Pre-requisites lab! 
 
-Once this is completed, Part 1 will cover **Webex Contact Center Agent Desktop** basics, including making a test call. We’ve also included some optional troubleshooting tips to ensure your WebRTC calling is working correctly prior to starting the lab. 
+Part 1 focuses on the fundamentals of the Webex Contact Center Agent Desktop, including how to make a test call. Additionally, optional troubleshooting tips are provided to help resolve any WebRTC calling issues that may arise.
 
-In Part 2, we will examine the **Webex Contact Center Flow Experience** and the associated administrative toggles for configuring supervisors in the Webex Contact Center. 
+Part 2, we will examine the Webex Contact Center Flow Experience by creating a flow from scratch  
 
 **Table of Contents**
 
@@ -279,7 +279,6 @@ This is specifically for the Desktop Voice option. Agents can also test their lo
 
 **Admin Login Process**
 
- - We will go through the agent desktop login process and explore agent states and idle codes. Please keep your agent ID and password handy
 - Sign into   [Admin Portal](https://admin.webex.com) using Admin Credentials sent though email
 
   ![flow-debug](../images/agent/Admin_Login.gif)
