@@ -151,7 +151,7 @@
 
 <details>
   <summary style="display: flex; justify-content: space-between; align-items: center;">
-    <span style="font-size: 20px;">LAB 2:  Cisco Virtual Agents (VA)</span>
+    <span style="font-size: 20px;">LAB 2:  Webex AI Agents</span>
     <span style="display: flex; align-items: center;">
       <span style="background-color: #FF7F50; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">Intermediate</span>&nbsp;&nbsp;
       <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">30 mins</span>
