@@ -2,7 +2,7 @@
 #icon: material/numeric-2-box-multiple
 icon: material/folder-open-outline
 
-title: Cisco Virtual Agents (VA)
+title: Webex AI Agents
 author: Bhushan Suresh, Chandramouli Valithiyanathan, Sara Santos
 date: 2024-10-02
 layout: post
@@ -41,12 +41,12 @@ layout: post
     update();
     </script>
 
-# Lab 2: Cisco Virtual Agent
+# Lab 2: Webex AI Agent
 <!-- # Part 2: Cisco Virtual Agents (VA) -->
 
 ## Objectives
 
-This lab is designed to provide an in-depth understanding of the Cisco Virtual Agents available in Webex Contact Center. By completing this section of the lab, you will:
+This lab is designed to provide an in-depth understanding of the Webex AI Agents available in Webex Contact Center. By completing this section of the lab, you will:
 
 - Gain practical skills and knowledge on how to effectively utilize Webex Contact Center's Virtual Agent capabilities to create self-service automation.
 - Improve the containment rate of your contact center, increasing efficiency and reducing costs.
@@ -68,7 +68,7 @@ The exercises are designed to provide a hands-on understanding of creating Cisco
 
 ## Step by Step Guide
 
-### Step 1: Creating a Virtual Agent using a Template
+### Step 1: Creating a AI Agent using a Template
 
 <!-- md:option type:note -->
 
