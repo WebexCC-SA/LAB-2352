@@ -42,7 +42,7 @@ layout: post
     </script>
 
 
-# Lab 3: Seemless AI to Human Agent Handoffs
+# Lab 3: Seamless AI to Human Agent Handoffs
 
 ## Objectives
 
