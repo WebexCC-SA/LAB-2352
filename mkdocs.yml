@@ -96,8 +96,8 @@ nav:
       - Lab Guide:
             - Pre-Requisites: ./Labguide/PreRequisites.md
             - Lab 1 Configure Text-To-Speech (TTS): ./Labguide/Lab1.md
-            - Lab 2 Cisco Virtual Agents (VA): ./Labguide/Lab2.md
-            - Lab 3 Seamless VA Handoff: ./Labguide/Lab3.md
+            - Lab 2 Webex AI Agents: ./Labguide/Lab2.md
+            - Lab 3 Seamless AI to Human Agent Handoffs: ./Labguide/Lab3.md
             - Lab 4 Call Drop Summary: ./Labguide/Lab4.md
             - Lab 5 Agent Wellness: ./Labguide/Lab5.md
             - Lab 6 (BONUS) Supervsior Login: ./Labguide/Lab6.md
