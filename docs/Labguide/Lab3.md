@@ -8,26 +8,29 @@ date: 2024-10-02
 layout: post
 ---
 
-<script>
-    function update(){them = Array.from(document.querySelectorAll("input")).reduce((acc, input) => ({...acc, [input.id + "_out"] : input.value}),{});
-   Object.entries(them).forEach((entry) => {
-    Array.from(document.getElementsByClassName(entry[0])).forEach((element,index) => 
-    {
-      console.log(document.getElementsByClassName(entry[0])[index].innerHTML); 
-      document.getElementsByClassName(entry[0])[index].innerHTML = entry[1];
-    })})
+<script src='../../assets/load.js'></script>
 
-  event.preventDefault()
-   if(document.forms["attendee-form"][1].value != "Your_Attendee_ID"){
-    localStorage.setItem("attendeeID",document.forms["attendee-form"][1].value)
-  }  
-  }
+  <script>
+    async function update(){
+    event.preventDefault()
+    response = await fetch(`https://63f62bf859c944921f6e89de.mockapi.io/ivrpod?POD=${document.forms["attendee-form"][0].value}`,
+    {
+    method: 'GET',
+    redirect: 'follow'
+})
+response = await response.json()
+await localStorage.setItem("EPDN",await response[0]['EP DN'])
+await localStorage.setItem("PW",await response[0].Password)
+await localStorage.setItem("POD",await response[0].POD)
+loadem()
+}
+loadem()
 </script>
 
 !!! tip "Please submit the form below with your Attendee ID in 3 digits long format (e.g. if your attendee ID is 51, please enter 051) and click Save. All configuration items in the lab guide will be renamed with that prefix."
 
     <script>
-    document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") || "Your Attendee ID"; 
+    document.forms["attendee-form"][0].value = localStorage.getItem("POD") || "Your Attendee ID"; 
     update();
     </script>
     <form id="attendee-form">
@@ -37,7 +40,7 @@ layout: post
     <button type="button" onclick="update()" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">Save</button>
     </form>
     <script>
-    document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") || "Your Attendee ID";
+    document.forms["attendee-form"][0].value = localStorage.getItem("POD") || "Your Attendee ID";
     update();
     </script>
 
