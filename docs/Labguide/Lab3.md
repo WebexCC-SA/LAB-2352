@@ -46,7 +46,7 @@ layout: post
 
 ## Objectives
 
-This lab is designed to explore how to pass contextual intelligence from Virtual Agents to Webex Contact Center agents. It involves leveraging AI for virtual agent conversational transcripts and summaries. By completing this lab, you will gain practical skills and knowledge on how to provide the right context to agents to better handle customer queries.
+This lab is designed to explore how to pass contextual intelligence from AI Agents to Webex Contact Center agents. It involves leveraging AI Summaries for Webex AI  agent conversational transcripts . By completing this lab, you will gain practical skills and knowledge on how to provide the right context to agents to better handle customer queries.
 
 By the end of this lab, you will:
 
