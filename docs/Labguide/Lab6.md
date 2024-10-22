@@ -56,6 +56,21 @@ layout: post
     At the end of the lab, you should have a good understanding of the Supervisor role on Webex Contact Center, the Supervisor Desktop and common Supervisor workflows available.
 
 
+**Create Chrome Profiles**
+
+- For the lab, create new Chrome profiles so that you can login the Administrators, Agents and Supervisors using the same Browser.
+
+  - Select `Profiles` on Chrome
+  - Select `Add Profile`
+  - Select `continue without an account`
+  - Give it a name .i.e `Supervisor`
+  - Click `done`
+  
+<img align="middle" src="../images/agent/Chrome-Create-Profile.gif" width="1000" />  
+<br/>
+<br/>
+
+
 **You are provided two users on Control Hub to simulate the lab activities**
 
 | **User Role** | **User email**                                                          | **User Extension**                                          |
