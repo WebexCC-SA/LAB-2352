@@ -218,7 +218,7 @@
 
 <details>
   <summary style="display: flex; justify-content: space-between; align-items: center;">
-    <span style="font-size: 20px;">LAB 3: Seamless VA Handoff</span>
+    <span style="font-size: 20px;">LAB 3: Seamless AI to Human Agent Handoffs</span>
     <span style="display: flex; align-items: center;">
       <span style="background-color: #FF7F50; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">Intermediate</span>&nbsp;&nbsp;
       <span style="background-color: #007AAE; color: white; padding: 5px 15px; font-weight: bold; border-radius: 5px; font-size: 14px;">30 mins</span>
