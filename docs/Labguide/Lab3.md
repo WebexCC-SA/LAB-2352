@@ -89,8 +89,6 @@ By the end of this lab, you will:
 
 - Select the `Queue Contact` activity and set the Queue name to <w class = "attendee_out">attendeeID</w> where <w class = "attendee_out">attendeeID</w>_Queue 
 
-- Example 101_Queue where `101` is your `Attendee Id`
-
 - Connect the `Queue Contact` activity to the `Play Music` activity.
 
 <img align="middle" src="../images/lab4/1_3_ConQnPM.gif" width="1000" />  
@@ -161,7 +159,7 @@ By the end of this lab, you will:
 
 **Important Prereq for Step 3**
 
--Before Starting this lab, please make sure to Enable the Virtual Agent transcript by  checking `Enable Conversation Transcript` option for the `Virtual Agent V2` activity, and publishing the flow again
+Before Starting this lab, please make sure to Enable the Virtual Agent transcript by  checking `Enable Conversation Transcript` option for the `Virtual Agent V2` activity, and publishing the flow again
 
 
 
