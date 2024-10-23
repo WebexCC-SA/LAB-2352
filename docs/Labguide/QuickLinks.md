@@ -47,15 +47,15 @@ layout: post
     <td style="background-color: #d9edf7; font-weight: bold;">Administrator Login</td>
     <td>wxcclabs+admin_ID<w class = "attendee_out">AttendeeID</w>@gmail.com</td>
   </tr>
-    <tr>
+  <tr>
     <td style="background-color: #d9edf7; font-weight: bold;">Agent Login</td>
     <td>wxcclabs+agent_ID<w class = "attendee_out">AttendeeID</w>@gmail.com</td>
   </tr>
-   <tr>
+  <tr>
     <td style="background-color: #d9edf7; font-weight: bold;">Supervisor Login</td>
     <td>wxcclabs+supvr_ID<w class = "attendee_out">AttendeeID</w>@gmail.com</td>
   </tr>
-    <tr>
+  <tr>
     <td style="background-color: #d9edf7; font-weight: bold;">Entrypoint Name</td>
     <td><w class = "attendee_out">AttendeeID</w>_EP</td>
   </tr>
