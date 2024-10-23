@@ -59,16 +59,6 @@ layout: post
     <td style="background-color: #d9edf7; font-weight: bold;">Entrypoint Name</td>
     <td><w class = "attendee_out">AttendeeID</w>_EP</td>
   </tr>
-  </tr>
-    <tr>
-    <td style="background-color: #d9edf7; font-weight: bold;">EP-DN</td>
-    <td><w class="EPDN"></td>
-  </tr>  
-  </tr>
-    <tr>
-    <td style="background-color: #d9edf7; font-weight: bold;">Entrypoint Name</td>
-    <td><w class="PW"></w></td>
-  </tr>    
   <tr>
     <td style="background-color: #d9edf7; font-weight: bold;">Team</td>
     <td><w class = "attendee_out">AttendeeID</w>_Team1</td>
