@@ -40,7 +40,7 @@ loadem()
     <button type="button" onclick="update()" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">Save</button>
     </form>
     <script>
-    document.forms["attendee-form"][0].value = localStorage.getItem("POD") || "Your Attendee ID";
+    document.forms["attendee-form"][0].value = localStorage.getItem("POD") || "";
     update();
     </script>
 
