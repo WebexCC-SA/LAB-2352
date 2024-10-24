@@ -1,0 +1,1108 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="LAB-2352 - Webex Contact Center Advanced Lab&colon; AI-powered Customer & Agent Experience">
+      
+      
+        <meta name="author" content="Bhushan Suresh">
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../template_assets/webex75.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.42">
+    
+    
+      
+        <title>Lab10 intelligent routing - LAB-2352 - Webex Contact Center Advanced Lab&colon; AI-powered Customer & Agent Experience</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lab-5-intelligent-routing" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="LAB-2352 - Webex Contact Center Advanced Lab&amp;colon; AI-powered Customer &amp; Agent Experience" class="md-header__button md-logo" aria-label="LAB-2352 - Webex Contact Center Advanced Lab&colon; AI-powered Customer & Agent Experience" data-md-component="logo">
+      
+  <img src="../../template_assets/webexLogo91.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            LAB-2352 - Webex Contact Center Advanced Lab&colon; AI-powered Customer & Agent Experience
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Lab10 intelligent routing
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../ToC/" class="md-tabs__link">
+        
+  
+    
+  
+  Table of Contents
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../overview/" class="md-tabs__link">
+          
+  
+    
+  
+  Start Lab
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../QuickLinks/" class="md-tabs__link">
+        
+  
+    
+  
+  Quick Links
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="LAB-2352 - Webex Contact Center Advanced Lab&amp;colon; AI-powered Customer &amp; Agent Experience" class="md-nav__button md-logo" aria-label="LAB-2352 - Webex Contact Center Advanced Lab&colon; AI-powered Customer & Agent Experience" data-md-component="logo">
+      
+  <img src="../../template_assets/webexLogo91.png" alt="logo">
+
+    </a>
+    LAB-2352 - Webex Contact Center Advanced Lab&colon; AI-powered Customer & Agent Experience
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ToC/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Table of Contents
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Start Lab
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Start Lab
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../overview/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10c0-1.16-.21-2.31-.61-3.39l-1.6 1.6c.14.59.21 1.19.21 1.79a8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8c.6 0 1.2.07 1.79.21L15.4 2.6C14.31 2.21 13.16 2 12 2m7 0-4 4v1.5l-2.55 2.55C12.3 10 12.15 10 12 10a2 2 0 0 0-2 2 2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.15 0-.3-.05-.45L16.5 9H18l4-4h-3zm-7 4a6 6 0 0 0-6 6 6 6 0 0 0 6 6 6 6 0 0 0 6-6h-2a4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Lab Guide
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Lab Guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PreRequisites/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Pre-Requisites
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab1/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 1 Configure Text-To-Speech (TTS)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab2/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 2 Webex AI Agents
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab3/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 3 Seamless AI to Human Agent Handoffs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab4/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 4 Call Drop Summary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab5/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 5 Agent Wellness
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab6/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 6 (BONUS) Supervsior Login
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab7/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 7 (BONUS) Future agent login
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab8/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 8 (BONUS) Autonomous Agents
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../conclusion/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 2H4v2l5.81 4.36a7.004 7.004 0 0 0-4.46 8.84 6.996 6.996 0 0 0 8.84 4.46 7 7 0 0 0 0-13.3L20 4zm-5.06 17.5L12 17.78 9.06 19.5l.78-3.33-2.59-2.24 3.41-.29L12 10.5l1.34 3.14 3.41.29-2.59 2.24z"/></svg>
+  
+  <span class="md-ellipsis">
+    Conclusion
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../QuickLinks/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Quick Links
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<script>
+ function update () {
+    const form = document.forms['attendee-form'];
+    if (form) {
+      form.addEventListener('submit', function (event) {
+        event.preventDefault();
+        const inputs = Array.from(form.querySelectorAll('input'));
+        const values = inputs.reduce((acc, input) => {
+          acc[input.id + '_out'] = input.value;
+          return acc;
+        }, {});
+
+        Object.entries(values).forEach(([id, value]) => {
+          const elements = document.getElementsByClassName(id);
+          Array.from(elements).forEach(element => {
+
+            console.log(element.innerHTML);
+            if(Number(element.innerHTML) > 99 ){
+               console.log(`Got a 99+ attendee: ${element.innerHTML}`);
+               element.innerHTML = value;
+             }
+            else{
+               console.log(`Got a sub 99 attendee: ${element.innerHTML}`);
+                element.innerHTML = `0${value}`;
+                }
+          });
+        });
+        const attendeeIDInput = form.elements['attendeeID'];
+       if (attendeeIDInput && attendeeIDInput.value !== 'Your_Attendee_ID') {
+          localStorage.setItem('attendeeID', attendeeIDInput.value);
+        }
+      });
+    }
+  };
+</script>
+<style>
+  /* Style for the button */
+  button {
+    background-color: black; /* Set the background color to black */
+    color: white; /* Set the text color to white */
+    border: none; /* Remove the border */
+    padding: 10px 20px; /* Add some padding for better appearance */
+    cursor: pointer; /* Show a pointer cursor on hover */
+  }
+
+   /* Style for the input element */
+  input[type="text"] {
+    border: 2px solid black; /* Set the border thickness to 2px */
+    padding: 5px; /* Add some padding for better appearance */
+
+</style>
+
+<p class="block-warning">Please <strong><code>submit the form below with your Attendee or pod ID</code></strong>. All configuration entries in the lab guide will be renamed to include your pod ID.</p>
+<script>
+document.forms["attendee-form"][1].value = localStorage.getItem("attendeeID") || "Your Attendee ID" 
+</script>
+<form id="attendee-form">
+  <label for="attendee">Attendee ID:</label>
+  <input type="text" id="attendee" name="attendee" onChange="update()"><br>
+<br>
+  <button onclick="update()">Save</button>
+</form>
+
+<p><br/></p>
+<h1 id="lab-5-intelligent-routing">Lab 5: Intelligent Routing</h1>
+<h2 id="introduction">Introduction</h2>
+<p>This lab guide provides step-by-step instructions for configuring a skills-based routing system in Webex Contact Center. It utilizes AutoCSAT predictions to enhance customer service operations.</p>
+<p>By following these steps, participants will learn how to direct customer inquiries to the agent most likely to provide the highest level of customer satisfaction, thereby improving both customer satisfaction and agent efficiency.</p>
+<h2 id="lab-objective">Lab Objective</h2>
+<p>The objective is to improve customer service operations by integrating AutoCSAT predictions into the routing configuration. The goal is to increase overall customer satisfaction and agent efficiency by routing inquiries to the most qualified agent.</p>
+<p><strong>Scenario</strong></p>
+<blockquote>
+<p>A telecommunications company's customer service department handles a high volume of billing-related inquiries. The company has implemented skills-based routing to ensure customers with technical issues related to internet connectivity connect with specialized agents.</p>
+</blockquote>
+<ul>
+<li>This is by generating CSAT scores for calls automatically using the new AutoCSAT feature.</li>
+<li>We will use custom logic inside of the Flow to route calls that have a low CSAT score associated (by fetching it via the Auto CSAT API) and routing them to an agent with a HighCX Skill set. (Higher Profiency)</li>
+</ul>
+<h2 id="configuration">Configuration</h2>
+<p><strong>Queues:</strong></p>
+<ul>
+<li><code>CL_Q_</code><w class = "attendee_out">attendeeID</w> where <code>attendeeID</code> is your assigned pod number.</li>
+</ul>
+<p><strong>Skills Definition:</strong></p>
+<ul>
+<li>Languages: English and Spanish</li>
+<li>Customer Service (Proficiency): High (10), Medium (5), Low (1)</li>
+</ul>
+<p><strong>Skills Profile:</strong></p>
+<blockquote>
+<p>We will create profiles for each Customer Service Representative (CSR) indicating their language skills and customer service proficiency levels.</p>
+</blockquote>
+<h3 id="step-1-create-skills-based-queue">Step 1: Create Skills-Based Queue</h3>
+<ul>
+<li>Navigate to Control Hub &gt; Contact Center &gt; Customer Experience.</li>
+<li>Click on 'Queue' and then 'Create Queue'.</li>
+</ul>
+<p><a class="glightbox" href="../assets/lab7/1.gif" data-type="image" data-width="100%" data-height="auto" data-desc-position="top"><img align="middle" src="../assets/lab7/1.gif" width="1000" /></a><br />
+<br/>
+<br/></p>
+<ul>
+<li>
+<p>Name the queue <code>CL_Q_SBR_</code><w class = "attendee_out">attendeeID</w> where <code>attendeeID</code> is your assigned pod number.</p>
+</li>
+<li>
+<p>Leave the Queue Type as 'Inbound Queue' and select 'Telephony' for Channel Type.</p>
+</li>
+<li>In Contact Routing Settings, select 'Skill Based' for Queue Routing Type.</li>
+<li>In Call Distribution, create and save a group for the CL_Team_attendeeID where attendeeID is your pod number.</li>
+</ul>
+<p><a class="glightbox" href="../assets/lab7/2.gif" data-type="image" data-width="100%" data-height="auto" data-desc-position="top"><img align="middle" src="../assets/lab7/2.gif" width="1000" /></a><br />
+<br/>
+<br/></p>
+<ul>
+<li>In Advanced Settings, enable 'Permit Monitoring' and 'Pause/Resume'.</li>
+<li>Set the Service Level Threshold to 30 seconds and Maximum Time in Queue to 86400 seconds.</li>
+<li>Select the default music (<code>defaultmusic_on_hold.wav</code>) for the queue and click 'Create'.</li>
+</ul>
+<h3 id="step-2-verify-skill-definition">Step 2: Verify Skill Definition</h3>
+<p>Verify that two Skill Definitions as shown below:</p>
+<p><strong>Language Skill Definition:</strong></p>
+<ul>
+<li>Go to User Management &gt; Skill Definitions &gt; Search for the <code>Lang_SD</code> Skill.</li>
+<li>It is of Type Enum with values for English and Spanish.</li>
+</ul>
+<p><a class="glightbox" href="../assets/lab7/3.gif" data-type="image" data-width="100%" data-height="auto" data-desc-position="top"><img align="middle" src="../assets/lab7/3.gif" width="1000" /></a><br />
+<br/>
+<br/></p>
+<p><strong>Customer Service Skill Definition:</strong></p>
+<ul>
+<li>Search for the <code>CustomerService_SD</code> Skill.</li>
+<li>It is of Type Proficiency with values from 1 to 10.</li>
+</ul>
+<p><a class="glightbox" href="../assets/lab7/4.gif" data-type="image" data-width="100%" data-height="auto" data-desc-position="top"><img align="middle" src="../assets/lab7/4.gif" width="1000" /></a><br />
+<br/>
+<br/></p>
+<h3 id="step-3-create-skill-profile">Step 3: Create Skill Profile</h3>
+<p>Verify the two skill profiles based on language proficiency:</p>
+<p><strong>Skill Profile HighCX (English + High Customer Service)</strong></p>
+<ul>
+<li>Under User Management &gt; Skill Profiles &gt; Search for the Skill Profile named <code>HighCX</code>.</li>
+<li>This has the <code>Lang_SD</code> skill with English and <code>CustomerService_SD</code> skill with New and 10 proficiency.</li>
+</ul>
+<p><a class="glightbox" href="../assets/lab7/5.gif" data-type="image" data-width="100%" data-height="auto" data-desc-position="top"><img align="middle" src="../assets/lab7/5.gif" width="1000" /></a><br />
+<br/>
+<br/></p>
+<p><strong>Skill Profile LowCX (Spanish + Low Customer Service)</strong></p>
+<ul>
+<li>Verify there is another profile named <code>LowCX</code>.</li>
+<li>It has the <code>Lang_SD</code> skill with English and <code>CustomerService_SD</code> skill with New and 2 proficiency.</li>
+</ul>
+<p><a class="glightbox" href="../assets/lab7/6.gif" data-type="image" data-width="100%" data-height="auto" data-desc-position="top"><img align="middle" src="../assets/lab7/6.gif" width="1000" /></a><br />
+<br/>
+<br/></p>
+<h3 id="step-4-assign-skill-profile">Step 4: Assign Skill Profile</h3>
+<p>Assign the created skill profiles to agents in the Billing Team:</p>
+<ul>
+<li>Agent 1: Skill Profile HighCX</li>
+<li>Users &gt; User Management &gt; wxcclabs+agentIDattendeeID@gmail.com where attendeeID is your pod number &gt; Skill Profile.</li>
+</ul>
+<p><a class="glightbox" href="../assets/lab7/7.gif" data-type="image" data-width="100%" data-height="auto" data-desc-position="top"><img align="middle" src="../assets/lab7/7.gif" width="1000" /></a><br />
+<br/>
+<br/></p>
+<ul>
+<li>Supervisor: Skill Profile LowCX.</li>
+</ul>
+<blockquote>
+<p><strong>Note that for the supervisor to login to the desktop, you will need to assign the Site, Team, and other configurations.</strong></p>
+</blockquote>
+<p><a class="glightbox" href="../assets/lab7/8.gif" data-type="image" data-width="100%" data-height="auto" data-desc-position="top"><img align="middle" src="../assets/lab7/8.gif" width="1000" /></a><br />
+<br/>
+<br/></p>
+<h3 id="step-5-configure-the-voice-flow">Step 5: Configure the Voice Flow</h3>
+<ul>
+<li>Access Customer Experience &gt; Flows and copy the existing flow <code>Auto_CSAT_Routing</code> flow.</li>
+</ul>
+<p><a class="glightbox" href="../assets/lab7/9.gif" data-type="image" data-width="100%" data-height="auto" data-desc-position="top"><img align="middle" src="../assets/lab7/9.gif" width="1000" /></a><br />
+<br/>
+<br/></p>
+<ul>
+<li>
+<p>Rename the flow to Auto_CSAT_Routing_attendeeID where attendeeID is your pod number.</p>
+</li>
+<li>
+<p>Verify the flow and available for AutoCSAT, current time, and a three-day lookback - <code>autoCsat</code>, <code>currentTime</code>, <code>goback_by_3days</code></p>
+</li>
+</ul>
+<p><a class="glightbox" href="../assets/lab7/10.gif" data-type="image" data-width="100%" data-height="auto" data-desc-position="top"><img align="middle" src="../assets/lab7/10.gif" width="1000" /></a><br />
+<br/>
+<br/></p>
+<ul>
+<li>Configure the HTTP node with the correct OrgID and Authorization Token - <code>please see the steps below</code></li>
+</ul>
+<p><strong>How to do this</strong></p>
+<ul>
+<li>
+<p>Open the developer portal &gt; Go to the documentation &gt; Search API</p>
+</li>
+<li>
+<p>Open another tab and go the link: https://developer.webex-cx.com/documentation/search/v1/search-tasks and login using the Admin Credentials.</p>
+</li>
+<li>
+<p>Once logged in &gt; click Try Out &gt; Copy the Authorization Token.</p>
+</li>
+</ul>
+<p><a class="glightbox" href="../assets/lab7/10_1.gif" data-type="image" data-width="100%" data-height="auto" data-desc-position="top"><img align="middle" src="../assets/lab7/10_1.gif" width="1000" /></a><br />
+<br/>
+<br/></p>
+<ul>
+<li>Go back to the flow and replace the Authorization Bearer Token with the one you copied. Just replace the Bearer token, leaving the Bearer keyword as it is.</li>
+</ul>
+<blockquote>
+<p><strong>Note - To Copy the token, you need to sign in on the top right</strong></p>
+</blockquote>
+<p><a class="glightbox" href="../assets/lab7/11.gif" data-type="image" data-width="100%" data-height="auto" data-desc-position="top"><img align="middle" src="../assets/lab7/11.gif" width="1000" /></a><br />
+<br/>
+<br/></p>
+<p><a class="glightbox" href="../assets/lab7/12.gif" data-type="image" data-width="100%" data-height="auto" data-desc-position="top"><img align="middle" src="../assets/lab7/12.gif" width="1000" /></a><br />
+<br/>
+<br/></p>
+<ul>
+<li>Set up skill value assignments in the queuecontact Node.</li>
+<li>In the Queue Contact Activity, we will assign the skill value to each contact while placing the caller in the queue.</li>
+</ul>
+<p><a class="glightbox" href="../assets/lab7/13.gif" data-type="image" data-width="100%" data-height="auto" data-desc-position="top"><img align="middle" src="../assets/lab7/13.gif" width="1000" /></a><br />
+<br/>
+<br/></p>
+<p><a class="glightbox" href="../assets/lab7/14.gif" data-type="image" data-width="100%" data-height="auto" data-desc-position="top"><img align="middle" src="../assets/lab7/14.gif" width="1000" /></a><br />
+<br/>
+<br/></p>
+<blockquote>
+<p><strong>Note: As of now, the Token is not refreshed automatically and hence the step is needed for testing.</strong></p>
+<p>The feature is planned and will be released shortly where the token will be refreshed automatically by the flow. Refer: <a href="https://help.webex.com/en-us/article/nv7abhz/What's-new-for-administrators-in-Webex-Contact-Center#topic_D8159C942D4EE10D3C86F7C043C86722">Whats New in Webex Contact Center</a></p>
+</blockquote>
+<ul>
+<li>
+<p>Go through all the settings of the HTTP node, which is invoking the “Search API” and parsing it through the response to store the relevant fields in the flow variable.</p>
+</li>
+<li>
+<p>Depending on the response, we will check the value and depending on the condition, we will set the variable “customerservice” accordingly. For e.g. if the AutoCSAT is &lt;4 then the CustomerService Skills requirement is &gt;8 otherwise, its greater than 1.</p>
+</li>
+</ul>
+<h3 id="step-6-update-the-entry-point-with-the-changes">Step 6: Update the Entry Point with the changes</h3>
+<ul>
+<li>
+<p>In the Control Hub, under Customer Experience &gt; Channels, search for your EP using CL_EP_attendeeID</p>
+</li>
+<li>
+<p>Update the Flow to use Auto_CSAT_Routing_attendeeID and the Latest Version.</p>
+</li>
+</ul>
+<p><a class="glightbox" href="../assets/lab7/15.gif" data-type="image" data-width="100%" data-height="auto" data-desc-position="top"><img align="middle" src="../assets/lab7/15.gif" width="1000" /></a><br />
+<br/>
+<br/></p>
+<h3 id="step-7-verify-the-call-flow">Step 7: Verify the Call Flow</h3>
+<ul>
+<li>
+<p>Test the call routing by placing calls to the Entry Point and ensuring that calls are correctly routed based on the configured skills.</p>
+</li>
+<li>
+<p>You can do this by logging in an agent and a supervisor into different chrome profiles and testing skills based routing based on what the API returns.</p>
+</li>
+</ul>
+<p><strong>Congratulations! You just completed the lab!</strong></p>
+<blockquote>
+<p>Feel free to reach out to the proctors for any questions or clarifications.</p>
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 Cisco
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "content.tabs.link", "navigation.icons", "navigation.expand", "navigation.path", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.tabs.link", "navigation.tracking", "navigation.highlight", "navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.instant", "navigation.top", "navigation.footer", "search.suggest", "content.code.copy", "toc.integrate"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": false, "openEffect": "fade", "closeEffect": "fade", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>

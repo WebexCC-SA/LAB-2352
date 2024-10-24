@@ -1,0 +1,1330 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="LAB-2352 - Webex Contact Center Advanced Lab&colon; AI-powered Customer & Agent Experience">
+      
+      
+        <meta name="author" content="Bhushan Suresh">
+      
+      
+      
+        <link rel="prev" href="../Lab5/">
+      
+      
+        <link rel="next" href="../Lab7/">
+      
+      
+      <link rel="icon" href="../../template_assets/webex75.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.42">
+    
+    
+      
+        <title>Lab 6 (BONUS) Supervsior Login - LAB-2352 - Webex Contact Center Advanced Lab&colon; AI-powered Customer & Agent Experience</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#part-6-supervisor-experience" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="LAB-2352 - Webex Contact Center Advanced Lab&amp;colon; AI-powered Customer &amp; Agent Experience" class="md-header__button md-logo" aria-label="LAB-2352 - Webex Contact Center Advanced Lab&colon; AI-powered Customer & Agent Experience" data-md-component="logo">
+      
+  <img src="../../template_assets/webexLogo91.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            LAB-2352 - Webex Contact Center Advanced Lab&colon; AI-powered Customer & Agent Experience
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Lab 6 (BONUS) Supervsior Login
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../ToC/" class="md-tabs__link">
+        
+  
+    
+  
+  Table of Contents
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../overview/" class="md-tabs__link">
+          
+  
+    
+  
+  Start Lab
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../QuickLinks/" class="md-tabs__link">
+        
+  
+    
+  
+  Quick Links
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="LAB-2352 - Webex Contact Center Advanced Lab&amp;colon; AI-powered Customer &amp; Agent Experience" class="md-nav__button md-logo" aria-label="LAB-2352 - Webex Contact Center Advanced Lab&colon; AI-powered Customer & Agent Experience" data-md-component="logo">
+      
+  <img src="../../template_assets/webexLogo91.png" alt="logo">
+
+    </a>
+    LAB-2352 - Webex Contact Center Advanced Lab&colon; AI-powered Customer & Agent Experience
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ToC/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Table of Contents
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Start Lab
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Start Lab
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../overview/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10c0-1.16-.21-2.31-.61-3.39l-1.6 1.6c.14.59.21 1.19.21 1.79a8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8c.6 0 1.2.07 1.79.21L15.4 2.6C14.31 2.21 13.16 2 12 2m7 0-4 4v1.5l-2.55 2.55C12.3 10 12.15 10 12 10a2 2 0 0 0-2 2 2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.15 0-.3-.05-.45L16.5 9H18l4-4h-3zm-7 4a6 6 0 0 0-6 6 6 6 0 0 0 6 6 6 6 0 0 0 6-6h-2a4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Lab Guide
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Lab Guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PreRequisites/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Pre-Requisites
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab1/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 1 Configure Text-To-Speech (TTS)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab2/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 2 Webex AI Agents
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab3/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 3 Seamless AI to Human Agent Handoffs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab4/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 4 Call Drop Summary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab5/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 5 Agent Wellness
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 6 (BONUS) Supervsior Login
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 6 (BONUS) Supervsior Login
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#61-supervisor-desktop-modes" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.1: Supervisor Desktop Modes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#62-supervisor-login" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.2: Supervisor Login
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#63-chat-with-your-agents" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.3: Chat with your agents
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#64-monitor-calls" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.4: Monitor calls
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#65-supervisor-and-agent-role" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.5: Supervisor and Agent role
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab7/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 7 (BONUS) Future agent login
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lab8/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lab 8 (BONUS) Autonomous Agents
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../conclusion/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 2H4v2l5.81 4.36a7.004 7.004 0 0 0-4.46 8.84 6.996 6.996 0 0 0 8.84 4.46 7 7 0 0 0 0-13.3L20 4zm-5.06 17.5L12 17.78 9.06 19.5l.78-3.33-2.59-2.24 3.41-.29L12 10.5l1.34 3.14 3.41.29-2.59 2.24z"/></svg>
+  
+  <span class="md-ellipsis">
+    Conclusion
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../QuickLinks/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.1 10 4 18V8h17a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15c.9 0 1.7-.6 1.9-1.5l2.3-8.5zM19 18H6l1.6-6h13z"/></svg>
+  
+  <span class="md-ellipsis">
+    Quick Links
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<script src='../../assets/load.js'></script>
+
+<script>
+    async function update(){
+    event.preventDefault()
+    response = await fetch(`https://63f62bf859c944921f6e89de.mockapi.io/ivrpod?POD=${document.forms["attendee-form"][0].value}`,
+    {
+    method: 'GET',
+    redirect: 'follow'
+})
+response = await response.json()
+await localStorage.setItem("EPDN",await response[0]['EP DN'])
+await localStorage.setItem("PW",await response[0].Password)
+await localStorage.setItem("POD",await response[0].POD)
+loadem()
+}
+loadem()
+</script>
+
+<div class="admonition tip">
+<p class="admonition-title">Please submit the form below with your Attendee ID in 3 digits long format (e.g. if your attendee ID is 51, please enter 051) and click Save. All configuration items in the lab guide will be renamed with that prefix.</p>
+<p><script>
+document.forms["attendee-form"][0].value = localStorage.getItem("POD") || "Your Attendee ID"; 
+update();
+</script>
+<form id="attendee-form">
+<label for="attendee">Attendee ID:</label>
+<input type="text" id="attendee" name="attendee" onChange="update()" style="border: 2px solid black; padding: 5px; border-radius: 4px; background-color: orange;"><br>
+<br>
+<button type="button" onclick="update()" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">Save</button>
+</form>
+<script>
+document.forms["attendee-form"][0].value = localStorage.getItem("POD") || "Your Attendee ID";
+update();
+</script></p>
+</div>
+<!-- md:option type:warning -->
+
+<div class="admonition warning">
+<p class="admonition-title">README</p>
+<p>This lab has been added a bonus lab to provide details on supervisor experience and is independent of other labs. The reference lab can either be completed now or at a later time.  </p>
+</div>
+<h1 id="part-6-supervisor-experience">Part 6: Supervisor Experience</h1>
+<!-- md:option type:note -->
+
+<div class="admonition note">
+<p class="admonition-title">Lab Objective</p>
+<p>This lab is designed to introduce the audience to the Extensible Supervisor Desktop (ESD), its configuration and capabilities.</p>
+<p>At the end of the lab, you should have a good understanding of the Supervisor role on Webex Contact Center, the Supervisor Desktop and common Supervisor workflows available.</p>
+</div>
+<p><strong>Create Chrome Profiles</strong></p>
+<ul>
+<li>
+<p>For the lab, create new Chrome profiles so that you can login the Administrators, Agents and Supervisors using the same Browser.</p>
+</li>
+<li>
+<p>Select <code>Profiles</code> on Chrome</p>
+</li>
+<li>Select <code>Add Profile</code></li>
+<li>Select <code>continue without an account</code></li>
+<li>Give it a name .i.e <code>Supervisor</code></li>
+<li>Click <code>done</code></li>
+</ul>
+<p><a class="glightbox" href="../images/agent/Chrome-Create-Profile.gif" data-type="image" data-width="100%" data-height="auto" data-desc-position="top"><img align="middle" src="../images/agent/Chrome-Create-Profile.gif" width="1000" /></a><br />
+<br/>
+<br/></p>
+<p><strong>You are provided two users on Control Hub to simulate the lab activities</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>User Role</strong></th>
+<th><strong>User email</strong></th>
+<th><strong>User Extension</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Agent</td>
+<td>wxcclabs+agent_ID<w class="attendee_out">Your_Attendee_ID</w>@gmail.com</td>
+<td>WebRTC (Browser)</td>
+</tr>
+<tr>
+<td>Supervisor</td>
+<td>wxcclabs+supvr_ID<w class="attendee_out">Your_Attendee_ID</w>@gmail.com</td>
+<td><w class= "supervisorEXT_out">Your Supervisor Extension</w></td>
+</tr>
+</tbody>
+</table>
+<!-- md:option type:note -->
+
+<div class="admonition note">
+<p class="admonition-title">Quick Links</p>
+<p>Control Hub: <strong><a href="https://admin.webex.com/">https://admin.webex.com</a></strong>     </p>
+<p>Supervisor Desktop: <strong><a href="https://desktop.wxcc-us1.cisco.com/">https://desktop.wxcc-us1.cisco.com</a></strong></p>
+</div>
+<h2 id="61-supervisor-desktop-modes">6.1: Supervisor Desktop Modes</h2>
+<!-- md:option type:note -->
+
+<div class="admonition note">
+<p class="admonition-title">Step Objective</p>
+<p>The following section explains the types of login modes into the Supervisor Desktop</p>
+<p>The Supervisor Role is assigned as a part of the Control Hub License.</p>
+<p>When you assign a Control Hub Supervisor License, you are automatically assigned the Default Supervisor User Profile.</p>
+</div>
+<ul>
+<li>
+<p>We will start by reviewing this on Control Hub Settings:  Control Hub &gt; Contact Center Users &gt; Supervisor User &gt; User Profile: Supervisor Profile</p>
+</li>
+<li>
+<p>Look up your Supervisor User by going to admin.webex.com &gt; Contact Center &gt; User Management (Category) &gt; Contact Center Users</p>
+</li>
+<li>
+<p>Ensure that the Supervisor user wxcclabs+supvr_ID<w class="attendee_out">Your_Attendee_ID</w>@gmail.com has the <code>Supervisor Profile</code> in the <code>User Profile</code> field</p>
+</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_UserProfile.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_UserProfile" data-desc-position="top"><img alt="Supervisor_UserProfile" src="../images/Supervisor/Supervisor_UserProfile.gif" /></a></p>
+<hr />
+<p><strong>Supervisor Only Mode:</strong></p>
+<ul>
+<li>You can choose not to be an Agent but still login to the Supervisor Desktop. This is called the <strong>Supervisor Only Role</strong>.</li>
+<li>This is enabled by setting up a User with the Supervisor License and a Primary Team.</li>
+<li>Contact Center need not be enabled for the User.</li>
+<li>In this role, you will still need a Primary Team assigment which will be used to display the statistics.</li>
+<li>The Supervisor Only Role is used for Team Statistics and Reporting.</li>
+</ul>
+<p><strong>Supervisor and Agent Mode</strong></p>
+<ul>
+<li>You can to take calls from the Queue as a supervisor. This is called the <strong>Supervisor and Agent Role</strong></li>
+<li>This is enabled by setting up a User with the Supervisor License, a Primary Team AND marking the user Contact Center enabled.</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_And_Agent_Role.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_And_Agent_Role" data-desc-position="top"><img alt="Supervisor_And_Agent_Role" src="../images/Supervisor/Supervisor_And_Agent_Role.gif" /></a></p>
+<hr />
+<p><strong>Pre-requisites</strong></p>
+<ol>
+<li>A supervisor user configured as described below.</li>
+<li>A agent logged in and in conversation with a customer so you can monitor the call.</li>
+<li>Webex App Installed - Please install and download the Webex App from: https://www.webex.com/downloads.html</li>
+</ol>
+<blockquote>
+<p><strong>We will use the <a href="https://www.webex.com/downloads.html">Webex App</a> as the Supervisor endpoint Device.</strong></p>
+</blockquote>
+<hr />
+<p><br></p>
+<h2 id="62-supervisor-login">6.2: Supervisor Login</h2>
+<!-- md:option type:note -->
+<div class="admonition note">
+<p class="admonition-title">Step Objective</p>
+<p>In this section, you will sign in as a supervisor</p>
+</div>
+<ul>
+<li>
+<p>Sign in to the <strong>Supervisor Desktop</strong>: https://desktop.wxcc-us1.cisco.com with your supervisor credentials.</p>
+</li>
+<li>
+<p>In the next window, set your role as <strong>Supervisor</strong> and your <strong>own extension</strong>. Please note that you can set your role either as <strong>supervisor</strong> or <strong>agent and supervisor</strong>. We will select this second option at the end of this lab.This mode will help you perform midcall monitoring and reporting</p>
+</li>
+</ul>
+<p><br></p>
+<!-- md:option type:warning -->
+<div class="admonition warning">
+<p class="admonition-title">README</p>
+<p>This section is for reference only that goes through the nitty gritty of Supervsior Desktop</p>
+</div>
+<p><br></p>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Login.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Login" data-desc-position="top"><img alt="Supervisor_Login" src="../images/Supervisor/Supervisor_Login.gif" /></a></p>
+<ul>
+<li>
+<p>When you sign in to the <strong>Supervisor Desktop</strong>, the appearance depends on how the Webex Contact Center administrator has configured the desktop layout. The <strong>Supervisor Desktop</strong> display size must be greater than 500 x 500 pixels (width x height). You must set your web browser zoom to 100% for the best experience with the Supervisor Desktop. With this lab layout you get :</p>
+</li>
+<li>
+<p><strong>Home Page</strong>: Displays a user friendly interface that provides a consolidated view of key contact center metrics and filters. This is the default landing page in the Supervisor Desktop. The administrator can customize the Home Page in the layout JSON file.</p>
+</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Home.png" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Home" data-desc-position="top"><img alt="Supervisor_Home" src="../images/Supervisor/Supervisor_Home.png" /></a></p>
+<ol>
+<li><strong>Task</strong>: Displays all the tasks when you sign in to the Desktop in dual role (supervisor and agent) or as a supervisor, interactions such as voice, chat, email, and social messaging conversations, along with monitoring. The icon displays a badge indicating the number of requests that you have not accepted across various channels.</li>
+</ol>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Task.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Task" data-desc-position="top"><img alt="Supervisor_Task" src="../images/Supervisor/Supervisor_Task.gif" /></a></p>
+<ol>
+<li><strong>Team Performance</strong>: Displays real-time information about an agent and a consolidated view of an agent’s performance as part of the team. You can also monitor and send 1:1 messages to an agent.</li>
+</ol>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_TeamPerformace.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_TeamPerformance" data-desc-position="top"><img alt="Supervisor_TeamPerformance" src="../images/Supervisor/Supervisor_TeamPerformace.gif" /></a></p>
+<!-- md:option type:note -->
+<div class="admonition note">
+<p class="admonition-title">README</p>
+<p>Note: <strong>Supervisor Desktop</strong> supports localization in 30 languages. The following are the supported languages:</p>
+<p>Bulgarian, Catalan, Chinese (China), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, English (UK), English (US),Finnish,French, German, Hungarian, Italian,Japanese, Korean, Norwegian,Polish,Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Turkish, and Ukrainian.</p>
+<p>The Supervisor Desktop language is based on the language preference settings on your browser.For example, let us consider that you have selected the preferred language as French on the Google Chrome browser.</p>
+<p>When you launch the Supervisor Desktop in the Google Chrome browser, the Supervisor Desktop UI appears in Français (French).</p>
+</div>
+<ul>
+<li>
+<p>Click on the third menu option, you now see the <strong>Team Performance Details</strong> page where your agents activities are displayed : status, call duration, team, ... In the last column, you are presented two options : <strong>chat</strong> or <strong>monitor</strong>. The monitoring option is obvisously only enabled when an agent is in conversation with a customer otherwise the icon will be greyed.</p>
+</li>
+<li>
+<p>The columns displayed are the following</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th><strong>Column</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Agent Name</td>
+<td>Displays name and avatar (Webex image) of the agent.</td>
+</tr>
+<tr>
+<td>Agent State</td>
+<td>The work status while using the Supervisor Desktop. The agent availability state includes Available, Idle codes, or RONA.</td>
+</tr>
+<tr>
+<td>Agent State Duration</td>
+<td>The time that the agent has been in the current state. The state timer format is hh<img alt="🇲🇲" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f1f2-1f1f2.svg" title=":mm:" />ss (for example, 01:10:25).</td>
+</tr>
+<tr>
+<td>Phone Number</td>
+<td>Dial number or extension of the agent signed in.</td>
+</tr>
+<tr>
+<td>Site</td>
+<td>Name of the site with which the agent is associated.</td>
+</tr>
+<tr>
+<td>Team</td>
+<td>Name of the team with which the agent is associated.</td>
+</tr>
+<tr>
+<td>Channels</td>
+<td>The mode of communication through which an agent can communicate.For example, voice call.</td>
+</tr>
+<tr>
+<td>Contact Queue</td>
+<td>Name of the queue from where the agent receives the incoming call.</td>
+</tr>
+<tr>
+<td>Contact Status</td>
+<td>The status of the agent in an active call. Example: Connected, Consulting, Conference, or Wrap up</td>
+</tr>
+<tr>
+<td>Time in Contact Status</td>
+<td>The time spent by an agent in an active call. For example, the time an agent is in conference call.</td>
+</tr>
+<tr>
+<td>Total Contact Duration</td>
+<td>Total duration of the contact from when it was first connected (including any other state like consult or conference in the same contact). The time elapsed since the agent accepted the request. The connected timer format is hh<img alt="🇲🇲" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f1f2-1f1f2.svg" title=":mm:" />ss (for example, 01:10:25).</td>
+</tr>
+<tr>
+<td>Sign In Time</td>
+<td>The time an agent has signed in to the Supervisor Desktop. The date and time format is dynamic and displays according to location.</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>You can perform the following actions:• Review and Monitor - Based on the privilege provided by Administrator as part of user profile, you can review and monitor an ongoing agent call silently. • Send1:1 message to Agent – Based on the privilege provided by Administrator as part of user profile, you can send 1:1 message to an agent.</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>you can customize this view to show / hide columns or group information at your convenience.</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Modify_Columns.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Modify_Columns" data-desc-position="top"><img alt="Supervisor_Modify_Columns" src="../images/Supervisor/Supervisor_Modify_Columns.gif" /></a></p>
+<h2 id="63-chat-with-your-agents">6.3: Chat with your agents</h2>
+<!-- md:option type:note -->
+<div class="admonition note">
+<p class="admonition-title">Step Objective</p>
+<p>In this section, you will discover how to enable chat with your agents. Collaboration between agents and supervisors can help your Contact Center to be more effective and efficient for your customers and this is why we have enabled Webex messaging features in both Agent and Supervisor desktops.</p>
+</div>
+<ul>
+<li>Click on the <strong>Send Message</strong> button</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Message.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Message" data-desc-position="top"><img alt="Supervisor_Message" src="../images/Supervisor/Supervisor_Message.gif" /></a></p>
+<hr />
+<ul>
+<li>Fill the chat window with a message to send to your agent</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Message_Sent.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Message_Sent" data-desc-position="top"><img alt="Supervisor_Message_Sent" src="../images/Supervisor/Supervisor_Message_Sent.gif" /></a></p>
+<hr />
+<ul>
+<li>On the agent side, observe the message notification received</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Message_Sent_Agent.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Message_Sent_Agent" data-desc-position="top"><img alt="Supervisor_Message_Sent_Agent" src="../images/Supervisor/Supervisor_Message_Sent_Agent.gif" /></a></p>
+<hr />
+<ul>
+<li>If, as an agent, you want to answer to the supervisor, your will need to click on the <strong>Webex logo</strong> to open the Webex app embedded in the <strong>Agent Desktop</strong>. You can then reply to the supervisor directly.</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Message_Sent_To_Sup.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Message_Sent_To_Sup" data-desc-position="top"><img alt="Supervisor_Message_Sent_To_Sup" src="../images/Supervisor/Supervisor_Message_Sent_To_Sup.gif" /></a></p>
+<hr />
+<ul>
+<li>On the supervisor side, observe the message notification received</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Message_Received_from_Agent.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Message_Received_from_Agent" data-desc-position="top"><img alt="Supervisor_Message_Received_from_Agent" src="../images/Supervisor/Supervisor_Message_Received_from_Agent.gif" /></a></p>
+<h2 id="64-monitor-calls">6.4: Monitor calls</h2>
+<!-- md:option type:note -->
+<div class="admonition note">
+<p class="admonition-title">Step Objective</p>
+<p>In this step, you will go over the steps to monitor agents from Supervisor Desktop </p>
+</div>
+<ul>
+<li>As a supervisor, the <strong>Team Performance Details</strong> page allows you to see all connected agents and decide to monitor calls by clicking on the <strong>Review and Monitor</strong> icon.</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Monitor.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Monitor" data-desc-position="top"><img alt="Supervisor_Monitor" src="../images/Supervisor/Supervisor_Monitor.gif" /></a></p>
+<hr />
+<ul>
+<li>The following popup will be displayed. Click on <strong>Start Monitoring</strong>. Please note a supervisor can monitor other call types such as callbacks, outdial calls, outbound preview campaign calls.</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Monitor_Accept.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Monitor_Accept" data-desc-position="top"><img alt="Supervisor_Monitor_Accept" src="../images/Supervisor/Supervisor_Monitor_Accept.gif" /></a></p>
+<hr />
+<ul>
+<li>In your <strong>Supervisor Desktop</strong>, an incoming popover window will be displayed and your softphone will ring as Webex Contact Center is now trying to reach you. You recognize the agent you want to monitor and other call variables are displayed. The Flow configuration defines variables to display on this popover (max 6). Accept the call on your supervisor softphone.</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Monitor_Floating.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Monitor_Floating" data-desc-position="top"><img alt="Supervisor_Monitor_Floating" src="../images/Supervisor/Supervisor_Monitor_Floating.gif" /></a></p>
+<hr />
+<ul>
+<li>As a supervisor, the call you are now monitoring is displayed in your desktop with agent and customer details of which the call variables so you are aware of the context of the call. You can view previous communications with a customer across all channels (voice, email, chat, and social) in the <strong>Contact History</strong> pane. The pane displays details for the last 24 hours.</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Monitor_History.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Monitor_History" data-desc-position="top"><img alt="Supervisor_Monitor_History" src="../images/Supervisor/Supervisor_Monitor_History.gif" /></a></p>
+<hr />
+<ul>
+<li>You can pause the monitoring and start is again if you will</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Monitor_Pause.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Monitor_Pause" data-desc-position="top"><img alt="Supervisor_Monitor_Pause" src="../images/Supervisor/Supervisor_Monitor_Pause.gif" /></a></p>
+<hr />
+<h2 id="65-supervisor-and-agent-role">6.5: Supervisor and Agent role</h2>
+<!-- md:option type:note -->
+<div class="admonition note">
+<p class="admonition-title">Step Objective</p>
+<p>In this step, you will learn the Supervisor and agent role</p>
+</div>
+<ul>
+<li>When you sign in to the Supervisor Desktop, you can - depending or your team assignement - choose either the supervisor role or supervisor AND agent role.</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_LoginOptions.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_LoginOptions" data-desc-position="top"><img alt="Supervisor_LoginOptions" src="../images/Supervisor/Supervisor_LoginOptions.gif" /></a></p>
+<hr />
+<ul>
+<li>In the case, the supervisor experience is a bit different as your agent status appears in the header section of the Desktop.</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_No_Message.gif" data-type="image" data-width="100%" data-height="auto" data-title="Lab_4_ESD" data-desc-position="top"><img alt="Lab_4_ESD" src="../images/Supervisor/Supervisor_No_Message.gif" /></a></p>
+<hr />
+<ul>
+<li>If, as a supervisor, you chose to monitor a call, your status is set to <strong>Engaged</strong> and you cannot take other calls as an agent.</li>
+</ul>
+<p><a class="glightbox" href="../images/Supervisor/Supervisor_Engaged.gif" data-type="image" data-width="100%" data-height="auto" data-title="Supervisor_Engaged" data-desc-position="top"><img alt="Supervisor_Engaged" src="../images/Supervisor/Supervisor_Engaged.gif" /></a></p>
+<hr />
+<p style="text-align:center"><strong>Congratulations, you have officially completed the bonus Supervisor Experience lab! 🎉🎉 </strong></p>
+
+<p style="text-align:center;"><a class="glightbox" href="../images/webex-new-logo1.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="top"><img src="../images/webex-new-logo1.png" width="100"></a></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../Lab5/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Lab 5 Agent Wellness">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Lab 5 Agent Wellness
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../Lab7/" class="md-footer__link md-footer__link--next" aria-label="Next: Lab 7 (BONUS) Future agent login">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Lab 7 (BONUS) Future agent login
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 Cisco
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "content.tabs.link", "navigation.icons", "navigation.expand", "navigation.path", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.tabs.link", "navigation.tracking", "navigation.highlight", "navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.instant", "navigation.top", "navigation.footer", "search.suggest", "content.code.copy", "toc.integrate"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": false, "openEffect": "fade", "closeEffect": "fade", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>
