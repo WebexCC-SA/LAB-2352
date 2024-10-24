@@ -30,7 +30,7 @@ loadem()
 !!! tip "Please submit the form below with your Attendee ID in 3 digits long format (e.g. if your attendee ID is 51, please enter 051) and click Save. All configuration items in the lab guide will be renamed with that prefix."
 
     <script>
-    document.forms["attendee-form"][0].value = localStorage.getItem("POD") || "Your Attendee ID"; 
+    document.forms["attendee-form"][0].value = localStorage.getItem("POD") || ""; 
     update();
     </script>
     <form id="attendee-form">
